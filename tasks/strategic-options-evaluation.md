@@ -1,0 +1,218 @@
+# Strategic Options Evaluation Task
+
+## Purpose
+
+To systematically assess and compare strategic alternatives using rigorous analytical frameworks that enable confident decision-making under uncertainty. This task provides comprehensive evaluation methodologies that balance quantitative analysis with qualitative insights to identify optimal strategic choices for organizational success.
+
+## Inputs Required
+
+- Set of strategic alternatives requiring evaluation
+- Decision criteria and success factors
+- Stakeholder priorities and constraints
+- Market conditions and competitive dynamics
+- Organizational capabilities and resource limitations
+
+## Task Execution Instructions
+
+### 1. Strategic Options Definition & Refinement
+
+- **Option Completeness Assessment:**
+  - Ensure all viable strategic alternatives are included
+  - Add "do nothing" baseline option for comparison
+  - Consider hybrid approaches combining elements from different options
+  - Validate options are mutually exclusive and collectively exhaustive
+
+- **Option Specification:**
+  - Define scope, scale, and timeline for each strategic option
+  - Clarify resource requirements and investment levels
+  - Specify expected outcomes and success metrics
+  - Document key assumptions underlying each option
+
+### 2. Evaluation Criteria Framework
+
+- **Multi-Dimensional Criteria Development:**
+  - **Financial Criteria:** NPV, ROI, payback period, cash flow impact
+  - **Strategic Criteria:** Competitive advantage, market position, growth potential
+  - **Risk Criteria:** Downside protection, uncertainty levels, execution risk
+  - **Operational Criteria:** Implementation feasibility, resource requirements, capability fit
+  - **Stakeholder Criteria:** Customer impact, employee implications, shareholder value
+
+- **Criteria Weighting & Prioritization:**
+  - Establish relative importance of different evaluation dimensions
+  - Use stakeholder input to validate weighting decisions
+  - Consider organizational strategy and current priorities
+  - Test weighting sensitivity and impact on option rankings
+
+### 3. Financial Analysis & Valuation
+
+- **Discounted Cash Flow Analysis:**
+  - Build detailed financial models for each strategic option
+  - Include all relevant costs, investments, and revenue impacts
+  - Apply appropriate discount rates reflecting risk profiles
+  - Calculate NPV, IRR, and other key financial metrics
+
+- **Scenario-Based Financial Modeling:**
+  - Model optimistic, realistic, and pessimistic scenarios
+  - Conduct sensitivity analysis on key financial variables
+  - Assess probability-weighted expected returns
+  - Evaluate financial robustness across different scenarios
+
+### 4. Strategic Value Assessment
+
+- **Competitive Advantage Analysis:**
+  - Evaluate how each option affects competitive position
+  - Assess sustainability of competitive advantages created
+  - Analyze competitor response scenarios and implications
+  - Consider first-mover advantages and timing benefits
+
+- **Strategic Fit Evaluation:**
+  - Assess alignment with organizational vision and strategy
+  - Evaluate synergies with existing business portfolio
+  - Consider strategic option value and future flexibility
+  - Analyze impact on core competencies and capabilities
+
+### 5. Risk-Adjusted Evaluation
+
+- **Risk Identification & Assessment:**
+  - Catalog risks specific to each strategic option
+  - Assess probability and impact of key risk factors
+  - Evaluate risk correlation and portfolio effects
+  - Consider tail risks and extreme downside scenarios
+
+- **Risk-Adjusted Returns:**
+  - Calculate risk-adjusted NPV using appropriate methods
+  - Apply real options valuation for flexibility value
+  - Use Monte Carlo simulation for complex risk interactions
+  - Develop Value-at-Risk and expected shortfall metrics
+
+### 6. Implementation Feasibility Analysis
+
+- **Organizational Capability Assessment:**
+  - Evaluate required capabilities versus current organizational strengths
+  - Assess learning curve and capability development needs
+  - Consider cultural fit and change management requirements
+  - Analyze leadership and management capability needs
+
+- **Resource Availability & Constraints:**
+  - Assess financial, human, and technological resource requirements
+  - Evaluate timing and sequencing of resource needs
+  - Consider resource conflicts with other strategic initiatives
+  - Plan capability building and resource acquisition strategies
+
+### 7. Market & External Factor Analysis
+
+- **Market Attractiveness:**
+  - Evaluate market size, growth potential, and profitability
+  - Assess competitive intensity and industry dynamics
+  - Consider regulatory environment and policy changes
+  - Analyze customer trends and demand patterns
+
+- **External Dependencies:**
+  - Identify critical external factors affecting option success
+  - Assess partnership and ecosystem requirements
+  - Evaluate regulatory approval and compliance needs
+  - Consider macroeconomic and geopolitical factors
+
+### 8. Stakeholder Impact Analysis
+
+- **Multi-Stakeholder Assessment:**
+  - Analyze impact on customers, employees, shareholders, and partners
+  - Evaluate stakeholder support and resistance levels
+  - Consider communication and change management needs
+  - Assess reputational and brand implications
+
+- **Social & Environmental Impact:**
+  - Evaluate environmental sustainability and social responsibility
+  - Consider community impact and public perception
+  - Assess ESG (Environmental, Social, Governance) implications
+  - Analyze long-term societal value creation
+
+### 9. Option Comparison & Ranking
+
+- **Multi-Criteria Decision Analysis:**
+  - Score each option against all evaluation criteria
+  - Apply weighting factors to calculate overall scores
+  - Conduct sensitivity analysis on scoring and weights
+  - Create visual comparisons and ranking matrices
+
+- **Trade-off Analysis:**
+  - Identify key trade-offs between different options
+  - Understand opportunity costs and foregone benefits
+  - Analyze areas where options excel or underperform
+  - Consider timing and sequencing effects on trade-offs
+
+### 10. Uncertainty & Robustness Testing
+
+- **Stress Testing:**
+  - Test option performance under adverse conditions
+  - Evaluate robustness to key assumption changes
+  - Assess performance across multiple scenarios
+  - Identify options that perform well under uncertainty
+
+- **Real Options Analysis:**
+  - Evaluate flexibility and adaptation potential of each option
+  - Assess value of delaying decisions or staging investments
+  - Consider option to abandon, expand, or modify strategies
+  - Calculate option premiums for strategic flexibility
+
+### 11. Decision Support & Recommendation
+
+- **Recommendation Framework:**
+  - Synthesize quantitative and qualitative analysis
+  - Develop clear recommendation with supporting rationale
+  - Address major counterarguments and alternative views
+  - Provide implementation roadmap for recommended option
+
+- **Decision Package Preparation:**
+  - Create executive summary with key findings and recommendation
+  - Prepare detailed analysis backup and supporting documentation
+  - Design presentation materials for decision-makers
+  - Plan decision meeting facilitation and discussion structure
+
+### 12. Sensitivity & What-If Analysis
+
+- **Key Variable Sensitivity:**
+  - Identify variables that most impact option rankings
+  - Test how changes in key assumptions affect recommendations
+  - Evaluate threshold values where option preferences change
+  - Create decision trees for different assumption scenarios
+
+- **Interactive Analysis Tools:**
+  - Create dynamic models allowing real-time assumption testing
+  - Build scenario planning tools for decision-makers
+  - Design sensitivity dashboards for key stakeholders
+  - Enable collaborative analysis and assumption validation
+
+### 13. Post-Decision Learning Framework
+
+- **Decision Audit Trail:**
+  - Document decision rationale and key assumptions
+  - Create baseline metrics for post-decision performance tracking
+  - Establish learning objectives and success measures
+  - Plan periodic review and strategy adjustment processes
+
+- **Performance Monitoring:**
+  - Track actual performance against projected outcomes
+  - Monitor key assumptions and external factor changes
+  - Assess decision quality and evaluation methodology effectiveness
+  - Build organizational learning for future option evaluations
+
+## Output Deliverables
+
+- **Options Evaluation Report:** Comprehensive analysis comparing all strategic alternatives
+- **Financial Models:** Detailed financial projections and valuation for each option
+- **Risk Assessment Matrix:** Risk analysis and mitigation strategies for top options
+- **Decision Matrix:** Multi-criteria comparison with scoring and recommendations
+- **Implementation Roadmap:** Detailed plan for executing recommended option
+- **Stakeholder Impact Analysis:** Assessment of effects on all key stakeholder groups
+- **Executive Decision Package:** Summary materials for final decision-making
+
+## Success Criteria
+
+- All viable strategic options are systematically and rigorously evaluated
+- Evaluation methodology is transparent, defensible, and replicable
+- Financial analysis accurately reflects costs, benefits, and risks of each option
+- Decision-makers have confidence in evaluation quality and recommendations
+- Chosen option optimizes value creation while managing acceptable risk levels
+- Implementation approach is realistic and well-planned
+- Evaluation process builds organizational capability for future strategic decisions

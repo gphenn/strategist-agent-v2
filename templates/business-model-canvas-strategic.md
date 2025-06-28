@@ -1,0 +1,68 @@
+# Strategic Business Model Canvas
+
+## Value Propositions
+
+**Customer Segments:** [Who are we creating value for?]
+
+- Primary: [Main target segment]
+- Secondary: [Additional segments]
+
+**Value Propositions:** [What value do we deliver?]
+
+- Functional Benefits: [What jobs do we help customers get done?]
+- Emotional Benefits: [How do we make customers feel?]
+- Social Benefits: [How do we help customers' social image?]
+
+## Value Creation
+
+**Key Activities:** [What activities do we must excel at?]
+
+- Core: [Essential activities for value creation]
+- Supporting: [Activities that enable core functions]
+
+**Key Resources:** [What assets do we need?]
+
+- Physical: [Tangible assets needed]
+- Intellectual: [IP, brands, data, knowledge]
+- Human: [Critical skills and capabilities]
+- Financial: [Capital requirements]
+
+**Key Partnerships:** [Who do we work with?]
+
+- Strategic Alliances: [Key partnerships for capabilities]
+- Supplier Relationships: [Critical supply chain partners]
+- Ecosystem Partners: [Platform or network partners]
+
+## Value Delivery
+
+**Channels:** [How do we reach customers?]
+
+- Direct: [Own channels and touchpoints]
+- Indirect: [Partner channels and intermediaries]
+- Digital: [Online and digital channels]
+
+**Customer Relationships:** [How do we interact with customers?]
+
+- Acquisition: [How do we attract new customers?]
+- Retention: [How do we keep customers engaged?]
+- Growth: [How do we expand customer value?]
+
+## Value Capture
+
+**Cost Structure:** [What are our major costs?]
+
+- Fixed Costs: [Ongoing operational costs]
+- Variable Costs: [Costs that scale with activity]
+- Key Cost Drivers: [Main factors driving costs]
+
+**Revenue Streams:** [How do we make money?]
+
+- Primary Revenue: [Main source of income]
+- Secondary Revenue: [Additional income sources]
+- Pricing Model: [How do we price our offerings?]
+
+## Strategic Innovation Opportunities
+
+**Innovation Areas:** [Where can we innovate the model?]
+**Disruption Risks:** [What could disrupt this model?]
+**Ecosystem Evolution:** [How might the model evolve?]

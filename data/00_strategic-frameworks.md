@@ -1,0 +1,232 @@
+# Strategic Frameworks Library
+
+## Framework Selection Guide
+
+### Step 1 (Define) - Problem Definition Frameworks
+
+- **SCQA Framework** - Situation, Complication, Question, Answer
+- **Problem Statement Canvas** - Problem, Impact, Stakeholders, Success Criteria
+- **5W2H Analysis** - Who, What, When, Where, Why, How, How Much
+
+### Step 2 (Split) - Problem Decomposition Frameworks  
+
+- **Issue Tree (MECE)** - Mutually Exclusive, Collectively Exhaustive breakdown
+- **Systems Thinking** - Root causes, feedback loops, leverage points
+- **Hypothesis Framework** - If/Then statements for testing
+
+### Step 3 (Analyse) - Analysis Frameworks
+
+- **Porter's Five Forces** - Industry structure analysis
+- **SWOT Analysis** - Strengths, Weaknesses, Opportunities, Threats
+- **Financial Analysis** - NPV, IRR, sensitivity analysis
+
+### Step 4 (Insight) - Synthesis Frameworks
+
+- **So What Framework** - Facts → Insights → Implications → Actions
+- **Impact/Effort Matrix** - Prioritize based on business impact vs implementation effort
+- **Key Insights Template** - What we learned, what it means, what we should do
+
+### Step 5 (Story) - Narrative Frameworks
+
+- **Pyramid Principle** - Conclusion first, supporting arguments below
+- **Hero's Journey** - Challenge, journey, transformation, resolution
+- **Before/After/Bridge** - Current state, future state, path forward
+
+### Step 6 (Decide) - Decision Frameworks
+
+- **Decision Matrix** - Options vs criteria with weighted scoring
+- **Trade-off Analysis** - Pros/cons with explicit trade-offs
+- **Real Options** - Staged decision-making under uncertainty
+
+### Step 7 (Act) - Implementation Frameworks
+
+- **Action Planning Canvas** - Actions, owners, timelines, success metrics
+- **Risk Mitigation Matrix** - Risks, probability, impact, mitigation plans
+- **Innovation Opportunity Map** - Areas for breakthrough value creation
+
+---
+
+## Core Strategic Analysis Frameworks
+
+### Porter's Five Forces Model
+
+**Purpose:** Assess industry attractiveness and competitive positioning
+
+1. **Threat of New Entrants** - Barriers to entry, capital requirements
+2. **Bargaining Power of Suppliers** - Supplier concentration, switching costs  
+3. **Bargaining Power of Buyers** - Buyer concentration, price sensitivity
+4. **Threat of Substitutes** - Alternative solutions, switching costs
+5. **Competitive Rivalry** - Number of competitors, growth rate, differentiation
+
+**Application:** Use in Step 3 (Analyse) for competitive environment assessment
+
+### SWOT Analysis Framework
+
+**Purpose:** Internal and external strategic factor analysis
+
+- **Strengths** - Internal positive factors and capabilities
+- **Weaknesses** - Internal limitations and areas for improvement
+- **Opportunities** - External positive trends and possibilities  
+- **Threats** - External negative trends and competitive pressures
+
+**Application:** Use in Step 3 (Analyse) for comprehensive situation assessment
+
+### Financial Analysis Framework
+
+**Purpose:** Quantitative evaluation of strategic options
+
+**Net Present Value (NPV):**
+
+```text
+NPV = Σ [Cash Flow_t / (1 + r)^t] - Initial Investment
+```
+
+**Key Metrics:**
+
+- **ROI** - Return on Investment
+- **IRR** - Internal Rate of Return  
+- **Payback Period** - Time to recover investment
+- **Sensitivity Analysis** - Impact of key variable changes
+
+**Application:** Use in Step 3 (Analyse) and Step 6 (Decide) for financial validation
+
+---
+
+## Strategic Decision-Making Frameworks
+
+### Decision Matrix Framework
+
+**Purpose:** Systematic evaluation of multiple options against multiple criteria
+
+**Process:**
+
+1. Define decision criteria and relative weights
+2. Score each option against each criterion (1-10 scale)
+3. Calculate weighted scores: (Score × Weight) for each criterion
+4. Sum weighted scores for each option
+5. Rank options by total weighted score
+
+**Application:** Use in Step 6 (Decide) for complex multi-criteria decisions
+
+### Trade-off Analysis Framework  
+
+**Purpose:** Explicit evaluation of competing priorities and constraints
+
+**Process:**
+
+1. Identify key trade-off dimensions (e.g., speed vs quality, cost vs features)
+2. Map options on trade-off space
+3. Evaluate stakeholder preferences for each dimension
+4. Identify options that optimize across trade-offs
+5. Make explicit choices and rationale
+
+**Application:** Use in Step 6 (Decide) when facing difficult choices
+
+### Risk Assessment Framework
+
+**Purpose:** Systematic identification and mitigation of strategic risks
+
+**Risk Matrix:**
+
+- **Probability** - Low, Medium, High likelihood (1-3 scale)
+- **Impact** - Low, Medium, High consequence (1-3 scale)  
+- **Risk Score** - Probability × Impact
+
+**Response Strategies:**
+
+- **High Risk (7-9)** - Immediate mitigation required
+- **Medium Risk (4-6)** - Monitor and prepare contingencies
+- **Low Risk (1-3)** - Accept and monitor
+
+**Application:** Use in Step 6 (Decide) and Step 7 (Act) for risk management
+
+---
+
+## Strategic Communication Frameworks
+
+### Pyramid Principle Framework
+
+**Purpose:** Structure complex strategic reasoning for executive communication
+
+**Structure:**
+
+- **Top Level** - Main conclusion/recommendation
+- **Second Level** - 3-5 key supporting arguments  
+- **Third Level** - Evidence and data supporting each argument
+- **Logic Flow** - Each level answers "why" or "how" for level above
+
+**Application:** Use in Step 5 (Story) for executive presentations
+
+### SCQA Framework
+
+**Purpose:** Create compelling strategic narratives
+
+- **Situation** - Context and background
+- **Complication** - Problem or challenge  
+- **Question** - What should we do?
+- **Answer** - Strategic recommendation
+
+**Application:** Use in Step 4 (Insight) and Step 5 (Story) for narrative structure
+
+---
+
+## Implementation Planning Frameworks
+
+### Action Planning Canvas
+
+**Purpose:** Translate strategic decisions into executable plans
+
+**Components:**
+
+- **Objective** - Clear, measurable goal
+- **Key Actions** - Specific steps required
+- **Owners** - Who is responsible for each action
+- **Timeline** - When actions will be completed
+- **Success Metrics** - How success will be measured
+- **Dependencies** - What must happen first
+- **Resources** - What resources are required
+
+**Application:** Use in Step 7 (Act) for implementation planning
+
+### Innovation Opportunity Framework
+
+**Purpose:** Identify areas for breakthrough value creation
+
+**Opportunity Types:**
+
+- **Process Innovation** - New ways of delivering value
+- **Product Innovation** - New solutions to customer problems
+- **Business Model Innovation** - New ways of capturing value
+- **Market Innovation** - New customer segments or use cases
+
+**Evaluation Criteria:**
+
+- **Strategic Fit** - Alignment with core capabilities
+- **Market Potential** - Size and attractiveness of opportunity
+- **Competitive Advantage** - Defensibility and differentiation
+- **Implementation Feasibility** - Resource requirements and timeline
+
+**Application:** Use in Step 7 (Act) to maximize strategic value creation
+
+---
+
+## Framework Selection Decision Tree
+
+```text
+Strategic Challenge Type:
+├── Market/Competitive Analysis → Porter's Five Forces, SWOT
+├── Financial Evaluation → NPV/IRR, Sensitivity Analysis  
+├── Complex Decisions → Decision Matrix, Trade-off Analysis
+├── Problem Solving → Issue Trees, Root Cause Analysis
+├── Communication → Pyramid Principle, SCQA
+├── Implementation → Action Planning, Risk Assessment
+└── Innovation → Opportunity Mapping, Business Model Canvas
+```
+
+**Usage Guidelines:**
+
+1. **Start with methodology step** - Each step has recommended frameworks
+2. **Consider challenge complexity** - Use simpler frameworks for straightforward issues
+3. **Adapt to context** - Modify frameworks based on industry and situation
+4. **Combine frameworks** - Use multiple frameworks for comprehensive analysis
+5. **Focus on outcomes** - Choose frameworks that drive actionable insights

@@ -1,0 +1,116 @@
+# Business Model Innovation Task
+
+## Purpose
+
+To reimagine how value is created, delivered, and captured in order to achieve breakthrough competitive advantage. This task explores fundamental business model transformation opportunities beyond incremental improvements.
+
+## Inputs Required
+
+- Current business model description
+- Market trends and disruption signals
+- Customer needs and pain points
+- Competitive landscape analysis
+- Organizational capabilities and constraints
+
+## Task Execution Instructions
+
+### 1. Current Business Model Deconstruction
+
+- **Value Creation Analysis:**
+  - Map current value proposition and customer segments
+  - Identify key activities, resources, and partnerships
+  - Analyze cost structure and revenue streams
+  - Assess competitive positioning and differentiation
+
+- **Performance Assessment:**
+  - Evaluate current model's financial performance
+  - Identify constraints and limitations
+  - Assess scalability and sustainability
+  - Benchmark against industry standards
+
+### 2. Market Disruption Analysis
+
+- **Trend Investigation:**
+  - Identify emerging technologies affecting industry
+  - Analyze changing customer behaviors and expectations
+  - Map regulatory and social changes impacting market
+  - Assess new entrant threats and substitute products
+
+- **Opportunity Mapping:**
+  - Identify unmet or underserved customer needs
+  - Spot inefficiencies in current industry value chains
+  - Find convergence opportunities across industries
+  - Discover new customer segments or use cases
+
+### 3. Business Model Pattern Exploration
+
+- **Innovation Patterns:**
+  - **Subscription/Platform:** Recurring revenue and network effects
+  - **Ecosystem/Marketplace:** Multi-sided platform value creation
+  - **Freemium/Data:** Monetize usage data and premium features
+  - **Sharing Economy:** Asset utilization optimization
+  - **Outcome-Based:** Payment tied to customer results
+
+- **Pattern Adaptation:**
+  - Evaluate which patterns fit organizational context
+  - Identify necessary capability developments
+  - Assess investment requirements and timeline
+  - Consider hybrid approaches combining multiple patterns
+
+### 4. Value Proposition Redesign
+
+- **Customer Job-to-be-Done Analysis:**
+  - Understand functional, emotional, and social jobs
+  - Identify current frustrations and unmet needs
+  - Map customer journey and pain points
+  - Discover unexpected use cases and applications
+
+- **Value Innovation:**
+  - Eliminate industry factors customers don't value
+  - Reduce factors overdelivered by industry
+  - Raise factors underdelivered by industry
+  - Create factors industry has never offered
+
+### 5. Business Architecture Design
+
+- **Operating Model Innovation:**
+  - Redesign key activities and processes
+  - Identify new partnership and ecosystem opportunities
+  - Optimize resource allocation and capabilities
+  - Design for scalability and adaptability
+
+- **Financial Model Innovation:**
+  - Explore new pricing and revenue models
+  - Design capital-efficient growth strategies
+  - Create multiple value capture mechanisms
+  - Optimize customer acquisition and retention economics
+
+### 6. Validation & Pilot Design
+
+- **Hypothesis Testing:**
+  - Identify key assumptions requiring validation
+  - Design minimum viable experiments
+  - Create rapid prototype and testing approaches
+  - Establish success metrics and decision criteria
+
+- **Implementation Roadmap:**
+  - Phase transition from current to new model
+  - Identify required capabilities and investments
+  - Plan organizational change management
+  - Design risk mitigation and contingency plans
+
+## Output Deliverables
+
+- **Business Model Canvas:** Visual representation of new model
+- **Innovation Strategy:** Rationale and competitive advantage analysis
+- **Financial Projections:** Economic model and investment requirements
+- **Validation Plan:** Experiments and pilots to test assumptions
+- **Implementation Roadmap:** Phased approach to model transformation
+
+## Success Criteria
+
+- New model creates differentiated competitive advantage
+- Innovation addresses real customer needs and market opportunities
+- Financial projections demonstrate superior value creation
+- Implementation approach is realistic and achievable
+- Key stakeholders are aligned on innovation direction

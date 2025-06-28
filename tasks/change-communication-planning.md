@@ -1,0 +1,189 @@
+# Change Communication Planning Task
+
+## Purpose
+
+To design comprehensive communication strategies that support organizational transformation by managing stakeholder emotions, building understanding, and driving adoption of new behaviors. This task creates structured communication approaches that guide organizations through change while maintaining morale, productivity, and commitment.
+
+## Inputs Required
+
+- Change initiative scope and strategic objectives
+- Organizational readiness assessment and culture analysis
+- Stakeholder impact analysis and change consequences
+- Change timeline and implementation milestones
+- Available communication channels and resources
+
+## Task Execution Instructions
+
+### 1. Change Impact & Readiness Assessment
+
+- **Organizational Change Analysis:**
+  - Map scope and scale of transformation required
+  - Assess magnitude of behavioral and process changes
+  - Identify what stakeholders must start, stop, and continue doing
+  - Evaluate cultural alignment with proposed changes
+
+- **Change Readiness Evaluation:**
+  - Assess organizational history with change initiatives
+  - Evaluate current change fatigue and capacity levels
+  - Identify sources of resistance and support
+  - Understand informal networks and opinion leaders
+
+### 2. Change Communication Strategy Framework
+
+- **Communication Objectives Hierarchy:**
+  - **Awareness:** Ensure stakeholders understand what's changing and why
+  - **Understanding:** Help stakeholders comprehend implications and benefits
+  - **Acceptance:** Build emotional buy-in and reduce resistance
+  - **Adoption:** Drive behavior change and new skill development
+  - **Advocacy:** Create champions who support and promote change
+
+- **Change Narrative Development:**
+  - **Burning Platform:** Compelling case for why change is necessary
+  - **Vision of Success:** Inspiring picture of future state benefits
+  - **Path Forward:** Clear roadmap showing how organization will get there
+  - **Role Clarity:** Specific expectations for each stakeholder group
+
+### 3. Audience Segmentation & Journey Mapping
+
+- **Stakeholder Impact Categories:**
+  - **Highly Impacted:** Major role, process, or responsibility changes
+  - **Moderately Impacted:** Some adjustment to work or relationships
+  - **Minimally Impacted:** Indirect effects or peripheral changes
+  - **Beneficiaries:** Groups that gain from the change
+
+- **Change Journey Mapping:**
+  - Map emotional journey from initial awareness to full adoption
+  - Identify critical moments where support or resistance develops
+  - Design interventions for each stage of change acceptance
+  - Plan for different adoption speeds across stakeholder groups
+
+### 4. Multi-Phase Communication Design
+
+- **Pre-Launch Phase:**
+  - Build awareness among leadership and key influencers
+  - Address rumor mills and speculation with facts
+  - Prepare change champions and communication resources
+  - Create anticipation and readiness for formal announcement
+
+- **Launch Phase:**
+  - Deliver clear, compelling announcement of change initiative
+  - Provide comprehensive information about scope and timeline
+  - Address immediate concerns and questions
+  - Establish ongoing communication channels and feedback mechanisms
+
+- **Implementation Phase:**
+  - Provide regular progress updates and milestone celebrations
+  - Address emerging issues and resistance as they arise
+  - Share success stories and early wins
+  - Maintain momentum through sustained engagement
+
+- **Adoption Phase:**
+  - Reinforce new behaviors and recognize progress
+  - Address implementation challenges and provide support
+  - Celebrate achievements and acknowledge contributions
+  - Embed changes into organizational culture and processes
+
+### 5. Message Architecture & Content Strategy
+
+- **Core Message Framework:**
+  - **Why:** Compelling business case and urgency for change
+  - **What:** Specific changes and their scope
+  - **When:** Timeline and key milestones
+  - **How:** Process for implementation and support available
+  - **WIIFM (What's In It For Me):** Personal benefits and impact
+
+- **Adaptive Messaging:**
+  - Tailor messages for different organizational levels
+  - Customize content for various functional areas
+  - Adapt tone and complexity for audience sophistication
+  - Address specific concerns and questions of each group
+
+### 6. Communication Channel Strategy
+
+- **Channel Mix Optimization:**
+  - **Face-to-Face:** Town halls, team meetings, leadership visits
+  - **Digital:** Email campaigns, intranet updates, video messages
+  - **Print:** Newsletters, posters, desktop references
+  - **Peer-to-Peer:** Manager toolkits, champion networks, buddy systems
+
+- **Channel Credibility Mapping:**
+  - Identify most trusted communication sources for each audience
+  - Use respected leaders and peers as message carriers
+  - Leverage informal networks alongside formal channels
+  - Ensure message consistency across all communication touchpoints
+
+### 7. Feedback & Two-Way Communication
+
+- **Listening Strategy:**
+  - Design multiple mechanisms for gathering stakeholder input
+  - Use surveys, focus groups, and one-on-one conversations
+  - Monitor informal communication networks and sentiment
+  - Create safe spaces for expressing concerns and questions
+
+- **Response & Adaptation:**
+  - Establish rapid response capability for emerging issues
+  - Address misinformation and rumors quickly
+  - Incorporate feedback into change approach where appropriate
+  - Demonstrate that stakeholder input influences decisions
+
+### 8. Resistance Management Communication
+
+- **Resistance Identification:**
+  - Monitor early warning signs of resistance development
+  - Identify rational vs. emotional sources of resistance
+  - Understand specific stakeholder concerns and fears
+  - Map resistance networks and influential skeptics
+
+- **Targeted Resistance Communication:**
+  - Address rational concerns with data and evidence
+  - Acknowledge emotional concerns with empathy and support
+  - Use trusted intermediaries to reach resistant stakeholders
+  - Provide additional resources and support for struggling groups
+
+### 9. Success Story & Momentum Building
+
+- **Early Wins Communication:**
+  - Identify and celebrate quick wins and early successes
+  - Share stories of positive stakeholder experiences
+  - Highlight benefits being realized through change
+  - Use success stories to build confidence and momentum
+
+- **Progress Visualization:**
+  - Create visual dashboards showing change progress
+  - Share metrics demonstrating improvement and value
+  - Provide regular milestone updates and achievement recognition
+  - Use progress communication to maintain engagement
+
+### 10. Communication Effectiveness Measurement
+
+- **Engagement Metrics:**
+  - Track communication reach and participation rates
+  - Measure stakeholder engagement with communication content
+  - Monitor feedback quantity and quality over time
+  - Assess two-way communication effectiveness
+
+- **Change Adoption Indicators:**
+  - Monitor behavior change and new skill demonstration
+  - Track reduction in resistance and increase in support
+  - Measure change readiness and confidence levels
+  - Assess cultural shift indicators and value alignment
+
+## Output Deliverables
+
+- **Change Communication Strategy:** Comprehensive plan for transformation communication
+- **Communication Calendar:** Detailed timeline of messages, channels, and activities
+- **Message Library:** Repository of key messages for different audiences and phases
+- **Channel Strategy:** Optimized mix of communication vehicles and sources
+- **Feedback Integration Plan:** System for gathering and responding to stakeholder input
+- **Resistance Management Approach:** Targeted strategies for addressing opposition
+- **Success Metrics Framework:** Measurement approach for communication effectiveness
+
+## Success Criteria
+
+- Stakeholders understand the change rationale and personal implications
+- Resistance is minimized through proactive communication and support
+- Change adoption accelerates through effective messaging and engagement
+- Two-way communication enables rapid response to emerging issues
+- Success stories and momentum building sustain energy throughout change
+- Communication effectiveness is measured and continuously improved
+- Change communication capability is embedded for future transformations

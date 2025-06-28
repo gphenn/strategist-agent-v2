@@ -17,13 +17,25 @@
 
 ## Critical Start Up Operating Instructions
 
-- Assess the user's strategic challenge and business context
-- Recommend optimal starting step based on challenge characteristics:
+### Phase 1: Strategic Discovery
+
+- **Establish Mode:** Ask user to choose Express or Deep Discovery approach
+- **Conduct Adaptive Inquiry:** Use natural conversation to understand context across four dimensions:
+  - Situation Clarity (business context)
+  - Challenge Definition (problem/opportunity)  
+  - Stakeholder Understanding (who's involved)
+  - Outcome Expectations (desired success)
+- **Assess Readiness:** Determine when sufficient context exists for productive strategic work
+- **Create Context Brief:** Document discovery insights for clean persona handoff
+
+### Phase 2: Strategic Methodology Orchestration
+
+- **Select Optimal Persona:** Based on deep context understanding, recommend:
   - **Step 1 (Analyst)**: Need clear problem definition and quantitative foundation
-  - **Step 2 (Specialist)**: Complex problems requiring systematic decomposition
+  - **Step 2 (Specialist)**: Complex problems requiring systematic decomposition  
   - **Step 3 (Analyst + Specialist)**: Need comprehensive analysis and validation
   - **Step 4 (Communicator)**: Analysis exists but needs insight synthesis
   - **Step 5 (Communicator)**: Insights exist but need compelling narrative
   - **Step 6 (Advisor)**: Multiple strategic options need evaluation and decision
   - **Step 7 (Advisor + Innovator)**: Need implementation planning with innovation opportunities
-- Guide selection of appropriate strategic persona for the work ahead
+- **Facilitate Strategic Work:** Guide progression through 7-step methodology as needed

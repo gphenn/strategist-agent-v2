@@ -1,0 +1,148 @@
+# Hypothesis Testing Task
+
+## Purpose
+
+To systematically test strategic assumptions and business hypotheses through rapid, low-cost experiments before committing significant resources. This task applies scientific methodology to strategic problem-solving, enabling evidence-based decision-making and rapid learning cycles.
+
+## Inputs Required
+
+- Strategic problem or opportunity statement
+- Initial hypotheses about solutions or market dynamics
+- Available resources for experimentation
+- Success criteria and measurement framework
+- Timeline constraints and decision deadlines
+
+## Task Execution Instructions
+
+### 1. Hypothesis Formulation & Prioritization
+
+- **Structure Testable Hypotheses:**
+  - Use "If [action], then [outcome] because [assumption]" format
+  - Ensure hypotheses are specific and measurable
+  - Link hypotheses to key strategic assumptions
+  - Distinguish between customer, business model, and technical hypotheses
+
+- **Hypothesis Hierarchy Mapping:**
+  - Identify primary hypotheses critical to strategy success
+  - Map supporting hypotheses that validate components
+  - Understand dependencies between different hypotheses
+  - Prioritize by importance and ease of testing
+
+### 2. Experiment Design Framework
+
+- **Minimum Viable Test Design:**
+  - Define smallest possible test to validate hypothesis
+  - Identify key variables to test and control
+  - Establish clear success/failure criteria
+  - Design for maximum learning with minimum resources
+
+- **Test Type Selection:**
+  - **Smoke Tests:** Gauge initial interest or demand
+  - **Concierge Tests:** Manual delivery of automated solution
+  - **Wizard of Oz:** Fake backend to test frontend assumptions
+  - **A/B Tests:** Compare alternative approaches
+  - **Landing Page Tests:** Validate value propositions
+  - **Interview Tests:** Qualitative hypothesis validation
+
+### 3. Success Metrics & Measurement
+
+- **Leading Indicator Identification:**
+  - Define metrics that predict hypothesis validity
+  - Establish baseline measurements where possible
+  - Set clear thresholds for success/failure decisions
+  - Design for early signal detection
+
+- **Measurement Infrastructure:**
+  - Set up data collection mechanisms
+  - Ensure measurement reliability and validity
+  - Design for real-time monitoring and adjustment
+  - Plan for both quantitative and qualitative data
+
+### 4. Rapid Experimentation Execution
+
+- **Build-Measure-Learn Cycles:**
+  - Design experiments for 1-4 week cycles
+  - Focus on learning objectives over feature completion
+  - Build only what's necessary to test hypothesis
+  - Measure results immediately after deployment
+
+- **Resource Optimization:**
+  - Use existing tools and platforms where possible
+  - Leverage no-code/low-code solutions for speed
+  - Partner with others to reduce development costs
+  - Focus team time on learning bottlenecks
+
+### 5. Data Analysis & Interpretation
+
+- **Statistical Validation:**
+  - Apply appropriate statistical tests for sample sizes
+  - Understand confidence intervals and significance levels
+  - Distinguish between correlation and causation
+  - Account for external factors and confounding variables
+
+- **Qualitative Insight Integration:**
+  - Synthesize customer feedback and observations
+  - Identify unexpected behaviors and use cases
+  - Understand the "why" behind quantitative results
+  - Look for patterns across different customer segments
+
+### 6. Hypothesis Validation Decision Making
+
+- **Evidence-Based Conclusions:**
+  - Determine if hypothesis is confirmed, refuted, or inconclusive
+  - Assess strength of evidence supporting conclusions
+  - Identify which assumptions proved true or false
+  - Document unexpected discoveries and insights
+
+- **Iteration Strategy:**
+  - **Pivot:** Fundamental change to hypothesis based on learnings
+  - **Persevere:** Continue with current approach based on validation
+  - **Iterate:** Refine hypothesis based on partial validation
+  - **Explore:** Generate new hypotheses based on discoveries
+
+### 7. Learning Integration & Next Steps
+
+- **Insight Synthesis:**
+  - Update strategic assumptions based on evidence
+  - Revise business model hypotheses as needed
+  - Identify new hypotheses emerging from experiments
+  - Document lessons learned for future experimentation
+
+- **Portfolio Management:**
+  - Balance high-confidence bets with exploratory tests
+  - Allocate resources based on hypothesis validation
+  - Sequence experiments based on dependency chains
+  - Maintain pipeline of hypotheses to test
+
+### 8. Experimentation Culture & Process
+
+- **Rapid Learning Mindset:**
+  - Celebrate learning from failures as much as successes
+  - Encourage bold hypotheses and ambitious tests
+  - Focus on speed of learning over perfection
+  - Share learnings across teams and projects
+
+- **Systematic Documentation:**
+  - Maintain hypothesis log with predictions and results
+  - Track experiment costs and learning value
+  - Document methodology for replication
+  - Build institutional knowledge about customer behavior
+
+## Output Deliverables
+
+- **Hypothesis Test Plan:** Structured approach to validating key assumptions
+- **Experiment Design Specifications:** Detailed methodology for each test
+- **Results Dashboard:** Real-time tracking of experiment outcomes
+- **Learning Report:** Synthesis of insights and strategic implications
+- **Validated Learning Register:** Documentation of confirmed/refuted hypotheses
+- **Next Experiment Pipeline:** Prioritized queue of future tests to run
+
+## Success Criteria
+
+- Hypotheses are tested rapidly with minimal resource investment
+- Results provide clear evidence for strategic decision-making
+- Learning velocity accelerates through systematic experimentation
+- Strategic assumptions are validated or updated based on evidence
+- Experimentation capability is embedded in organizational processes
+- Failed experiments generate valuable insights for future strategy
+- Time from hypothesis to validated learning is consistently minimized

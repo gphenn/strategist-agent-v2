@@ -1,0 +1,105 @@
+# Problem Structuring Task
+
+## Purpose
+
+To decompose complex, ambiguous business challenges into solvable components using structured problem-solving methodologies. This task creates clarity from chaos and establishes a systematic approach to addressing strategic challenges.
+
+## Inputs Required
+
+- Problem statement or business challenge description
+- Stakeholder perspectives on the problem
+- Available context and background information
+- Constraints and success criteria
+
+## Task Execution Instructions
+
+### 1. Problem Definition & Scoping
+
+- **Initial Problem Statement:**
+  - Capture the problem as initially described
+  - Identify who is experiencing the problem
+  - Understand why solving this problem matters now
+  - Assess urgency and scope of impact
+
+- **Stakeholder Mapping:**
+  - Identify all parties affected by or involved in the problem
+  - Understand different stakeholder perspectives
+  - Map stakeholder influence and interest levels
+  - Identify potential resistance or support
+
+### 2. Issue Tree Development
+
+- **Primary Problem Decomposition:**
+  - Break the main problem into 3-5 major components
+  - Ensure components are MECE (Mutually Exclusive, Collectively Exhaustive)
+  - Use "How might we..." framing for each component
+  
+- **Secondary Breakdown:**
+  - Further decompose each major component into sub-issues
+  - Continue until issues become specific and actionable
+  - Identify root causes vs. symptoms at each level
+
+### 3. Hypothesis Formation
+
+- **Develop Testable Hypotheses:**
+  - For each branch of the issue tree, formulate specific hypotheses
+  - State hypotheses in "If... then..." format
+  - Ensure hypotheses are testable with available resources
+  
+- **Prioritize Hypotheses:**
+  - Rank by potential impact if proven true
+  - Assess ease of testing and validation
+  - Identify quick wins vs. long-term investigations
+
+### 4. Root Cause Analysis
+
+- **5-Whys Analysis:**
+  - Apply 5-Whys technique to key problem components
+  - Trace symptoms back to fundamental causes
+  - Identify system-level vs. isolated issues
+  
+- **Fishbone Diagram:**
+  - Categorize potential causes (People, Process, Technology, Environment)
+  - Brainstorm all possible contributing factors
+  - Identify which causes can be influenced or controlled
+
+### 5. Problem Prioritization Matrix
+
+- **Impact vs. Effort Assessment:**
+  - Evaluate each problem component on impact potential
+  - Assess difficulty/effort required to address
+  - Create 2x2 matrix for prioritization
+  
+- **Strategic Alignment:**
+  - Assess how solving each component advances strategic goals
+  - Consider resource availability and organizational capabilities
+  - Factor in timing and interdependencies
+
+### 6. Solution Framework Design
+
+- **Intervention Categories:**
+  - Quick wins (high impact, low effort)
+  - Strategic initiatives (high impact, high effort)
+  - Process improvements (moderate impact, low effort)
+  - Long-term bets (uncertain impact, high effort)
+  
+- **Success Metrics:**
+  - Define how success will be measured for each problem component
+  - Establish baseline metrics where possible
+  - Set realistic timelines for improvement
+
+## Output Deliverables
+
+- **Problem Structure Map:** Visual representation of issue tree and root causes
+- **Hypothesis Register:** Prioritized list of testable hypotheses
+- **Root Cause Analysis:** Detailed investigation of fundamental drivers
+- **Solution Framework:** Categorized approach to addressing problem components
+- **Action Plan:** Sequenced initiatives with owners and timelines
+
+## Success Criteria
+
+- Complex problem is broken into manageable, specific components
+- Root causes are identified and differentiated from symptoms
+- Hypotheses are testable and prioritized appropriately
+- Solution approach is systematic and resource-appropriate
+- Stakeholders have clarity on problem scope and approach

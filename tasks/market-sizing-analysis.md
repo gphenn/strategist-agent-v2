@@ -1,0 +1,124 @@
+# Market Sizing Analysis Task
+
+## Purpose
+
+To quantify market opportunities through systematic analysis of addressable markets, enabling data-driven strategic decisions about market entry, product development, and resource allocation. This task establishes the numerical foundation for understanding market potential and competitive positioning.
+
+## Inputs Required
+
+- Business context and strategic questions about market opportunity
+- Product or service definition and target customer segments
+- Geographic scope and market boundaries
+- Available market research data and industry reports
+- Competitive landscape information
+
+## Task Execution Instructions
+
+### 1. Market Definition & Segmentation
+
+- **Define Market Boundaries:**
+  - Clearly articulate what constitutes the market (product/service category)
+  - Establish geographic boundaries (global, regional, national, local)
+  - Define time horizon for analysis (current state vs. future projections)
+  - Identify market adjacencies and potential expansion areas
+
+- **Customer Segmentation:**
+  - Identify distinct customer segments within the market
+  - Define segment characteristics (demographics, psychographics, behaviors)
+  - Assess segment attractiveness and accessibility
+  - Prioritize segments for detailed analysis
+
+### 2. Total Addressable Market (TAM) Calculation
+
+- **Top-Down Approach:**
+  - Start with broad industry/category data from research reports
+  - Apply geographic and demographic filters to narrow scope
+  - Use industry growth rates to project future TAM
+  - Cross-validate with multiple data sources
+
+- **Bottom-Up Approach:**
+  - Count potential customers in target segments
+  - Estimate average revenue per customer/transaction
+  - Calculate segment-level market size
+  - Aggregate segments to build total market picture
+
+- **Value-Based Approach:**
+  - Identify customer problems and current solution costs
+  - Estimate value of solving these problems
+  - Calculate potential market based on value creation
+  - Consider price sensitivity and willingness to pay
+
+### 3. Serviceable Available Market (SAM) Analysis
+
+- **Geographic Constraints:**
+  - Narrow TAM to geographies where business can realistically operate
+  - Consider regulatory, cultural, and operational barriers
+  - Account for distribution and market access limitations
+  - Factor in competitive strongholds and barriers to entry
+
+- **Segment Refinement:**
+  - Focus on segments where value proposition is strongest
+  - Consider business model fit and go-to-market capabilities
+  - Assess segment growth rates and competitive dynamics
+  - Evaluate resource requirements for segment penetration
+
+### 4. Serviceable Obtainable Market (SOM) Estimation
+
+- **Market Share Analysis:**
+  - Analyze competitor market shares and positioning
+  - Assess competitive advantages and differentiators
+  - Estimate realistic market share capture over time
+  - Consider market maturity and growth phase dynamics
+
+- **Penetration Rate Modeling:**
+  - Develop customer adoption curves based on product lifecycle
+  - Factor in sales cycle length and conversion rates
+  - Consider viral coefficients and network effects
+  - Model different growth scenarios (conservative, likely, optimistic)
+
+### 5. Market Dynamics & Growth Drivers
+
+- **Trend Analysis:**
+  - Identify key drivers of market growth or decline
+  - Analyze historical growth patterns and cyclicality
+  - Assess impact of technological, regulatory, and social changes
+  - Evaluate macro-economic factors affecting market size
+
+- **Competitive Dynamics:**
+  - Map competitive landscape and market structure
+  - Analyze competitive responses to market changes
+  - Assess barriers to entry and exit
+  - Evaluate potential for market consolidation or fragmentation
+
+### 6. Scenario Planning & Sensitivity Analysis
+
+- **Multiple Scenarios:**
+  - Develop conservative, base case, and optimistic scenarios
+  - Vary key assumptions (growth rates, penetration, pricing)
+  - Test sensitivity to different market conditions
+  - Consider black swan events and disruption scenarios
+
+- **Risk Assessment:**
+  - Identify key risks to market size assumptions
+  - Quantify probability and impact of different risks
+  - Develop contingency plans for adverse scenarios
+  - Monitor leading indicators of market changes
+
+## Output Deliverables
+
+- **Market Sizing Model:** Spreadsheet with TAM, SAM, SOM calculations
+- **Executive Summary:** 1-2 page summary of key market opportunity insights
+- **Market Segmentation Analysis:** Detailed breakdown of customer segments
+- **Competitive Landscape Map:** Visual representation of market structure
+- **Growth Projections:** 3-5 year market size forecasts with scenarios
+- **Key Assumptions Register:** Documented assumptions and data sources
+
+## Success Criteria
+
+- Market size estimates are based on credible data and methodology
+- Multiple approaches are used to validate market size calculations
+- Key assumptions are clearly stated and justified
+- Competitive positioning is accurately assessed
+- Scenarios provide realistic range of market outcomes
+- Analysis directly informs strategic decision-making about market opportunity
+- Stakeholders have confidence in market size estimates and growth projections

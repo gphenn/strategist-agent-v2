@@ -1,0 +1,144 @@
+# Financial Modeling Task
+
+## Purpose
+
+To build comprehensive financial models that support strategic decision-making through quantitative analysis of business performance, investment opportunities, and value creation scenarios. This task creates the numerical foundation for evaluating strategic options and their financial implications.
+
+## Inputs Required
+
+- Business strategy and strategic objectives
+- Historical financial data and performance metrics
+- Market assumptions and competitive dynamics
+- Investment requirements and resource constraints
+- Success criteria and performance targets
+
+## Task Execution Instructions
+
+### 1. Model Structure & Design
+
+- **Model Purpose Definition:**
+  - Clearly define what decisions the model will support
+  - Identify key questions the model must answer
+  - Establish required outputs and reporting format
+  - Determine model complexity and detail level
+
+- **Model Architecture:**
+  - Design modular structure with distinct worksheets/sections
+  - Create clear inputs, calculations, and outputs sections
+  - Build in scenario and sensitivity analysis capabilities
+  - Ensure model is auditable and easy to follow
+
+### 2. Revenue Model Development
+
+- **Revenue Stream Analysis:**
+  - Identify all sources of revenue (products, services, subscriptions)
+  - Model pricing strategies and revenue recognition
+  - Build customer acquisition and retention assumptions
+  - Include seasonality and cyclical patterns
+
+- **Customer Economics:**
+  - Calculate Customer Lifetime Value (CLV/LTV)
+  - Model Customer Acquisition Cost (CAC)
+  - Analyze LTV:CAC ratios and payback periods
+  - Include churn rates and expansion revenue
+
+- **Market Penetration Modeling:**
+  - Link revenue projections to market sizing analysis
+  - Model adoption curves and penetration rates
+  - Include competitive response and market share dynamics
+  - Build in viral coefficients and network effects where applicable
+
+### 3. Cost Structure Modeling
+
+- **Cost Categories:**
+  - Cost of Goods Sold (COGS) and variable costs
+  - Sales and Marketing expenses with scaling factors
+  - General and Administrative (G&A) costs
+  - Research and Development investments
+
+- **Cost Behavior Analysis:**
+  - Identify fixed vs. variable cost components
+  - Model economies of scale and learning curves
+  - Include step-function costs and capacity constraints
+  - Build in inflation and cost escalation factors
+
+### 4. Investment & Capital Requirements
+
+- **Capital Expenditure Planning:**
+  - Model required investments in infrastructure, technology, equipment
+  - Include timing and phasing of capital deployments
+  - Calculate depreciation and asset utilization
+  - Plan for maintenance and replacement cycles
+
+- **Working Capital Modeling:**
+  - Model accounts receivable, inventory, and payable cycles
+  - Calculate working capital requirements and cash conversion
+  - Include seasonal working capital fluctuations
+  - Plan for growth-related working capital needs
+
+### 5. Financial Statement Integration
+
+- **Profit & Loss Modeling:**
+  - Build detailed P&L from revenue and cost models
+  - Include all operating expenses and tax calculations
+  - Model EBITDA, operating income, and net income
+  - Calculate key profitability metrics and ratios
+
+- **Cash Flow Analysis:**
+  - Build operating, investing, and financing cash flows
+  - Include working capital and capital expenditure impacts
+  - Calculate free cash flow and cash burn rates
+  - Model funding requirements and cash runway
+
+- **Balance Sheet Projections:**
+  - Project assets, liabilities, and equity over time
+  - Include debt financing and equity investment scenarios
+  - Calculate key financial ratios (leverage, liquidity, efficiency)
+  - Ensure balance sheet balances and is internally consistent
+
+### 6. Valuation & Return Analysis
+
+- **Business Valuation:**
+  - Calculate Net Present Value (NPV) using appropriate discount rates
+  - Build discounted cash flow (DCF) models
+  - Include terminal value calculations
+  - Perform comparable company and transaction analysis
+
+- **Return Metrics:**
+  - Calculate Internal Rate of Return (IRR)
+  - Analyze Return on Investment (ROI) and Return on Equity (ROE)
+  - Model payback periods and break-even analysis
+  - Include risk-adjusted return calculations
+
+### 7. Scenario & Sensitivity Analysis
+
+- **Scenario Planning:**
+  - Build best case, base case, and worst case scenarios
+  - Model different strategic options and market conditions
+  - Include competitive response scenarios
+  - Test impact of major assumptions on outcomes
+
+- **Monte Carlo Simulation:**
+  - Identify key uncertain variables and their distributions
+  - Run multiple iterations to generate outcome distributions
+  - Calculate probability of achieving key targets
+  - Identify most critical success factors
+
+## Output Deliverables
+
+- **Financial Model:** Comprehensive Excel/spreadsheet model with all calculations
+- **Executive Dashboard:** Summary of key metrics and scenario results
+- **Valuation Analysis:** Business valuation and investment returns
+- **Sensitivity Analysis:** Impact of key variables on financial outcomes
+- **Scenario Comparison:** Side-by-side comparison of strategic alternatives
+- **Model Documentation:** Assumptions, data sources, and methodology explanation
+
+## Success Criteria
+
+- Model accurately reflects business strategy and operations
+- Financial projections are realistic and well-supported
+- Model is flexible enough to test different scenarios
+- Key financial metrics align with industry benchmarks
+- Model logic is transparent and auditable
+- Outputs directly support strategic decision-making
+- Stakeholders have confidence in financial projections and valuation

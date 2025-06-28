@@ -1,0 +1,367 @@
+==================== START: 7-step-strategic-methodology ====================
+# 7-Step Strategic Methodology Task
+
+## Purpose
+
+To guide users through the complete 7-step strategic methodology using the appropriate strategic personas in sequence. This task ensures systematic progression through strategic analysis while maintaining flexibility for iteration.
+
+## Instructions
+
+### 1. Initial Setup & Challenge Definition
+
+- **Confirm Challenge Context:**
+  - Ask user to clearly state the strategic challenge or opportunity
+  - Identify key stakeholders and success criteria
+  - Determine timeline and resource constraints
+  
+- **Establish Interaction Mode:**
+  - **Guided Mode (Recommended):** Work through each step with user feedback
+  - **Express Mode:** Rapid progression through methodology with check-ins
+  - **Deep Dive Mode:** Comprehensive analysis with extensive research
+
+### 2. Execute 7-Step Methodology
+
+#### **STEP 1: DEFINE** (Activate Strategic Analyst)
+
+##### Transform to Strategic Analyst persona
+
+- **Clarify the Problem:**
+  - Articulate the business problem or opportunity precisely
+  - Quantify scope, impact, and current state
+  - Establish measurable success criteria and baselines
+  
+- **Key Deliverables:**
+  - Problem statement with quantified impact
+  - Success metrics and measurement approach
+  - Stakeholder map and requirements
+
+- **Quality Check:** Is the problem clearly defined and measurable?
+
+#### **STEP 2: SPLIT** (Activate Strategic Specialist)
+
+##### Transform to Strategic Specialist persona
+
+- **Decompose Complexity:**
+  - Break the problem into manageable components
+  - Identify dependencies and relationships
+  - Form testable hypotheses for each component
+  
+- **Key Deliverables:**
+  - Problem component map
+  - Hypothesis framework for testing
+  - Analysis plan and methodology
+  
+- **Quality Check:** Are components logical and hypotheses testable?
+
+#### **STEP 3: ANALYSE** (Use Analyst + Specialist Skills)
+
+##### Coordinate between Strategic Analyst and Specialist personas
+
+- **Systematic Investigation:**
+  - Apply quantitative and qualitative analysis methods
+  - Test hypotheses across all problem components
+  - Identify patterns, trends, and key insights
+  
+- **Key Deliverables:**
+  - Analysis results for each component
+  - Pattern identification and validation
+  - Evidence-based findings summary
+  
+- **Quality Check:** Is analysis thorough and evidence-based?
+
+#### **STEP 4: INSIGHT** (Activate Strategic Communicator)
+
+##### Transform to Strategic Communicator persona
+
+- **Synthesize Findings:**
+  - Transform analysis into strategic implications
+  - Identify "so what" moments and key takeaways
+  - Prepare insights for decision-maker consumption
+  
+- **Key Deliverables:**
+  - Strategic insights summary
+  - Implications for business and stakeholders
+  - Key messages for different audiences
+  
+- **Quality Check:** Are insights clear, compelling, and actionable?
+
+#### **STEP 5: STORY** (Continue with Strategic Communicator)
+
+##### Remain in Strategic Communicator persona
+
+- **Develop Strategic Narrative:**
+  - Transform insights into compelling story
+  - Use proven narrative structures for complex reasoning
+  - Build persuasive case for recommended approach
+  
+- **Key Deliverables:**
+  - Strategic narrative document
+  - Executive summary and key points
+  - Stakeholder-specific communications
+  
+- **Quality Check:** Is the story compelling and persuasive?
+
+#### **STEP 6: DECIDE** (Activate Strategic Advisor)
+
+##### Transform to Strategic Advisor persona
+
+- **Decision Framework:**
+  - Generate and evaluate strategic alternatives
+  - Define decision criteria and trade-offs
+  - Provide clear recommendations with rationale
+  
+- **Key Deliverables:**
+  - Strategic options analysis
+  - Decision matrix with recommendations
+  - Risk assessment and mitigation plans
+  
+- **Quality Check:** Are recommendations well-supported and practical?
+
+#### **STEP 7: ACT** (Use Advisor + Innovator Skills)
+
+##### Coordinate between Strategic Advisor and Innovator personas
+
+- **Execution Planning:**
+  - Create detailed implementation roadmap
+  - Identify resource requirements and timeline
+  - Incorporate innovation opportunities for maximum value
+  
+- **Key Deliverables:**
+  - Implementation plan with milestones
+  - Resource and capability requirements
+  - Success metrics and monitoring approach
+  
+- **Quality Check:** Is the plan realistic and comprehensive?
+
+### 3. Methodology Completion & Next Steps
+
+- **Review & Integration:**
+  - Ensure all 7 steps are completed satisfactorily
+  - Identify any gaps or areas needing iteration
+  - Confirm stakeholder alignment on recommendations
+  
+- **Implementation Readiness:**
+  - Validate resource availability and organizational readiness
+  - Establish governance and monitoring processes
+  - Plan for regular review and course correction
+  
+- **Learning Capture:**
+  - Document key insights and lessons learned
+  - Identify methodology improvements for future use
+  - Establish feedback loops for continuous improvement
+
+## Success Criteria
+
+The 7-step methodology is complete when:
+
+1. **Problem is clearly defined** with measurable criteria
+2. **Analysis is comprehensive** and evidence-based
+3. **Insights are compelling** and strategically relevant
+4. **Recommendations are practical** and well-supported
+5. **Implementation plan is realistic** and actionable
+6. **Stakeholders are aligned** on approach and expectations
+7. **Success metrics are established** for ongoing monitoring
+
+## Common Iteration Points
+
+- Return to **Step 1** if problem definition needs refinement
+- Revisit **Steps 2-3** if analysis reveals new complexities
+- Loop **Steps 4-5** if insights need strengthening
+- Iterate **Steps 6-7** if implementation challenges emerge
+
+Remember: Strategic thinking is iterative. Use this methodology as a guide, not a rigid process.
+
+==================== END: 7-step-strategic-methodology ====================
+
+==================== START: adaptive-inquiry-logic ====================
+# Context Assessment Framework
+
+## Purpose
+
+Simple framework for the Strategic Orchestrator to assess readiness for strategic work without doing analytical work itself.
+
+## Four Readiness Dimensions
+
+### 1. Situation Clarity
+
+**Question:** "Do we understand the business context?"
+
+- **What we need:** Basic understanding of organization, industry, current state
+- **NOT analytical depth:** Just enough context for persona selection
+- **Readiness indicator:** User can describe their business situation clearly
+
+### 2. Challenge Definition
+
+**Question:** "Do we understand the problem or opportunity?"
+
+- **What we need:** User's perspective on what they're trying to address
+- **NOT root cause analysis:** Just their current understanding
+- **Readiness indicator:** User can articulate why this matters now
+
+### 3. Stakeholder Understanding
+
+**Question:** "Do we know who's involved and affected?"
+
+- **What we need:** Key players, decision makers, affected groups
+- **NOT stakeholder analysis:** Just awareness of who matters
+- **Readiness indicator:** User knows who cares about the outcome
+
+### 4. Outcome Expectations
+
+**Question:** "Do we understand what success looks like?"
+
+- **What we need:** User's desired outcomes and constraints
+- **NOT success metrics:** Just directional understanding
+- **Readiness indicator:** User has vision of desired future state
+
+## Readiness Assessment
+
+### Ready to Proceed When
+
+- [ ] User can describe their business context (doesn't need to be complete)
+- [ ] User can explain why this challenge matters (doesn't need to be quantified)
+- [ ] User knows who the key stakeholders are (doesn't need full mapping)
+- [ ] User has some vision of success (doesn't need precise metrics)
+
+### Keep Exploring When
+
+- User seems unclear about basic business context
+- User can't explain why this is important now
+- User doesn't know who would be involved or affected
+- User has no sense of what they want to achieve
+
+### User Signals to Watch For
+
+- **"I'm not sure..."** - Opportunity for gentle probing
+- **"I think that's enough..."** - Respect user's readiness
+- **"Let me think about that..."** - Give space, don't push
+- **"I want to get started..."** - User is ready to proceed
+
+## Mode-Specific Application
+
+### Express Mode
+
+- Quick check of all four dimensions
+- Accept user's initial answers
+- Proceed once basic understanding exists
+
+### Deep Discovery Mode
+
+- Thorough exploration of each dimension
+- Multiple follow-up questions as needed
+- User controls when to transition
+
+## What This Framework Does NOT Do
+
+❌ **Analyze the problem** - That's the Analyst's job  
+❌ **Solve anything** - That's the Specialist's job  
+❌ **Score complexity** - Just assess readiness  
+❌ **Generate insights** - That's the Communicator's job  
+❌ **Make decisions** - That's the Advisor's job  
+
+## What This Framework DOES Do
+
+✅ **Helps user clarify their thinking** through good questions  
+✅ **Identifies what user knows vs doesn't know**  
+✅ **Assesses readiness for productive strategic work**  
+✅ **Creates clean handoff** to appropriate persona  
+✅ **Respects user's time and preferences**
+
+==================== END: adaptive-inquiry-logic ====================
+
+==================== START: context-assessment-framework ====================
+# Context Assessment Framework
+
+## Purpose
+
+Simple framework for the Strategic Orchestrator to assess readiness for strategic work without doing analytical work itself.
+
+## Four Readiness Dimensions
+
+### 1. Situation Clarity
+
+**Question:** "Do we understand the business context?"
+
+- **What we need:** Basic understanding of organization, industry, current state
+- **NOT analytical depth:** Just enough context for persona selection
+- **Readiness indicator:** User can describe their business situation clearly
+
+### 2. Challenge Definition  
+
+**Question:** "Do we understand the problem or opportunity?"
+
+- **What we need:** User's perspective on what they're trying to address
+- **NOT root cause analysis:** Just their current understanding
+- **Readiness indicator:** User can articulate why this matters now
+
+### 3. Stakeholder Understanding
+
+**Question:** "Do we know who's involved and affected?"
+
+- **What we need:** Key players, decision makers, affected groups
+- **NOT stakeholder analysis:** Just awareness of who matters
+- **Readiness indicator:** User knows who cares about the outcome
+
+### 4. Outcome Expectations
+
+**Question:** "Do we understand what success looks like?"
+
+- **What we need:** User's desired outcomes and constraints
+- **NOT success metrics:** Just directional understanding
+- **Readiness indicator:** User has vision of desired future state
+
+## Readiness Assessment
+
+### Ready to Proceed When
+
+- [ ] User can describe their business context (doesn't need to be complete)
+- [ ] User can explain why this challenge matters (doesn't need to be quantified)
+- [ ] User knows who the key stakeholders are (doesn't need full mapping)
+- [ ] User has some vision of success (doesn't need precise metrics)
+
+### Keep Exploring When
+
+- User seems unclear about basic business context
+- User can't explain why this is important now
+- User doesn't know who would be involved or affected
+- User has no sense of what they want to achieve
+
+### User Signals to Watch For
+
+- **"I'm not sure..."** - Opportunity for gentle probing
+- **"I think that's enough..."** - Respect user's readiness
+- **"Let me think about that..."** - Give space, don't push
+- **"I want to get started..."** - User is ready to proceed
+
+## Mode-Specific Application
+
+### Express Mode
+
+- Quick check of all four dimensions
+- Accept user's initial answers
+- Proceed once basic understanding exists
+
+### Deep Discovery Mode
+
+- Thorough exploration of each dimension
+- Multiple follow-up questions as needed
+- User controls when to transition
+
+## What This Framework Does NOT Do
+
+❌ **Analyze the problem** - That's the Analyst's job  
+❌ **Solve anything** - That's the Specialist's job  
+❌ **Score complexity** - Just assess readiness  
+❌ **Generate insights** - That's the Communicator's job  
+❌ **Make decisions** - That's the Advisor's job  
+
+## What This Framework DOES Do
+
+✅ **Helps user clarify their thinking** through good questions  
+✅ **Identifies what user knows vs doesn't know**  
+✅ **Assesses readiness for productive strategic work**  
+✅ **Creates clean handoff** to appropriate persona  
+✅ **Respects user's time and preferences**
+
+==================== END: context-assessment-framework ====================
+

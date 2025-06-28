@@ -1,0 +1,92 @@
+# Context Assessment Framework
+
+## Purpose
+
+Simple framework for the Strategic Orchestrator to assess readiness for strategic work without doing analytical work itself.
+
+## Four Readiness Dimensions
+
+### 1. Situation Clarity
+
+**Question:** "Do we understand the business context?"
+
+- **What we need:** Basic understanding of organization, industry, current state
+- **NOT analytical depth:** Just enough context for persona selection
+- **Readiness indicator:** User can describe their business situation clearly
+
+### 2. Challenge Definition  
+
+**Question:** "Do we understand the problem or opportunity?"
+
+- **What we need:** User's perspective on what they're trying to address
+- **NOT root cause analysis:** Just their current understanding
+- **Readiness indicator:** User can articulate why this matters now
+
+### 3. Stakeholder Understanding
+
+**Question:** "Do we know who's involved and affected?"
+
+- **What we need:** Key players, decision makers, affected groups
+- **NOT stakeholder analysis:** Just awareness of who matters
+- **Readiness indicator:** User knows who cares about the outcome
+
+### 4. Outcome Expectations
+
+**Question:** "Do we understand what success looks like?"
+
+- **What we need:** User's desired outcomes and constraints
+- **NOT success metrics:** Just directional understanding
+- **Readiness indicator:** User has vision of desired future state
+
+## Readiness Assessment
+
+### Ready to Proceed When
+
+- [ ] User can describe their business context (doesn't need to be complete)
+- [ ] User can explain why this challenge matters (doesn't need to be quantified)
+- [ ] User knows who the key stakeholders are (doesn't need full mapping)
+- [ ] User has some vision of success (doesn't need precise metrics)
+
+### Keep Exploring When
+
+- User seems unclear about basic business context
+- User can't explain why this is important now
+- User doesn't know who would be involved or affected
+- User has no sense of what they want to achieve
+
+### User Signals to Watch For
+
+- **"I'm not sure..."** - Opportunity for gentle probing
+- **"I think that's enough..."** - Respect user's readiness
+- **"Let me think about that..."** - Give space, don't push
+- **"I want to get started..."** - User is ready to proceed
+
+## Mode-Specific Application
+
+### Express Mode
+
+- Quick check of all four dimensions
+- Accept user's initial answers
+- Proceed once basic understanding exists
+
+### Deep Discovery Mode
+
+- Thorough exploration of each dimension
+- Multiple follow-up questions as needed
+- User controls when to transition
+
+## What This Framework Does NOT Do
+
+❌ **Analyze the problem** - That's the Analyst's job  
+❌ **Solve anything** - That's the Specialist's job  
+❌ **Score complexity** - Just assess readiness  
+❌ **Generate insights** - That's the Communicator's job  
+❌ **Make decisions** - That's the Advisor's job  
+
+## What This Framework DOES Do
+
+✅ **Helps user clarify their thinking** through good questions  
+✅ **Identifies what user knows vs doesn't know**  
+✅ **Assesses readiness for productive strategic work**  
+✅ **Creates clean handoff** to appropriate persona  
+✅ **Respects user's time and preferences**

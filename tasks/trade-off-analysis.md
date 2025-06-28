@@ -1,0 +1,190 @@
+# Trade-off Analysis Task
+
+## Purpose
+
+To systematically identify, evaluate, and navigate competing priorities in strategic decisions, ensuring decision-makers understand the true costs, benefits, and implications of different choices. This task provides rigorous frameworks for managing complex trade-offs while optimizing overall strategic value creation.
+
+## Inputs Required
+
+- Strategic decision context and available options
+- Stakeholder priorities and success criteria
+- Resource constraints and organizational capabilities
+- Time horizons and performance expectations
+- Risk tolerance and uncertainty factors
+
+## Task Execution Instructions
+
+### 1. Trade-off Identification & Mapping
+
+- **Competing Priority Discovery:**
+  - Identify all dimensions where choices create trade-offs
+  - Map explicit trade-offs stated by stakeholders
+  - Discover implicit trade-offs embedded in options
+  - Understand trade-offs across different time horizons
+
+- **Trade-off Categories:**
+  - **Financial Trade-offs:** Short-term costs vs. long-term returns, investment vs. cash flow
+  - **Strategic Trade-offs:** Growth vs. profitability, focus vs. diversification
+  - **Operational Trade-offs:** Quality vs. speed, flexibility vs. efficiency
+  - **Risk Trade-offs:** Security vs. opportunity, certainty vs. upside potential
+  - **Stakeholder Trade-offs:** Customer needs vs. shareholder returns, employee satisfaction vs. cost control
+
+### 2. Stakeholder Value Framework Development
+
+- **Multi-Stakeholder Perspective:**
+  - Identify all parties affected by trade-off decisions
+  - Understand each stakeholder's priorities and success metrics
+  - Map stakeholder influence and decision-making power
+  - Recognize conflicts between different stakeholder interests
+
+- **Value Definition & Measurement:**
+  - Define value from each stakeholder perspective
+  - Establish quantitative metrics where possible
+  - Develop qualitative assessment criteria for intangible benefits
+  - Create weighted scoring systems for multi-criteria evaluation
+
+### 3. Option Impact Analysis
+
+- **Comprehensive Impact Mapping:**
+  - Analyze how each option affects all identified trade-off dimensions
+  - Quantify impacts using financial modeling and scenario analysis
+  - Assess both direct and indirect consequences
+  - Consider short-term, medium-term, and long-term implications
+
+- **Trade-off Quantification:**
+  - Calculate opportunity costs for each strategic choice
+  - Model resource allocation implications across options
+  - Assess performance trade-offs using benchmarks and targets
+  - Develop sensitivity analysis for key variables
+
+### 4. Decision Criteria Framework
+
+- **Criteria Weighting System:**
+  - Establish relative importance of different trade-off dimensions
+  - Use stakeholder input to validate weighting decisions
+  - Consider organizational strategy and competitive context
+  - Account for current strategic priorities and market conditions
+
+- **Decision Rules & Thresholds:**
+  - Set minimum acceptable performance levels for critical dimensions
+  - Establish deal-breaker criteria that eliminate options
+  - Define conditions under which trade-offs are acceptable
+  - Create escalation processes for difficult trade-off decisions
+
+### 5. Multi-Criteria Decision Analysis
+
+- **Scoring Methodology:**
+  - Rate each option against all evaluation criteria
+  - Use consistent scaling (e.g., 1-10) across all dimensions
+  - Apply statistical normalization where appropriate
+  - Ensure scoring objectivity and minimize bias
+
+- **Weighted Evaluation:**
+  - Calculate overall scores using established weighting system
+  - Perform sensitivity analysis on weights and scores
+  - Identify options that perform well across multiple criteria
+  - Highlight trade-offs where options excel or fall short
+
+### 6. Scenario-Based Trade-off Analysis
+
+- **Future Scenario Development:**
+  - Create multiple plausible future scenarios
+  - Assess how trade-offs change under different conditions
+  - Identify robust options that perform well across scenarios
+  - Understand scenario-dependent trade-off implications
+
+- **Dynamic Trade-off Assessment:**
+  - Analyze how trade-offs evolve over time
+  - Consider path-dependent effects of early decisions
+  - Evaluate reversibility and flexibility of different choices
+  - Plan for trade-off adjustments as conditions change
+
+### 7. Risk-Adjusted Trade-off Evaluation
+
+- **Risk Integration:**
+  - Incorporate probability distributions into trade-off analysis
+  - Assess downside protection vs. upside potential
+  - Evaluate risk correlation across different trade-off dimensions
+  - Consider worst-case scenarios and extreme outcomes
+
+- **Portfolio Effects:**
+  - Understand how individual decisions affect overall portfolio risk
+  - Analyze correlation between different strategic bets
+  - Balance high-risk, high-reward choices with stable options
+  - Optimize portfolio composition considering all trade-offs
+
+### 8. Stakeholder Trade-off Communication
+
+- **Trade-off Visualization:**
+  - Create clear visual representations of key trade-offs
+  - Use charts, matrices, and diagrams to illustrate choices
+  - Develop dashboard views for complex multi-dimensional trade-offs
+  - Make trade-off implications accessible to all stakeholders
+
+- **Transparent Decision Process:**
+  - Document rationale for trade-off evaluation and weighting
+  - Share analysis methodology and assumptions
+  - Enable stakeholder input on trade-off priorities
+  - Facilitate discussion of different trade-off perspectives
+
+### 9. Implementation Trade-off Management
+
+- **Execution Implications:**
+  - Identify trade-offs that emerge during implementation
+  - Plan for resource allocation decisions and priority conflicts
+  - Design processes for managing ongoing trade-off decisions
+  - Create governance structure for trade-off resolution
+
+- **Performance Monitoring:**
+  - Track actual performance against trade-off predictions
+  - Monitor whether trade-offs are performing as expected
+  - Adjust strategy if trade-off assumptions prove incorrect
+  - Learn from trade-off outcomes for future decisions
+
+### 10. Trade-off Optimization Strategies
+
+- **Creative Solution Development:**
+  - Look for options that minimize or eliminate trade-offs
+  - Explore innovative approaches that deliver multiple benefits
+  - Consider phased approaches that sequence trade-off decisions
+  - Investigate partnerships that help manage trade-offs
+
+- **Dynamic Rebalancing:**
+  - Design flexibility to adjust trade-offs as conditions change
+  - Create option value through reversible decisions
+  - Plan for periodic trade-off reassessment and optimization
+  - Build learning mechanisms to improve trade-off management
+
+### 11. Cultural & Organizational Context
+
+- **Decision-Making Culture:**
+  - Understand organizational appetite for different types of trade-offs
+  - Consider historical patterns in trade-off decisions
+  - Align trade-off approach with organizational values
+  - Account for political dynamics affecting trade-off acceptance
+
+- **Capability Requirements:**
+  - Assess organizational ability to execute different trade-off choices
+  - Identify skill and resource gaps that affect trade-off viability
+  - Plan capability development to enable preferred trade-offs
+  - Consider trade-offs in capability investment priorities
+
+## Output Deliverables
+
+- **Trade-off Analysis Framework:** Systematic approach to evaluating competing priorities
+- **Multi-Criteria Decision Matrix:** Quantified comparison of options across all trade-off dimensions
+- **Stakeholder Impact Assessment:** Analysis of how trade-offs affect different parties
+- **Scenario Analysis Report:** Trade-off performance under different future conditions
+- **Risk-Adjusted Recommendations:** Preferred options considering uncertainty and downside protection
+- **Implementation Guidelines:** Approach for managing trade-offs during execution
+- **Monitoring Dashboard:** Tracking system for trade-off performance and optimization
+
+## Success Criteria
+
+- All significant trade-offs are identified and systematically evaluated
+- Decision-makers understand the full implications of different choices
+- Trade-off analysis is rigorous yet accessible to key stakeholders
+- Stakeholder perspectives are appropriately weighted in trade-off decisions
+- Chosen approach optimizes value creation across multiple dimensions
+- Implementation approach includes mechanisms for ongoing trade-off management
+- Trade-off analysis capability is embedded for future strategic decisions

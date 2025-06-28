@@ -1,0 +1,36 @@
+# Strategic Decision Matrix Template
+
+## Decision Context
+
+- **Decision Statement:** [What decision needs to be made?]
+- **Decision Owner:** [Who has authority to decide?]
+- **Timeline:** [When does decision need to be made?]
+- **Success Criteria:** [How will we know we made the right choice?]
+
+## Options Evaluation
+
+| Criteria | Weight | Option A | Score A | Option B | Score B | Option C | Score C |
+|----------|--------|----------|---------|----------|---------|----------|---------|
+| Financial Impact (NPV) | 30% | [Description] | [1-10] | [Description] | [1-10] | [Description] | [1-10] |
+| Strategic Fit | 25% | [Description] | [1-10] | [Description] | [1-10] | [Description] | [1-10] |
+| Implementation Risk | 20% | [Description] | [1-10] | [Description] | [1-10] | [Description] | [1-10] |
+| Time to Value | 15% | [Description] | [1-10] | [Description] | [1-10] | [Description] | [1-10] |
+| Stakeholder Impact | 10% | [Description] | [1-10] | [Description] | [1-10] | [Description] | [1-10] |
+
+**Weighted Scores:**
+
+- Option A: [Calculation]
+- Option B: [Calculation]  
+- Option C: [Calculation]
+
+## Trade-off Analysis
+
+- **Key Trade-offs:** [What are we giving up with each option?]
+- **Scenario Sensitivity:** [How do rankings change under different scenarios?]
+- **Risk Mitigation:** [How can we reduce risks of chosen option?]
+
+## Recommendation
+
+- **Recommended Option:** [Which option and why?]
+- **Implementation Plan:** [Key steps and timeline]
+- **Success Metrics:** [How will we measure success?]
