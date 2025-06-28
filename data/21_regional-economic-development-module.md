@@ -46,171 +46,185 @@ COMBINATION_RULES:
 
 ## Framework Adaptations
 
-### Phase 1 (Strategic Analyst) Adaptations
+### Step 1 (Define) Adaptations
 
-#### Market Analysis Adjustments
+#### Problem Definition Regional Context
+
+- **Regional Scope Assessment**: Define geographic boundaries, jurisdictional complexity, and multi-stakeholder coordination requirements
+- **Economic Development Challenge Characterization**: Economic diversification needs, business attraction/retention challenges, workforce development gaps, infrastructure limitations
+- **Success Criteria Regional Context**: Economic impact indicators, job creation targets, investment attraction metrics, quality of life improvements, regional competitiveness measures
+- **Stakeholder Impact Assessment**: Government stakeholders (federal, state, regional, local), business community, community organizations, regional partners
+
+#### Market Context Definition Regional Focus
 
 - **TAM/SAM/SOM Regional Context**:
   - TAM = Total regional economic capacity and growth potential
   - SAM = Addressable opportunities within regional competitive advantages
   - SOM = Realistic capture based on assets, resources, and implementation capacity
   - Consider economic multiplier effects and spillover benefits across jurisdictions
-- **Porter's Five Forces Regional Application**:
-  - *Threat of New Entrants*: Competing regions, business location alternatives
-  - *Supplier Power*: Infrastructure providers, workforce availability, land/facility costs
-  - *Buyer Power*: Business location decision factors, site selection criteria
-  - *Substitutes*: Alternative development strategies, competing investment opportunities
-  - *Competitive Rivalry*: Inter-regional competition, economic development incentives
-- **PESTLE Regional Focus**:
-  - *Political*: Multi-level government coordination, political stability, policy alignment
-  - *Economic*: Regional economic cycles, fiscal capacity, tax base diversification
-  - *Social*: Demographics, workforce skills, quality of life factors
-  - *Technology*: Digital infrastructure, innovation capacity, technology adoption
-  - *Legal*: Zoning laws, development regulations, permitting processes
-  - *Environmental*: Natural resources, environmental constraints, sustainability requirements
+- **Competitive Landscape Definition**: Inter-regional competition, business location alternatives, development strategy differentiation
+- **Regional Asset Context**: Natural resources, infrastructure, workforce, institutions, location advantages
 
-#### Financial Modeling Considerations
+### Step 2 (Split) Adaptations
 
-- **Economic Impact Modeling**: Direct, indirect, and induced economic effects of development initiatives
-- **Public Investment ROI**: Cost-benefit analysis for infrastructure and incentive investments
-- **Revenue Multipliers**: Tax base expansion, property value impacts, employment effects
-- **Fiscal Impact Analysis**: Municipal revenue generation vs. service delivery costs
-- **Development Financing**: Tax increment financing, bonds, grants, public-private partnerships
-- **Risk-Adjusted Returns**: Political risk, economic cycles, implementation challenges
-
-#### Competitive Analysis Focus
-
-- **Regional Competitive Assessment**: Benchmarking against peer regions and markets
-- **Location Factors Analysis**: Infrastructure, workforce, costs, quality of life, business climate
-- **Industry Cluster Analysis**: Existing strengths, growth potential, supply chain integration
-- **Value Proposition Development**: Unique regional advantages and differentiators
-
-#### Pattern Recognition Specialization
-
-- **Economic Development Patterns**: Successful regional transformation models and strategies
-- **Industry Evolution Trends**: Sector growth patterns, technology disruption impacts
-- **Demographic and Workforce Patterns**: Population trends, skills gaps, migration patterns
-- **Infrastructure Development Patterns**: Transportation, utilities, digital infrastructure needs
-
-### Phase 2 (Strategic Specialist) Adaptations
-
-#### Problem Structuring Modifications
+#### Problem Structuring Regional Modifications
 
 - **Multi-Stakeholder Complexity**: Government layers, private sector, community organizations
 - **Geographic Scale Management**: Regional coordination across jurisdictions and boundaries
 - **Timeline Integration**: Short-term wins vs. long-term strategic development
 - **Resource Constraint Analysis**: Public budget limitations, private investment capacity
 
-#### Root Cause Analysis Adjustments
+#### Regional Development Framework
+
+- **Stakeholder Dimension Decomposition**: Government stakeholders, business community, community organizations, regional partners
+- **Geographic Layers**: Local community level, multi-jurisdictional regional level, state/provincial level, national level
+- **Development Timeline Phases**: Assessment → planning → implementation → monitoring → adaptation
+- **Economic Development Categories**: Business attraction, business retention, entrepreneurship support, workforce development, infrastructure development
+
+#### MECE Regional Applications
+
+- **Development Strategies**: Industry attraction, cluster development, entrepreneurship support, infrastructure investment, workforce development
+- **Geographic Jurisdictions**: Municipal, county, regional, state levels with clear boundaries
+- **Stakeholder Categories**: Public sector, private sector, nonprofit sector, educational institutions
+
+### Step 3 (Analyse) Adaptations
+
+#### Market Analysis Regional Context
+
+- **Porter's Five Forces Regional Application**:
+  - *Threat of New Entrants*: Competing regions, business location alternatives
+  - *Supplier Power*: Infrastructure providers, workforce availability, land/facility costs
+  - *Buyer Power*: Business location decision factors, site selection criteria
+  - *Substitutes*: Alternative development strategies, competing investment opportunities
+  - *Competitive Rivalry*: Inter-regional competition, economic development incentives
+
+#### Financial Modeling Regional Considerations
+
+- **Economic Impact Modeling**: Direct, indirect, and induced economic effects of development initiatives
+- **Public Investment ROI**: Cost-benefit analysis for infrastructure and incentive investments
+- **Revenue Multipliers**: Tax base expansion, property value impacts, employment effects
+- **Fiscal Impact Analysis**: Municipal revenue generation vs. service delivery costs
+- **Development Financing**: Tax increment financing, bonds, grants, public-private partnerships
+
+#### Competitive Analysis Regional Focus
+
+- **Regional Competitive Assessment**: Benchmarking against peer regions and markets
+- **Location Factors Analysis**: Infrastructure, workforce, costs, quality of life, business climate
+- **Industry Cluster Analysis**: Existing strengths, growth potential, supply chain integration
+- **Value Proposition Development**: Unique regional advantages and differentiators
+
+#### Root Cause Analysis Regional Context
 
 - **Economic Decline Factors**: Industry loss, demographic changes, infrastructure decay
 - **Competitive Disadvantages**: Cost structures, skill gaps, infrastructure limitations
 - **Governance Challenges**: Fragmented authority, policy conflicts, coordination failures
 - **Market Failures**: Information asymmetries, externalities, public goods provision
 
-#### Solution Design Constraints
+### Step 4 (Insight) Adaptations
 
-- **Public Sector Constraints**: Budget limitations, regulatory requirements, political feasibility
-- **Geographic Constraints**: Natural barriers, infrastructure limitations, distance factors
-- **Stakeholder Constraints**: Multiple constituencies, competing interests, consensus requirements
-- **Regulatory Constraints**: Environmental regulations, land use restrictions, permitting processes
+#### Pattern Recognition Regional Specialization
 
-#### Value Engineering Focus
+- **Economic Development Patterns**: Successful regional transformation models and strategies
+- **Industry Evolution Trends**: Sector growth patterns, technology disruption impacts
+- **Demographic and Workforce Patterns**: Population trends, skills gaps, migration patterns
+- **Infrastructure Development Patterns**: Transportation, utilities, digital infrastructure needs
 
-- **Public Value Optimization**: Maximizing economic impact per public dollar invested
-- **Multi-Benefit Solutions**: Projects addressing multiple regional needs simultaneously
-- **Leverage Maximization**: Using public investment to attract private investment
-- **Implementation Efficiency**: Streamlined processes, reduced bureaucracy, faster delivery
+#### Key Insights Regional Focus
 
-### Phase 3 (Strategic Communicator) Adaptations
+- **Economic Development Insights**: Industry opportunities, competitive advantages, infrastructure priorities
+- **Regional Collaboration Insights**: Partnership opportunities, resource sharing benefits, coordination mechanisms
+- **Investment Strategy Insights**: Public investment leverage opportunities, financing mechanisms, implementation priorities
+- **Innovation Opportunities**: Emerging technologies, new development models, partnership innovations
 
-#### Stakeholder Mapping Specifics
+#### Synthesis Framework Regional Context
 
-- **Government Stakeholders**: Federal, state, regional, local officials and agencies
-- **Business Community**: Existing businesses, potential investors, industry associations
-- **Community Organizations**: Nonprofits, civic groups, labor organizations, educational institutions
-- **Regional Partners**: Neighboring jurisdictions, regional planning organizations, utilities
+- **Regional Asset Optimization**: How to leverage unique regional strengths for competitive advantage
+- **Multi-Jurisdictional Coordination**: Effective governance models for regional collaboration
+- **Economic Diversification Strategy**: Balanced approach to economic resilience and growth
+- **Sustainable Development Integration**: Long-term economic, social, and environmental sustainability
 
-#### Narrative Frameworks
+### Step 5 (Story) Adaptations
+
+#### Narrative Frameworks Regional Context
 
 - **Regional Vision Stories**: Future-state scenarios, transformation narratives, prosperity visions
 - **Economic Development Narratives**: Business success stories, community improvement stories
 - **Partnership Stories**: Collaboration benefits, shared success, collective impact
 - **Change Management**: Overcoming resistance, building consensus, managing expectations
 
-#### Communication Channels
+#### Stakeholder Communication Regional Context
+
+- **Government Stakeholders**: Federal, state, regional, local officials and agencies
+- **Business Community**: Existing businesses, potential investors, industry associations
+- **Community Organizations**: Nonprofits, civic groups, labor organizations, educational institutions
+- **Regional Partners**: Neighboring jurisdictions, regional planning organizations, utilities
+
+#### Communication Channels Regional Specific
 
 - **Public Engagement**: Town halls, community meetings, public hearings, surveys
 - **Business Outreach**: Chamber events, industry conferences, site visits, trade missions
 - **Media Relations**: Economic development announcements, success stories, progress updates
 - **Stakeholder Coordination**: Intergovernmental meetings, regional forums, working groups
 
-#### Change Management Considerations
+### Step 6 (Decide) Adaptations
 
-- **Community Buy-in**: Building support for development initiatives and change
-- **Political Alignment**: Coordinating across political boundaries and election cycles
-- **Business Confidence**: Creating predictable, supportive business environment
-- **Cultural Preservation**: Balancing growth with community character and values
-
-### Phase 4 (Strategic Advisor) Adaptations
-
-#### Decision Frameworks
+#### Decision Frameworks Regional Context
 
 - **Public Investment Decisions**: Cost-benefit analysis, risk assessment, opportunity costs
 - **Development Strategy Selection**: Industry focus, geographic priorities, resource allocation
 - **Partnership Structure**: Public-private partnerships, intergovernmental agreements
 - **Incentive Strategy**: Tax incentives, grants, infrastructure investments, regulatory streamlining
 
-#### Risk Assessment Modifications
+#### Risk Assessment Regional Modifications
 
 - **Economic Risk Categories**: Market downturns, industry decline, competition from other regions
 - **Political Risk Categories**: Leadership changes, policy shifts, funding cuts
 - **Implementation Risk Categories**: Project delays, cost overruns, stakeholder conflicts
 - **Long-term Sustainability Risks**: Economic dependence, environmental impacts, demographic changes
 
-#### Trade-off Analysis Focus
+#### Trade-off Analysis Regional Focus
 
 - **Growth vs. Preservation**: Economic development vs. community character preservation
 - **Efficiency vs. Equity**: Economic efficiency vs. equitable development distribution
 - **Speed vs. Consensus**: Quick wins vs. comprehensive stakeholder engagement
 - **Specialization vs. Diversification**: Industry focus vs. broad-based development
 
-#### Implementation Considerations
+### Step 7 (Act) Adaptations
+
+#### Implementation Regional Context
 
 - **Phased Development**: Staged implementation with early wins and long-term goals
 - **Multi-Jurisdictional Coordination**: Intergovernmental agreements and shared governance
 - **Performance Monitoring**: Economic indicators, progress tracking, adaptive management
 - **Adaptive Management**: Flexibility to adjust strategies based on results and changing conditions
 
-### Phase 5 (Strategic Innovator) Adaptations
-
-#### Opportunity Identification
+#### Innovation Opportunity Regional Context
 
 - **Emerging Industry Opportunities**: New technologies, changing market demands, demographic shifts
 - **Infrastructure Innovation**: Smart cities, sustainable development, digital transformation
 - **Partnership Innovation**: New collaboration models, financing mechanisms, governance structures
 - **Development Model Innovation**: Creative district development, innovation zones, circular economy
 
-#### Business Model Variations
+#### Business Model Implementation Regional Context
 
 - **Economic Development Corporation Models**: Nonprofit, quasi-public, public-private hybrid structures
 - **Development Financing Models**: Tax increment financing, crowdfunding, impact investing
 - **Regional Collaboration Models**: Multi-jurisdictional authorities, shared services, regional compacts
 - **Innovation Ecosystem Models**: Incubators, accelerators, research partnerships, talent retention
 
-#### Competitive Differentiation
+#### Value Engineering Regional Focus
 
-- **Unique Regional Assets**: Natural resources, location advantages, cultural assets, institutional strengths
-- **Innovation Advantages**: Research institutions, talent pipeline, entrepreneurial ecosystem
-- **Quality of Life Differentiators**: Recreation, culture, community, environmental quality
-- **Business Climate Advantages**: Regulatory efficiency, incentive packages, infrastructure quality
+- **Public Value Optimization**: Maximizing economic impact per public dollar invested
+- **Multi-Benefit Solutions**: Projects addressing multiple regional needs simultaneously
+- **Leverage Maximization**: Using public investment to attract private investment
+- **Implementation Efficiency**: Streamlined processes, reduced bureaucracy, faster delivery
 
-#### Innovation Constraints
+#### Change Management Regional Considerations
 
-- **Regulatory Constraints**: Government regulations, environmental restrictions, historic preservation
-- **Resource Constraints**: Limited public budgets, private investment capacity, technical expertise
-- **Political Constraints**: Electoral cycles, political opposition, multi-jurisdictional coordination
-- **Market Constraints**: Limited demand, competition from other regions, economic conditions
+- **Community Buy-in**: Building support for development initiatives and change
+- **Political Alignment**: Coordinating across political boundaries and election cycles
+- **Business Confidence**: Creating predictable, supportive business environment
+- **Cultural Preservation**: Balancing growth with community character and values
 
 ### Specialized Frameworks
 

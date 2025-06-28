@@ -44,202 +44,177 @@ COMBINATION_RULES:
 
 ## Framework Adaptations
 
-### Phase 1:  Strategic Analyst Frameworks - Adaptations
+### Step 1 (Define) Adaptations
 
-#### Market Analysis Models - Adjustments
+#### Problem Definition Mining Context
 
-##### TAM/SAM/SOM Market Sizing Framework - Mining Context
+- **Mining Project Intelligence Gathering**: Identify project scope, timeline, workforce requirements, and service demand patterns
+- **Community Capacity Assessment**: Current local business capability, infrastructure adequacy, workforce skills, and development potential
+- **Economic Impact Scope Definition**: Direct, indirect, and induced economic effects across short-term, medium-term, and long-term timelines
+- **Stakeholder Impact Mapping**: Mining companies, local communities, indigenous groups, government agencies, regional economic development organizations
 
-- **Total Addressable Market (TAM) =** Total mining project service requirements over lifecycle
-- **Serviceable Available Market (SAM) =** Services that can be locally provided based on capability and proximity
-- **Serviceable Obtainable Market (SOM) =** Realistic market capture based on local capacity and competitive advantages
-- Consider service demand by mining phase: exploration (minimal), construction (peak), operations (steady), closure (declining)
+#### Success Criteria Mining Services Context
 
-##### Porter's Five Forces Mining Services Context
+- **Economic Performance Metrics**: Local service capture rates (target: >60%), economic multiplier effects (1 mining job = 1.2+ indirect jobs), revenue per mining employee ($50-150K annual local spending)
+- **Community Development Indicators**: Population stability, infrastructure utilization, business creation rates, local hiring percentages
+- **Service Quality Standards**: Mining industry safety compliance, service reliability, response time capabilities
+- **Sustainability Measures**: Economic diversification progress, post-mining viability planning, legacy asset development
 
-- *Threat of New Entrants*: Geographic barriers, specialized knowledge requirements, relationship dependencies
-- *Supplier Power*: Limited local suppliers, specialized equipment needs, skilled labor scarcity
-- *Buyer Power*: Mining company procurement processes, local content policies, cost pressures
-- *Substitutes*: Urban service providers, integrated mining company services, technology solutions
-- *Competitive Rivalry*: Regional competition, cost-based competition, relationship advantages
+#### Market Context Definition Mining Focus
 
-##### PESTLE Mining Focus
+- **TAM/SAM/SOM Mining Context**:
+  - TAM = Total mining project service requirements over lifecycle
+  - SAM = Services that can be locally provided based on capability and proximity
+  - SOM = Realistic market capture based on local capacity and competitive advantages
+  - Consider service demand by mining phase: exploration (minimal), construction (peak), operations (steady), closure (declining)
 
-- *Political*: Indigenous relations, government development policies, electoral cycles
-- *Economic*: Commodity price volatility, boom-bust cycles, economic diversification needs
-- *Social*: Population stability, family housing vs FIFO, community sustainability
-- *Technology*: Automation impact on employment, remote service delivery capabilities
-- *Legal*: Environmental regulations, mine closure bonds, community benefit agreements
-- *Environmental*: Land use restoration, water management, long-term environmental impact
+### Step 2 (Split) Adaptations
 
-#### Financial Modeling Considerations
+#### Problem Structuring Mining Services Context
+
+- **Mining Service Ecosystem Decomposition**: Essential services (accommodation, catering, transportation) vs growth services vs advanced services
+- **Infrastructure Dependency Analysis**: Shared infrastructure opportunities, investment coordination, maintenance responsibilities
+- **Stakeholder Complexity Management**: Mining companies, multiple government levels, indigenous communities, business operators
+- **Timeline Coordination**: Mining project schedule alignment with community development timeline
+
+#### Mining Lifecycle Framework
+
+- **Temporal Problem Framework**: Short-term (project phase), medium-term (project lifecycle), long-term (post-mining)
+- **Geographic Problem Layers**: Local community, regional economy, provincial/state, national impacts
+- **Stakeholder Problem Dimensions**: Mining company needs, community development, government objectives
+- **Service Development Phases**: Foundation → development → growth → sustainability phases aligned with mining timeline
+
+#### MECE Mining Applications
+
+- **Service Categories**: Accommodation, catering, transportation, maintenance, professional services, supplies
+- **Stakeholder Groups**: Mining company stakeholders, community stakeholders, government stakeholders, regional stakeholders
+- **Development Phases**: Pre-development, construction, operations, closure, post-mining transition
+
+### Step 3 (Analyse) Adaptations
+
+#### Market Analysis Mining Context
+
+- **Porter's Five Forces Mining Services Context**:
+  - *Threat of New Entrants*: Geographic barriers, specialized knowledge requirements, relationship dependencies
+  - *Supplier Power*: Limited local suppliers, specialized equipment needs, skilled labor scarcity
+  - *Buyer Power*: Mining company procurement processes, local content policies, cost pressures
+  - *Substitutes*: Urban service providers, integrated mining company services, technology solutions
+  - *Competitive Rivalry*: Regional competition, cost-based competition, relationship advantages
+
+#### Financial Modeling Mining Considerations
 
 - **Mining Project Lifecycle Economics**: Phase-based analysis (exploration, development, production, closure)
 - **Economic Multipliers**: Direct, indirect, and induced impacts specific to resource extraction regions
 - **Revenue Volatility**: Commodity price sensitivity, project timeline uncertainties, seasonal variations
 - **Infrastructure Investment**: Shared infrastructure models, public-private partnerships, lifecycle costing
 - **Service Revenue Projections**: $50-100K annual revenue per mining employee in local services capacity
-- **Infrastructure Investment ROI**: Public investment recovery through taxation, employment, and economic activity
-- **Commodity Volatility Modeling**: Scenario planning for different commodity price environments
 
-#### Competitive Analysis Focus
+#### Competitive Analysis Mining Focus
 
-- **Regional Service Competition**: Service radius analysis, transportation cost impacts, response time advantages, competitive advantages assessment
+- **Regional Service Competition**: Service radius analysis, transportation cost impacts, response time advantages
 - **Service Provider Analysis**: Local vs regional vs national service providers, capability gaps
 - **Location Advantage Assessment**: Proximity benefits, infrastructure access, workforce availability
 - **Value Chain Positioning**: Where local community fits in mining supply chain, integration opportunities
 - **Mining Company Procurement**: Vendor qualification processes, relationship factors, performance requirements
 
-#### Pattern Recognition Specialization
+#### Root Cause Analysis Mining Context
+
+- **Capacity Building Barriers**: Skills gaps, capital access limitations, certification requirements, economies of scale
+- **Infrastructure Bottlenecks**: Accommodation capacity, transportation access, utilities limitations, telecommunications gaps
+- **Regulatory Complexity**: Multiple approval processes, jurisdictional overlaps, compliance requirements
+- **Coordination Failures**: Multiple stakeholder misalignment, information asymmetries between mining companies and communities
+
+### Step 4 (Insight) Adaptations
+
+#### Pattern Recognition Mining Specialization
 
 - **Community Economic Patterns**: Resource curse avoidance, diversification success factors, legacy planning
 - **Mining Lifecycle Patterns**: Service demand evolution through project phases
 - **Economic Impact Patterns**: Employment generation, income effects, population changes
 - **Community Response Patterns**: Adaptation strategies, success factors, failure modes
-- **Diversification Patterns**: Post-mining economic transition strategies
 - **Service Demand Patterns**: Phase-based service requirements, seasonal variations, workforce rotation impacts
 
-### Phase 2: Strategic Specialist Frameworks - Adaptations
+#### Key Insights Mining Focus
 
-#### Problem-Solving Models - Modifications
+- **Economic Development Insights**: Service sector opportunities, infrastructure investment priorities, workforce development needs
+- **Community Sustainability Insights**: Diversification opportunities, legacy planning requirements, post-mining viability factors
+- **Competitive Positioning Insights**: Local advantages, relationship assets, service differentiation opportunities
+- **Risk Management Insights**: Commodity price volatility impacts, project timeline dependencies, community capacity constraints
 
-- **Mining Service Ecosystem Decomposition**: Essential services (accommodation, catering, transportation) vs growth services vs advanced services
-- **Infrastructure Dependency Analysis**: Shared infrastructure opportunities, investment coordination, maintenance responsibilities
-- **Stakeholder Complexity Management**: Mining companies, multiple government levels, indigenous communities, business operators
-- **Timeline Coordination**: Mining project schedule alignment with community development timeline
-- **Temporal Problem Framework**: Short-term (project phase), medium-term (project lifecycle), long-term (post-mining)
-- **Geographic Problem Layers**: Local community, regional economy, provincial/state, national impacts
-- **Stakeholder Problem Dimensions**: Mining company needs, community development, government objectives
+### Step 5 (Story) Adaptations
 
-#### Root Cause Analysis Adjustments
+#### Narrative Frameworks Mining Context
 
-- **Capacity Building Barriers**: Skills gaps, capital access limitations, certification requirements, economies of scale
-- **Infrastructure Bottlenecks**: Accommodation capacity, transportation access, utilities limitations, telecommunications gaps
-- **Regulatory Complexity**: Multiple approval processes, jurisdictional overlaps, compliance requirements
-- **Resource Dependency Challenges**: Economic concentration risks, skill specialization limits, infrastructure gaps
-- **Coordination Failures**: Multiple stakeholder misalignment, information asymmetries between mining companies and communities, timing misalignment, timing mismatches
-- **Capacity Constraints**: Local business limitations, workforce skills, infrastructure adequacy
+- **Economic Development Stories**: Community prosperity visions, regional transformation narratives
+- **Partnership Stories**: Collaboration benefits, shared success models, mutual value creation
+- **Legacy Narratives**: Sustainable development, post-mining resilience, generational benefits
+- **Crisis Communication**: Mine closure preparation, economic transition, community resilience
 
-#### Solution Design Constraints
-
-- **Resource Constraints**: Limited local investment capital, skilled workforce scarcity, small market size
-- **Geographic Constraints**: Remote location logistics, transportation limitations, climate considerations
-- **Regulatory Constraints**: Environmental requirements, indigenous consultation, safety standards
-- **Timeline Constraints**: Mining project schedules, government planning cycles, community capacity
-
-#### Value Engineering Focus
-
-- **Infrastructure Optimization**: Shared use maximization, multi-purpose design, lifecycle efficiency
-- **Service Integration**: Combining multiple services for efficiency, shared infrastructure utilization
-- **Competitive Positioning**: Local advantage maximization (relationships, proximity, flexibility) vs urban competition
-- **Investment Optimization**: Highest return infrastructure and capacity building investments
-- **Risk-Return Optimization**: Balancing mining dependency with economic diversification, flexibility preservation, downside protection
-
-### Phase 3 (Strategic Communicator) Adaptations
-
-#### Stakeholder Mapping Specifics
+#### Stakeholder Communication Mining Context
 
 - **Mining Industry Stakeholders**: Head office, site management, procurement, community relations
 - **Community Stakeholders**: Local government, business associations, residents, indigenous leadership
 - **Government Stakeholders**: Economic development agencies, infrastructure departments, regulatory bodies
 - **Regional Stakeholders**: Neighboring communities, regional development organizations, service providers
-- **Financial Stakeholders**: Local banks, regional development funds, government programs, private investors
 
-#### Narrative Frameworks
-
-- **Opportunity Narratives**: Economic development stories, community prosperity visions, regional transformation
-- **Partnership Stories**: Collaboration benefits, shared success models, mutual value creation
-- **Legacy Narratives**: Sustainable development, post-mining resilience, generational benefits
-- **Crisis Communication**: Mine closure preparation, economic transition, community resilience
-- **Change Management Stories**: Evolution from resource dependency to economic resilience
-
-#### Communication Channels
+#### Communication Channels Mining Specific
 
 - **Community Engagement**: Town halls, community advisory groups, local media, social networks
 - **Industry Communication**: Mining conferences, industry associations, procurement channels, technical forums
 - **Government Relations**: Economic development forums, policy consultations, funding applications
 - **Regional Coordination**: Inter-municipal cooperation, regional development meetings, shared services discussions
-- **Media Relations**: Local media for community support, industry media for credibility, government media for policy support
 
-#### Change Management Considerations
+### Step 6 (Decide) Adaptations
 
-- **Cultural Adaptation**: Mining industry integration with local community culture, maintaining community identity
-- **Economic Transition**: From traditional economy to mining-services economy, diversification planning
-- **Infrastructure Scaling**: Community capacity expansion, service quality improvement, sustainability planning
-- **Workforce Development**: Skills training, safety certification, career pathway development
-- **Economic Transition Management**: Diversification planning, workforce retraining, infrastructure adaptation
-- **Community Capacity Building**: Leadership development, planning skills, project management
-- **Regional Coordination**: Collaborative governance, resource sharing, unified advocacy
-
-### Phase 4 (Strategic Advisor) Adaptations
-
-#### Decision Frameworks
+#### Decision Frameworks Mining Context
 
 - **Investment Timing Decisions**: Mining cycle positioning, infrastructure readiness, capacity development
 - **Public-Private Partnership**: Risk allocation, revenue sharing, performance management, governance
 - **Regional vs Local Competition**: Cooperation vs competition analysis, market sharing agreements
-- **Investment Prioritization**: Infrastructure vs business development vs workforce training, ROI analysis across options
 - **Service Sector Selection**: Essential vs growth vs advanced services, local capacity vs market demand analysis
-- **Partnership Strategy**: Local expansion vs external attraction vs joint ventures vs community ownership models
-- **Risk-Return Optimization**: Mining dependency vs diversification, short-term gains vs long-term sustainability
 
-#### Risk Assessment Modifications
+#### Risk Assessment Mining Modifications
 
 - **Mining Project Risks**: Commodity price volatility, project delays, scope changes, early closure
 - **Community Development Risks**: Over-dependence, capacity limitations, coordination failures
 - **Infrastructure Risks**: Stranded assets, maintenance obligations, technology obsolescence
-- **Commodity Risk Categories**: Price volatility impact, mine closure risk, project delay/cancellation risk
-- **Operational Risk Categories**: Infrastructure adequacy, workforce capacity, service quality, safety compliance
-- **Competitive Risk Categories**: Other communities' strategies, urban service providers, mining company self-provision
 - **Sustainability Risk Categories**: Post-mining viability, environmental legacy, demographic sustainability
 
-#### Trade-off Analysis Focus
+#### Trade-off Analysis Mining Focus
 
 - **Economic Impact vs Investment**: Resource requirement analysis, return optimization, risk management
 - **Short-term vs Long-term Benefits**: Immediate revenue vs sustainable development, capacity building investment
 - **Competition vs Collaboration**: Market capture vs regional coordination, individual vs collective benefits
 - **Dependency vs Diversification**: Maximizing mining revenue vs building independent economic base
-- **Speed vs Sustainability**: Quick wins vs long-term infrastructure investment
-- **Local vs External**: Community ownership vs external expertise and capital
-- **Specialization vs Generalization**: Mining-focused services vs broader economic development
 
-#### Implementation Considerations
+### Step 7 (Act) Adaptations
+
+#### Implementation Mining Context
 
 - **Phased Development**: Foundation → development → growth → sustainability phases aligned with mining timeline
 - **Resource Coordination**: Public and private investment sequencing, shared infrastructure development
 - **Performance Monitoring**: Economic impact tracking, service quality measurement, community satisfaction assessment
 - **Adaptive Management**: Flexibility for changing mining project requirements, commodity market variations
-- **Legacy Planning**: Post-mining preparation, asset transition, economic diversification
 
-### Phase 5 (Strategic Innovator) Adaptations
-
-#### Opportunity Identification
+#### Innovation Opportunity Mining Context
 
 - **Service Innovation Opportunities**: Technology-enabled remote services, integrated service packages, specialized mining support
 - **Infrastructure Innovation**: Shared-use facilities, modular/portable infrastructure, smart community technologies
 - **Business Model Innovation**: Community ownership models, revenue sharing arrangements, cooperative structures
 - **Technology Integration**: Remote service delivery, digital platforms, IoT for infrastructure management
 
-#### Business Model Frameworks - Variations
+#### Business Model Implementation Mining Context
 
 - **Community Economic Development Corporation**: Community-owned entity operating mining services and infrastructure
 - **Public-Private Partnership Models**: Shared investment and operation of infrastructure and services
 - **Cooperative Service Models**: Business owner collaboration for capacity and efficiency
 - **Regional Service Hub Strategy**: Multi-community coordination for economies of scale
 
-#### Competitive Differentiation
+#### Legacy Planning Implementation
 
-- **Location Advantages**: Proximity benefits, cost advantages, relationship assets, cultural alignment
-- **Service Integration**: Comprehensive offerings, regional coordination, lifecycle support
-- **Innovation Leadership**: Technology adoption, best practice development, knowledge sharing
-- **Quality and Reliability**: Local accountability, responsive service, cultural understanding
-
-#### Innovation Constraints
-
-- **Geographic Limitations**: Remote location challenges, transportation costs, communication barriers
-- **Regulatory Requirements**: Environmental compliance, safety standards, indigenous consultation
-- **Market Size Constraints**: Limited local markets, seasonal variations, cycle dependencies
-- **Risk Tolerance**: Conservative community culture, limited failure tolerance, investment constraints
+- **Post-mining Preparation**: Asset transition planning, economic transition strategy, infrastructure sustainability
+- **Economic Diversification**: Alternative economic base development, skills transferability, market development
+- **Community Capacity Building**: Leadership development, planning skills, project management capabilities
 
 ### Specialized Frameworks
 

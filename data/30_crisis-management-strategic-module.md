@@ -46,21 +46,101 @@ COMBINATION_RULES:
 
 ## Framework Adaptations
 
-### Phase 1 (Strategic Analyst) Adaptations
+### Step 1 (Define) Adaptations
 
-#### Market Analysis Adjustments
+#### Crisis Problem Definition Context
+
+- **Rapid Situation Assessment**: Quick identification of crisis scope, severity, and immediate impact on operations, stakeholders, and business continuity
+- **Crisis Type Classification**: Natural disasters, cyber attacks, pandemics, supply chain disruption, financial crisis, reputation crisis, operational failures, security incidents
+- **Immediate vs. Long-term Impact Definition**: Distinguish between immediate crisis response needs and long-term recovery/resilience requirements
+- **Stakeholder Impact Assessment**: Rapid mapping of affected internal and external stakeholders with priority levels
+
+#### Success Criteria Crisis Context
+
+- **Crisis Response Metrics**: Response time, containment effectiveness, stakeholder communication speed, operational continuity maintenance
+- **Business Continuity Indicators**: Revenue protection, customer retention, employee safety, reputation preservation
+- **Recovery Success Measures**: Time to restore normal operations, cost of crisis response, lessons learned integration, stakeholder trust restoration
+
+#### Crisis Situation Assessment Framework
 
 - **Rapid Situation Assessment (Crisis TAM/SAM/SOM)**:
   - TAM = Total scope and scale of crisis impact across all affected areas
   - SAM = Serviceable affected areas within organizational control or influence
   - SOM = Obtainable impact mitigation given available resources and time
   - Focus on speed of assessment over precision; iterate and refine
+
+### Step 2 (Split) Adaptations
+
+#### Crisis Problem Decomposition
+
+- **Crisis Problem Decomposition**: Break complex crisis into manageable response components
+- **Time-Critical Path Analysis**: Identify actions that must be taken immediately vs. those that can wait
+- **Interdependency Mapping**: Understanding how different crisis elements affect each other
+- **Resource Constraint Management**: Working within limited time, people, and financial resources
+
+#### Crisis Response Framework Structure
+
+- **Response Priority Levels**: Immediate (0-4 hours), Short-term (4-24 hours), Medium-term (1-7 days), Long-term (1+ weeks)
+- **Stakeholder Response Categories**: Internal crisis management, external stakeholder management, media/public communication, regulatory compliance
+- **Crisis Lifecycle Phases**: Detection, assessment, response, recovery, lessons learned, preparedness improvement
+
+#### MECE Crisis Applications
+
+- **Crisis Response Functions**: Command and control, operations, communications, logistics, finance/administration
+- **Impact Categories**: Operational, financial, reputational, legal, safety/security
+- **Stakeholder Groups**: Internal stakeholders, external primary stakeholders, media/public, support network
+
+### Step 3 (Analyse) Adaptations
+
+#### Crisis Market Analysis Adjustments
+
 - **Stakeholder Impact Analysis (Crisis Porter's Five Forces)**:
   - *Internal Stakeholders*: Employees, customers, shareholders, board members
   - *External Stakeholders*: Suppliers, partners, regulators, media, community
   - *Resource Providers*: Emergency services, vendors, financial institutions
   - *Decision Influencers*: Government agencies, industry leaders, expert advisors
   - *Crisis Amplifiers*: Media, social media, activist groups, competitors
+
+#### Financial Impact Crisis Analysis
+
+- **Crisis Impact Modeling**: Immediate financial impact, cash flow disruption, recovery costs
+- **Scenario-Based Financial Analysis**: Best case, worst case, most likely scenarios with probability weights
+- **Resource Allocation Modeling**: Emergency resource deployment, cost-benefit of response options
+- **Recovery Investment Analysis**: Capital requirements for restoration, business continuity investments
+- **Insurance and Recovery Funding**: Claims processing, government assistance, emergency financing
+
+#### Competitive Analysis Crisis Focus
+
+- **Crisis Response Benchmarking**: How competitors and industry leaders have handled similar crises
+- **Market Position Impact**: How crisis affects competitive position and market share
+- **Stakeholder Confidence Comparison**: Relative stakeholder trust and confidence levels
+- **Recovery Speed Analysis**: Time to restore operations compared to industry standards
+
+#### Root Cause Analysis Crisis Context
+
+- **Rapid Root Cause Assessment**: Streamlined analysis focusing on primary and secondary causes
+- **Contributing Factor Analysis**: Environmental, human, system, and process factors
+- **Failure Mode Analysis**: How systems, processes, or decisions contributed to crisis
+- **Prevention Gap Analysis**: Where existing safeguards failed or were insufficient
+
+### Step 4 (Insight) Adaptations
+
+#### Pattern Recognition Crisis Specialization
+
+- **Crisis Escalation Patterns**: Early warning indicators, crisis progression stages
+- **Stakeholder Response Patterns**: Typical reactions from different stakeholder groups
+- **Recovery Timeline Patterns**: Standard phases and duration of crisis recovery
+- **Communication Effectiveness Patterns**: What messages work in different crisis types
+
+#### Key Insights Crisis Focus
+
+- **Crisis Response Insights**: Most effective response strategies, resource allocation priorities, communication approaches
+- **Business Continuity Insights**: Critical operations to maintain, alternative operating procedures, recovery priorities
+- **Stakeholder Management Insights**: Key concerns by stakeholder group, trust-building approaches, engagement strategies
+- **Recovery Strategy Insights**: Fastest path to operational restoration, competitive advantage opportunities, resilience improvements
+
+#### Crisis Context Analysis Framework
+
 - **Crisis Context Analysis (Accelerated PESTLE)**:
   - *Political*: Government response, regulatory requirements, political implications
   - *Economic*: Financial impact, market effects, economic recovery timeline
@@ -69,148 +149,88 @@ COMBINATION_RULES:
   - *Legal*: Liability issues, compliance requirements, legal obligations
   - *Environmental*: Physical damage, environmental impact, safety considerations
 
-#### Financial Modeling Considerations
+### Step 5 (Story) Adaptations
 
-- **Crisis Impact Modeling**: Immediate financial impact, cash flow disruption, recovery costs
-- **Scenario-Based Financial Analysis**: Best case, worst case, most likely scenarios with probability weights
-- **Resource Allocation Modeling**: Emergency resource deployment, cost-benefit of response options
-- **Recovery Investment Analysis**: Capital requirements for restoration, business continuity investments
-- **Insurance and Recovery Funding**: Claims processing, government assistance, emergency financing
-- **Opportunity Cost Analysis**: Cost of response actions vs. cost of inaction
-
-#### Competitive Analysis Focus
-
-- **Crisis Response Benchmarking**: How competitors and industry leaders have handled similar crises
-- **Market Position Impact**: How crisis affects competitive position and market share
-- **Stakeholder Confidence Comparison**: Relative stakeholder trust and confidence levels
-- **Recovery Speed Analysis**: Time to restore operations compared to industry standards
-
-#### Pattern Recognition Specialization
-
-- **Crisis Escalation Patterns**: Early warning indicators, crisis progression stages
-- **Stakeholder Response Patterns**: Typical reactions from different stakeholder groups
-- **Recovery Timeline Patterns**: Standard phases and duration of crisis recovery
-- **Communication Effectiveness Patterns**: What messages work in different crisis types
-
-### Phase 2 (Strategic Specialist) Adaptations
-
-#### Problem Structuring Modifications
-
-- **Crisis Problem Decomposition**: Break complex crisis into manageable response components
-- **Time-Critical Path Analysis**: Identify actions that must be taken immediately vs. those that can wait
-- **Interdependency Mapping**: Understanding how different crisis elements affect each other
-- **Resource Constraint Management**: Working within limited time, people, and financial resources
-
-#### Root Cause Analysis Adjustments
-
-- **Rapid Root Cause Assessment**: Streamlined analysis focusing on primary and secondary causes
-- **Contributing Factor Analysis**: Environmental, human, system, and process factors
-- **Failure Mode Analysis**: How systems, processes, or decisions contributed to crisis
-- **Prevention Gap Analysis**: Where existing safeguards failed or were insufficient
-
-#### Solution Design Constraints
-
-- **Time Pressure Constraints**: Solutions must be implementable within crisis timeline
-- **Resource Availability Constraints**: Limited personnel, budget, and materials during crisis
-- **Stakeholder Coordination Constraints**: Multiple decision-makers, communication challenges
-- **Information Constraints**: Incomplete or uncertain information requiring adaptive solutions
-
-#### Value Engineering Focus
-
-- **Rapid Response Optimization**: Maximum crisis mitigation with minimum resource expenditure
-- **Multi-Objective Solutions**: Actions addressing multiple crisis dimensions simultaneously
-- **Scalable Solutions**: Responses that can be expanded or contracted based on crisis evolution
-- **Recovery Efficiency**: Solutions that facilitate faster return to normal operations
-
-### Phase 3 (Strategic Communicator) Adaptations
-
-#### Stakeholder Mapping Specifics
-
-- **Internal Crisis Stakeholders**: Executive team, crisis response team, employees, board members
-- **External Primary Stakeholders**: Customers, suppliers, investors, regulators, emergency services
-- **Media and Public Stakeholders**: News media, social media, industry analysts, general public
-- **Support Network Stakeholders**: Insurance companies, legal counsel, consultants, peer organizations
-
-#### Narrative Frameworks
+#### Narrative Frameworks Crisis Context
 
 - **Crisis Response Narratives**: Acknowledgment, action, accountability, assurance frameworks
 - **Stakeholder-Specific Messaging**: Tailored communication for different stakeholder concerns
 - **Timeline Communication**: What happened, what we're doing, what comes next
 - **Transparency vs. Confidentiality**: Balancing openness with legal, competitive, and safety concerns
 
-#### Communication Channels
+#### Stakeholder Communication Crisis Context
+
+- **Internal Crisis Stakeholders**: Executive team, crisis response team, employees, board members
+- **External Primary Stakeholders**: Customers, suppliers, investors, regulators, emergency services
+- **Media and Public Stakeholders**: News media, social media, industry analysts, general public
+- **Support Network Stakeholders**: Insurance companies, legal counsel, consultants, peer organizations
+
+#### Communication Channels Crisis Specific
 
 - **Emergency Communication Systems**: Mass notification, emergency hotlines, crisis websites
 - **Media Relations**: Press releases, press conferences, media interviews, social media management
 - **Internal Communications**: Employee updates, leadership briefings, board communications
 - **Stakeholder Direct Communication**: Customer notifications, supplier updates, regulatory reporting
 
-#### Change Management Considerations
+### Step 6 (Decide) Adaptations
 
-- **Crisis-Driven Change**: Implementing necessary changes rapidly under crisis conditions
-- **Stakeholder Acceptance**: Building support for emergency measures and new procedures
-- **Resistance Management**: Addressing opposition to crisis response measures
-- **Culture Integration**: Incorporating crisis lessons into organizational culture
-
-### Phase 4 (Strategic Advisor) Adaptations
-
-#### Decision Frameworks
+#### Decision Frameworks Crisis Context
 
 - **Crisis Decision Matrix**: Rapid decision-making framework for time-sensitive choices
 - **Escalation Decision Trees**: When to escalate decisions to higher authority levels
 - **Resource Allocation Decisions**: Prioritizing resource deployment across competing needs
 - **Risk Tolerance Decisions**: Acceptable risk levels during crisis vs. normal operations
 
-#### Risk Assessment Modifications
+#### Risk Assessment Crisis Modifications
 
 - **Dynamic Risk Assessment**: Continuously updated risk evaluation as crisis evolves
 - **Cascade Risk Analysis**: How current crisis could trigger additional problems
 - **Intervention Risk Analysis**: Risks of different response actions vs. inaction
 - **Recovery Risk Assessment**: Risks associated with different recovery strategies
 
-#### Trade-off Analysis Focus
+#### Trade-off Analysis Crisis Focus
 
 - **Speed vs. Precision**: Fast response vs. thoroughly analyzed response
 - **Cost vs. Effectiveness**: Expensive comprehensive response vs. targeted response
 - **Transparency vs. Control**: Open communication vs. controlled information flow
 - **Short-term vs. Long-term**: Immediate crisis resolution vs. long-term organizational health
 
-#### Implementation Considerations
+### Step 7 (Act) Adaptations
+
+#### Implementation Crisis Context
 
 - **Crisis Command Structure**: Clear authority, decision rights, and accountability
 - **Rapid Implementation Protocols**: Streamlined approval and execution processes
 - **Performance Monitoring**: Real-time tracking of crisis response effectiveness
 - **Adaptive Management**: Ability to adjust strategy as crisis conditions change
 
-### Phase 5 (Strategic Innovator) Adaptations
-
-#### Opportunity Identification
+#### Innovation Opportunity Crisis Context
 
 - **Crisis-Born Opportunities**: New markets, services, or capabilities emerging from crisis
 - **Innovation Under Pressure**: Creative solutions developed during resource constraints
 - **Competitive Advantage Opportunities**: Ways to emerge stronger than competitors
 - **System Improvement Opportunities**: Crisis-revealed weaknesses to address permanently
 
-#### Business Model Variations
+#### Business Model Implementation Crisis Context
 
 - **Crisis-Resilient Business Models**: Models that withstand future crisis disruption
 - **Emergency Service Business Models**: New revenue streams from crisis-related services
 - **Partnership-Based Crisis Models**: Collaborative approaches to crisis management
 - **Insurance and Risk Transfer Models**: Financial models for crisis risk management
 
-#### Competitive Differentiation
+#### Value Engineering Crisis Focus
 
-- **Crisis Response Excellence**: Superior crisis management as competitive advantage
-- **Resilience Capabilities**: Demonstrated ability to maintain operations during crisis
-- **Stakeholder Trust**: Enhanced reputation from effective crisis handling
-- **Innovation Agility**: Ability to rapidly adapt and innovate under pressure
+- **Rapid Response Optimization**: Maximum crisis mitigation with minimum resource expenditure
+- **Multi-Objective Solutions**: Actions addressing multiple crisis dimensions simultaneously
+- **Scalable Solutions**: Responses that can be expanded or contracted based on crisis evolution
+- **Recovery Efficiency**: Solutions that facilitate faster return to normal operations
 
-#### Innovation Constraints
+#### Change Management Crisis Considerations
 
-- **Time Constraints**: Limited time for innovation development and testing
-- **Resource Constraints**: Reduced budgets and personnel for innovation initiatives
-- **Risk Constraints**: Lower tolerance for innovation risk during crisis periods
-- **Regulatory Constraints**: Emergency regulations limiting innovation options
+- **Crisis-Driven Change**: Implementing necessary changes rapidly under crisis conditions
+- **Stakeholder Acceptance**: Building support for emergency measures and new procedures
+- **Resistance Management**: Addressing opposition to crisis response measures
+- **Culture Integration**: Incorporating crisis lessons into organizational culture
 
 ### Specialized Frameworks
 

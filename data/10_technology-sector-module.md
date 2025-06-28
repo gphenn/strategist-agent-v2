@@ -43,21 +43,52 @@ COMBINATION_RULES:
 
 ## Framework Adaptations
 
-### Phase 1 (Strategic Analyst) Adaptations
+### Step 1 (Define) Adaptations
+
+#### Problem Definition Adjustments
+
+- **Technology Problem Characterization**: Distinguish between technical problems (architecture, performance, scalability) and business problems (product-market fit, monetization, competitive positioning)
+- **Success Criteria Technology Context**: Define metrics specific to technology companies - CAC/LTV ratios, viral coefficients, retention cohorts, API usage growth, developer adoption rates
+- **Baseline Establishment**: Technology-specific KPIs including system performance metrics, user engagement patterns, platform ecosystem health
+- **Stakeholder Impact Assessment**: Map technical and business stakeholders separately - engineering teams, product managers, developer communities, technical advisors
+
+#### Market Context Definition
+
+- **TAM/SAM/SOM Technology Modifications**: Focus on addressable developer markets, API call volumes, user base potential rather than traditional market sizing. Consider platform ecosystem effects where TAM can expand exponentially through network effects.
+- **Competitive Landscape Boundaries**: Define competition across multiple layers - direct competitors, platform alternatives, open-source solutions, build-vs-buy considerations
+- **Technology Stack Context**: Infrastructure choices, development frameworks, architectural decisions as strategic context factors
+
+### Step 2 (Split) Adaptations
+
+#### Problem Structuring Modifications
+
+- **Technical vs Business Problem Separation**: Distinguish between engineering challenges and market challenges
+- **Scalability Problem Trees**: Infrastructure, organizational, and product scalability as distinct branches
+- **Platform Strategy Decomposition**: Two-sided market challenges, chicken-and-egg problems, monetization timing
+- **Technology Adoption Barriers**: Technical integration complexity, learning curve, ecosystem readiness
+
+#### Hypothesis Framework Technology Context
+
+- **Technical Feasibility Hypotheses**: Architecture scalability, performance thresholds, integration complexity
+- **Market Adoption Hypotheses**: Developer adoption patterns, user behavior predictions, network effect triggers
+- **Business Model Hypotheses**: Monetization strategy effectiveness, pricing model validation, ecosystem value creation
+
+#### MECE Technology Applications
+
+- **Technology Stack Layers**: Frontend, backend, infrastructure, data, security as mutually exclusive categories
+- **User Journey Stages**: Discovery, onboarding, integration, scaling, advocacy for developer-focused products
+- **Platform Components**: Core product, API layer, ecosystem partners, marketplace participants
+
+### Step 3 (Analyse) Adaptations
 
 #### Market Analysis Adjustments
 
-- **TAM/SAM/SOM Modifications**: Focus on addressable developer markets, API call volumes, user base potential rather than traditional market sizing. Consider platform ecosystem effects where TAM can expand exponentially through network effects.
 - **Porter's Five Forces Technology Context**:
   - *Threat of New Entrants*: Extremely high due to low barriers in software
   - *Supplier Power*: Focus on cloud providers, key technology partners, talent acquisition
   - *Buyer Power*: Analyze switching costs, API lock-in, data portability
   - *Substitutes*: Rapid emergence of new technologies, open-source alternatives
   - *Competitive Rivalry*: Winner-take-all dynamics, platform effects
-- **PESTLE Technology Focus**:
-  - *Technology*: Exponential change rates, emerging tech impact (AI, blockchain, quantum)
-  - *Legal*: Data privacy (GDPR, CCPA), algorithmic bias regulations, IP protection
-  - *Economic*: Venture funding cycles, interest rate impacts on growth capital
 
 #### Financial Modeling Considerations
 
@@ -73,52 +104,48 @@ COMBINATION_RULES:
 - **Platform Network Effects**: Direct, indirect, and data network effects measurement
 - **Innovation Velocity**: Release frequency, feature development speed, technical debt management
 
+#### Root Cause Analysis Adjustments
+
+- **Technology-Specific Causal Factors**: Technical debt accumulation, architecture limitations, team scaling challenges
+- **Product-Market Fit Analysis**: Feature usage patterns, user retention drivers, value realization paths
+- **Developer Experience Issues**: API design flaws, documentation gaps, integration friction
+
+### Step 4 (Insight) Adaptations
+
+#### Synthesis Framework Technology Context
+
+- **Technology Trend Implications**: How emerging technologies (AI/ML, blockchain, quantum) impact current strategy
+- **Platform Opportunity Recognition**: Identification of ecosystem expansion possibilities, two-sided market potential
+- **Competitive Advantage Sources**: Network effects, data advantages, developer ecosystem lock-in
+- **Scaling Insight Generation**: Technical and organizational scaling bottlenecks and breakthrough opportunities
+
 #### Pattern Recognition Specialization
 
 - **Growth Patterns**: Viral loops, product-led growth, bottom-up enterprise adoption
 - **Technology Adoption Cycles**: Early adopter identification, chasm crossing, mainstream adoption
 - **Competitive Response Patterns**: Fast-follower strategies, feature parity races, ecosystem plays
 
-### Phase 2 (Strategic Specialist) Adaptations
+#### Key Insights Technology Focus
 
-#### Problem Structuring Modifications
+- **Technical Insights**: Architecture decisions, performance optimizations, scalability solutions
+- **Business Model Insights**: Monetization opportunities, platform strategy implications, ecosystem development
+- **Market Insights**: User behavior patterns, competitive dynamics, technology adoption trends
 
-- **Technical vs Business Problem Separation**: Distinguish between engineering challenges and market challenges
-- **Scalability Problem Trees**: Infrastructure, organizational, and product scalability as distinct branches
-- **Platform Strategy Decomposition**: Two-sided market challenges, chicken-and-egg problems, monetization timing
+### Step 5 (Story) Adaptations
 
-#### Root Cause Analysis Adjustments
-- **Technology-Specific Causal Factors**: Technical debt accumulation, architecture limitations, team scaling challenges
-- **Product-Market Fit Analysis**: Feature usage patterns, user retention drivers, value realization paths
-- **Developer Experience Issues**: API design flaws, documentation gaps, integration friction
-
-#### Solution Design Constraints
-
-- **Technical Architecture Constraints**: Scalability requirements, security standards, integration capabilities
-- **Resource Constraints**: Developer talent scarcity, infrastructure costs, technical complexity management
-- **Time-to-Market Pressures**: Rapid iteration requirements, continuous deployment needs, competitive timing
-
-#### Value Engineering Focus
-
-- **Developer Productivity**: Automation, tooling, workflow optimization
-- **Technical Performance**: Latency, throughput, reliability improvements
-- **User Experience**: Interface design, API usability, integration simplicity
-
-### Phase 3 (Strategic Communicator) Adaptations
-
-#### Stakeholder Mapping Specifics
-
-- **Technical Stakeholders**: Engineering teams, technical advisors, developer communities
-- **Business Stakeholders**: Product managers, growth teams, investor relations
-- **External Ecosystem**: Integration partners, developer advocates, technical influencers
-- **User Communities**: Power users, beta testers, developer evangelists
-
-#### Narrative Frameworks
+#### Narrative Frameworks Technology Context
 
 - **Technology Vision Storytelling**: Future-state scenarios, technological possibility narratives
 - **Product Evolution Stories**: Roadmap communication, feature benefit articulation
 - **Platform Value Propositions**: Ecosystem benefits, network effect explanations
 - **Technical Achievement Narratives**: Engineering accomplishment communication, innovation highlights
+
+#### Stakeholder Communication Specifics
+
+- **Technical Audiences**: Engineering teams, technical advisors, developer communities
+- **Business Audiences**: Product managers, growth teams, investor relations
+- **External Ecosystem**: Integration partners, developer advocates, technical influencers
+- **User Communities**: Power users, beta testers, developer evangelists
 
 #### Communication Channels
 
@@ -126,15 +153,9 @@ COMBINATION_RULES:
 - **Business-Focused**: Product demonstrations, ROI calculators, case study presentations
 - **Community Engagement**: Developer forums, social media, technical meetups, open-source contributions
 
-#### Change Management Considerations
+### Step 6 (Decide) Adaptations
 
-- **Agile Transformation**: Iterative development adoption, continuous feedback integration
-- **Technical Migration**: Legacy system transitions, architecture evolution, data migration
-- **Organization Scaling**: Team structure evolution, process formalization, culture preservation
-
-### Phase 4 (Strategic Advisor) Adaptations
-
-#### Decision Frameworks
+#### Decision Frameworks Technology Context
 
 - **Build vs Buy vs Partner**: Technical capability assessment, core competency analysis, time-to-market evaluation
 - **Technology Stack Decisions**: Vendor lock-in assessment, scalability evaluation, team expertise alignment
@@ -152,37 +173,37 @@ COMBINATION_RULES:
 - **Control vs Ecosystem**: Proprietary vs open standards, direct sales vs partner channels
 - **Innovation vs Stability**: Cutting-edge technology adoption, backward compatibility, user experience consistency
 
-#### Implementation Considerations
+### Step 7 (Act) Adaptations
+
+#### Implementation Considerations Technology Context
 
 - **Agile Implementation**: Sprint planning, continuous integration, iterative development
 - **DevOps Integration**: Automated deployment, monitoring, infrastructure as code
 - **Scaling Considerations**: Microservices architecture, cloud-native design, performance optimization
 
-### Phase 5 (Strategic Innovator) Adaptations
-
-#### Opportunity Identification
+#### Innovation Opportunity Identification
 
 - **Emerging Technology Assessment**: AI/ML applications, blockchain use cases, IoT integration opportunities
 - **Market Gap Analysis**: Underserved developer needs, workflow inefficiencies, integration challenges
 - **Platform Extension Opportunities**: New market segments, complementary services, ecosystem expansion
 
-#### Business Model Variations
+#### Business Model Implementation
 
 - **Platform Business Models**: Two-sided markets, marketplace models, ecosystem orchestration
 - **Subscription Models**: Freemium strategies, usage-based pricing, tiered service offerings
 - **Developer-Centric Models**: API monetization, developer tool licensing, professional services
 
-#### Competitive Differentiation
+#### Value Engineering Focus
 
-- **Technical Moats**: Network effects, data advantages, algorithmic superiority
-- **Product Differentiation**: User experience excellence, integration simplicity, performance advantages
-- **Ecosystem Advantages**: Partner network strength, third-party integration breadth, community engagement
+- **Developer Productivity**: Automation, tooling, workflow optimization
+- **Technical Performance**: Latency, throughput, reliability improvements
+- **User Experience**: Interface design, API usability, integration simplicity
 
-#### Innovation Constraints
+#### Change Management Technology Considerations
 
-- **Technical Constraints**: Legacy system compatibility, security requirements, performance standards
-- **Regulatory Constraints**: Data privacy compliance, algorithmic transparency, content moderation
-- **Market Constraints**: User adoption timelines, competitive response speed, platform dependency risks
+- **Agile Transformation**: Iterative development adoption, continuous feedback integration
+- **Technical Migration**: Legacy system transitions, architecture evolution, data migration
+- **Organization Scaling**: Team structure evolution, process formalization, culture preservation
 
 ### Specialized Frameworks
 
@@ -463,6 +484,7 @@ COMBINATION_RULES:
 ## Module Evolution & Maintenance
 
 ### Update Triggers
+
 - **Emerging Technology Developments**: AI/ML advances, new platform capabilities, infrastructure innovations
 - **Industry Pattern Evolution**: New business models, changed competitive dynamics, regulatory developments
 - **Framework Validation**: Case study accumulation, success pattern confirmation, failure mode identification
