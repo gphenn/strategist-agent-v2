@@ -346,33 +346,33 @@ Strategic framework for positioning communities in mining service markets:
 
 ### Common Strategic Challenges
 
-1. **Service Sector Development Prioritization**
-   - **Description**: Determining optimal sequence and resource allocation for developing mining-related services
-   - **Frequency**: Critical decision for 100% of mining-dependent communities
-   - **Impact**: Economic capture efficiency, infrastructure investment effectiveness, competitive positioning
-   - **Recommended Approach**: Service demand analysis → capability assessment → phased development strategy
-   - **Framework Sequence**: Phase 1 (Demand Analysis) → Phase 2 (Gap Analysis) → Phase 4 (Investment Strategy) → Phase 3 (Stakeholder Alignment)
+1. **Service Sector Development Strategy**
+   - **Description**: Building local business capacity to capture mining service opportunities
+   - **Frequency**: Essential challenge for 90% of mining-dependent communities
+   - **Impact**: Economic multiplier effects, employment generation, revenue capture
+   - **Recommended Approach**: Market Analysis → Capability Assessment → Development Strategy → Implementation
+   - **Framework Sequence**: Step 3 (Analyse - Market Assessment) → Step 1 (Define - Capability Requirements) → Step 2 (Split - Development Strategy) → Step 7 (Act - Implementation)
 
-2. **Infrastructure Investment Coordination**
-   - **Description**: Balancing public infrastructure investment with private service development needs
-   - **Frequency**: Major decision point for every significant mining project
-   - **Impact**: Economic development effectiveness, financial sustainability, service quality
-   - **Recommended Approach**: Infrastructure needs assessment → funding strategy → public-private partnership design
-   - **Framework Sequence**: Phase 1 (Needs Analysis) → Phase 2 (Solution Design) → Phase 4 (Investment Decisions) → Phase 3 (Stakeholder Alignment)
+2. **Regional Coordination and Competition Management**
+   - **Description**: Managing inter-community dynamics for optimal regional economic outcomes
+   - **Frequency**: Critical issue for 75% of multi-community mining regions
+   - **Impact**: Resource optimization, competitive positioning, economies of scale
+   - **Recommended Approach**: Stakeholder Alignment → Competitive Analysis → Coordination Strategy → Implementation
+   - **Framework Sequence**: Step 5 (Story - Stakeholder Engagement) → Step 3 (Analyse - Competitive Assessment) → Step 6 (Decide - Coordination Strategy) → Step 7 (Act - Implementation)
 
 3. **Mine Closure Transition Planning**
    - **Description**: Preparing for economic transition when mining operations cease
    - **Frequency**: Essential planning requirement for all mining-dependent communities
    - **Impact**: Economic survival, community sustainability, asset utilization
-   - **Recommended Approach**: Scenario planning → diversification strategy → asset transition planning
-   - **Framework Sequence**: Phase 1 (Trend Analysis) → Phase 5 (Innovation Strategy) → Phase 4 (Transition Planning) → Phase 3 (Community Engagement)
+   - **Recommended Approach**: Scenario Planning → Diversification Strategy → Asset Transition Planning
+   - **Framework Sequence**: Step 3 (Analyse - Trend Analysis) → Step 7 (Act - Innovation Strategy) → Step 6 (Decide - Transition Planning) → Step 5 (Story - Community Engagement)
 
 4. **Mining Lifecycle Economic Planning**
    - **Description**: Developing economic strategy that maximizes benefits through all mining phases while preparing for post-mining transition
    - **Frequency**: Fundamental strategic requirement for all mining-dependent communities
    - **Impact**: Long-term community sustainability, economic resilience, legacy asset utilization
    - **Recommended Approach**: Lifecycle Economic Modeling → Phase-Specific Strategies → Transition Planning → Legacy Development
-   - **Framework Sequence**: Phase 1 (Lifecycle Analysis) → Phase 2 (Adaptive Strategy) → Phase 4 (Transition Planning) → Phase 5 (Innovation/Diversification)
+   - **Framework Sequence**: Step 3 (Analyse - Lifecycle Analysis) → Step 2 (Split - Adaptive Strategy) → Step 6 (Decide - Transition Planning) → Step 7 (Act - Innovation/Diversification)
 
 ### Success Patterns
 
@@ -381,7 +381,7 @@ Strategic framework for positioning communities in mining service markets:
 - **Context**: Existing businesses expanding capacity and services for mining market
 - **Approach**: Capability assessment → market analysis → financial modeling → implementation planning
 - **Success Factors**: Industry knowledge, capital access, quality standards, mining relationships
-- **Framework Sequence**: Phase 1 (Market Analysis) → Phase 2 (Capability Assessment) → Phase 4 (Investment Planning) → Phase 3 (Stakeholder Engagement)
+- **Framework Sequence**: Step 3 (Analyse - Market Analysis) → Step 1 (Define - Capability Requirements) → Step 6 (Decide - Investment Planning) → Step 5 (Story - Stakeholder Engagement)
 - **Examples**: Local hotels expanding for workforce accommodation, transportation companies adding mining logistics
 
 #### Pattern 2: External Business Attraction Strategy
@@ -389,7 +389,7 @@ Strategic framework for positioning communities in mining service markets:
 - **Context**: Recruiting established mining service companies to establish local operations
 - **Approach**: Competitive positioning → value proposition → partnership strategy → stakeholder alignment
 - **Success Factors**: Location advantages, incentive packages, community support, infrastructure readiness
-- **Framework Sequence**: Phase 1 (Competitive Analysis) → Phase 2 (Value Proposition Design) → Phase 3 (Attraction Strategy) → Phase 4 (Partnership Agreements)
+- **Framework Sequence**: Step 3 (Analyse - Competitive Analysis) → Step 4 (Insight - Value Proposition Design) → Step 5 (Story - Attraction Strategy) → Step 6 (Decide - Partnership Agreements)
 - **Examples**: Attracting catering companies, equipment maintenance providers, professional services
 
 #### Pattern 3: Community Economic Development Corporation
@@ -397,7 +397,7 @@ Strategic framework for positioning communities in mining service markets:
 - **Context**: Community-owned entity developing and operating mining services
 - **Approach**: Stakeholder alignment → business case development → financing strategy → operations planning
 - **Success Factors**: Community consensus, professional management, market understanding, financial discipline
-- **Framework Sequence**: Phase 3 (Stakeholder Alignment) → Phase 1 (Business Analysis) → Phase 4 (Investment Strategy) → Phase 2 (Implementation Planning)
+- **Framework Sequence**: Step 5 (Story - Stakeholder Alignment) → Step 3 (Analyse - Business Analysis) → Step 6 (Decide - Investment Strategy) → Step 2 (Split - Implementation Planning)
 - **Examples**: Community-owned accommodation facilities, transportation services, business development funds
 
 #### Pattern 4: Regional Service Hub Strategy
@@ -405,7 +405,7 @@ Strategic framework for positioning communities in mining service markets:
 - **Context**: Positioning as primary service center for multiple mining operations in region
 - **Approach**: Regional analysis → competitive positioning → infrastructure investment → service integration
 - **Success Factors**: Strategic location, infrastructure capacity, service breadth, coordination capability
-- **Framework Sequence**: Phase 1 (Regional Analysis) → Phase 2 (Hub Strategy Design) → Phase 4 (Investment Planning) → Phase 5 (Innovation Strategy)
+- **Framework Sequence**: Step 3 (Analyse - Regional Analysis) → Step 2 (Split - Hub Strategy Design) → Step 6 (Decide - Investment Planning) → Step 7 (Act - Innovation Strategy)
 - **Examples**: Regional logistics centers, shared services facilities, training and education hubs
 
 ---
@@ -416,13 +416,14 @@ Strategic framework for positioning communities in mining service markets:
 
 - **Context**: Rural town of 2,500 population facing arrival of $2.3B mining project with 8-year operational timeline and 800-person workforce
 - **Challenge**: Maximizing economic benefit capture while building sustainable infrastructure and avoiding boom-bust cycle impacts
-- **Approach**: Comprehensive 4-phase strategic development process from assessment through sustainability planning
+- **Approach**: Comprehensive strategic development process from assessment through sustainability planning
 - **Framework Sequence**:
-  - Phase 1: Mining project intelligence, community capability assessment, economic impact modeling
-  - Phase 2: Service sector strategy, business development approach, infrastructure coordination
-  - Phase 3: Community engagement, mining company relationship building, government partnership
-  - Phase 4: Investment prioritization, implementation planning, risk management
-  - Phase 5: Economic diversification planning, innovation strategy, legacy development
+  - Step 1 (Define): Mining project intelligence, community capability assessment, economic impact scope definition
+  - Step 3 (Analyse): Economic impact modeling, competitive landscape analysis, service demand forecasting
+  - Step 2 (Split): Service sector strategy, business development approach, infrastructure coordination planning
+  - Step 5 (Story): Community engagement, mining company relationship building, government partnership development
+  - Step 6 (Decide): Investment prioritization, implementation planning, risk management decisions
+  - Step 7 (Act): Economic diversification implementation, innovation strategy execution, legacy development
 - **Outcome**:
   - 65% local service market capture worth $12M annually
   - 240 new jobs (direct and indirect)
@@ -436,10 +437,12 @@ Strategic framework for positioning communities in mining service markets:
 - **Challenge**: Avoiding destructive competition while maximizing regional economic benefits and achieving economies of scale
 - **Approach**: Regional coordination strategy with specialized service allocation and shared infrastructure development
 - **Framework Sequence**:
-  - Phase 1: Regional economic analysis, competitive dynamics assessment, comparative advantage analysis
-  - Phase 3: Inter-community stakeholder alignment, shared vision development, governance structure design
-  - Phase 4: Service allocation strategy, investment coordination, implementation planning
-  - Phase 2: Shared infrastructure development, workforce development programs, business support systems
+  - Step 1 (Define): Regional economic scope definition, stakeholder mapping, coordination requirements
+  - Step 3 (Analyse): Regional economic analysis, competitive dynamics assessment, comparative advantage analysis
+  - Step 5 (Story): Inter-community stakeholder alignment, shared vision development, governance structure design
+  - Step 6 (Decide): Service allocation strategy, investment coordination, implementation planning decisions
+  - Step 2 (Split): Shared infrastructure development planning, workforce development programs, business support systems
+  - Step 7 (Act): Implementation of shared services, infrastructure development, governance structure activation
 - **Outcome**:
   - Regional service revenue increased from $15M to $35M annually
   - 40% reduction in infrastructure duplication
@@ -453,11 +456,12 @@ Strategic framework for positioning communities in mining service markets:
 - **Challenge**: Economic transition while preserving community and repurposing mining-built infrastructure
 - **Approach**: Systematic transition planning combining asset repurposing, economic diversification, and regional repositioning
 - **Framework Sequence**:
-  - Phase 1: Asset inventory, economic impact assessment, alternative opportunity analysis
-  - Phase 2: Transition strategy development, asset repurposing planning, alternative industry development
-  - Phase 3: Community engagement, investor attraction, government partnership development
-  - Phase 4: Implementation planning, investment prioritization, risk management
-  - Phase 5: Innovation strategy, new industry development, regional repositioning
+  - Step 1 (Define): Transition challenge definition, stakeholder impact assessment, success criteria establishment
+  - Step 3 (Analyse): Asset inventory, economic impact assessment, alternative opportunity analysis
+  - Step 2 (Split): Transition strategy development, asset repurposing planning, alternative industry development
+  - Step 5 (Story): Community engagement, investor attraction, government partnership development
+  - Step 6 (Decide): Implementation planning, investment prioritization, risk management decisions
+  - Step 7 (Act): Innovation strategy execution, new industry development, regional repositioning implementation
 - **Outcome**:
   - 70% of mining infrastructure repurposed for alternative uses
   - Tourism and logistics hub development generating $8M annually
@@ -471,11 +475,12 @@ Strategic framework for positioning communities in mining service markets:
 - **Challenge**: Limited existing business base, infrastructure gaps, coordination between multiple stakeholders
 - **Approach**: Applied comprehensive mining service development methodology with regional hub strategy
 - **Framework Sequence**:
-  - Phase 1: Regional mining project analysis, service demand forecasting, competitive landscape assessment
-  - Phase 2: Community capability assessment, infrastructure gap analysis, service development prioritization
-  - Phase 3: Multi-stakeholder alignment strategy, government partnership development, mining company engagement
-  - Phase 4: Phased investment strategy, public-private partnership design, risk mitigation planning
-  - Phase 5: Service innovation strategy, regional coordination, economic diversification planning
+  - Step 1 (Define): Regional service hub opportunity definition, stakeholder coordination requirements
+  - Step 3 (Analyse): Regional mining project analysis, service demand forecasting, competitive landscape assessment
+  - Step 2 (Split): Community capability assessment, infrastructure gap analysis, service development prioritization
+  - Step 5 (Story): Multi-stakeholder alignment strategy, government partnership development, mining company engagement
+  - Step 6 (Decide): Phased investment strategy, public-private partnership design, risk mitigation planning
+  - Step 7 (Act): Service innovation strategy implementation, regional coordination, economic diversification execution
 - **Outcome**: $15M infrastructure investment, 25 new businesses, 300 new jobs, 85% local service capture rate
 - **Key Learnings**: Regional coordination essential for maximizing impact; early mining company engagement critical for validation; infrastructure investment must precede service development
 
@@ -485,11 +490,12 @@ Strategic framework for positioning communities in mining service markets:
 - **Challenge**: Economic transition planning, infrastructure asset management, workforce redeployment, community sustainability
 - **Approach**: Comprehensive mine closure transition strategy with economic diversification focus
 - **Framework Sequence**:
-  - Phase 1: Economic impact analysis, asset valuation, alternative industry assessment
-  - Phase 2: Transition strategy development, infrastructure repurposing, workforce transition planning
-  - Phase 3: Community engagement strategy, stakeholder alignment, change communication
-  - Phase 4: Implementation roadmap, investment priorities, risk management
-  - Phase 5: Innovation opportunities, new industry attraction, entrepreneurship development
+  - Step 1 (Define): Transition challenge scope, stakeholder impact assessment, sustainability requirements
+  - Step 3 (Analyse): Economic impact analysis, asset valuation, alternative industry assessment
+  - Step 2 (Split): Transition strategy development, infrastructure repurposing, workforce transition planning
+  - Step 5 (Story): Community engagement strategy, stakeholder alignment, change communication
+  - Step 6 (Decide): Implementation roadmap, investment priorities, risk management decisions
+  - Step 7 (Act): Innovation opportunities implementation, new industry attraction, entrepreneurship development
 - **Outcome**: Successful economic transition with 60% job replacement, infrastructure repurposing generating $2M annual revenue, new tourism and manufacturing sectors
 - **Key Learnings**: Early transition planning critical for success; infrastructure assets can become economic drivers; diversification requires sustained effort and investment
 
@@ -499,11 +505,12 @@ Strategic framework for positioning communities in mining service markets:
 - **Challenge**: Balancing traditional values with economic development, capacity building, environmental protection, benefit sharing
 - **Approach**: Culturally-informed strategic planning with emphasis on community control and sustainable development
 - **Framework Sequence**:
-  - Phase 1: Community needs assessment, mining project impact analysis, partnership opportunity evaluation
-  - Phase 2: Capacity building strategy, business development planning, environmental protection integration
-  - Phase 3: Community engagement process, traditional knowledge integration, external relationship management
-  - Phase 4: Partnership agreement development, benefit sharing design, governance structure
-  - Phase 5: Innovation opportunities, traditional knowledge applications, sustainable development integration
+  - Step 1 (Define): Community needs definition, partnership opportunity scope, cultural integration requirements
+  - Step 3 (Analyse): Community needs assessment, mining project impact analysis, partnership opportunity evaluation
+  - Step 2 (Split): Capacity building strategy, business development planning, environmental protection integration
+  - Step 5 (Story): Community engagement process, traditional knowledge integration, external relationship management
+  - Step 6 (Decide): Partnership agreement development, benefit sharing design, governance structure decisions
+  - Step 7 (Act): Innovation opportunities implementation, traditional knowledge applications, sustainable development integration
 - **Outcome**: $50M impact and benefit agreement, 150 jobs for community members, environmental monitoring program, cultural preservation funding
 - **Key Learnings**: Community control essential for sustainable outcomes; traditional knowledge valuable for mining operations; long-term relationships more important than short-term gains
 

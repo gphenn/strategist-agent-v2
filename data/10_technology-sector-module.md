@@ -288,26 +288,26 @@ Maps the complete developer interaction with platform:
 
 ### Common Strategic Challenges
 
-1. **Platform vs Product Strategy Decision**
-   - **Description**: Determining whether to build a standalone product or a platform that enables third-party innovation
+1. **Platform vs Product Decision Strategy**
+   - **Description**: Determining whether to build platform capabilities or focus on core product development
    - **Frequency**: Critical decision point for 80% of scaling technology companies
-   - **Impact**: Fundamental business model and technical architecture implications
-   - **Recommended Approach**: Business Model Canvas → Network Effects Analysis → Competitive Dynamics Assessment
-   - **Framework Sequence**: Phase 1 (Market Analysis) → Phase 2 (Platform Feasibility) → Phase 4 (Strategic Decision) → Phase 5 (Innovation Strategy)
+   - **Impact**: Long-term competitive positioning, revenue model, technical architecture
+   - **Recommended Approach**: Market Analysis → Technical Assessment → Strategic Decision → Implementation Planning
+   - **Framework Sequence**: Step 3 (Analyse - Market Assessment) → Step 2 (Split - Technical Assessment) → Step 6 (Decide - Strategic Decision) → Step 7 (Act - Implementation)
 
 2. **Technology Roadmap Planning**
    - **Description**: Balancing technical innovation with market demands and resource constraints
    - **Frequency**: Quarterly strategic review requirement for most technology companies
    - **Impact**: Affects competitive positioning, resource allocation, and market timing
    - **Recommended Approach**: Technology Roadmapping → Scenario Planning → Real Options Analysis
-   - **Framework Sequence**: Phase 1 (Technology Trend Analysis) → Phase 2 (Technical Feasibility) → Phase 4 (Investment Decisions) → Phase 5 (Innovation Portfolio)
+   - **Framework Sequence**: Step 3 (Analyse - Technology Trend Analysis) → Step 2 (Split - Technical Feasibility) → Step 6 (Decide - Investment Decisions) → Step 7 (Act - Innovation Portfolio)
 
 3. **Scaling Architecture and Organization**
    - **Description**: Managing technical and organizational complexity as user base and team size grow
    - **Frequency**: Critical inflection points at 10x user growth milestones
    - **Impact**: System performance, team productivity, and customer experience
    - **Recommended Approach**: Systems Thinking → Root Cause Analysis → Solution Design → Implementation Planning
-   - **Framework Sequence**: Phase 1 (Performance Analysis) → Phase 2 (Systematic Problem Solving) → Phase 3 (Change Communication) → Phase 4 (Implementation Strategy)
+   - **Framework Sequence**: Step 3 (Analyse - Performance Analysis) → Step 2 (Split - Systematic Problem Solving) → Step 5 (Story - Change Communication) → Step 6 (Decide - Implementation Strategy)
 
 ### Success Patterns
 
@@ -316,7 +316,7 @@ Maps the complete developer interaction with platform:
 - **Context**: Self-service software products with strong user experience and viral potential
 - **Approach**: Bottom-up adoption strategy with freemium model and usage-based expansion
 - **Success Factors**: Exceptional onboarding experience, clear value demonstration, frictionless upgrade path
-- **Framework Sequence**: Phase 1 (User Journey Analysis) → Phase 2 (Experience Design) → Phase 3 (Growth Communication) → Phase 4 (Conversion Optimization) → Phase 5 (Platform Expansion)
+- **Framework Sequence**: Step 3 (Analyse - User Journey Analysis) → Step 2 (Split - Experience Design) → Step 5 (Story - Growth Communication) → Step 6 (Decide - Conversion Optimization) → Step 7 (Act - Platform Expansion)
 - **Examples**: Slack, Zoom, Figma, Notion
 
 #### Pattern 2: Developer-First Platform Strategy
@@ -324,7 +324,7 @@ Maps the complete developer interaction with platform:
 - **Context**: Infrastructure or tools targeting technical audiences with ecosystem potential
 - **Approach**: Superior developer experience, comprehensive documentation, community building
 - **Success Factors**: API design excellence, extensive integration capabilities, strong developer advocacy
-- **Framework Sequence**: Phase 1 (Developer Needs Analysis) → Phase 2 (Developer Experience Design) → Phase 3 (Community Building) → Phase 4 (Monetization Strategy) → Phase 5 (Ecosystem Expansion)
+- **Framework Sequence**: Step 3 (Analyse - Developer Needs Analysis) → Step 2 (Split - Developer Experience Design) → Step 5 (Story - Community Building) → Step 6 (Decide - Monetization Strategy) → Step 7 (Act - Ecosystem Expansion)
 - **Examples**: Stripe, Twilio, AWS, GitHub
 
 #### Pattern 3: Enterprise Platform Transformation
@@ -332,7 +332,7 @@ Maps the complete developer interaction with platform:
 - **Context**: Large enterprises seeking to become platform companies or technology leaders
 - **Approach**: Legacy modernization combined with platform capability development
 - **Success Factors**: Clear digital strategy, organizational change management, ecosystem partnerships
-- **Framework Sequence**: Phase 1 (Digital Maturity Assessment) → Phase 2 (Transformation Strategy) → Phase 3 (Stakeholder Alignment) → Phase 4 (Implementation Planning) → Phase 5 (Innovation Culture)
+- **Framework Sequence**: Step 3 (Analyse - Digital Maturity Assessment) → Step 2 (Split - Transformation Strategy) → Step 5 (Story - Stakeholder Alignment) → Step 6 (Decide - Implementation Planning) → Step 7 (Act - Innovation Culture)
 - **Examples**: Microsoft's cloud transformation, JPMorgan Chase's technology evolution
 
 ---
@@ -344,12 +344,13 @@ Maps the complete developer interaction with platform:
 - **Context**: Mid-stage SaaS company with strong product-market fit considering platform expansion to enable third-party integrations and marketplace
 - **Challenge**: Balancing current product development with platform investment while managing technical complexity and go-to-market strategy
 - **Approach**: Applied comprehensive platform strategy assessment using specialized technology frameworks
-- **Framework Sequence**: 
-  - Phase 1: Market sizing for platform opportunity, competitive landscape analysis
-  - Phase 2: Technical architecture assessment, resource requirement analysis
-  - Phase 3: Stakeholder communication strategy for customers and partners
-  - Phase 4: Platform investment decision framework, risk assessment
-  - Phase 5: Innovation roadmap for platform capabilities
+- **Framework Sequence**:
+  - Step 1 (Define): Platform opportunity definition, success criteria establishment, stakeholder impact assessment
+  - Step 3 (Analyse): Market sizing for platform opportunity, competitive landscape analysis
+  - Step 2 (Split): Technical architecture assessment, resource requirement analysis, platform strategy decomposition
+  - Step 5 (Story): Stakeholder communication strategy for customers and partners
+  - Step 6 (Decide): Platform investment decision framework, risk assessment
+  - Step 7 (Act): Innovation roadmap for platform capabilities implementation
 - **Outcome**: Decision to pursue platform strategy with phased approach, resulting in 40% revenue growth from ecosystem partnerships within 18 months
 - **Key Learnings**: Platform decisions require simultaneous technical and business model innovation; early partner engagement critical for validation
 
@@ -359,11 +360,12 @@ Maps the complete developer interaction with platform:
 - **Challenge**: Multiple potential market applications, uncertain customer willingness to pay, rapidly evolving competitive landscape
 - **Approach**: Applied technology-specific market analysis and positioning frameworks
 - **Framework Sequence**:
-  - Phase 1: AI market landscape analysis, competitive technology assessment
-  - Phase 2: Product-market fit hypothesis development and testing
-  - Phase 3: Technical communication strategy for non-technical buyers
-  - Phase 4: Go-to-market strategy decision and resource allocation
-  - Phase 5: Long-term platform and ecosystem strategy
+  - Step 1 (Define): Market entry challenge definition, success criteria, stakeholder mapping
+  - Step 3 (Analyse): AI market landscape analysis, competitive technology assessment
+  - Step 2 (Split): Product-market fit hypothesis development and testing
+  - Step 5 (Story): Technical communication strategy for non-technical buyers
+  - Step 6 (Decide): Go-to-market strategy decision and resource allocation
+  - Step 7 (Act): Long-term platform and ecosystem strategy implementation
 - **Outcome**: Focused market entry strategy leading to $10M Series A funding and clear path to $100M ARR
 - **Key Learnings**: AI companies must balance technical excellence with market education; early customer development crucial for product direction
 
@@ -373,11 +375,12 @@ Maps the complete developer interaction with platform:
 - **Challenge**: Legacy systems integration, organizational change management, new revenue model development
 - **Approach**: Comprehensive digital transformation strategy combining technology and business model innovation
 - **Framework Sequence**:
-  - Phase 1: Digital maturity assessment, technology gap analysis
-  - Phase 2: Platform architecture design, change management planning
-  - Phase 3: Transformation communication strategy, stakeholder alignment
-  - Phase 4: Implementation roadmap, investment prioritization
-  - Phase 5: Innovation culture development, ecosystem strategy
+  - Step 1 (Define): Digital transformation scope, success criteria, stakeholder impact assessment
+  - Step 3 (Analyse): Digital maturity assessment, technology gap analysis
+  - Step 2 (Split): Platform architecture design, change management planning
+  - Step 5 (Story): Transformation communication strategy, stakeholder alignment
+  - Step 6 (Decide): Implementation roadmap, investment prioritization
+  - Step 7 (Act): Innovation culture development, ecosystem strategy implementation
 - **Outcome**: Successful launch of digital platform generating $50M in new revenue streams within 2 years
 - **Key Learnings**: Traditional companies can successfully become platform businesses with proper strategic approach and change management
 
@@ -449,7 +452,7 @@ COMBINATION_RULES:
 ### Progressive Specialization Strategy
 
 1. **Initial Assessment**: Technology company identification through industry keywords, business model patterns, and stakeholder types
-2. **Specialization Trigger Points**: 
+2. **Specialization Trigger Points**:
    - Platform strategy considerations (high specialization)
    - Technical architecture decisions (medium specialization)
    - Digital transformation initiatives (low specialization)

@@ -313,21 +313,21 @@ Framework for managing complex regional partnerships:
    - **Frequency**: Critical challenge for 70% of single-industry regions
    - **Impact**: Economic resilience, employment stability, long-term sustainability
    - **Recommended Approach**: Industry cluster analysis → asset-based development → transition planning
-   - **Framework Sequence**: Phase 1 (Economic Analysis) → Phase 2 (Diversification Strategy) → Phase 4 (Implementation Planning) → Phase 5 (Innovation Opportunities)
+   - **Framework Sequence**: Step 3 (Analyse - Economic Analysis) → Step 2 (Split - Diversification Strategy) → Step 6 (Decide - Implementation Planning) → Step 7 (Act - Innovation Opportunities)
 
 2. **Regional Collaboration and Coordination**
    - **Description**: Building effective partnerships across jurisdictional boundaries for economic development
    - **Frequency**: Essential for 90% of regional development initiatives
    - **Impact**: Resource efficiency, competitive strength, implementation effectiveness
    - **Recommended Approach**: Stakeholder alignment → governance design → resource sharing agreements
-   - **Framework Sequence**: Phase 3 (Stakeholder Engagement) → Phase 4 (Partnership Structure) → Phase 2 (Implementation Design)
+   - **Framework Sequence**: Step 5 (Story - Stakeholder Engagement) → Step 6 (Decide - Partnership Structure) → Step 2 (Split - Implementation Design)
 
 3. **Infrastructure Development Prioritization**
    - **Description**: Determining optimal infrastructure investments for economic development impact
    - **Frequency**: Major decision point for all regional development strategies
    - **Impact**: Economic competitiveness, business attraction, long-term development capacity
    - **Recommended Approach**: Economic impact analysis → cost-benefit evaluation → phased implementation
-   - **Framework Sequence**: Phase 1 (Impact Analysis) → Phase 4 (Investment Decisions) → Phase 2 (Implementation Strategy)
+   - **Framework Sequence**: Step 3 (Analyse - Impact Analysis) → Step 6 (Decide - Investment Decisions) → Step 2 (Split - Implementation Strategy)
 
 ### Success Patterns
 
@@ -336,7 +336,7 @@ Framework for managing complex regional partnerships:
 - **Context**: Regions with existing industry assets seeking to strengthen competitive clusters
 - **Approach**: Asset assessment → cluster mapping → support system development → marketing strategy
 - **Success Factors**: Strong anchor companies, skilled workforce, supplier networks, institutional support
-- **Framework Sequence**: Phase 1 (Cluster Analysis) → Phase 2 (Support System Design) → Phase 3 (Marketing Strategy) → Phase 4 (Investment Priorities)
+- **Framework Sequence**: Step 3 (Analyse - Cluster Analysis) → Step 2 (Split - Support System Design) → Step 5 (Story - Marketing Strategy) → Step 6 (Decide - Investment Priorities)
 - **Examples**: Research Triangle Park (NC), Austin tech cluster, Detroit automotive ecosystem
 
 #### Pattern 2: Rural Economic Diversification Strategy
@@ -344,7 +344,7 @@ Framework for managing complex regional partnerships:
 - **Context**: Rural communities seeking to diversify beyond traditional agriculture or resource extraction
 - **Approach**: Asset-based development → entrepreneurship support → infrastructure investment → market development
 - **Success Factors**: Community leadership, quality of life assets, connectivity, flexible land use policies
-- **Framework Sequence**: Phase 1 (Asset Assessment) → Phase 5 (Opportunity Identification) → Phase 4 (Investment Strategy) → Phase 3 (Community Engagement)
+- **Framework Sequence**: Step 3 (Analyse - Asset Assessment) → Step 7 (Act - Opportunity Identification) → Step 6 (Decide - Investment Strategy) → Step 5 (Story - Community Engagement)
 - **Examples**: Small town tourism development, value-added agriculture, remote work hubs
 
 #### Pattern 3: Urban Revitalization Strategy
@@ -352,7 +352,7 @@ Framework for managing complex regional partnerships:
 - **Context**: Urban areas addressing economic decline, population loss, and infrastructure deterioration
 - **Approach**: Anchor institution strategy → mixed-use development → community development → business attraction
 - **Success Factors**: Anchor institutions, historic assets, transportation access, community engagement
-- **Framework Sequence**: Phase 2 (Revitalization Planning) → Phase 3 (Community Engagement) → Phase 1 (Market Analysis) → Phase 4 (Implementation Strategy)
+- **Framework Sequence**: Step 2 (Split - Revitalization Planning) → Step 5 (Story - Community Engagement) → Step 3 (Analyse - Market Analysis) → Step 6 (Decide - Implementation Strategy)
 - **Examples**: Pittsburgh transformation, Cleveland health cluster, Detroit downtown revival
 
 #### Pattern 4: Innovation District Development
@@ -360,7 +360,7 @@ Framework for managing complex regional partnerships:
 - **Context**: Regions seeking to create knowledge-based economic development around research institutions
 - **Approach**: Research asset assessment → ecosystem development → infrastructure planning → talent retention
 - **Success Factors**: Research universities, entrepreneur networks, venture capital, mixed-use development
-- **Framework Sequence**: Phase 1 (Innovation Ecosystem Analysis) → Phase 5 (Innovation Strategy) → Phase 2 (Development Planning) → Phase 4 (Investment Strategy)
+- **Framework Sequence**: Step 3 (Analyse - Innovation Ecosystem Analysis) → Step 7 (Act - Innovation Strategy) → Step 2 (Split - Development Planning) → Step 6 (Decide - Investment Strategy)
 - **Examples**: Boston innovation district, Research Triangle, University City (Philadelphia)
 
 ---
@@ -371,13 +371,14 @@ Framework for managing complex regional partnerships:
 
 - **Context**: Rural county (population 45,000) facing decline in traditional agriculture and manufacturing
 - **Challenge**: Economic diversification while preserving rural character and leveraging existing assets
-- **Approach**: Applied comprehensive regional development methodology across all 5 phases
+- **Approach**: Applied comprehensive regional development methodology across all strategic steps
 - **Framework Sequence**:
-  - Phase 1: Economic base analysis, demographic trends, competitive assessment
-  - Phase 2: Asset-based development planning, infrastructure needs assessment
-  - Phase 3: Community engagement strategy, stakeholder alignment process
-  - Phase 4: Investment prioritization, public-private partnership development
-  - Phase 5: Innovation opportunities in agritourism, renewable energy, remote work
+  - Step 1 (Define): Economic diversification scope definition, stakeholder impact assessment, success criteria establishment
+  - Step 3 (Analyse): Economic base analysis, demographic trends, competitive assessment
+  - Step 2 (Split): Asset-based development planning, infrastructure needs assessment
+  - Step 5 (Story): Community engagement strategy, stakeholder alignment process
+  - Step 6 (Decide): Investment prioritization, public-private partnership development
+  - Step 7 (Act): Innovation opportunities implementation in agritourism, renewable energy, remote work
 - **Outcome**:
   - 15% increase in business establishments over 5 years
   - 8% population growth (reversing 20-year decline trend)
@@ -391,10 +392,12 @@ Framework for managing complex regional partnerships:
 - **Challenge**: Coordinating economic development across multiple jurisdictions with different priorities
 - **Approach**: Regional collaboration framework with shared governance and resources
 - **Framework Sequence**:
-  - Phase 3: Multi-jurisdictional stakeholder engagement and consensus building
-  - Phase 1: Regional competitive analysis and opportunity assessment
-  - Phase 4: Governance structure design and resource sharing agreements
-  - Phase 2: Implementation strategy with shared services and marketing
+  - Step 1 (Define): Regional coordination scope, multi-jurisdictional challenge definition, collaboration requirements
+  - Step 5 (Story): Multi-jurisdictional stakeholder engagement and consensus building
+  - Step 3 (Analyse): Regional competitive analysis and opportunity assessment
+  - Step 6 (Decide): Governance structure design and resource sharing agreements
+  - Step 2 (Split): Implementation strategy with shared services and marketing
+  - Step 7 (Act): Unified marketing implementation, shared infrastructure development
 - **Outcome**:
   - Unified regional marketing program
   - $50M in shared infrastructure investments
@@ -408,11 +411,12 @@ Framework for managing complex regional partnerships:
 - **Challenge**: Addressing population decline, infrastructure deterioration, and economic base erosion
 - **Approach**: Anchor institution strategy combined with innovation district development
 - **Framework Sequence**:
-  - Phase 1: Economic impact analysis of anchor institutions, market opportunity assessment
-  - Phase 5: Innovation ecosystem development around health and education anchors
-  - Phase 2: Mixed-use development planning, infrastructure modernization
-  - Phase 3: Community engagement and workforce development
-  - Phase 4: Investment strategy combining public, private, and anchor institution resources
+  - Step 1 (Define): Economic transformation scope, anchor institution role, success criteria
+  - Step 3 (Analyse): Economic impact analysis of anchor institutions, market opportunity assessment
+  - Step 7 (Act): Innovation ecosystem development around health and education anchors
+  - Step 2 (Split): Mixed-use development planning, infrastructure modernization
+  - Step 5 (Story): Community engagement and workforce development
+  - Step 6 (Decide): Investment strategy combining public, private, and anchor institution resources
 - **Outcome**:
   - Stabilized population after 20 years of decline
   - $200M in downtown development over 10 years

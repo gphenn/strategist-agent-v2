@@ -307,26 +307,26 @@ Framework for coordinated crisis communication:
 
 ### Common Strategic Challenges
 
-1. **Multi-Stakeholder Crisis Coordination**
-   - **Description**: Managing complex crisis response across multiple stakeholder groups with different priorities and requirements
-   - **Frequency**: Critical challenge in 85% of organizational crises
-   - **Impact**: Response effectiveness, stakeholder satisfaction, recovery speed
-   - **Recommended Approach**: Stakeholder mapping → communication protocols → coordination mechanisms
-   - **Framework Sequence**: Phase 3 (Communication Strategy) → Phase 4 (Coordination Structure) → Phase 2 (Implementation Planning)
+1. **Crisis Response Coordination Strategy**
+   - **Description**: Coordinating rapid response across multiple stakeholders and departments during active crisis
+   - **Frequency**: Essential requirement for all significant crisis responses
+   - **Impact**: Response effectiveness, stakeholder trust, outcome optimization
+   - **Recommended Approach**: Rapid Assessment → Command Structure → Response Coordination → Adaptive Management
+   - **Framework Sequence**: Step 3 (Analyse - Rapid Assessment) → Step 6 (Decide - Command Decisions) → Step 2 (Split - Response Coordination) → Step 7 (Act - Adaptive Implementation)
 
 2. **Information Management Under Pressure**
    - **Description**: Collecting, analyzing, and disseminating accurate information rapidly during crisis conditions
    - **Frequency**: Essential requirement for all crisis responses
    - **Impact**: Decision quality, stakeholder trust, response effectiveness
-   - **Recommended Approach**: Information systems → verification processes → distribution protocols
-   - **Framework Sequence**: Phase 1 (Information Analysis) → Phase 3 (Communication Strategy) → Phase 4 (Decision Framework)
+   - **Recommended Approach**: Information Systems → Verification Processes → Distribution Protocols
+   - **Framework Sequence**: Step 3 (Analyse - Information Analysis) → Step 5 (Story - Communication Strategy) → Step 6 (Decide - Decision Framework)
 
 3. **Resource Allocation During Crisis**
    - **Description**: Optimally deploying limited resources across competing urgent needs
    - **Frequency**: Major decision point in all crisis situations
    - **Impact**: Response effectiveness, cost management, outcome optimization
-   - **Recommended Approach**: Needs assessment → priority matrix → allocation framework
-   - **Framework Sequence**: Phase 1 (Needs Analysis) → Phase 4 (Resource Decisions) → Phase 2 (Implementation Strategy)
+   - **Recommended Approach**: Needs Assessment → Priority Matrix → Allocation Framework
+   - **Framework Sequence**: Step 3 (Analyse - Needs Analysis) → Step 6 (Decide - Resource Decisions) → Step 2 (Split - Implementation Strategy)
 
 ### Success Patterns
 
@@ -335,7 +335,7 @@ Framework for coordinated crisis communication:
 - **Context**: Organizations facing acute crisis requiring immediate response and potential escalation
 - **Approach**: Crisis detection → rapid assessment → response activation → escalation management
 - **Success Factors**: Pre-planned response protocols, trained response teams, clear escalation criteria, effective communication systems
-- **Framework Sequence**: Phase 1 (Rapid Assessment) → Phase 4 (Response Decisions) → Phase 3 (Crisis Communication) → Phase 2 (Implementation)
+- **Framework Sequence**: Step 3 (Analyse - Rapid Assessment) → Step 6 (Decide - Response Decisions) → Step 5 (Story - Crisis Communication) → Step 2 (Split - Implementation)
 - **Examples**: Cybersecurity incident response, product recall management, workplace safety incidents
 
 #### Pattern 2: Extended Crisis Management and Business Continuity
@@ -343,7 +343,7 @@ Framework for coordinated crisis communication:
 - **Context**: Organizations managing prolonged crisis requiring sustained response and business continuity
 - **Approach**: Situation stabilization → business continuity activation → sustained operations → recovery planning
 - **Success Factors**: Business continuity plans, alternative operations capability, stakeholder communication, financial reserves
-- **Framework Sequence**: Phase 4 (Continuity Decisions) → Phase 2 (Operations Planning) → Phase 3 (Stakeholder Management) → Phase 5 (Recovery Innovation)
+- **Framework Sequence**: Step 6 (Decide - Continuity Decisions) → Step 2 (Split - Operations Planning) → Step 5 (Story - Stakeholder Management) → Step 7 (Act - Recovery Innovation)
 - **Examples**: Pandemic response, natural disaster recovery, supply chain disruption management
 
 #### Pattern 3: Reputation Crisis Management
@@ -351,7 +351,7 @@ Framework for coordinated crisis communication:
 - **Context**: Organizations facing significant reputation or trust crisis requiring careful communication management
 - **Approach**: Crisis acknowledgment → transparent communication → corrective action → trust rebuilding
 - **Success Factors**: Authentic leadership, transparent communication, stakeholder engagement, corrective action follow-through
-- **Framework Sequence**: Phase 3 (Crisis Communication) → Phase 4 (Action Decisions) → Phase 1 (Impact Assessment) → Phase 5 (Recovery Innovation)
+- **Framework Sequence**: Step 5 (Story - Crisis Communication) → Step 6 (Decide - Action Decisions) → Step 3 (Analyse - Impact Assessment) → Step 7 (Act - Recovery Innovation)
 - **Examples**: Data breach response, ethical violations, regulatory violations, product defects
 
 #### Pattern 4: Financial Crisis and Turnaround Management
@@ -359,7 +359,7 @@ Framework for coordinated crisis communication:
 - **Context**: Organizations facing financial crisis requiring rapid financial restructuring and operational changes
 - **Approach**: Financial stabilization → stakeholder management → operational restructuring → recovery execution
 - **Success Factors**: Financial expertise, stakeholder cooperation, operational flexibility, leadership credibility
-- **Framework Sequence**: Phase 1 (Financial Analysis) → Phase 4 (Financial Decisions) → Phase 2 (Restructuring Planning) → Phase 3 (Stakeholder Management)
+- **Framework Sequence**: Step 3 (Analyse - Financial Analysis) → Step 6 (Decide - Financial Decisions) → Step 2 (Split - Restructuring Planning) → Step 5 (Story - Stakeholder Management)
 - **Examples**: Cash flow crisis, bankruptcy threat, investor confidence loss, credit rating downgrades
 
 ---
@@ -370,13 +370,14 @@ Framework for coordinated crisis communication:
 
 - **Context**: Mid-size technology company (2,000 employees) suffered major data breach affecting 100,000 customers
 - **Challenge**: Rapid response to contain breach, comply with regulations, maintain customer trust, prevent further damage
-- **Approach**: Activated comprehensive crisis management methodology across all 5 phases
+- **Approach**: Activated comprehensive crisis management methodology across all strategic steps
 - **Framework Sequence**:
-  - Phase 1: Rapid impact assessment, forensic analysis, stakeholder impact evaluation
-  - Phase 4: Critical decisions on disclosure, legal response, technical remediation
-  - Phase 3: Crisis communication to customers, regulators, media, employees
-  - Phase 2: Technical remediation implementation, process improvements
-  - Phase 5: Security innovation, competitive advantage development
+  - Step 1 (Define): Crisis scope definition, stakeholder impact assessment, regulatory compliance requirements
+  - Step 3 (Analyse): Rapid impact assessment, forensic analysis, stakeholder impact evaluation
+  - Step 6 (Decide): Critical decisions on disclosure, legal response, technical remediation
+  - Step 5 (Story): Crisis communication to customers, regulators, media, employees
+  - Step 2 (Split): Technical remediation implementation, process improvements
+  - Step 7 (Act): Security innovation, competitive advantage development
 - **Outcome**:
   - Breach contained within 6 hours of detection
   - All stakeholders notified within regulatory timeframes
@@ -391,11 +392,12 @@ Framework for coordinated crisis communication:
 - **Challenge**: Ensure public safety, comply with environmental regulations, maintain operations, preserve community relationships
 - **Approach**: Multi-stakeholder crisis coordination with emphasis on community engagement
 - **Framework Sequence**:
-  - Phase 1: Environmental impact assessment, public health evaluation, regulatory compliance analysis
-  - Phase 3: Community communication, regulatory coordination, media management
-  - Phase 4: Remediation decisions, operational changes, compensation framework
-  - Phase 2: Technical remediation, process improvements, safety enhancements
-  - Phase 5: Community partnership opportunities, environmental leadership positioning
+  - Step 1 (Define): Environmental incident scope, public safety requirements, stakeholder impact assessment
+  - Step 3 (Analyse): Environmental impact assessment, public health evaluation, regulatory compliance analysis
+  - Step 5 (Story): Community communication, regulatory coordination, media management
+  - Step 6 (Decide): Remediation decisions, operational changes, compensation framework
+  - Step 2 (Split): Technical remediation, process improvements, safety enhancements
+  - Step 7 (Act): Community partnership opportunities, environmental leadership positioning
 - **Outcome**:
   - No injuries or long-term environmental damage
   - Maintained community operating license
@@ -410,11 +412,12 @@ Framework for coordinated crisis communication:
 - **Challenge**: Surge capacity management, staff safety, supply chain disruption, community health coordination
 - **Approach**: Extended crisis management with business continuity focus
 - **Framework Sequence**:
-  - Phase 4: Capacity allocation decisions, resource prioritization, partnership coordination
-  - Phase 1: Daily situation assessment, capacity forecasting, resource tracking
-  - Phase 2: Operational adaptations, new service delivery models, efficiency improvements
-  - Phase 3: Community communication, staff engagement, stakeholder coordination
-  - Phase 5: Telemedicine innovation, community health partnerships, resilience building
+  - Step 1 (Define): Pandemic response scope, capacity requirements, success criteria
+  - Step 6 (Decide): Capacity allocation decisions, resource prioritization, partnership coordination
+  - Step 3 (Analyse): Daily situation assessment, capacity forecasting, resource tracking
+  - Step 2 (Split): Operational adaptations, new service delivery models, efficiency improvements
+  - Step 5 (Story): Community communication, staff engagement, stakeholder coordination
+  - Step 7 (Act): Telemedicine innovation, community health partnerships, resilience building
 - **Outcome**:
   - Successfully treated 15,000+ COVID patients without overwhelming capacity
   - Zero healthcare worker fatalities, <5% infection rate
@@ -501,7 +504,7 @@ COMBINATION_RULES:
 1. **Initial Assessment**: Crisis severity, time sensitivity, stakeholder complexity, resource requirements
 2. **Specialization Trigger Points**:
    - Active crisis requiring immediate response (maximum specialization)
-   - Crisis planning and preparedness (medium specialization) 
+   - Crisis planning and preparedness (medium specialization)
    - Post-crisis analysis and improvement (low specialization)
 3. **Integration Checkpoints**: Validate crisis assumptions with real-time information, stakeholder feedback, response effectiveness
 4. **Quality Assurance**: Crisis management best practices, stakeholder coordination effectiveness, response speed and quality
