@@ -1,0 +1,248 @@
+# {Step Number}: {Step Name} - Context Brief
+
+**Step:** {Step X} - {Step Name}  
+**Assigned Persona:** {Strategic Analyst/Specialist/Communicator/Advisor/Innovator}  
+**Date Created:** {Current Date}  
+**Last Updated:** {Last Update Date}  
+**Status:** {Not Started / In Progress / Under Review / Complete}
+
+---
+
+## Step Overview
+
+**Primary Objective:** {What this step aims to accomplish}
+
+**Success Criteria:** {How we'll know this step is complete}
+
+**Key Deliverables:** {Main outputs expected from this step}
+
+**Framework Sequence Position:** {Position in the determined sequence and why this step comes at this point}
+
+---
+
+## Strategic Context Integration
+
+**Active Strategic Modules:** {List of modules activated for this project}
+
+- **{Module Name}:** {How this module's insights apply to this step}
+- **{Module Name}:** {How this module's insights apply to this step}
+
+**Framework Sequence Rationale:** {Why this step is positioned here in the sequence}
+
+**Dependencies:**
+
+- **Prerequisite Steps:** {Steps that should be completed before this one}
+- **Dependent Steps:** {Steps that depend on this one being completed}
+
+---
+
+## Work Plan & Action Items
+
+### Approach Strategy
+
+{High-level approach for completing this step based on project context and activated modules}
+
+### Current Work Items
+
+#### ✅ Completed Items
+
+- [x] {Completed work item 1}
+- [x] {Completed work item 2}
+
+#### 🔄 In Progress Items
+
+- [ ] {Current work item 1} - **Status:** {Progress description}
+- [ ] {Current work item 2} - **Status:** {Progress description}
+
+#### 📋 Planned Items
+
+- [ ] {Planned work item 1}
+- [ ] {Planned work item 2}
+- [ ] {Planned work item 3}
+
+#### 🆕 New Items Added
+
+- [ ] {New item identified during work} - **Added:** {Date}
+- [ ] {Another new item} - **Added:** {Date}
+
+### Documents & Frameworks to Apply
+
+**Templates to Use:**
+
+- {Template name 1} - **Purpose:** {Why this template is needed}
+- {Template name 2} - **Purpose:** {Why this template is needed}
+
+**Frameworks to Apply:**
+
+- {Framework name 1} - **Application:** {How it will be used in this step}
+- {Framework name 2} - **Application:** {How it will be used in this step}
+
+**Reference Documents:**
+
+- {Document name 1} - **Relevance:** {Why this document is important for this step}
+- {Document name 2} - **Relevance:** {Why this document is important for this step}
+
+---
+
+## Progress Tracking
+
+### Work Sessions
+
+#### Session 1 - {Date}
+
+- **Duration:** {Time spent}
+- **Work Completed:** {What was accomplished}
+- **Key Insights:** {Important discoveries or learnings}
+- **Next Actions:** {What should happen next}
+
+#### Session 2 - {Date}
+
+- **Duration:** {Time spent}
+- **Work Completed:** {What was accomplished}
+- **Key Insights:** {Important discoveries or learnings}
+- **Next Actions:** {What should happen next}
+
+### Key Decisions Made
+
+- **Decision 1:** {Description} - **Date:** {Date} - **Rationale:** {Why this decision was made}
+- **Decision 2:** {Description} - **Date:** {Date} - **Rationale:** {Why this decision was made}
+
+### Issues & Blockers
+
+- **Issue 1:** {Description} - **Status:** {Resolution status} - **Impact:** {How this affects progress}
+- **Issue 2:** {Description} - **Status:** {Resolution status} - **Impact:** {How this affects progress}
+
+---
+
+## Outputs & Deliverables
+
+### Completed Outputs
+
+- **{Output Name 1}:** {Location/description} - **Completed:** {Date}
+- **{Output Name 2}:** {Location/description} - **Completed:** {Date}
+
+### In Progress Outputs
+
+- **{Output Name}:** {Current status and expected completion}
+
+### Planned Outputs
+
+- **{Output Name 1}:** {Expected delivery date}
+- **{Output Name 2}:** {Expected delivery date}
+
+---
+
+## Quality Assurance
+
+### Completion Checklist
+
+- [ ] All planned work items completed
+- [ ] Key deliverables produced and reviewed
+- [ ] Success criteria met
+- [ ] Stakeholder approval obtained (if required)
+- [ ] Documentation updated
+- [ ] Handoff materials prepared for next step
+
+### Review & Approval
+
+**Internal Review:**
+
+- **Reviewer:** {Name/Role}
+- **Date:** {Review Date}  
+- **Status:** {Approved/Needs Revision/Pending}
+- **Comments:** {Review feedback}
+
+**Stakeholder Approval:**
+
+- **Approver:** {Name/Role}
+- **Date:** {Approval Date}
+- **Status:** {Approved/Needs Revision/Pending}
+- **Comments:** {Approval feedback}
+
+---
+
+## Integration & Handoff
+
+### Key Insights for Next Steps
+
+{Important learnings or outputs that will inform subsequent steps}
+
+### Recommendations for Framework Sequence
+
+{Any insights about the planned sequence - should it be modified based on what was learned?}
+
+### Handoff Notes
+
+{Important information for the next persona/step}
+
+### Updated Dependencies
+
+{Any changes to prerequisites or dependent relationships discovered during this step}
+
+---
+
+## Step-Specific Context
+
+### {Step Name} Specific Requirements
+
+{Add step-specific sections based on the particular step being worked on}
+
+#### For Define Step
+
+- **Problem Definition:** {Current understanding}
+- **Scope Boundaries:** {What's in/out of scope}
+- **Success Metrics:** {How success will be measured}
+
+#### For Split Step
+
+- **Problem Decomposition:** {How the challenge is broken down}
+- **Component Analysis:** {Individual elements identified}
+- **Prioritization Framework:** {How components are prioritized}
+
+#### For Analyse Step
+
+- **Data Sources:** {Information being analyzed}
+- **Analysis Methods:** {Analytical approaches being used}
+- **Key Findings:** {Important discoveries}
+
+#### For Insight Step
+
+- **Pattern Recognition:** {Patterns identified in analysis}
+- **Strategic Implications:** {What the analysis means}
+- **Breakthrough Opportunities:** {Key insights discovered}
+
+#### For Story Step
+
+- **Narrative Framework:** {How the story is structured}
+- **Stakeholder Messages:** {Key messages for different audiences}
+- **Communication Strategy:** {How insights will be shared}
+
+#### For Decide Step
+
+- **Decision Framework:** {How decisions are being made}
+- **Options Analysis:** {Alternatives being considered}
+- **Risk Assessment:** {Risks and mitigation strategies}
+
+#### For Act Step
+
+- **Implementation Plan:** {How decisions will be executed}
+- **Resource Requirements:** {What's needed for implementation}
+- **Innovation Opportunities:** {Ways to enhance execution}
+
+---
+
+## Persona Instructions
+
+**Current Persona:** {Active persona name}
+
+**Role in This Step:** {What this persona is responsible for in this step}
+
+**Key Capabilities to Apply:** {Specific skills/approaches this persona should use}
+
+**Collaboration Notes:** {If multiple personas are involved, how they should work together}
+
+---
+
+**Next Steps:** {What should happen after this step is complete}
+
+**File Maintenance:** {When this file should be updated and by whom}

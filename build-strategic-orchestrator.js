@@ -38,10 +38,31 @@ function ensureDirectoryExists(dirPath) {
   }
 }
 
+function shouldExcludeDirectory(dirName, excludePatterns) {
+  if (!excludePatterns || !Array.isArray(excludePatterns)) {
+    return false;
+  }
+  
+  return excludePatterns.some(pattern => {
+    // Handle exact matches
+    if (pattern === dirName) {
+      return true;
+    }
+    
+    // Handle wildcard patterns (basic support)
+    if (pattern.includes('*')) {
+      const regex = new RegExp(pattern.replace(/\*/g, '.*'));
+      return regex.test(dirName);
+    }
+    
+    return false;
+  });
+}
+
 // --- Main Script Logic ---
 async function main() {
   console.log(
-    `Building Strategic Orchestrator Web Agent from: ${path.resolve(__dirname, configFilePath)}`
+    `Building Strategic Orchestrator from: ${path.resolve(__dirname, configFilePath)}`
   );
 
   if (
@@ -167,12 +188,22 @@ async function main() {
   console.log(`Discovering source directories in '${assetFolderRoot}' (excluding '${buildDirNameOnly}')...`);
   let sourceSubdirNames;
   try {
-    sourceSubdirNames = fs
+    const allDirs = fs
       .readdirSync(assetFolderRoot, { withFileTypes: true })
-      .filter(
-        (dirent) => dirent.isDirectory() && dirent.name !== buildDirNameOnly
-      )
+      .filter((dirent) => dirent.isDirectory() && dirent.name !== buildDirNameOnly)
       .map((dirent) => dirent.name);
+    
+    // Apply exclude patterns from config
+    const excludePatterns = config.exclude_patterns || [];
+    
+    sourceSubdirNames = allDirs.filter(dirName => {
+      const shouldExclude = shouldExcludeDirectory(dirName, excludePatterns);
+      if (shouldExclude) {
+        console.log(`  Excluding directory: '${dirName}' (matches exclude pattern)`);
+      }
+      return !shouldExclude;
+    });
+    
   } catch (error) {
     console.error(
       `Error reading asset folder root '${assetFolderRoot}': ${error.message}`
@@ -182,12 +213,17 @@ async function main() {
 
   if (sourceSubdirNames.length === 0) {
     console.warn(
-      `Warning: No source subdirectories found in '${assetFolderRoot}' (excluding '${buildDirNameOnly}'). No asset bundles will be created.`
+      `Warning: No source subdirectories found in '${assetFolderRoot}' (excluding '${buildDirNameOnly}' and excluded patterns). No asset bundles will be created.`
     );
   } else {
     console.log(
       `Found source directories to process: ${sourceSubdirNames.join(", ")}`
     );
+    
+    const excludePatterns = config.exclude_patterns || [];
+    if (excludePatterns.length > 0) {
+      console.log(`Excluding patterns: ${excludePatterns.join(", ")}`);
+    }
   }
 
   // 5. Process each subdirectory

@@ -26,7 +26,7 @@
 ### Critical Facts
 
 - **Fact 1:** [Most important quantified fact]
-- **Fact 2:** [Second most important fact] 
+- **Fact 2:** [Second most important fact]
 - **Fact 3:** [Third most important fact]
 
 ### Strategic Implications

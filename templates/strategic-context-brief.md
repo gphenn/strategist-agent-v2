@@ -2,23 +2,24 @@
 
 **Date:** {Current Date}  
 **Mode Used:** {Express / Deep Discovery}  
+**Active Strategic Modules:** {List of activated modules based on context}  
 **Recommended Next Step:** {Step X with Persona}
 
 ## Situation Summary
 
-*What the user shared about their business context and current situation*
+### What the user shared about their business context and current situation
 
 {2-3 sentences capturing the essential business context, organization type, industry, and current state that the user described}
 
 ## Challenge/Opportunity Description
 
-*The user's perspective on what they're trying to address*
+### The user's perspective on what they're trying to address
 
 {User's description of the problem, opportunity, or strategic question they're facing, in their own words}
 
 ## Key Stakeholders
 
-*Who the user identified as involved or affected*
+## Who the user identified as involved or affected
 
 - **Decision Makers:** {Who makes the final decisions}
 - **Implementation Team:** {Who would do the work}  
@@ -26,13 +27,13 @@
 
 ## Desired Outcomes
 
-*What success looks like from the user's perspective*
+### What success looks like from the user's perspective
 
 {User's vision of what they want to achieve, desired future state, or success criteria they mentioned}
 
 ## Known Constraints
 
-*Limitations and boundaries the user identified*
+### Limitations and boundaries the user identified
 
 - **Timeline:** {Any time pressures or deadlines mentioned}
 - **Resources:** {Budget, people, or capability constraints}
@@ -40,51 +41,108 @@
 
 ## Information Gaps
 
-*What the user acknowledged they don't know yet*
+### What the user acknowledged they don't know yet
 
 {Areas where the user expressed uncertainty, questions they want answered, or information they wish they had}
 
 ## User Signals & Preferences
 
-*How the user wants to approach this work*
+### How the user wants to approach this work
 
 - **Urgency Level:** {How quickly they want to move}
 - **Depth Preference:** {Thorough analysis vs quick action}
 - **Involvement Level:** {How hands-on they want to be}
 
+## Strategic Framework Sequence
+
+**Selected Pattern:** {Pattern Name - e.g., "Market Analysis First Pattern"}  
+**Pattern Rationale:** {Why this sequence is optimal for this specific project}
+
+### Context
+
+{Specific project characteristics that influence this framework sequence choice, such as:}
+
+- Market dynamics and competitive pressure
+- Stakeholder complexity and coordination requirements  
+- Timeline constraints and decision urgency
+- Available resources and organizational capacity
+- Risk factors and uncertainty levels
+
+### Approach
+
+{How this framework sequence will be executed for this specific project:}
+
+- Starting point and logical progression through steps
+- Key deliverables and decision points at each step
+- Integration points between steps
+- Stakeholder involvement at each phase
+
+### Success Factors
+
+{Critical elements that will determine success with this sequence:}
+
+- **Primary Success Factor 1:** {Description and why it's critical}
+- **Primary Success Factor 2:** {Description and why it's critical}  
+- **Primary Success Factor 3:** {Description and why it's critical}
+
+### Framework Sequence
+
+**Step Sequence:** {e.g., "Step 3 → Step 1 → Step 6 → Step 5"}
+
+1. **Step {X} ({Step Name}):** {Brief rationale for why this step comes first}
+2. **Step {Y} ({Step Name}):** {Brief rationale for why this step comes second}
+3. **Step {Z} ({Step Name}):** {Brief rationale for why this step comes third}
+4. **{Continue as needed}**
+
+**Why This Sequence:** {Overall rationale for why this specific order will be most effective for achieving the user's desired outcomes}
+
 ## Recommended Strategic Approach
 
-*Orchestrator's rationale for next step*
+### Orchestrator's rationale for next step
 
 **Recommended Persona:** {Strategic Analyst/Specialist/Communicator/Advisor/Innovator}
 
-**Reasoning:** {Why this persona is best suited for this context}
+**Reasoning:** {Why this persona is best suited for this context and Framework Sequence}
 
-**Suggested Starting Point:** {What the persona should focus on first}
+**Suggested Starting Point:** {What the persona should focus on first, based on the Framework Sequence}
+
+**Module Context:** {How the activated strategic modules inform the recommended approach}
 
 ---
 
-## Instructions for Selected Persona
+## Instructions for Step-Based Workflow
 
-You are receiving this context brief from the Strategic Orchestrator. The user has completed initial discovery and is ready for strategic work.
+This strategic context brief serves as the master project context. Individual step work is managed through dedicated step context briefs located in `project-documents/{step-name}-context-brief.md`.
 
-**Your Role:**
+**Workflow Overview:**
 
-- Build upon this context through your specialized expertise
-- Fill information gaps through your analytical/creative work  
-- Respect the user's constraints and preferences noted above
-- Deliver strategic value aligned with their desired outcomes
+1. **Step Selection**: User selects next step from Framework Sequence
+2. **Persona Activation**: System activates appropriate persona for that step  
+3. **Step Context Management**: System loads/creates step-specific context brief
+4. **Work Execution**: All work tracked at step level with cross-step integration
 
-**Context Quality:**
+**Step-to-Persona Mapping:**
 
-- This represents the user's current understanding
-- Some information may be incomplete or surface-level
-- User may not have all the answers yet - that's normal
-- Your job is to add analytical rigor and strategic insight
+- Step 1 (Define) → Strategic Analyst
+- Step 2 (Split) → Strategic Specialist  
+- Step 3 (Analyse) → Strategic Analyst OR Strategic Specialist
+- Step 4 (Insight) → Strategic Communicator
+- Step 5 (Story) → Strategic Communicator
+- Step 6 (Decide) → Strategic Advisor
+- Step 7 (Act) → Strategic Advisor + Strategic Innovator
 
 **Getting Started:**
 
-- Review this context with the user to confirm understanding
-- Identify which information gaps are most critical for your work
-- Begin your specialized strategic methodology
-- Update this brief as your understanding deepens
+- Review Framework Sequence and select starting step
+- System will activate appropriate persona and manage step context brief
+- Strategic modules are applied at the step level based on step-specific relevance
+
+---
+
+**Context Brief Status:**
+
+- **Created:** {Date}
+- **Last Updated:** {Date}  
+- **Framework Sequence Status:** {Determined/In Progress/Complete}
+- **Current Step:** {Step X}
+- **Next Review:** {When to reassess sequence or approach}

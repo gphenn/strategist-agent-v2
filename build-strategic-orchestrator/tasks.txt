@@ -1,0 +1,4603 @@
+==================== START: 7-step-strategic-methodology ====================
+# 7-Step Strategic Methodology Task
+
+## Purpose
+
+To guide users through the complete 7-step strategic methodology using the appropriate strategic personas in sequence. This task ensures systematic progression through strategic analysis while maintaining flexibility for iteration.
+
+## Instructions
+
+### 1. Initial Setup & Challenge Definition
+
+- **Confirm Challenge Context:**
+  - Ask user to clearly state the strategic challenge or opportunity
+  - Identify key stakeholders and success criteria
+  - Determine timeline and resource constraints
+  
+- **Establish Interaction Mode:**
+  - **Guided Mode (Recommended):** Work through each step with user feedback
+  - **Express Mode:** Rapid progression through methodology with check-ins
+  - **Deep Dive Mode:** Comprehensive analysis with extensive research
+
+### 2. Execute 7-Step Methodology
+
+#### **STEP 1: DEFINE** (Activate Strategic Analyst)
+
+##### Transform to Strategic Analyst persona
+
+- **Clarify the Problem:**
+  - Articulate the business problem or opportunity precisely
+  - Quantify scope, impact, and current state
+  - Establish measurable success criteria and baselines
+  
+- **Key Deliverables:**
+  - Problem statement with quantified impact
+  - Success metrics and measurement approach
+  - Stakeholder map and requirements
+
+- **Quality Check:** Is the problem clearly defined and measurable?
+
+#### **STEP 2: SPLIT** (Activate Strategic Specialist)
+
+##### Transform to Strategic Specialist persona
+
+- **Decompose Complexity:**
+  - Break the problem into manageable components
+  - Identify dependencies and relationships
+  - Form testable hypotheses for each component
+  
+- **Key Deliverables:**
+  - Problem component map
+  - Hypothesis framework for testing
+  - Analysis plan and methodology
+  
+- **Quality Check:** Are components logical and hypotheses testable?
+
+#### **STEP 3: ANALYSE** (Use Analyst + Specialist Skills)
+
+##### Coordinate between Strategic Analyst and Specialist personas
+
+- **Systematic Investigation:**
+  - Apply quantitative and qualitative analysis methods
+  - Test hypotheses across all problem components
+  - Identify patterns, trends, and key insights
+  
+- **Key Deliverables:**
+  - Analysis results for each component
+  - Pattern identification and validation
+  - Evidence-based findings summary
+  
+- **Quality Check:** Is analysis thorough and evidence-based?
+
+#### **STEP 4: INSIGHT** (Activate Strategic Communicator)
+
+##### Transform to Strategic Communicator persona
+
+- **Synthesize Findings:**
+  - Transform analysis into strategic implications
+  - Identify "so what" moments and key takeaways
+  - Prepare insights for decision-maker consumption
+  
+- **Key Deliverables:**
+  - Strategic insights summary
+  - Implications for business and stakeholders
+  - Key messages for different audiences
+  
+- **Quality Check:** Are insights clear, compelling, and actionable?
+
+#### **STEP 5: STORY** (Continue with Strategic Communicator)
+
+##### Remain in Strategic Communicator persona
+
+- **Develop Strategic Narrative:**
+  - Transform insights into compelling story
+  - Use proven narrative structures for complex reasoning
+  - Build persuasive case for recommended approach
+  
+- **Key Deliverables:**
+  - Strategic narrative document
+  - Executive summary and key points
+  - Stakeholder-specific communications
+  
+- **Quality Check:** Is the story compelling and persuasive?
+
+#### **STEP 6: DECIDE** (Activate Strategic Advisor)
+
+##### Transform to Strategic Advisor persona
+
+- **Decision Framework:**
+  - Generate and evaluate strategic alternatives
+  - Define decision criteria and trade-offs
+  - Provide clear recommendations with rationale
+  
+- **Key Deliverables:**
+  - Strategic options analysis
+  - Decision matrix with recommendations
+  - Risk assessment and mitigation plans
+  
+- **Quality Check:** Are recommendations well-supported and practical?
+
+#### **STEP 7: ACT** (Use Advisor + Innovator Skills)
+
+##### Coordinate between Strategic Advisor and Innovator personas
+
+- **Execution Planning:**
+  - Create detailed implementation roadmap
+  - Identify resource requirements and timeline
+  - Incorporate innovation opportunities for maximum value
+  
+- **Key Deliverables:**
+  - Implementation plan with milestones
+  - Resource and capability requirements
+  - Success metrics and monitoring approach
+  
+- **Quality Check:** Is the plan realistic and comprehensive?
+
+### 3. Methodology Completion & Next Steps
+
+- **Review & Integration:**
+  - Ensure all 7 steps are completed satisfactorily
+  - Identify any gaps or areas needing iteration
+  - Confirm stakeholder alignment on recommendations
+  
+- **Implementation Readiness:**
+  - Validate resource availability and organizational readiness
+  - Establish governance and monitoring processes
+  - Plan for regular review and course correction
+  
+- **Learning Capture:**
+  - Document key insights and lessons learned
+  - Identify methodology improvements for future use
+  - Establish feedback loops for continuous improvement
+
+## Success Criteria
+
+The 7-step methodology is complete when:
+
+1. **Problem is clearly defined** with measurable criteria
+2. **Analysis is comprehensive** and evidence-based
+3. **Insights are compelling** and strategically relevant
+4. **Recommendations are practical** and well-supported
+5. **Implementation plan is realistic** and actionable
+6. **Stakeholders are aligned** on approach and expectations
+7. **Success metrics are established** for ongoing monitoring
+
+## Common Iteration Points
+
+- Return to **Step 1** if problem definition needs refinement
+- Revisit **Steps 2-3** if analysis reveals new complexities
+- Loop **Steps 4-5** if insights need strengthening
+- Iterate **Steps 6-7** if implementation challenges emerge
+
+Remember: Strategic thinking is iterative. Use this methodology as a guide, not a rigid process.
+
+==================== END: 7-step-strategic-methodology ====================
+
+==================== START: adaptive-inquiry-logic ====================
+# Context Assessment Framework
+
+## Purpose
+
+Simple framework for the Strategic Orchestrator to assess readiness for strategic work without doing analytical work itself.
+
+## Four Readiness Dimensions
+
+### 1. Situation Clarity
+
+**Question:** "Do we understand the business context?"
+
+- **What we need:** Basic understanding of organization, industry, current state
+- **NOT analytical depth:** Just enough context for persona selection
+- **Readiness indicator:** User can describe their business situation clearly
+
+### 2. Challenge Definition
+
+**Question:** "Do we understand the problem or opportunity?"
+
+- **What we need:** User's perspective on what they're trying to address
+- **NOT root cause analysis:** Just their current understanding
+- **Readiness indicator:** User can articulate why this matters now
+
+### 3. Stakeholder Understanding
+
+**Question:** "Do we know who's involved and affected?"
+
+- **What we need:** Key players, decision makers, affected groups
+- **NOT stakeholder analysis:** Just awareness of who matters
+- **Readiness indicator:** User knows who cares about the outcome
+
+### 4. Outcome Expectations
+
+**Question:** "Do we understand what success looks like?"
+
+- **What we need:** User's desired outcomes and constraints
+- **NOT success metrics:** Just directional understanding
+- **Readiness indicator:** User has vision of desired future state
+
+## Readiness Assessment
+
+### Ready to Proceed When
+
+- [ ] User can describe their business context (doesn't need to be complete)
+- [ ] User can explain why this challenge matters (doesn't need to be quantified)
+- [ ] User knows who the key stakeholders are (doesn't need full mapping)
+- [ ] User has some vision of success (doesn't need precise metrics)
+
+### Keep Exploring When
+
+- User seems unclear about basic business context
+- User can't explain why this is important now
+- User doesn't know who would be involved or affected
+- User has no sense of what they want to achieve
+
+### User Signals to Watch For
+
+- **"I'm not sure..."** - Opportunity for gentle probing
+- **"I think that's enough..."** - Respect user's readiness
+- **"Let me think about that..."** - Give space, don't push
+- **"I want to get started..."** - User is ready to proceed
+
+## Mode-Specific Application
+
+### Express Mode
+
+- Quick check of all four dimensions
+- Accept user's initial answers
+- Proceed once basic understanding exists
+
+### Deep Discovery Mode
+
+- Thorough exploration of each dimension
+- Multiple follow-up questions as needed
+- User controls when to transition
+
+## What This Framework Does NOT Do
+
+❌ **Analyze the problem** - That's the Analyst's job  
+❌ **Solve anything** - That's the Specialist's job  
+❌ **Score complexity** - Just assess readiness  
+❌ **Generate insights** - That's the Communicator's job  
+❌ **Make decisions** - That's the Advisor's job  
+
+## What This Framework DOES Do
+
+✅ **Helps user clarify their thinking** through good questions  
+✅ **Identifies what user knows vs doesn't know**  
+✅ **Assesses readiness for productive strategic work**  
+✅ **Creates clean handoff** to appropriate persona  
+✅ **Respects user's time and preferences**
+
+==================== END: adaptive-inquiry-logic ====================
+
+==================== START: business-intelligence-analysis ====================
+# Business Intelligence Analysis Task
+
+## Purpose
+
+To transform raw business data into actionable strategic insights through systematic quantitative analysis, pattern recognition, and commercial modeling. This task establishes the analytical foundation for strategic decision-making.
+
+## Inputs Required
+
+- Business context and strategic question(s) to be answered
+- Available data sources (financial, operational, market, competitive)
+- Key stakeholders and their information needs
+- Decision timeline and urgency level
+
+## Task Execution Instructions
+
+### 1. Define Analytical Framework
+
+- **Clarify Strategic Questions:**
+  - What specific business decisions will this analysis inform?
+  - What are the key hypotheses to test?
+  - What would constitute actionable insights?
+  - What level of confidence is required for decision-making?
+
+- **Establish Success Metrics:**
+  - Define what "good enough" analysis looks like
+  - Set confidence intervals and error tolerances
+  - Identify critical vs. nice-to-have insights
+
+### 2. Data Discovery & Assessment
+
+- **Inventory Available Data:**
+  - Internal: Financial statements, operational metrics, customer data, sales data
+  - External: Market research, competitor intelligence, industry reports
+  - Primary: Surveys, interviews, observational data
+  
+- **Assess Data Quality:**
+  - Completeness: Are there significant gaps?
+  - Accuracy: How reliable are the sources?
+  - Timeliness: Is the data current enough for decisions?
+  - Relevance: Does it directly address strategic questions?
+
+### 3. Pattern Recognition Analysis
+
+- **Trend Identification:**
+  - Create time-series visualizations for key metrics
+  - Identify cyclical patterns, seasonality, and long-term trends
+  - Calculate growth rates, moving averages, and trend correlations
+  
+- **Segmentation Analysis:**
+  - Identify meaningful customer/market segments
+  - Analyze performance differences across segments
+  - Discover hidden patterns in customer behavior
+  
+- **Anomaly Detection:**
+  - Identify outliers and unusual patterns
+  - Investigate root causes of anomalies
+  - Assess implications for strategy
+
+### 4. Commercial Modeling
+
+- **Build Financial Models:**
+  - Unit economics analysis
+  - Customer lifetime value calculations
+  - Market sizing and penetration models
+  - Scenario analysis with sensitivity testing
+  
+- **Competitive Benchmarking:**
+  - Performance metrics vs. competitors
+  - Market share analysis
+  - Competitive positioning assessment
+
+### 5. Insight Generation & Validation
+
+- **Synthesize Findings:**
+  - Identify 3-5 key insights that directly address strategic questions
+  - Quantify impact and confidence levels
+  - Connect insights to actionable implications
+  
+- **Validate Analysis:**
+  - Stress-test assumptions with alternative scenarios
+  - Cross-validate findings with multiple data sources
+  - Seek expert review of methodology and conclusions
+
+### 6. Strategic Recommendations
+
+- **Priority Insights:**
+  - Rank insights by strategic importance and confidence level
+  - Identify which insights require immediate action
+  - Note areas requiring additional analysis
+  
+- **Next Steps:**
+  - Recommend specific strategic actions based on analysis
+  - Identify additional data needed for fuller picture
+  - Suggest timeline for implementing recommendations
+
+## Output Deliverables
+
+- **Executive Summary:** 1-page summary of key insights and implications
+- **Analytical Report:** Detailed findings with supporting data and methodology
+- **Data Visualizations:** Charts, graphs, and dashboards highlighting key patterns
+- **Financial Models:** Spreadsheets or tools for ongoing analysis
+- **Recommendations Matrix:** Prioritized actions with rationale and success metrics
+
+## Success Criteria
+
+- Analysis directly answers stated strategic questions
+- Insights are quantified with appropriate confidence intervals
+- Recommendations are actionable and time-bound
+- Stakeholders can make informed decisions based on analysis
+- Methodology is transparent and reproducible
+
+==================== END: business-intelligence-analysis ====================
+
+==================== START: business-model-innovation ====================
+# Business Model Innovation Task
+
+## Purpose
+
+To reimagine how value is created, delivered, and captured in order to achieve breakthrough competitive advantage. This task explores fundamental business model transformation opportunities beyond incremental improvements.
+
+## Inputs Required
+
+- Current business model description
+- Market trends and disruption signals
+- Customer needs and pain points
+- Competitive landscape analysis
+- Organizational capabilities and constraints
+
+## Task Execution Instructions
+
+### 1. Current Business Model Deconstruction
+
+- **Value Creation Analysis:**
+  - Map current value proposition and customer segments
+  - Identify key activities, resources, and partnerships
+  - Analyze cost structure and revenue streams
+  - Assess competitive positioning and differentiation
+
+- **Performance Assessment:**
+  - Evaluate current model's financial performance
+  - Identify constraints and limitations
+  - Assess scalability and sustainability
+  - Benchmark against industry standards
+
+### 2. Market Disruption Analysis
+
+- **Trend Investigation:**
+  - Identify emerging technologies affecting industry
+  - Analyze changing customer behaviors and expectations
+  - Map regulatory and social changes impacting market
+  - Assess new entrant threats and substitute products
+
+- **Opportunity Mapping:**
+  - Identify unmet or underserved customer needs
+  - Spot inefficiencies in current industry value chains
+  - Find convergence opportunities across industries
+  - Discover new customer segments or use cases
+
+### 3. Business Model Pattern Exploration
+
+- **Innovation Patterns:**
+  - **Subscription/Platform:** Recurring revenue and network effects
+  - **Ecosystem/Marketplace:** Multi-sided platform value creation
+  - **Freemium/Data:** Monetize usage data and premium features
+  - **Sharing Economy:** Asset utilization optimization
+  - **Outcome-Based:** Payment tied to customer results
+
+- **Pattern Adaptation:**
+  - Evaluate which patterns fit organizational context
+  - Identify necessary capability developments
+  - Assess investment requirements and timeline
+  - Consider hybrid approaches combining multiple patterns
+
+### 4. Value Proposition Redesign
+
+- **Customer Job-to-be-Done Analysis:**
+  - Understand functional, emotional, and social jobs
+  - Identify current frustrations and unmet needs
+  - Map customer journey and pain points
+  - Discover unexpected use cases and applications
+
+- **Value Innovation:**
+  - Eliminate industry factors customers don't value
+  - Reduce factors overdelivered by industry
+  - Raise factors underdelivered by industry
+  - Create factors industry has never offered
+
+### 5. Business Architecture Design
+
+- **Operating Model Innovation:**
+  - Redesign key activities and processes
+  - Identify new partnership and ecosystem opportunities
+  - Optimize resource allocation and capabilities
+  - Design for scalability and adaptability
+
+- **Financial Model Innovation:**
+  - Explore new pricing and revenue models
+  - Design capital-efficient growth strategies
+  - Create multiple value capture mechanisms
+  - Optimize customer acquisition and retention economics
+
+### 6. Validation & Pilot Design
+
+- **Hypothesis Testing:**
+  - Identify key assumptions requiring validation
+  - Design minimum viable experiments
+  - Create rapid prototype and testing approaches
+  - Establish success metrics and decision criteria
+
+- **Implementation Roadmap:**
+  - Phase transition from current to new model
+  - Identify required capabilities and investments
+  - Plan organizational change management
+  - Design risk mitigation and contingency plans
+
+## Output Deliverables
+
+- **Business Model Canvas:** Visual representation of new model
+- **Innovation Strategy:** Rationale and competitive advantage analysis
+- **Financial Projections:** Economic model and investment requirements
+- **Validation Plan:** Experiments and pilots to test assumptions
+- **Implementation Roadmap:** Phased approach to model transformation
+
+## Success Criteria
+
+- New model creates differentiated competitive advantage
+- Innovation addresses real customer needs and market opportunities
+- Financial projections demonstrate superior value creation
+- Implementation approach is realistic and achievable
+- Key stakeholders are aligned on innovation direction
+
+==================== END: business-model-innovation ====================
+
+==================== START: change-communication-planning ====================
+# Change Communication Planning Task
+
+## Purpose
+
+To design comprehensive communication strategies that support organizational transformation by managing stakeholder emotions, building understanding, and driving adoption of new behaviors. This task creates structured communication approaches that guide organizations through change while maintaining morale, productivity, and commitment.
+
+## Inputs Required
+
+- Change initiative scope and strategic objectives
+- Organizational readiness assessment and culture analysis
+- Stakeholder impact analysis and change consequences
+- Change timeline and implementation milestones
+- Available communication channels and resources
+
+## Task Execution Instructions
+
+### 1. Change Impact & Readiness Assessment
+
+- **Organizational Change Analysis:**
+  - Map scope and scale of transformation required
+  - Assess magnitude of behavioral and process changes
+  - Identify what stakeholders must start, stop, and continue doing
+  - Evaluate cultural alignment with proposed changes
+
+- **Change Readiness Evaluation:**
+  - Assess organizational history with change initiatives
+  - Evaluate current change fatigue and capacity levels
+  - Identify sources of resistance and support
+  - Understand informal networks and opinion leaders
+
+### 2. Change Communication Strategy Framework
+
+- **Communication Objectives Hierarchy:**
+  - **Awareness:** Ensure stakeholders understand what's changing and why
+  - **Understanding:** Help stakeholders comprehend implications and benefits
+  - **Acceptance:** Build emotional buy-in and reduce resistance
+  - **Adoption:** Drive behavior change and new skill development
+  - **Advocacy:** Create champions who support and promote change
+
+- **Change Narrative Development:**
+  - **Burning Platform:** Compelling case for why change is necessary
+  - **Vision of Success:** Inspiring picture of future state benefits
+  - **Path Forward:** Clear roadmap showing how organization will get there
+  - **Role Clarity:** Specific expectations for each stakeholder group
+
+### 3. Audience Segmentation & Journey Mapping
+
+- **Stakeholder Impact Categories:**
+  - **Highly Impacted:** Major role, process, or responsibility changes
+  - **Moderately Impacted:** Some adjustment to work or relationships
+  - **Minimally Impacted:** Indirect effects or peripheral changes
+  - **Beneficiaries:** Groups that gain from the change
+
+- **Change Journey Mapping:**
+  - Map emotional journey from initial awareness to full adoption
+  - Identify critical moments where support or resistance develops
+  - Design interventions for each stage of change acceptance
+  - Plan for different adoption speeds across stakeholder groups
+
+### 4. Multi-Phase Communication Design
+
+- **Pre-Launch Phase:**
+  - Build awareness among leadership and key influencers
+  - Address rumor mills and speculation with facts
+  - Prepare change champions and communication resources
+  - Create anticipation and readiness for formal announcement
+
+- **Launch Phase:**
+  - Deliver clear, compelling announcement of change initiative
+  - Provide comprehensive information about scope and timeline
+  - Address immediate concerns and questions
+  - Establish ongoing communication channels and feedback mechanisms
+
+- **Implementation Phase:**
+  - Provide regular progress updates and milestone celebrations
+  - Address emerging issues and resistance as they arise
+  - Share success stories and early wins
+  - Maintain momentum through sustained engagement
+
+- **Adoption Phase:**
+  - Reinforce new behaviors and recognize progress
+  - Address implementation challenges and provide support
+  - Celebrate achievements and acknowledge contributions
+  - Embed changes into organizational culture and processes
+
+### 5. Message Architecture & Content Strategy
+
+- **Core Message Framework:**
+  - **Why:** Compelling business case and urgency for change
+  - **What:** Specific changes and their scope
+  - **When:** Timeline and key milestones
+  - **How:** Process for implementation and support available
+  - **WIIFM (What's In It For Me):** Personal benefits and impact
+
+- **Adaptive Messaging:**
+  - Tailor messages for different organizational levels
+  - Customize content for various functional areas
+  - Adapt tone and complexity for audience sophistication
+  - Address specific concerns and questions of each group
+
+### 6. Communication Channel Strategy
+
+- **Channel Mix Optimization:**
+  - **Face-to-Face:** Town halls, team meetings, leadership visits
+  - **Digital:** Email campaigns, intranet updates, video messages
+  - **Print:** Newsletters, posters, desktop references
+  - **Peer-to-Peer:** Manager toolkits, champion networks, buddy systems
+
+- **Channel Credibility Mapping:**
+  - Identify most trusted communication sources for each audience
+  - Use respected leaders and peers as message carriers
+  - Leverage informal networks alongside formal channels
+  - Ensure message consistency across all communication touchpoints
+
+### 7. Feedback & Two-Way Communication
+
+- **Listening Strategy:**
+  - Design multiple mechanisms for gathering stakeholder input
+  - Use surveys, focus groups, and one-on-one conversations
+  - Monitor informal communication networks and sentiment
+  - Create safe spaces for expressing concerns and questions
+
+- **Response & Adaptation:**
+  - Establish rapid response capability for emerging issues
+  - Address misinformation and rumors quickly
+  - Incorporate feedback into change approach where appropriate
+  - Demonstrate that stakeholder input influences decisions
+
+### 8. Resistance Management Communication
+
+- **Resistance Identification:**
+  - Monitor early warning signs of resistance development
+  - Identify rational vs. emotional sources of resistance
+  - Understand specific stakeholder concerns and fears
+  - Map resistance networks and influential skeptics
+
+- **Targeted Resistance Communication:**
+  - Address rational concerns with data and evidence
+  - Acknowledge emotional concerns with empathy and support
+  - Use trusted intermediaries to reach resistant stakeholders
+  - Provide additional resources and support for struggling groups
+
+### 9. Success Story & Momentum Building
+
+- **Early Wins Communication:**
+  - Identify and celebrate quick wins and early successes
+  - Share stories of positive stakeholder experiences
+  - Highlight benefits being realized through change
+  - Use success stories to build confidence and momentum
+
+- **Progress Visualization:**
+  - Create visual dashboards showing change progress
+  - Share metrics demonstrating improvement and value
+  - Provide regular milestone updates and achievement recognition
+  - Use progress communication to maintain engagement
+
+### 10. Communication Effectiveness Measurement
+
+- **Engagement Metrics:**
+  - Track communication reach and participation rates
+  - Measure stakeholder engagement with communication content
+  - Monitor feedback quantity and quality over time
+  - Assess two-way communication effectiveness
+
+- **Change Adoption Indicators:**
+  - Monitor behavior change and new skill demonstration
+  - Track reduction in resistance and increase in support
+  - Measure change readiness and confidence levels
+  - Assess cultural shift indicators and value alignment
+
+## Output Deliverables
+
+- **Change Communication Strategy:** Comprehensive plan for transformation communication
+- **Communication Calendar:** Detailed timeline of messages, channels, and activities
+- **Message Library:** Repository of key messages for different audiences and phases
+- **Channel Strategy:** Optimized mix of communication vehicles and sources
+- **Feedback Integration Plan:** System for gathering and responding to stakeholder input
+- **Resistance Management Approach:** Targeted strategies for addressing opposition
+- **Success Metrics Framework:** Measurement approach for communication effectiveness
+
+## Success Criteria
+
+- Stakeholders understand the change rationale and personal implications
+- Resistance is minimized through proactive communication and support
+- Change adoption accelerates through effective messaging and engagement
+- Two-way communication enables rapid response to emerging issues
+- Success stories and momentum building sustain energy throughout change
+- Communication effectiveness is measured and continuously improved
+- Change communication capability is embedded for future transformations
+
+==================== END: change-communication-planning ====================
+
+==================== START: competitive-benchmarking ====================
+# Competitive Benchmarking Task
+
+## Purpose
+
+To establish quantitative performance benchmarks against key competitors and industry standards, enabling data-driven assessment of competitive position and identification of performance gaps and opportunities. This task provides the numerical foundation for competitive strategy development.
+
+## Inputs Required
+
+- Defined competitive set and industry scope
+- Performance metrics and KPIs to benchmark
+- Available competitive intelligence and industry data
+- Internal performance data for comparison
+- Strategic objectives and competitive goals
+
+## Task Execution Instructions
+
+### 1. Competitive Set Definition
+
+- **Direct Competitors:**
+  - Identify companies with similar products/services
+  - Map competitors serving same customer segments
+  - Include companies with similar business models
+  - Consider geographic overlap and market presence
+
+- **Indirect Competitors:**
+  - Identify substitute products and alternative solutions
+  - Map companies targeting adjacent customer needs
+  - Include disruptive entrants and new business models
+  - Consider potential future competitors
+
+- **Peer Group Analysis:**
+  - Define relevant industry peer groups
+  - Include companies of similar size and market position
+  - Consider lifecycle stage and maturity level
+  - Select appropriate benchmark universe size
+
+### 2. Benchmarking Framework Development
+
+- **Performance Categories:**
+  - Financial performance (revenue, profitability, growth)
+  - Operational efficiency (productivity, cost structure)
+  - Market position (share, reach, penetration)
+  - Customer metrics (satisfaction, retention, acquisition)
+  - Innovation capabilities (R&D investment, product launches)
+
+- **Metric Selection:**
+  - Choose metrics that drive business success
+  - Ensure metrics are measurable and comparable
+  - Include both absolute and relative measures
+  - Balance leading and lagging indicators
+
+### 3. Data Collection & Validation
+
+- **Public Data Sources:**
+  - Financial statements and SEC filings
+  - Industry reports and market research
+  - Trade publications and news sources
+  - Patent filings and R&D disclosures
+
+- **Primary Research:**
+  - Customer surveys and market studies
+  - Expert interviews and industry consultations
+  - Mystery shopping and competitive testing
+  - Employee surveys and Glassdoor data
+
+- **Data Quality Assessment:**
+  - Verify data accuracy and currency
+  - Identify data gaps and limitations
+  - Standardize metrics across competitors
+  - Document data sources and collection methods
+
+### 4. Financial Performance Benchmarking
+
+- **Revenue Analysis:**
+  - Compare revenue size, growth rates, and composition
+  - Analyze revenue per employee and productivity metrics
+  - Benchmark pricing and average transaction values
+  - Assess geographic and segment revenue mix
+
+- **Profitability Analysis:**
+  - Compare gross margins, operating margins, and net margins
+  - Benchmark EBITDA and cash flow generation
+  - Analyze cost structure and expense ratios
+  - Compare return on assets and equity
+
+- **Valuation Metrics:**
+  - Compare market capitalization and enterprise value
+  - Benchmark P/E ratios, EV/Revenue, and EV/EBITDA multiples
+  - Analyze price-to-book and other valuation ratios
+  - Compare dividend yields and payout ratios
+
+### 5. Operational Performance Benchmarking
+
+- **Efficiency Metrics:**
+  - Revenue per employee and productivity measures
+  - Asset turnover and utilization ratios
+  - Inventory turns and working capital efficiency
+  - Technology and automation adoption rates
+
+- **Quality Metrics:**
+  - Customer satisfaction and Net Promoter Scores
+  - Product quality ratings and defect rates
+  - Service level achievements and response times
+  - Compliance and safety performance
+
+### 6. Market Position Analysis
+
+- **Market Share Benchmarking:**
+  - Calculate and compare market share by segment
+  - Analyze share growth rates and trajectory
+  - Map geographic market presence and penetration
+  - Assess channel presence and distribution reach
+
+- **Brand Strength Assessment:**
+  - Compare brand awareness and recognition metrics
+  - Analyze social media presence and engagement
+  - Benchmark marketing spend and efficiency
+  - Assess brand value and customer loyalty
+
+### 7. Competitive Positioning Matrix
+
+- **Performance Mapping:**
+  - Create scatter plots and bubble charts showing competitive positions
+  - Map competitors on key performance dimensions
+  - Identify performance clusters and outliers
+  - Highlight competitive gaps and opportunities
+
+- **Benchmarking Dashboard:**
+  - Create visual dashboard showing relative performance
+  - Use percentile rankings and performance scores
+  - Include trend analysis and performance trajectories
+  - Highlight areas of competitive advantage and disadvantage
+
+### 8. Gap Analysis & Strategic Implications
+
+- **Performance Gap Identification:**
+  - Quantify gaps vs. best-in-class performers
+  - Identify root causes of performance differences
+  - Prioritize gaps by strategic importance
+  - Assess feasibility of closing gaps
+
+- **Strategic Recommendations:**
+  - Recommend specific actions to improve competitive position
+  - Identify best practices to adopt from competitors
+  - Suggest areas for differentiation and competitive advantage
+  - Propose performance targets and improvement timelines
+
+## Output Deliverables
+
+- **Competitive Benchmarking Dashboard:** Visual summary of competitive position
+- **Detailed Benchmarking Analysis:** Comprehensive comparison across all metrics
+- **Performance Gap Analysis:** Quantified gaps and improvement opportunities
+- **Competitive Intelligence Database:** Organized repository of competitor data
+- **Strategic Recommendations:** Actions to improve competitive position
+- **Monitoring Framework:** System for ongoing competitive tracking
+
+## Success Criteria
+
+- Comprehensive coverage of key competitors and performance dimensions
+- Accurate and current competitive intelligence data
+- Clear identification of competitive strengths and weaknesses
+- Actionable insights for improving competitive position
+- Stakeholders understand competitive dynamics and positioning
+- Regular monitoring system established for ongoing competitive intelligence
+- Benchmarking analysis informs strategic planning and resource allocation
+
+==================== END: competitive-benchmarking ====================
+
+==================== START: competitive-differentiation-strategy ====================
+# Competitive Differentiation Strategy Task
+
+## Purpose
+
+To design breakthrough differentiation strategies that create sustainable competitive advantages through innovation, unique value creation, and strategic positioning. This task develops frameworks for achieving market leadership by delivering superior customer value while building defensive moats that protect competitive position over time.
+
+## Inputs Required
+
+- Current competitive landscape and market dynamics
+- Customer needs analysis and value driver identification
+- Organizational capabilities and unique assets
+- Innovation opportunities and emerging technologies
+- Strategic objectives and growth ambitions
+
+## Task Execution Instructions
+
+### 1. Competitive Landscape Analysis & Positioning
+
+- **Competitive Intelligence & Mapping:**
+  - Map all direct and indirect competitors across relevant dimensions
+  - Analyze competitor strategies, positioning, and value propositions
+  - Identify competitive strengths, weaknesses, and strategic gaps
+  - Assess competitor innovation pipelines and future plans
+
+- **Competitive Positioning Assessment:**
+  - Plot current market position across key differentiation dimensions
+  - Identify overcrowded competitive spaces and white space opportunities
+  - Analyze price-value positioning and competitive dynamics
+  - Assess market share distribution and competitive intensity
+
+### 2. Customer Value Architecture Analysis
+
+- **Customer Jobs-to-be-Done Mapping:**
+  - Identify functional, emotional, and social jobs customers need completed
+  - Map current pain points and underserved needs
+  - Analyze customer journey and experience gaps
+  - Discover latent needs and unexpressed customer requirements
+
+- **Value Driver Hierarchy:**
+  - **Primary Value Drivers:** Core benefits that drive purchase decisions
+  - **Secondary Value Drivers:** Important but not decisive factors
+  - **Hygiene Factors:** Baseline requirements for market participation
+  - **Delight Factors:** Unexpected benefits that create customer advocacy
+
+### 3. Differentiation Opportunity Identification
+
+- **Blue Ocean Analysis:**
+  - **Eliminate:** Industry factors that no longer create value
+  - **Reduce:** Over-delivered factors that increase costs without proportional value
+  - **Raise:** Under-delivered factors that could create competitive advantage
+  - **Create:** New factors that have never been offered in the industry
+
+- **Innovation White Space Discovery:**
+  - Identify uncontested market spaces with innovation potential
+  - Find convergence opportunities across industry boundaries
+  - Discover non-consumption opportunities and new customer segments
+  - Explore business model innovation and value creation possibilities
+
+### 4. Unique Value Proposition Development
+
+- **Value Proposition Innovation:**
+  - Design breakthrough value propositions that redefine customer expectations
+  - Create compelling benefit combinations that competitors cannot easily replicate
+  - Develop outcome-based value propositions focused on customer success
+  - Build ecosystem value propositions that extend beyond core offerings
+
+- **Value Quantification & Communication:**
+  - Quantify economic value delivered to customers
+  - Develop clear, compelling value communication frameworks
+  - Create proof points and validation for value claims
+  - Design value demonstration and customer success metrics
+
+### 5. Competitive Moat Strategy Development
+
+- **Sustainable Advantage Sources:**
+  - **Network Effects:** Value increases with user base growth
+  - **Switching Costs:** High costs for customers to change providers
+  - **Economies of Scale:** Cost advantages from size and volume
+  - **Brand Differentiation:** Intangible assets and customer loyalty
+  - **Regulatory Barriers:** Legal or compliance advantages
+  - **Resource Control:** Unique access to critical resources or capabilities
+
+- **Moat Building Strategy:**
+  - Design strategies to systematically build and strengthen competitive moats
+  - Create reinforcing cycles that compound competitive advantages
+  - Build ecosystem lock-in and platform effects
+  - Develop proprietary assets and intellectual property portfolios
+
+### 6. Innovation-Driven Differentiation
+
+- **Technology-Enabled Differentiation:**
+  - Leverage emerging technologies for competitive advantage
+  - Create proprietary technology platforms and capabilities
+  - Design data-driven differentiation and AI-powered value creation
+  - Build digital ecosystem advantages and network effects
+
+- **Business Model Innovation:**
+  - Reimagine how value is created, delivered, and captured
+  - Design new revenue models and pricing strategies
+  - Create platform and ecosystem business models
+  - Develop subscription, outcome-based, and sharing economy models
+
+### 7. Capability-Based Differentiation
+
+- **Core Competency Leverage:**
+  - Identify and amplify unique organizational capabilities
+  - Build distinctive competencies that competitors cannot easily replicate
+  - Create capability combinations that deliver superior customer value
+  - Design learning organizations that continuously build new capabilities
+
+- **Organizational Innovation:**
+  - Design organizational structures that enable differentiation
+  - Build cultures that support innovation and customer focus
+  - Create decision-making processes that accelerate competitive response
+  - Develop talent strategies that attract and retain differentiation-enabling skills
+
+### 8. Customer Experience Differentiation
+
+- **Experience Innovation:**
+  - Design breakthrough customer experiences across all touchpoints
+  - Create emotional connections and memorable interactions
+  - Build personalization and customization capabilities
+  - Design omnichannel experiences that competitors cannot match
+
+- **Service Model Innovation:**
+  - Develop new service delivery models and customer support approaches
+  - Create proactive and predictive service capabilities
+  - Build customer success and outcome management programs
+  - Design community and ecosystem engagement strategies
+
+### 9. Market Creation & Category Definition
+
+- **New Market Creation:**
+  - Identify opportunities to create entirely new market categories
+  - Design strategies to educate markets and build demand
+  - Develop thought leadership and market-making capabilities
+  - Create industry standards and influence market evolution
+
+- **Category Leadership Strategy:**
+  - Position as the definitive solution in new or emerging categories
+  - Build ecosystem of partners and complementary providers
+  - Establish market education and demand generation programs
+  - Design customer reference and success story development
+
+### 10. Defensive Strategy & Competitive Response
+
+- **Competitive Defense Design:**
+  - Build defensive strategies that protect competitive advantages
+  - Create rapid response capabilities for competitive threats
+  - Design customer retention and loyalty programs
+  - Build switching cost barriers and exit costs for customers
+
+- **Preemptive Competitive Strategy:**
+  - Anticipate competitor moves and preempt responses
+  - Build market position before competitors enter
+  - Create barrier strategies that prevent competitive entry
+  - Design innovation roadmaps that stay ahead of competition
+
+### 11. Ecosystem & Partnership Differentiation
+
+- **Ecosystem Strategy:**
+  - Build partner ecosystems that enhance customer value
+  - Create platform strategies that enable third-party innovation
+  - Design complementary product and service integration
+  - Build network effects through ecosystem participation
+
+- **Strategic Alliance Design:**
+  - Form alliances that create unique competitive advantages
+  - Build exclusive partnerships that limit competitor access
+  - Create joint innovation and co-development programs
+  - Design ecosystem governance and value sharing models
+
+### 12. Pricing & Value Capture Strategy
+
+- **Value-Based Pricing Innovation:**
+  - Design pricing models that capture fair share of value created
+  - Create outcome-based and performance-linked pricing
+  - Build dynamic and personalized pricing capabilities
+  - Design pricing strategies that reinforce differentiation
+
+- **Revenue Model Innovation:**
+  - Explore subscription, usage-based, and outcome-based models
+  - Create multiple revenue streams and value capture mechanisms
+  - Design freemium and tiered pricing strategies
+  - Build recurring revenue and predictable income streams
+
+### 13. Digital & Data-Driven Differentiation
+
+- **Data Strategy & Analytics:**
+  - Build proprietary data assets that enable differentiation
+  - Create analytics capabilities that drive customer insights
+  - Design AI and machine learning applications for competitive advantage
+  - Build data network effects and learning algorithms
+
+- **Digital Platform Strategy:**
+  - Create digital platforms that enable ecosystem participation
+  - Build API strategies and developer ecosystems
+  - Design integration capabilities and data interoperability
+  - Create digital-first customer experiences and interfaces
+
+### 14. Innovation Pipeline & Roadmap
+
+- **Continuous Innovation Strategy:**
+  - Build systematic innovation processes and capabilities
+  - Create innovation pipelines that sustain competitive advantage
+  - Design open innovation and external partnership strategies
+  - Build venture capital and acquisition programs for innovation
+
+- **Future Competitive Advantage:**
+  - Anticipate future sources of competitive advantage
+  - Build capabilities for next-generation competition
+  - Design strategies for emerging technologies and market shifts
+  - Create learning and adaptation mechanisms for competitive evolution
+
+### 15. Execution & Implementation
+
+- **Differentiation Implementation:**
+  - Design organizational structures and processes to deliver differentiation
+  - Build measurement systems that track competitive advantage
+  - Create employee engagement and capability development programs
+  - Design customer communication and market education strategies
+
+- **Competitive Advantage Monitoring:**
+  - Track competitive position and advantage sustainability
+  - Monitor customer perception and value delivery
+  - Assess competitor responses and market reactions
+  - Adjust differentiation strategy based on market feedback
+
+## Output Deliverables
+
+- **Competitive Differentiation Strategy:** Comprehensive plan for achieving sustainable competitive advantage
+- **Value Proposition Framework:** Unique value propositions and customer benefit articulation
+- **Competitive Moat Design:** Strategy for building and maintaining defensive advantages
+- **Innovation Roadmap:** Pipeline of differentiation-enabling innovations
+- **Market Positioning Strategy:** Approach for establishing leadership position
+- **Ecosystem Partnership Plan:** Strategy for building competitive advantage through partnerships
+- **Implementation Plan:** Detailed approach for executing differentiation strategy
+
+## Success Criteria
+
+- Differentiation strategy creates measurable competitive advantages
+- Customer value proposition is compelling and difficult to replicate
+- Competitive moats are built that protect market position over time
+- Innovation pipeline continuously reinforces competitive differentiation
+- Market position strengthens relative to key competitors
+- Financial performance improves through value capture and margin expansion
+- Organizational capabilities enable sustained competitive advantage delivery
+
+==================== END: competitive-differentiation-strategy ====================
+
+==================== START: context-assessment-framework ====================
+# Context Assessment Framework
+
+## Purpose
+
+Simple framework for the Strategic Orchestrator to assess readiness for strategic work without doing analytical work itself.
+
+## Four Readiness Dimensions
+
+### 1. Situation Clarity
+
+**Question:** "Do we understand the business context?"
+
+- **What we need:** Basic understanding of organization, industry, current state
+- **NOT analytical depth:** Just enough context for persona selection
+- **Readiness indicator:** User can describe their business situation clearly
+
+### 2. Challenge Definition  
+
+**Question:** "Do we understand the problem or opportunity?"
+
+- **What we need:** User's perspective on what they're trying to address
+- **NOT root cause analysis:** Just their current understanding
+- **Readiness indicator:** User can articulate why this matters now
+
+### 3. Stakeholder Understanding
+
+**Question:** "Do we know who's involved and affected?"
+
+- **What we need:** Key players, decision makers, affected groups
+- **NOT stakeholder analysis:** Just awareness of who matters
+- **Readiness indicator:** User knows who cares about the outcome
+
+### 4. Outcome Expectations
+
+**Question:** "Do we understand what success looks like?"
+
+- **What we need:** User's desired outcomes and constraints
+- **NOT success metrics:** Just directional understanding
+- **Readiness indicator:** User has vision of desired future state
+
+## Readiness Assessment
+
+### Ready to Proceed When
+
+- [ ] User can describe their business context (doesn't need to be complete)
+- [ ] User can explain why this challenge matters (doesn't need to be quantified)
+- [ ] User knows who the key stakeholders are (doesn't need full mapping)
+- [ ] User has some vision of success (doesn't need precise metrics)
+
+### Keep Exploring When
+
+- User seems unclear about basic business context
+- User can't explain why this is important now
+- User doesn't know who would be involved or affected
+- User has no sense of what they want to achieve
+
+### User Signals to Watch For
+
+- **"I'm not sure..."** - Opportunity for gentle probing
+- **"I think that's enough..."** - Respect user's readiness
+- **"Let me think about that..."** - Give space, don't push
+- **"I want to get started..."** - User is ready to proceed
+
+## Mode-Specific Application
+
+### Express Mode
+
+- Quick check of all four dimensions
+- Accept user's initial answers
+- Proceed once basic understanding exists
+
+### Deep Discovery Mode
+
+- Thorough exploration of each dimension
+- Multiple follow-up questions as needed
+- User controls when to transition
+
+## What This Framework Does NOT Do
+
+❌ **Analyze the problem** - That's the Analyst's job  
+❌ **Solve anything** - That's the Specialist's job  
+❌ **Score complexity** - Just assess readiness  
+❌ **Generate insights** - That's the Communicator's job  
+❌ **Make decisions** - That's the Advisor's job  
+
+## What This Framework DOES Do
+
+✅ **Helps user clarify their thinking** through good questions  
+✅ **Identifies what user knows vs doesn't know**  
+✅ **Assesses readiness for productive strategic work**  
+✅ **Creates clean handoff** to appropriate persona  
+✅ **Respects user's time and preferences**
+
+==================== END: context-assessment-framework ====================
+
+==================== START: execution-planning ====================
+# Execution Planning Task
+
+## Purpose
+
+To translate strategic decisions into detailed, actionable implementation plans that ensure successful strategy execution through systematic resource allocation, timeline management, and performance monitoring. This task bridges the gap between strategic intent and operational reality, creating executable roadmaps with clear accountability and success measures.
+
+## Inputs Required
+
+- Strategic decisions and approved initiatives
+- Resource constraints and availability assessments
+- Organizational capabilities and capacity analysis
+- Stakeholder commitment levels and engagement requirements
+- Success criteria and performance expectations
+
+## Task Execution Instructions
+
+### 1. Strategic Initiative Decomposition
+
+- **Work Breakdown Structure:**
+  - Decompose strategic initiatives into manageable work packages
+  - Identify all activities required to achieve strategic objectives
+  - Define deliverables and outcomes for each work package
+  - Ensure complete coverage of all strategic requirements
+
+- **Initiative Interdependency Mapping:**
+  - Map dependencies between different strategic initiatives
+  - Identify critical path activities and potential bottlenecks
+  - Understand resource conflicts and scheduling constraints
+  - Plan sequencing to optimize overall strategic progress
+
+### 2. Resource Planning & Allocation
+
+- **Resource Requirements Analysis:**
+  - **Human Resources:** Skills, roles, capacity, and availability
+  - **Financial Resources:** Budget allocation, cash flow, and funding sources
+  - **Technology Resources:** Systems, tools, infrastructure, and platforms
+  - **Physical Resources:** Facilities, equipment, and materials
+  - **External Resources:** Vendors, partners, and third-party services
+
+- **Resource Optimization:**
+  - Balance resource allocation across competing strategic priorities
+  - Identify opportunities for resource sharing and synergies
+  - Plan for resource scaling and capacity building over time
+  - Design contingency plans for resource constraints and shortfalls
+
+### 3. Timeline Development & Milestone Planning
+
+- **Master Schedule Creation:**
+  - Develop integrated timeline for all strategic initiatives
+  - Set realistic deadlines based on resource availability and complexity
+  - Include buffer time for unexpected delays and complications
+  - Coordinate timing across multiple workstreams and stakeholders
+
+- **Milestone Framework:**
+  - Define key milestones that mark significant progress points
+  - Create decision gates where strategy can be adjusted or redirected
+  - Establish review points for resource reallocation and priority adjustment
+  - Design celebration points to maintain momentum and engagement
+
+### 4. Governance & Accountability Structure
+
+- **Organizational Design:**
+  - Establish steering committee and executive oversight structure
+  - Define program management office (PMO) or coordination function
+  - Create workstream leads and functional area responsibilities
+  - Design matrix management for cross-functional initiatives
+
+- **Decision-Making Framework:**
+  - Define authority levels and escalation procedures
+  - Create decision criteria and approval processes
+  - Establish communication protocols and reporting structures
+  - Design conflict resolution and issue management procedures
+
+### 5. Performance Management System
+
+- **Success Metrics Framework:**
+  - **Leading Indicators:** Early signals of progress and potential issues
+  - **Lagging Indicators:** Final outcomes and strategic objective achievement
+  - **Process Metrics:** Efficiency and quality of execution activities
+  - **Milestone Metrics:** On-time delivery and scope completion
+
+- **Performance Monitoring:**
+  - Create dashboards for real-time progress tracking
+  - Establish regular reporting cycles and review meetings
+  - Design exception reporting for issues requiring attention
+  - Plan performance data collection and analysis processes
+
+### 6. Change Management & Communication
+
+- **Change Impact Assessment:**
+  - Analyze organizational changes required for strategy execution
+  - Identify groups most affected by strategic initiatives
+  - Assess change readiness and resistance factors
+  - Plan change management interventions and support
+
+- **Communication Strategy:**
+  - Design ongoing communication plan for execution phase
+  - Create feedback mechanisms for continuous stakeholder engagement
+  - Plan regular updates and progress sharing
+  - Establish channels for issue reporting and resolution
+
+### 7. Capability Building & Development
+
+- **Skill Gap Analysis:**
+  - Identify capabilities required for successful execution
+  - Assess current organizational capabilities and gaps
+  - Plan training and development programs
+  - Design knowledge transfer and capability building activities
+
+- **Organizational Development:**
+  - Plan structural changes needed to support strategy execution
+  - Design new processes and operating procedures
+  - Create new roles and responsibilities as needed
+  - Build cultural changes required for strategic success
+
+### 8. Risk Management During Execution
+
+- **Execution Risk Assessment:**
+  - Identify risks specific to implementation phase
+  - Assess probability and impact of execution failures
+  - Plan mitigation strategies for high-priority risks
+  - Create contingency plans for major risk scenarios
+
+- **Issue Management Process:**
+  - Establish issue identification and escalation procedures
+  - Create rapid response capabilities for critical issues
+  - Design issue resolution and decision-making processes
+  - Plan for issue prevention and early intervention
+
+### 9. Quality Assurance & Control
+
+- **Quality Standards:**
+  - Define quality criteria for all deliverables and outcomes
+  - Establish review and approval processes
+  - Create testing and validation procedures
+  - Design quality metrics and measurement systems
+
+- **Continuous Improvement:**
+  - Build learning mechanisms into execution processes
+  - Create feedback loops for process optimization
+  - Plan regular retrospectives and improvement initiatives
+  - Design knowledge capture and sharing systems
+
+### 10. Financial Management & Control
+
+- **Budget Management:**
+  - Create detailed budgets for all strategic initiatives
+  - Establish cost tracking and financial reporting systems
+  - Design approval processes for budget changes
+  - Plan cash flow management and funding coordination
+
+- **Value Realization:**
+  - Track benefits realization against business case projections
+  - Measure return on investment and value creation
+  - Monitor cost-effectiveness and resource utilization
+  - Plan value optimization and benefit enhancement
+
+### 11. Stakeholder Engagement & Management
+
+- **Stakeholder Execution Roles:**
+  - Define specific roles and responsibilities for key stakeholders
+  - Create engagement plans for different stakeholder groups
+  - Establish communication rhythms and feedback mechanisms
+  - Plan stakeholder support and enablement activities
+
+- **Partnership Management:**
+  - Manage external vendor and partner relationships
+  - Coordinate across organizational boundaries and functions
+  - Align partner objectives with strategic execution goals
+  - Monitor partner performance and relationship health
+
+### 12. Adaptive Planning & Course Correction
+
+- **Strategy Adjustment Mechanisms:**
+  - Design processes for strategy refinement during execution
+  - Create criteria for major course corrections
+  - Plan scenario-based adaptation strategies
+  - Establish learning integration and strategy evolution
+
+- **Agile Execution Approach:**
+  - Build flexibility into execution plans and timelines
+  - Create rapid iteration and improvement cycles
+  - Design pilot programs and proof-of-concept testing
+  - Plan for incremental delivery and value realization
+
+### 13. Technology & Infrastructure Enablement
+
+- **Technology Execution Support:**
+  - Implement systems and tools needed for execution
+  - Design data collection and analysis infrastructure
+  - Create collaboration and communication platforms
+  - Plan technology integration and migration activities
+
+- **Process Automation:**
+  - Identify opportunities for execution process automation
+  - Design workflow systems and approval processes
+  - Create reporting and dashboard automation
+  - Plan digital transformation supporting strategy execution
+
+## Output Deliverables
+
+- **Master Execution Plan:** Comprehensive roadmap with timelines, resources, and accountability
+- **Resource Allocation Matrix:** Detailed assignment of resources to strategic initiatives
+- **Governance Charter:** Organizational structure and decision-making framework
+- **Performance Dashboard:** Real-time tracking of execution progress and metrics
+- **Risk & Issue Management Plan:** Systematic approach to execution challenges
+- **Change Management Strategy:** Plan for organizational transformation during execution
+- **Communication Plan:** Ongoing stakeholder engagement and progress reporting
+
+## Success Criteria
+
+- Strategic initiatives are delivered on time, within budget, and to quality standards
+- Resource allocation optimizes value creation across strategic portfolio
+- Governance structure enables effective decision-making and issue resolution
+- Performance monitoring provides early warning of problems and opportunities
+- Change management ensures organizational readiness and adoption
+- Stakeholder engagement maintains support and commitment throughout execution
+- Execution capabilities are built for sustained strategic advantage
+
+==================== END: execution-planning ====================
+
+==================== START: executive-presentation-creation ====================
+# Executive Presentation Creation Task
+
+## Purpose
+
+To design and develop executive-level strategic presentations that communicate complex strategic insights with clarity, influence decision-making, and drive organizational alignment. This task creates board-ready communications that balance analytical rigor with persuasive storytelling for C-suite audiences.
+
+## Inputs Required
+
+- Strategic analysis and key insights to communicate
+- Audience profile and decision-making context
+- Presentation objectives and desired outcomes
+- Time constraints and presentation format requirements
+- Supporting data, research, and evidence
+
+## Task Execution Instructions
+
+### 1. Executive Audience Analysis
+
+- **Decision-Maker Profiling:**
+  - Identify primary decision-makers and influencers in audience
+  - Understand their backgrounds, expertise, and perspectives
+  - Map their current opinions and potential resistance points
+  - Assess their preferred communication styles and formats
+
+- **Stakeholder Motivation Mapping:**
+  - Understand what drives each key stakeholder
+  - Identify their success metrics and performance concerns
+  - Map their strategic priorities and competitive pressures
+  - Consider their time constraints and attention spans
+
+### 2. Strategic Message Architecture
+
+- **Core Message Development:**
+  - Distill strategic insights into 3-5 key messages
+  - Ensure messages directly address audience priorities
+  - Frame messages in terms of business impact and value
+  - Test message clarity with "elevator pitch" constraint
+
+- **Argument Structure Design:**
+  - Build logical flow from situation to recommendation
+  - Use pyramid principle for message hierarchy
+  - Sequence arguments for maximum persuasive impact
+  - Anticipate and address likely objections
+
+### 3. Executive Story Framework
+
+- **Strategic Narrative Arc:**
+  - **Opening Hook:** Compelling market reality or competitive threat
+  - **Situation Analysis:** Current state with quantified implications
+  - **Strategic Challenge:** Critical decisions requiring action
+  - **Recommended Path:** Clear strategic direction with rationale
+  - **Future Vision:** Compelling picture of success outcomes
+
+- **Emotional Resonance Design:**
+  - Connect strategy to organizational purpose and values
+  - Use concrete examples and case studies
+  - Include customer and market stories that illustrate points
+  - Balance urgency with confidence and optimism
+
+### 4. Data Visualization & Evidence
+
+- **Executive Dashboard Creation:**
+  - Design high-level metrics that tell the strategic story
+  - Use visual hierarchy to guide attention to key insights
+  - Create clear before/after comparisons where relevant
+  - Ensure all charts are interpretable in 10 seconds or less
+
+- **Supporting Evidence Integration:**
+  - Include credible external validation and benchmarks
+  - Reference respected industry sources and thought leaders
+  - Provide concrete examples from comparable situations
+  - Balance quantitative data with qualitative insights
+
+### 5. Slide Design & Visual Communication
+
+- **Executive Slide Standards:**
+  - One key message per slide with clear headlines
+  - Minimal text with maximum visual impact
+  - Consistent design language and professional aesthetics
+  - High contrast and readable fonts for various viewing conditions
+
+- **Strategic Visualization Techniques:**
+  - Use frameworks and models to simplify complexity
+  - Create process flows and relationship diagrams
+  - Design scenario comparisons and option matrices
+  - Include timelines and roadmaps for implementation
+
+### 6. Interaction Design & Engagement
+
+- **Q&A Preparation:**
+  - Anticipate likely questions and develop clear responses
+  - Prepare backup slides with detailed analysis
+  - Practice handling skeptical or challenging questions
+  - Design interactive polling or discussion moments
+
+- **Decision Facilitation:**
+  - Include clear recommendation with pros/cons analysis
+  - Provide decision framework for complex choices
+  - Design breakout discussions for controversial topics
+  - Plan for follow-up actions and next steps
+
+### 7. Presentation Flow & Timing
+
+- **Executive Pacing:**
+  - Design for short attention spans with engagement points
+  - Plan strategic pauses for questions and discussion
+  - Include summary checkpoints throughout presentation
+  - Build flexibility for time constraints and interruptions
+
+- **Action-Oriented Conclusion:**
+  - End with clear call-to-action and next steps
+  - Summarize key decisions needed and timeline
+  - Assign ownership for follow-up actions
+  - Provide simple framework for ongoing communication
+
+### 8. Message Testing & Refinement
+
+- **Pre-Flight Validation:**
+  - Test presentation with representative audience members
+  - Gather feedback on clarity, persuasiveness, and concerns
+  - Refine messages based on initial reactions
+  - Practice delivery and timing with feedback
+
+- **Presentation Optimization:**
+  - Strengthen weak arguments and unclear explanations
+  - Enhance visual impact of key slides
+  - Improve transitions and narrative flow
+  - Prepare contingency approaches for different scenarios
+
+## Output Deliverables
+
+- **Executive Presentation Deck:** Complete slide deck with strategic narrative
+- **Speaker Notes:** Detailed talking points and key message reinforcement
+- **Executive Summary:** One-page overview of key recommendations
+- **Q&A Briefing:** Anticipated questions with prepared responses
+- **Supporting Appendix:** Detailed analysis and backup materials
+- **Follow-up Communication Plan:** Strategy for post-presentation engagement
+
+## Success Criteria
+
+- Presentation clearly communicates strategic recommendations and rationale
+- Audience understands implications and feels compelled to act
+- Complex analysis is made accessible without losing important nuance
+- Visual design enhances rather than distracts from strategic message
+- Presentation drives concrete decisions and commitment to action
+- Stakeholders are aligned on strategic direction and next steps
+- Follow-up actions are clearly defined with appropriate ownership
+
+==================== END: executive-presentation-creation ====================
+
+==================== START: financial-modeling ====================
+# Financial Modeling Task
+
+## Purpose
+
+To build comprehensive financial models that support strategic decision-making through quantitative analysis of business performance, investment opportunities, and value creation scenarios. This task creates the numerical foundation for evaluating strategic options and their financial implications.
+
+## Inputs Required
+
+- Business strategy and strategic objectives
+- Historical financial data and performance metrics
+- Market assumptions and competitive dynamics
+- Investment requirements and resource constraints
+- Success criteria and performance targets
+
+## Task Execution Instructions
+
+### 1. Model Structure & Design
+
+- **Model Purpose Definition:**
+  - Clearly define what decisions the model will support
+  - Identify key questions the model must answer
+  - Establish required outputs and reporting format
+  - Determine model complexity and detail level
+
+- **Model Architecture:**
+  - Design modular structure with distinct worksheets/sections
+  - Create clear inputs, calculations, and outputs sections
+  - Build in scenario and sensitivity analysis capabilities
+  - Ensure model is auditable and easy to follow
+
+### 2. Revenue Model Development
+
+- **Revenue Stream Analysis:**
+  - Identify all sources of revenue (products, services, subscriptions)
+  - Model pricing strategies and revenue recognition
+  - Build customer acquisition and retention assumptions
+  - Include seasonality and cyclical patterns
+
+- **Customer Economics:**
+  - Calculate Customer Lifetime Value (CLV/LTV)
+  - Model Customer Acquisition Cost (CAC)
+  - Analyze LTV:CAC ratios and payback periods
+  - Include churn rates and expansion revenue
+
+- **Market Penetration Modeling:**
+  - Link revenue projections to market sizing analysis
+  - Model adoption curves and penetration rates
+  - Include competitive response and market share dynamics
+  - Build in viral coefficients and network effects where applicable
+
+### 3. Cost Structure Modeling
+
+- **Cost Categories:**
+  - Cost of Goods Sold (COGS) and variable costs
+  - Sales and Marketing expenses with scaling factors
+  - General and Administrative (G&A) costs
+  - Research and Development investments
+
+- **Cost Behavior Analysis:**
+  - Identify fixed vs. variable cost components
+  - Model economies of scale and learning curves
+  - Include step-function costs and capacity constraints
+  - Build in inflation and cost escalation factors
+
+### 4. Investment & Capital Requirements
+
+- **Capital Expenditure Planning:**
+  - Model required investments in infrastructure, technology, equipment
+  - Include timing and phasing of capital deployments
+  - Calculate depreciation and asset utilization
+  - Plan for maintenance and replacement cycles
+
+- **Working Capital Modeling:**
+  - Model accounts receivable, inventory, and payable cycles
+  - Calculate working capital requirements and cash conversion
+  - Include seasonal working capital fluctuations
+  - Plan for growth-related working capital needs
+
+### 5. Financial Statement Integration
+
+- **Profit & Loss Modeling:**
+  - Build detailed P&L from revenue and cost models
+  - Include all operating expenses and tax calculations
+  - Model EBITDA, operating income, and net income
+  - Calculate key profitability metrics and ratios
+
+- **Cash Flow Analysis:**
+  - Build operating, investing, and financing cash flows
+  - Include working capital and capital expenditure impacts
+  - Calculate free cash flow and cash burn rates
+  - Model funding requirements and cash runway
+
+- **Balance Sheet Projections:**
+  - Project assets, liabilities, and equity over time
+  - Include debt financing and equity investment scenarios
+  - Calculate key financial ratios (leverage, liquidity, efficiency)
+  - Ensure balance sheet balances and is internally consistent
+
+### 6. Valuation & Return Analysis
+
+- **Business Valuation:**
+  - Calculate Net Present Value (NPV) using appropriate discount rates
+  - Build discounted cash flow (DCF) models
+  - Include terminal value calculations
+  - Perform comparable company and transaction analysis
+
+- **Return Metrics:**
+  - Calculate Internal Rate of Return (IRR)
+  - Analyze Return on Investment (ROI) and Return on Equity (ROE)
+  - Model payback periods and break-even analysis
+  - Include risk-adjusted return calculations
+
+### 7. Scenario & Sensitivity Analysis
+
+- **Scenario Planning:**
+  - Build best case, base case, and worst case scenarios
+  - Model different strategic options and market conditions
+  - Include competitive response scenarios
+  - Test impact of major assumptions on outcomes
+
+- **Monte Carlo Simulation:**
+  - Identify key uncertain variables and their distributions
+  - Run multiple iterations to generate outcome distributions
+  - Calculate probability of achieving key targets
+  - Identify most critical success factors
+
+## Output Deliverables
+
+- **Financial Model:** Comprehensive Excel/spreadsheet model with all calculations
+- **Executive Dashboard:** Summary of key metrics and scenario results
+- **Valuation Analysis:** Business valuation and investment returns
+- **Sensitivity Analysis:** Impact of key variables on financial outcomes
+- **Scenario Comparison:** Side-by-side comparison of strategic alternatives
+- **Model Documentation:** Assumptions, data sources, and methodology explanation
+
+## Success Criteria
+
+- Model accurately reflects business strategy and operations
+- Financial projections are realistic and well-supported
+- Model is flexible enough to test different scenarios
+- Key financial metrics align with industry benchmarks
+- Model logic is transparent and auditable
+- Outputs directly support strategic decision-making
+- Stakeholders have confidence in financial projections and valuation
+
+==================== END: financial-modeling ====================
+
+==================== START: future-scenario-planning ====================
+# Future Scenario Planning Task
+
+## Purpose
+
+To develop multiple plausible future scenarios that enable robust strategic planning, innovation opportunity identification, and risk-resilient decision-making. This task creates systematic frameworks for exploring alternative futures and their strategic implications, ensuring organizational preparedness for uncertainty and competitive advantage through anticipatory strategy.
+
+## Inputs Required
+
+- Strategic planning horizon and time scope
+- Key driving forces and uncertainties affecting the organization
+- Current market trends and emerging signals
+- Stakeholder perspectives on future possibilities
+- Strategic objectives and innovation priorities
+
+## Task Execution Instructions
+
+### 1. Driving Forces Identification & Analysis
+
+- **Internal Driving Forces:**
+  - Organizational capabilities and strategic assets
+  - Leadership vision and cultural evolution
+  - Innovation pipeline and R&D investments
+  - Financial resources and growth trajectory
+  - Partnership strategies and ecosystem development
+
+- **External Driving Forces:**
+  - **Technology:** Emerging technologies, digital transformation, automation
+  - **Economic:** Growth patterns, market dynamics, financial system evolution
+  - **Environmental:** Climate change, resource scarcity, sustainability pressures
+  - **Political:** Regulatory changes, policy shifts, geopolitical dynamics
+  - **Social:** Demographic trends, lifestyle changes, value system evolution
+  - **Industry:** Competitive landscape shifts, industry convergence, disruption patterns
+
+### 2. Uncertainty Assessment & Prioritization
+
+- **Uncertainty Classification:**
+  - **Known Unknowns:** Identifiable uncertainties with measurable ranges
+  - **Unknown Unknowns:** Unforeseeable disruptions and black swan events
+  - **Trendable Uncertainties:** Directional trends with unclear timing or magnitude
+  - **Binary Uncertainties:** Either/or outcomes with significant implications
+
+- **Impact-Uncertainty Matrix:**
+  - Plot driving forces by potential strategic impact and uncertainty level
+  - Focus scenario development on high-impact, high-uncertainty factors
+  - Consider interaction effects between different uncertainties
+  - Prioritize forces most critical to strategic success
+
+### 3. Scenario Architecture Development
+
+- **Scenario Framework Selection:**
+  - **2x2 Matrix:** Two key uncertainties creating four distinct scenarios
+  - **Morphological Analysis:** Multiple variables with different combinations
+  - **Cross-Impact Analysis:** Systematic evaluation of variable interactions
+  - **Narrative-Driven:** Story-based scenarios with thematic coherence
+
+- **Scenario Differentiation:**
+  - Ensure scenarios are plausibly different and strategically relevant
+  - Avoid scenarios that are too similar or overlapping
+  - Create scenarios that challenge current strategic assumptions
+  - Balance optimistic, pessimistic, and neutral scenario perspectives
+
+### 4. Detailed Scenario Construction
+
+- **Scenario Narrative Development:**
+  - Create compelling stories that bring scenarios to life
+  - Include specific details about market conditions, customer behavior, and competitive landscape
+  - Describe technological, regulatory, and social context
+  - Maintain internal consistency and logical progression
+
+- **Quantitative Scenario Parameters:**
+  - Define key metrics and indicators for each scenario
+  - Include market size, growth rates, and economic conditions
+  - Specify technology adoption rates and disruption timelines
+  - Quantify regulatory impact and competitive intensity
+
+### 5. Industry & Market Evolution Modeling
+
+- **Competitive Landscape Evolution:**
+  - Model how industry structure changes in each scenario
+  - Predict new entrants, consolidation, and industry convergence
+  - Assess changing competitive dynamics and success factors
+  - Identify potential disruption sources and incumbent responses
+
+- **Value Chain Transformation:**
+  - Analyze how value chains evolve under different scenarios
+  - Identify points of disintermediation and new value creation
+  - Assess changing customer needs and behavior patterns
+  - Model ecosystem evolution and partnership opportunities
+
+### 6. Technology & Innovation Implications
+
+- **Technology Trajectory Modeling:**
+  - Map technology development paths under different scenarios
+  - Assess breakthrough potential and adoption timelines
+  - Consider convergence opportunities and platform effects
+  - Evaluate infrastructure and ecosystem development needs
+
+- **Innovation Opportunity Identification:**
+  - Identify unmet needs emerging in each scenario
+  - Discover new business model opportunities
+  - Find white space markets and customer segments
+  - Assess innovation timing and market readiness
+
+### 7. Strategic Implications Analysis
+
+- **Business Model Impact Assessment:**
+  - Evaluate how each scenario affects current business model viability
+  - Identify required business model adaptations or transformations
+  - Assess revenue model sustainability and profit pool shifts
+  - Consider new monetization opportunities and value propositions
+
+- **Capability Requirements:**
+  - Identify capabilities needed to succeed in each scenario
+  - Assess gaps between current and required capabilities
+  - Prioritize capability development based on scenario probability
+  - Plan investment strategies for scenario-dependent capabilities
+
+### 8. Cross-Scenario Strategy Development
+
+- **Robust Strategy Identification:**
+  - Find strategic approaches that perform well across multiple scenarios
+  - Identify "no-regret" moves that add value regardless of future
+  - Develop contingent strategies that adapt to scenario evolution
+  - Create real options that provide flexibility for different futures
+
+- **Portfolio Strategy Optimization:**
+  - Balance investments across different scenario possibilities
+  - Design portfolio strategies that hedge against uncertainty
+  - Identify scenario-specific opportunities requiring focused bets
+  - Plan resource allocation strategies for different futures
+
+### 9. Early Warning Systems & Monitoring
+
+- **Scenario Indicator Development:**
+  - Identify leading indicators that signal movement toward specific scenarios
+  - Create monitoring systems for tracking scenario evolution
+  - Establish thresholds for strategic decision triggers
+  - Design dashboard systems for real-time scenario assessment
+
+- **Strategic Signposts:**
+  - Define key events or milestones that validate scenario directions
+  - Create timeline checkpoints for scenario probability updates
+  - Plan strategic review cycles based on scenario evolution
+  - Design adaptive strategy frameworks for scenario changes
+
+### 10. Stakeholder Scenario Engagement
+
+- **Scenario Communication:**
+  - Develop compelling presentations and materials for scenario sharing
+  - Create immersive experiences that help stakeholders understand scenarios
+  - Design workshops and exercises for scenario exploration
+  - Build organizational scenario literacy and planning capability
+
+- **Strategic Conversation Facilitation:**
+  - Use scenarios to stimulate strategic thinking and debate
+  - Challenge assumptions and mental models through scenario analysis
+  - Generate innovative ideas and breakthrough strategies
+  - Build consensus around strategic direction and priorities
+
+### 11. Risk & Opportunity Assessment
+
+- **Scenario Risk Analysis:**
+  - Identify major risks emerging in each scenario
+  - Assess vulnerability to scenario-specific threats
+  - Develop risk mitigation strategies for different futures
+  - Build resilience against multiple scenario risks
+
+- **Opportunity Prioritization:**
+  - Rank opportunities by attractiveness across scenarios
+  - Assess timing and market readiness for different opportunities
+  - Evaluate competitive advantage potential in each scenario
+  - Plan opportunity capture strategies and resource allocation
+
+### 12. Innovation Strategy Integration
+
+- **Innovation Portfolio Alignment:**
+  - Align innovation investments with scenario possibilities
+  - Balance short-term innovation with long-term scenario bets
+  - Design innovation strategies that hedge against uncertainty
+  - Create innovation options for different scenario outcomes
+
+- **Future-Back Innovation:**
+  - Work backward from scenario outcomes to identify innovation needs
+  - Develop breakthrough innovation concepts for scenario requirements
+  - Design innovation roadmaps that prepare for multiple futures
+  - Build anticipatory innovation capabilities and platforms
+
+### 13. Scenario-Based Decision Making
+
+- **Strategic Decision Frameworks:**
+  - Use scenarios to evaluate strategic alternatives
+  - Assess option performance across different futures
+  - Design decision criteria that consider scenario uncertainty
+  - Create decision trees for scenario-dependent choices
+
+- **Investment Strategy:**
+  - Allocate resources based on scenario probability and impact
+  - Design investment strategies that adapt to scenario evolution
+  - Balance diversification with focused scenario bets
+  - Create contingent investment plans for different futures
+
+## Output Deliverables
+
+- **Scenario Planning Report:** Comprehensive documentation of scenarios and strategic implications
+- **Scenario Narratives:** Detailed stories describing each future scenario
+- **Strategic Implications Analysis:** Assessment of business impact and required responses
+- **Early Warning Dashboard:** Monitoring system for tracking scenario evolution
+- **Cross-Scenario Strategy:** Robust strategic approaches for multiple futures
+- **Innovation Opportunity Map:** Innovation priorities aligned with scenario possibilities
+- **Decision Framework:** Scenario-based approach for strategic decision-making
+
+## Success Criteria
+
+- Scenarios are plausible, differentiated, and strategically relevant
+- Strategic implications are clearly understood and actionable
+- Early warning systems enable proactive strategy adaptation
+- Innovation opportunities are identified and prioritized across scenarios
+- Strategic decision-making capability is enhanced through scenario analysis
+- Organizational preparedness for uncertainty and change is strengthened
+- Scenario planning process builds anticipatory strategy capability
+
+==================== END: future-scenario-planning ====================
+
+==================== START: hypothesis-testing ====================
+# Hypothesis Testing Task
+
+## Purpose
+
+To systematically test strategic assumptions and business hypotheses through rapid, low-cost experiments before committing significant resources. This task applies scientific methodology to strategic problem-solving, enabling evidence-based decision-making and rapid learning cycles.
+
+## Inputs Required
+
+- Strategic problem or opportunity statement
+- Initial hypotheses about solutions or market dynamics
+- Available resources for experimentation
+- Success criteria and measurement framework
+- Timeline constraints and decision deadlines
+
+## Task Execution Instructions
+
+### 1. Hypothesis Formulation & Prioritization
+
+- **Structure Testable Hypotheses:**
+  - Use "If [action], then [outcome] because [assumption]" format
+  - Ensure hypotheses are specific and measurable
+  - Link hypotheses to key strategic assumptions
+  - Distinguish between customer, business model, and technical hypotheses
+
+- **Hypothesis Hierarchy Mapping:**
+  - Identify primary hypotheses critical to strategy success
+  - Map supporting hypotheses that validate components
+  - Understand dependencies between different hypotheses
+  - Prioritize by importance and ease of testing
+
+### 2. Experiment Design Framework
+
+- **Minimum Viable Test Design:**
+  - Define smallest possible test to validate hypothesis
+  - Identify key variables to test and control
+  - Establish clear success/failure criteria
+  - Design for maximum learning with minimum resources
+
+- **Test Type Selection:**
+  - **Smoke Tests:** Gauge initial interest or demand
+  - **Concierge Tests:** Manual delivery of automated solution
+  - **Wizard of Oz:** Fake backend to test frontend assumptions
+  - **A/B Tests:** Compare alternative approaches
+  - **Landing Page Tests:** Validate value propositions
+  - **Interview Tests:** Qualitative hypothesis validation
+
+### 3. Success Metrics & Measurement
+
+- **Leading Indicator Identification:**
+  - Define metrics that predict hypothesis validity
+  - Establish baseline measurements where possible
+  - Set clear thresholds for success/failure decisions
+  - Design for early signal detection
+
+- **Measurement Infrastructure:**
+  - Set up data collection mechanisms
+  - Ensure measurement reliability and validity
+  - Design for real-time monitoring and adjustment
+  - Plan for both quantitative and qualitative data
+
+### 4. Rapid Experimentation Execution
+
+- **Build-Measure-Learn Cycles:**
+  - Design experiments for 1-4 week cycles
+  - Focus on learning objectives over feature completion
+  - Build only what's necessary to test hypothesis
+  - Measure results immediately after deployment
+
+- **Resource Optimization:**
+  - Use existing tools and platforms where possible
+  - Leverage no-code/low-code solutions for speed
+  - Partner with others to reduce development costs
+  - Focus team time on learning bottlenecks
+
+### 5. Data Analysis & Interpretation
+
+- **Statistical Validation:**
+  - Apply appropriate statistical tests for sample sizes
+  - Understand confidence intervals and significance levels
+  - Distinguish between correlation and causation
+  - Account for external factors and confounding variables
+
+- **Qualitative Insight Integration:**
+  - Synthesize customer feedback and observations
+  - Identify unexpected behaviors and use cases
+  - Understand the "why" behind quantitative results
+  - Look for patterns across different customer segments
+
+### 6. Hypothesis Validation Decision Making
+
+- **Evidence-Based Conclusions:**
+  - Determine if hypothesis is confirmed, refuted, or inconclusive
+  - Assess strength of evidence supporting conclusions
+  - Identify which assumptions proved true or false
+  - Document unexpected discoveries and insights
+
+- **Iteration Strategy:**
+  - **Pivot:** Fundamental change to hypothesis based on learnings
+  - **Persevere:** Continue with current approach based on validation
+  - **Iterate:** Refine hypothesis based on partial validation
+  - **Explore:** Generate new hypotheses based on discoveries
+
+### 7. Learning Integration & Next Steps
+
+- **Insight Synthesis:**
+  - Update strategic assumptions based on evidence
+  - Revise business model hypotheses as needed
+  - Identify new hypotheses emerging from experiments
+  - Document lessons learned for future experimentation
+
+- **Portfolio Management:**
+  - Balance high-confidence bets with exploratory tests
+  - Allocate resources based on hypothesis validation
+  - Sequence experiments based on dependency chains
+  - Maintain pipeline of hypotheses to test
+
+### 8. Experimentation Culture & Process
+
+- **Rapid Learning Mindset:**
+  - Celebrate learning from failures as much as successes
+  - Encourage bold hypotheses and ambitious tests
+  - Focus on speed of learning over perfection
+  - Share learnings across teams and projects
+
+- **Systematic Documentation:**
+  - Maintain hypothesis log with predictions and results
+  - Track experiment costs and learning value
+  - Document methodology for replication
+  - Build institutional knowledge about customer behavior
+
+## Output Deliverables
+
+- **Hypothesis Test Plan:** Structured approach to validating key assumptions
+- **Experiment Design Specifications:** Detailed methodology for each test
+- **Results Dashboard:** Real-time tracking of experiment outcomes
+- **Learning Report:** Synthesis of insights and strategic implications
+- **Validated Learning Register:** Documentation of confirmed/refuted hypotheses
+- **Next Experiment Pipeline:** Prioritized queue of future tests to run
+
+## Success Criteria
+
+- Hypotheses are tested rapidly with minimal resource investment
+- Results provide clear evidence for strategic decision-making
+- Learning velocity accelerates through systematic experimentation
+- Strategic assumptions are validated or updated based on evidence
+- Experimentation capability is embedded in organizational processes
+- Failed experiments generate valuable insights for future strategy
+- Time from hypothesis to validated learning is consistently minimized
+
+==================== END: hypothesis-testing ====================
+
+==================== START: innovation-portfolio-design ====================
+# Innovation Portfolio Design Task
+
+## Purpose
+
+To design and manage balanced innovation portfolios that optimize value creation across different innovation types, time horizons, and risk levels. This task creates systematic frameworks for innovation investment allocation, portfolio optimization, and performance management to ensure sustainable competitive advantage through strategic innovation.
+
+## Inputs Required
+
+- Strategic objectives and innovation goals
+- Innovation budget and resource constraints
+- Current innovation pipeline and project inventory
+- Market opportunities and competitive dynamics
+- Organizational capabilities and innovation maturity
+
+## Task Execution Instructions
+
+### 1. Innovation Portfolio Architecture
+
+- **Innovation Type Classification:**
+  - **Core Innovation (70%):** Incremental improvements to existing products/services
+  - **Adjacent Innovation (20%):** Extensions into related markets or technologies
+  - **Transformational Innovation (10%):** Breakthrough innovations creating new categories
+  - **Platform Innovation:** Foundational capabilities enabling multiple innovations
+
+- **Innovation Horizon Framework:**
+  - **Horizon 1:** Sustaining innovations for current business (12-18 months)
+  - **Horizon 2:** Emerging innovations for growth markets (2-5 years)
+  - **Horizon 3:** Transformational innovations for future markets (5+ years)
+
+### 2. Portfolio Balance & Allocation Strategy
+
+- **Risk-Return Optimization:**
+  - Balance high-certainty, lower-return projects with high-risk, high-reward bets
+  - Diversify across different innovation types and market applications
+  - Consider correlation between innovation projects and existing business
+  - Optimize portfolio for sustainable long-term value creation
+
+- **Resource Allocation Framework:**
+  - **Financial Resources:** Budget allocation across innovation categories
+  - **Human Resources:** Talent allocation and skill development priorities
+  - **Technology Resources:** Platform investments and shared capabilities
+  - **Time Resources:** Innovation cycle timing and milestone coordination
+
+### 3. Innovation Opportunity Assessment
+
+- **Market Opportunity Evaluation:**
+  - Assess market size, growth potential, and timing for innovation opportunities
+  - Evaluate competitive intensity and differentiation potential
+  - Analyze customer needs and willingness to adopt innovations
+  - Consider ecosystem readiness and infrastructure requirements
+
+- **Technology Readiness Assessment:**
+  - Evaluate technology maturity and development risk
+  - Assess intellectual property landscape and freedom to operate
+  - Consider technology convergence and platform opportunities
+  - Analyze required technology investments and development timelines
+
+### 4. Innovation Pipeline Management
+
+- **Stage-Gate Process Design:**
+  - **Discovery:** Opportunity identification and initial validation
+  - **Scoping:** Market research and technical feasibility assessment
+  - **Business Case:** Detailed analysis and investment proposal
+  - **Development:** Product/service development and testing
+  - **Launch:** Market introduction and scaling strategies
+
+- **Portfolio Funnel Management:**
+  - Design funnel metrics and conversion rates between stages
+  - Plan capacity and resource requirements for each stage
+  - Create portfolio reviews and go/no-go decision criteria
+  - Build learning and feedback mechanisms across the funnel
+
+### 5. Innovation Investment Strategy
+
+- **Investment Thesis Development:**
+  - Create clear investment criteria for different innovation types
+  - Establish minimum and maximum investment thresholds
+  - Design investment timing and staging strategies
+  - Build portfolio-level investment and return targets
+
+- **Funding Mechanism Design:**
+  - **Corporate Venture Capital:** External startup investments
+  - **Internal Innovation Labs:** Dedicated innovation development units
+  - **Innovation Challenges:** Crowdsourced innovation competitions
+  - **Partnership Investments:** Joint development and shared risk projects
+
+### 6. Innovation Capability Portfolio
+
+- **Core Innovation Capabilities:**
+  - Build systematic innovation processes and methodologies
+  - Develop innovation culture and leadership capabilities
+  - Create cross-functional innovation teams and governance
+  - Establish innovation metrics and performance management
+
+- **Emerging Capability Development:**
+  - Identify future capabilities needed for innovation success
+  - Plan capability building through hiring, training, and partnerships
+  - Design innovation skill development and career pathways
+  - Build external innovation networks and ecosystem connections
+
+### 7. Technology Platform Strategy
+
+- **Platform Innovation Design:**
+  - Build reusable technology platforms that enable multiple innovations
+  - Create shared services and infrastructure for innovation projects
+  - Design API strategies and developer ecosystems
+  - Build data platforms and analytics capabilities for innovation
+
+- **Open Innovation Strategy:**
+  - Design external partnership and collaboration frameworks
+  - Create university research partnerships and joint programs
+  - Build supplier and customer co-innovation programs
+  - Establish innovation ecosystem participation strategies
+
+### 8. Market Validation & Customer Development
+
+- **Lean Innovation Methodology:**
+  - Apply build-measure-learn cycles for innovation validation
+  - Design minimum viable products and rapid experimentation
+  - Create customer development and feedback integration processes
+  - Build market testing and validation capabilities
+
+- **Customer Co-Creation:**
+  - Engage lead customers in innovation development processes
+  - Create customer advisory groups and innovation partnerships
+  - Design customer feedback integration and iteration cycles
+  - Build customer success and adoption measurement systems
+
+### 9. Innovation Performance Management
+
+- **Portfolio Metrics Framework:**
+  - **Leading Indicators:** Innovation pipeline health, project velocity, resource utilization
+  - **Innovation Efficiency:** Cost per innovation, time to market, success rates
+  - **Market Impact:** Revenue from new products, market share gains, customer adoption
+  - **Strategic Impact:** Competitive advantage creation, capability building, future options value
+
+- **Innovation ROI Analysis:**
+  - Calculate return on innovation investment across portfolio
+  - Measure value creation from different innovation types
+  - Assess portfolio performance against targets and benchmarks
+  - Track long-term value creation and competitive advantage building
+
+### 10. Risk Management & Portfolio Resilience
+
+- **Innovation Risk Assessment:**
+  - **Technical Risk:** Technology development and feasibility challenges
+  - **Market Risk:** Customer adoption and competitive response uncertainty
+  - **Execution Risk:** Resource availability and capability limitations
+  - **Strategic Risk:** Alignment with organizational strategy and priorities
+
+- **Portfolio Risk Mitigation:**
+  - Diversify across different risk categories and time horizons
+  - Create hedging strategies and contingency plans
+  - Build option value and strategic flexibility into portfolio
+  - Design rapid pivot and portfolio rebalancing capabilities
+
+### 11. Innovation Governance & Decision Making
+
+- **Innovation Governance Structure:**
+  - Establish innovation steering committee and decision authority
+  - Create innovation review cycles and milestone gates
+  - Design resource allocation and priority-setting processes
+  - Build innovation strategy integration with corporate strategy
+
+- **Portfolio Optimization Process:**
+  - Regular portfolio reviews and rebalancing decisions
+  - Dynamic resource reallocation based on performance and opportunity
+  - Strategic pivot and portfolio adjustment mechanisms
+  - Innovation termination and resource recovery processes
+
+### 12. Innovation Culture & Organization
+
+- **Innovation Culture Development:**
+  - Build risk-taking and experimentation mindsets
+  - Create psychological safety for innovation failures
+  - Reward innovation behaviors and learning outcomes
+  - Celebrate innovation successes and milestone achievements
+
+- **Innovation Organization Design:**
+  - Design innovation teams and cross-functional collaboration
+  - Create innovation career paths and skill development
+  - Build innovation incentives and performance management
+  - Establish innovation knowledge sharing and learning systems
+
+### 13. External Innovation Ecosystem
+
+- **Innovation Partnership Strategy:**
+  - Build startup partnership and acquisition programs
+  - Create university research and collaboration agreements
+  - Design supplier innovation and co-development programs
+  - Establish customer innovation partnerships and pilots
+
+- **Innovation Network Development:**
+  - Participate in innovation ecosystems and industry consortiums
+  - Build relationships with venture capital and innovation investors
+  - Create innovation advisory networks and expert communities
+  - Establish thought leadership and innovation brand building
+
+### 14. Innovation Technology Stack
+
+- **Innovation Infrastructure:**
+  - Build innovation labs and prototyping capabilities
+  - Create collaboration platforms and innovation management systems
+  - Design data analytics and innovation intelligence capabilities
+  - Establish innovation project management and tracking systems
+
+- **Digital Innovation Enablement:**
+  - Build digital platforms for innovation development
+  - Create AI and analytics capabilities for innovation insights
+  - Design automation and workflow systems for innovation processes
+  - Establish cloud and infrastructure capabilities for innovation scaling
+
+### 15. Future Innovation Strategy
+
+- **Innovation Trend Monitoring:**
+  - Track emerging technologies and innovation opportunities
+  - Monitor competitive innovation strategies and investments
+  - Assess changing customer needs and market dynamics
+  - Anticipate future innovation requirements and capabilities
+
+- **Innovation Strategy Evolution:**
+  - Plan innovation strategy adaptation for changing conditions
+  - Build dynamic capabilities for innovation strategy adjustment
+  - Create learning mechanisms for innovation strategy improvement
+  - Design future innovation vision and long-term planning
+
+## Output Deliverables
+
+- **Innovation Portfolio Strategy:** Comprehensive framework for innovation investment and management
+- **Portfolio Allocation Model:** Resource allocation across innovation types and time horizons
+- **Innovation Pipeline Dashboard:** Tracking system for innovation projects and performance
+- **Capability Development Plan:** Strategy for building required innovation capabilities
+- **Governance Framework:** Decision-making processes and organizational structure for innovation
+- **Performance Metrics System:** Measurement and optimization framework for innovation ROI
+- **Risk Management Plan:** Approach for managing innovation risks and building portfolio resilience
+
+## Success Criteria
+
+- Innovation portfolio optimizes value creation across different risk-return profiles
+- Resource allocation aligns with strategic priorities and market opportunities
+- Innovation pipeline generates sustainable flow of valuable innovations
+- Portfolio performance meets or exceeds financial and strategic targets
+- Innovation capabilities enable competitive advantage and market leadership
+- Risk management protects portfolio value while enabling bold innovation bets
+- Innovation strategy adapts successfully to changing market conditions and opportunities
+
+==================== END: innovation-portfolio-design ====================
+
+==================== START: market-sizing-analysis ====================
+# Market Sizing Analysis Task
+
+## Purpose
+
+To quantify market opportunities through systematic analysis of addressable markets, enabling data-driven strategic decisions about market entry, product development, and resource allocation. This task establishes the numerical foundation for understanding market potential and competitive positioning.
+
+## Inputs Required
+
+- Business context and strategic questions about market opportunity
+- Product or service definition and target customer segments
+- Geographic scope and market boundaries
+- Available market research data and industry reports
+- Competitive landscape information
+
+## Task Execution Instructions
+
+### 1. Market Definition & Segmentation
+
+- **Define Market Boundaries:**
+  - Clearly articulate what constitutes the market (product/service category)
+  - Establish geographic boundaries (global, regional, national, local)
+  - Define time horizon for analysis (current state vs. future projections)
+  - Identify market adjacencies and potential expansion areas
+
+- **Customer Segmentation:**
+  - Identify distinct customer segments within the market
+  - Define segment characteristics (demographics, psychographics, behaviors)
+  - Assess segment attractiveness and accessibility
+  - Prioritize segments for detailed analysis
+
+### 2. Total Addressable Market (TAM) Calculation
+
+- **Top-Down Approach:**
+  - Start with broad industry/category data from research reports
+  - Apply geographic and demographic filters to narrow scope
+  - Use industry growth rates to project future TAM
+  - Cross-validate with multiple data sources
+
+- **Bottom-Up Approach:**
+  - Count potential customers in target segments
+  - Estimate average revenue per customer/transaction
+  - Calculate segment-level market size
+  - Aggregate segments to build total market picture
+
+- **Value-Based Approach:**
+  - Identify customer problems and current solution costs
+  - Estimate value of solving these problems
+  - Calculate potential market based on value creation
+  - Consider price sensitivity and willingness to pay
+
+### 3. Serviceable Available Market (SAM) Analysis
+
+- **Geographic Constraints:**
+  - Narrow TAM to geographies where business can realistically operate
+  - Consider regulatory, cultural, and operational barriers
+  - Account for distribution and market access limitations
+  - Factor in competitive strongholds and barriers to entry
+
+- **Segment Refinement:**
+  - Focus on segments where value proposition is strongest
+  - Consider business model fit and go-to-market capabilities
+  - Assess segment growth rates and competitive dynamics
+  - Evaluate resource requirements for segment penetration
+
+### 4. Serviceable Obtainable Market (SOM) Estimation
+
+- **Market Share Analysis:**
+  - Analyze competitor market shares and positioning
+  - Assess competitive advantages and differentiators
+  - Estimate realistic market share capture over time
+  - Consider market maturity and growth phase dynamics
+
+- **Penetration Rate Modeling:**
+  - Develop customer adoption curves based on product lifecycle
+  - Factor in sales cycle length and conversion rates
+  - Consider viral coefficients and network effects
+  - Model different growth scenarios (conservative, likely, optimistic)
+
+### 5. Market Dynamics & Growth Drivers
+
+- **Trend Analysis:**
+  - Identify key drivers of market growth or decline
+  - Analyze historical growth patterns and cyclicality
+  - Assess impact of technological, regulatory, and social changes
+  - Evaluate macro-economic factors affecting market size
+
+- **Competitive Dynamics:**
+  - Map competitive landscape and market structure
+  - Analyze competitive responses to market changes
+  - Assess barriers to entry and exit
+  - Evaluate potential for market consolidation or fragmentation
+
+### 6. Scenario Planning & Sensitivity Analysis
+
+- **Multiple Scenarios:**
+  - Develop conservative, base case, and optimistic scenarios
+  - Vary key assumptions (growth rates, penetration, pricing)
+  - Test sensitivity to different market conditions
+  - Consider black swan events and disruption scenarios
+
+- **Risk Assessment:**
+  - Identify key risks to market size assumptions
+  - Quantify probability and impact of different risks
+  - Develop contingency plans for adverse scenarios
+  - Monitor leading indicators of market changes
+
+## Output Deliverables
+
+- **Market Sizing Model:** Spreadsheet with TAM, SAM, SOM calculations
+- **Executive Summary:** 1-2 page summary of key market opportunity insights
+- **Market Segmentation Analysis:** Detailed breakdown of customer segments
+- **Competitive Landscape Map:** Visual representation of market structure
+- **Growth Projections:** 3-5 year market size forecasts with scenarios
+- **Key Assumptions Register:** Documented assumptions and data sources
+
+## Success Criteria
+
+- Market size estimates are based on credible data and methodology
+- Multiple approaches are used to validate market size calculations
+- Key assumptions are clearly stated and justified
+- Competitive positioning is accurately assessed
+- Scenarios provide realistic range of market outcomes
+- Analysis directly informs strategic decision-making about market opportunity
+- Stakeholders have confidence in market size estimates and growth projections
+
+==================== END: market-sizing-analysis ====================
+
+==================== START: message-framework-design ====================
+# Message Framework Design Task
+
+## Purpose
+
+To create systematic, adaptable messaging frameworks that ensure consistent, compelling communication of strategic initiatives across all channels, audiences, and contexts. This task builds reusable message architectures that maintain coherence while enabling customization for different stakeholder needs and communication situations.
+
+## Inputs Required
+
+- Strategic objectives and key business priorities
+- Core insights and value propositions to communicate
+- Complete stakeholder landscape and audience profiles
+- Brand guidelines and organizational voice standards
+- Communication context and channel requirements
+
+## Task Execution Instructions
+
+### 1. Message Foundation & Core Architecture
+
+- **Strategic Message Hierarchy:**
+  - **Primary Message:** Single, overarching strategic statement
+  - **Supporting Messages:** 3-5 key points that reinforce primary message
+  - **Proof Points:** Evidence, data, and examples for each supporting message
+  - **Call-to-Action:** Specific behaviors or decisions desired from audience
+
+- **Message DNA Definition:**
+  - Identify essential elements that must appear in every communication
+  - Define non-negotiable facts and value propositions
+  - Establish emotional tone and personality for message delivery
+  - Create message authenticity standards and credibility anchors
+
+### 2. Audience-Adaptive Message Matrix
+
+- **Stakeholder Message Mapping:**
+  - Customize core messages for each key stakeholder group
+  - Identify audience-specific value propositions and benefits
+  - Adapt language, complexity, and examples for each audience
+  - Address unique concerns and motivations per stakeholder segment
+
+- **Context-Sensitive Variations:**
+  - **Formal Context:** Board presentations, official announcements, regulatory filings
+  - **Informal Context:** Team meetings, casual conversations, networking events
+  - **Crisis Context:** Emergency communications, damage control, reactive messaging
+  - **Promotional Context:** Marketing materials, sales presentations, public relations
+
+### 3. Message Consistency Framework
+
+- **Brand Voice Integration:**
+  - Align strategic messages with established brand personality
+  - Maintain consistent tone across all communication touchpoints
+  - Integrate organizational values and culture into messaging
+  - Ensure authenticity and credibility through voice consistency
+
+- **Message Version Control:**
+  - Create master message document with version tracking
+  - Establish approval processes for message modifications
+  - Design update mechanisms for evolving strategic priorities
+  - Maintain message library with approved variations and templates
+
+### 4. Narrative Structure & Story Architecture
+
+- **Universal Story Framework:**
+  - **Situation:** Current business context and market reality
+  - **Challenge:** Strategic imperative requiring action
+  - **Solution:** Proposed approach and its unique advantages
+  - **Outcome:** Expected benefits and success metrics
+  - **Next Steps:** Clear actions and timeline for implementation
+
+- **Modular Story Building:**
+  - Create interchangeable story components for different contexts
+  - Design opening hooks for various audience attention spans
+  - Develop closing frameworks that drive specific actions
+  - Build transition language for seamless narrative flow
+
+### 5. Channel-Optimized Message Design
+
+- **Format-Specific Optimization:**
+  - **Elevator Pitch:** 30-second version for brief encounters
+  - **Executive Summary:** 2-minute overview for leadership briefings
+  - **Detailed Presentation:** 15-30 minute comprehensive explanation
+  - **Written Brief:** Formal documentation with full analysis
+
+- **Media Channel Adaptation:**
+  - **Visual Media:** Image-friendly messages with strong visual metaphors
+  - **Audio Media:** Podcast and radio-optimized verbal storytelling
+  - **Digital Media:** Social media, email, and web-friendly formats
+  - **Print Media:** Newsletter, report, and documentation formats
+
+### 6. Persuasion Architecture & Influence Design
+
+- **Persuasion Technique Integration:**
+  - **Logical Appeal:** Data, evidence, and rational arguments
+  - **Emotional Appeal:** Stories, values, and emotional connection
+  - **Credibility Appeal:** Expert endorsements, track record, and social proof
+  - **Urgency Appeal:** Timing, scarcity, and competitive pressure
+
+- **Objection Handling Framework:**
+  - Anticipate common concerns and resistance points
+  - Develop standard responses that acknowledge and address objections
+  - Create bridge language that redirects to positive messaging
+  - Design preemptive messaging that addresses concerns before they arise
+
+### 7. Cultural & Organizational Adaptation
+
+- **Cultural Sensitivity Framework:**
+  - Adapt messages for different organizational cultures and subcultures
+  - Consider geographic and demographic variations in messaging
+  - Address generational differences in communication preferences
+  - Ensure inclusion and accessibility in message design
+
+- **Organizational Level Customization:**
+  - **C-Suite Messages:** Strategic focus, financial impact, competitive advantage
+  - **Middle Management:** Implementation focus, resource requirements, team impact
+  - **Front-Line Staff:** Day-to-day implications, skill development, support available
+  - **External Stakeholders:** Market impact, relationship benefits, collaboration opportunities
+
+### 8. Message Testing & Optimization
+
+- **Message Validation Process:**
+  - Test messages with representative audience samples
+  - Gather feedback on clarity, persuasiveness, and emotional impact
+  - Assess comprehension and retention of key points
+  - Evaluate authenticity and credibility perceptions
+
+- **A/B Testing Framework:**
+  - Design controlled tests of alternative message approaches
+  - Test different opening hooks, supporting evidence, and calls-to-action
+  - Measure response rates and engagement metrics
+  - Optimize messages based on performance data
+
+### 9. Message Training & Enablement
+
+- **Spokesperson Development:**
+  - Train key communicators on message framework and delivery
+  - Provide practice sessions and feedback on message presentation
+  - Develop Q&A skills and objection handling capabilities
+  - Create confidence through thorough message preparation
+
+- **Message Toolkit Creation:**
+  - Develop templates and talking points for different scenarios
+  - Create visual aids and supporting materials
+  - Provide example scripts and conversation starters
+  - Build resource library for ongoing message support
+
+### 10. Feedback Integration & Evolution
+
+- **Message Performance Monitoring:**
+  - Track message effectiveness across different channels and audiences
+  - Monitor stakeholder comprehension and response rates
+  - Assess impact on desired behaviors and decisions
+  - Measure consistency of message delivery across organization
+
+- **Continuous Message Improvement:**
+  - Incorporate feedback to refine and strengthen messages
+  - Update messages based on changing strategic priorities
+  - Evolve messaging based on market response and competitive dynamics
+  - Build learning into message framework for ongoing optimization
+
+### 11. Crisis & Reactive Messaging
+
+- **Crisis Message Preparedness:**
+  - Develop crisis-ready versions of core strategic messages
+  - Create rapid response templates for unexpected situations
+  - Establish approval processes for crisis message deployment
+  - Prepare holding statements and interim messaging approaches
+
+- **Competitive Response Framework:**
+  - Design defensive messaging for competitive attacks
+  - Create proactive messaging that preempts competitive moves
+  - Develop differentiation messaging that highlights unique advantages
+  - Build rapid response capability for market changes
+
+## Output Deliverables
+
+- **Master Message Framework:** Complete messaging architecture with all components
+- **Audience Message Matrix:** Customized messages for each stakeholder segment
+- **Message Toolkit:** Templates, talking points, and delivery resources
+- **Training Materials:** Spokesperson development and message delivery guides
+- **Testing & Optimization Plan:** Approach for validating and improving messages
+- **Message Governance System:** Processes for maintaining consistency and quality
+- **Performance Metrics Dashboard:** Tracking message effectiveness and impact
+
+## Success Criteria
+
+- Messages are consistent across all channels while remaining audience-appropriate
+- Key stakeholders can accurately recall and repeat core strategic messages
+- Message framework enables rapid development of situation-specific communications
+- Spokespeople deliver messages confidently and consistently
+- Message effectiveness improves through systematic testing and optimization
+- Strategic objectives are advanced through compelling, persuasive messaging
+- Message framework adapts successfully to changing strategic priorities and contexts
+
+==================== END: message-framework-design ====================
+
+==================== START: opportunity-identification ====================
+# Opportunity Identification Task
+
+## Purpose
+
+To systematically discover and evaluate emerging business opportunities that could create new sources of competitive advantage and value creation. This task combines market scanning with creative opportunity synthesis.
+
+## Inputs Required
+
+- Strategic context and growth objectives
+- Market and competitive landscape
+- Organizational capabilities and assets
+- Innovation budget and timeline
+- Risk tolerance and success criteria
+
+## Task Execution Instructions
+
+### 1. Opportunity Scanning Framework
+
+- **Market Signal Detection:**
+  - Monitor emerging technologies and applications
+  - Track changing customer behaviors and preferences
+  - Identify regulatory and policy changes
+  - Observe new business model experiments
+
+- **Weak Signal Amplification:**
+  - Scan edge markets and early adopter communities
+  - Monitor startup activity and venture investments
+  - Track academic research and patent filings
+  - Observe social media trends and cultural shifts
+
+### 2. Trend Convergence Analysis
+
+- **Cross-Industry Pattern Recognition:**
+  - Identify successful innovations in adjacent industries
+  - Map technology applications across sectors
+  - Find business model patterns being replicated
+  - Discover customer behavior changes affecting multiple markets
+
+- **Convergence Opportunity Mapping:**
+  - Identify where multiple trends intersect
+  - Find opportunities at industry boundaries
+  - Discover new value creation possibilities
+  - Map potential ecosystem disruptions
+
+### 3. Customer Need Archaeology
+
+- **Unmet Need Discovery:**
+  - Conduct deep customer ethnography
+  - Map customer journey frustrations and gaps
+  - Identify jobs customers hire products to do
+  - Discover compensating behaviors and workarounds
+
+- **Latent Demand Exploration:**
+  - Investigate why customers don't use existing solutions
+  - Find non-consumption opportunities
+  - Identify overcomplicated solutions ripe for simplification
+  - Discover price-sensitive customer segments
+
+### 4. Capability-Driven Opportunity Development
+
+- **Asset Reapplication:**
+  - Inventory unique organizational capabilities
+  - Map assets that could create value in new contexts
+  - Identify underutilized resources and relationships
+  - Discover new applications for existing technology
+
+- **White Space Analysis:**
+  - Map where capabilities could create new value
+  - Identify gaps in competitive landscape
+  - Find markets poorly served by current solutions
+  - Discover opportunities for category creation
+
+### 5. Opportunity Evaluation & Prioritization
+
+- **Market Attractiveness Assessment:**
+  - Size addressable market opportunity
+  - Evaluate growth potential and timing
+  - Assess competitive intensity and barriers
+  - Analyze customer willingness to pay
+
+- **Strategic Fit Analysis:**
+  - Evaluate alignment with organizational capabilities
+  - Assess required investments and timeline
+  - Analyze risks and mitigation strategies
+  - Consider portfolio effects and synergies
+
+### 6. Opportunity Development Planning
+
+- **Concept Development:**
+  - Articulate value proposition and target segments
+  - Design initial business model concepts
+  - Identify key success factors and assumptions
+  - Create preliminary financial projections
+
+- **Validation Strategy:**
+  - Design experiments to test key assumptions
+  - Plan customer discovery and validation activities
+  - Identify prototype and pilot requirements
+  - Establish go/no-go decision criteria
+
+## Output Deliverables
+
+- **Opportunity Register:** Prioritized list of opportunities with evaluation
+- **Market Analysis:** Detailed assessment of most promising opportunities
+- **Concept Briefs:** Preliminary business concepts for top opportunities
+- **Validation Plans:** Experiments to test opportunity assumptions
+- **Resource Requirements:** Investment and capability needs assessment
+
+## Success Criteria
+
+- Multiple high-potential opportunities identified and evaluated
+- Opportunities align with organizational strategy and capabilities
+- Market attractiveness and timing are well understood
+- Validation approach is designed to minimize risk and cost
+- Leadership team is aligned on opportunity priorities
+
+==================== END: opportunity-identification ====================
+
+==================== START: pattern-recognition-study ====================
+# Pattern Recognition Study Task
+
+## Purpose
+
+To systematically identify recurring patterns, trends, and relationships within complex business data that can inform strategic decision-making. This task develops the analytical foundation for spotting market opportunities, predicting business outcomes, and understanding underlying drivers of success.
+
+## Inputs Required
+
+- Historical business performance data
+- Market and industry trend data
+- Customer behavior and transaction data
+- Competitive intelligence and market dynamics
+- External factors (economic, technological, regulatory)
+
+## Task Execution Instructions
+
+### 1. Data Landscape Mapping
+
+- **Data Inventory:**
+  - Catalog all available internal and external data sources
+  - Assess data quality, completeness, and time span coverage
+  - Identify data granularity and update frequency
+  - Map relationships between different data sets
+
+- **Pattern Hypothesis Development:**
+  - Define specific business questions pattern analysis should answer
+  - Develop initial hypotheses about potential patterns
+  - Identify success metrics and performance indicators
+  - Establish pattern significance thresholds
+
+### 2. Temporal Pattern Analysis
+
+- **Trend Identification:**
+  - Analyze long-term growth trends and trajectory changes
+  - Identify cyclical patterns and seasonal variations
+  - Detect inflection points and trend reversals
+  - Map correlation between different time-series data
+
+- **Event Impact Analysis:**
+  - Identify significant events and their impact patterns
+  - Analyze lead and lag relationships between events
+  - Study pattern persistence and decay rates
+  - Map cause-and-effect relationships over time
+
+### 3. Customer Behavior Pattern Mining
+
+- **Segmentation Patterns:**
+  - Identify natural customer segments based on behavior
+  - Analyze lifecycle patterns and customer journey stages
+  - Detect churn patterns and early warning indicators
+  - Map value creation and revenue patterns by segment
+
+- **Purchase Behavior Analysis:**
+  - Identify buying patterns and transaction sequences
+  - Analyze seasonal and cyclical purchase behaviors
+  - Detect cross-selling and upselling opportunity patterns
+  - Map price sensitivity and demand elasticity patterns
+
+### 4. Competitive Pattern Recognition
+
+- **Market Response Patterns:**
+  - Analyze competitive response patterns to strategic moves
+  - Identify market share gain/loss patterns
+  - Study pricing pattern dynamics and competitive reactions
+  - Map innovation diffusion patterns across competitors
+
+- **Performance Pattern Analysis:**
+  - Compare performance patterns across competitor sets
+  - Identify leading and lagging performance indicators
+  - Analyze correlation patterns between competitive actions and outcomes
+  - Study market timing and first-mover advantage patterns
+
+### 5. Financial Performance Patterns
+
+- **Revenue Pattern Analysis:**
+  - Identify revenue growth patterns and drivers
+  - Analyze relationship patterns between metrics (correlation analysis)
+  - Detect early indicators of revenue acceleration/deceleration
+  - Map revenue quality and sustainability patterns
+
+- **Cost and Margin Patterns:**
+  - Analyze cost behavior patterns under different conditions
+  - Identify economies of scale and learning curve patterns
+  - Study margin expansion/compression patterns
+  - Map operational leverage and fixed cost patterns
+
+### 6. External Factor Pattern Integration
+
+- **Macro-Economic Patterns:**
+  - Analyze correlation between business performance and economic indicators
+  - Identify leading economic indicators for business planning
+  - Study recession and recovery patterns and impacts
+  - Map inflation and interest rate sensitivity patterns
+
+- **Technology Adoption Patterns:**
+  - Analyze technology adoption curves and S-curves
+  - Identify early indicators of technology disruption
+  - Study digital transformation impact patterns
+  - Map automation and efficiency improvement patterns
+
+### 7. Predictive Pattern Modeling
+
+- **Leading Indicator Development:**
+  - Identify metrics that predict future performance
+  - Build composite indices from multiple pattern signals
+  - Test predictive accuracy of different pattern combinations
+  - Develop early warning systems based on pattern recognition
+
+- **Scenario Pattern Mapping:**
+  - Map how patterns change under different scenarios
+  - Identify pattern stability and fragility points
+  - Model pattern evolution under various strategic choices
+  - Develop pattern-based forecasting models
+
+### 8. Pattern Validation & Significance Testing
+
+- **Statistical Validation:**
+  - Test pattern statistical significance and confidence levels
+  - Analyze pattern persistence and reliability over time
+  - Validate patterns across different time periods and conditions
+  - Test pattern robustness against data outliers
+
+- **Business Logic Validation:**
+  - Ensure patterns make business sense and have logical explanations
+  - Validate patterns with industry experts and domain knowledge
+  - Test pattern applicability across different business contexts
+  - Confirm pattern actionability for strategic decision-making
+
+### 9. Strategic Pattern Application
+
+- **Opportunity Identification:**
+  - Use patterns to identify emerging market opportunities
+  - Spot early indicators of competitive threats
+  - Identify optimal timing for strategic initiatives
+  - Recognize pattern-based arbitrage opportunities
+
+- **Performance Optimization:**
+  - Apply patterns to optimize resource allocation
+  - Use patterns to improve forecasting accuracy
+  - Leverage patterns for risk management and mitigation
+  - Apply patterns to enhance operational efficiency
+
+## Output Deliverables
+
+- **Pattern Analysis Report:** Comprehensive documentation of identified patterns
+- **Pattern Dashboard:** Visual representation of key patterns and trends
+- **Predictive Models:** Statistical models based on pattern recognition
+- **Strategic Insights:** Business implications and recommendations based on patterns
+- **Pattern Monitoring System:** Framework for ongoing pattern tracking
+- **Pattern Library:** Catalog of validated patterns for future reference
+
+## Success Criteria
+
+- Patterns are statistically significant and business-relevant
+- Pattern analysis provides actionable insights for strategic decisions
+- Predictive models improve forecasting accuracy
+- Patterns help identify opportunities and threats earlier
+- Stakeholders understand and can apply pattern insights
+- Pattern recognition capabilities are embedded in ongoing business processes
+- Pattern analysis drives measurable improvements in business performance
+
+==================== END: pattern-recognition-study ====================
+
+==================== START: problem-structuring ====================
+# Problem Structuring Task
+
+## Purpose
+
+To decompose complex, ambiguous business challenges into solvable components using structured problem-solving methodologies. This task creates clarity from chaos and establishes a systematic approach to addressing strategic challenges.
+
+## Inputs Required
+
+- Problem statement or business challenge description
+- Stakeholder perspectives on the problem
+- Available context and background information
+- Constraints and success criteria
+
+## Task Execution Instructions
+
+### 1. Problem Definition & Scoping
+
+- **Initial Problem Statement:**
+  - Capture the problem as initially described
+  - Identify who is experiencing the problem
+  - Understand why solving this problem matters now
+  - Assess urgency and scope of impact
+
+- **Stakeholder Mapping:**
+  - Identify all parties affected by or involved in the problem
+  - Understand different stakeholder perspectives
+  - Map stakeholder influence and interest levels
+  - Identify potential resistance or support
+
+### 2. Issue Tree Development
+
+- **Primary Problem Decomposition:**
+  - Break the main problem into 3-5 major components
+  - Ensure components are MECE (Mutually Exclusive, Collectively Exhaustive)
+  - Use "How might we..." framing for each component
+  
+- **Secondary Breakdown:**
+  - Further decompose each major component into sub-issues
+  - Continue until issues become specific and actionable
+  - Identify root causes vs. symptoms at each level
+
+### 3. Hypothesis Formation
+
+- **Develop Testable Hypotheses:**
+  - For each branch of the issue tree, formulate specific hypotheses
+  - State hypotheses in "If... then..." format
+  - Ensure hypotheses are testable with available resources
+  
+- **Prioritize Hypotheses:**
+  - Rank by potential impact if proven true
+  - Assess ease of testing and validation
+  - Identify quick wins vs. long-term investigations
+
+### 4. Root Cause Analysis
+
+- **5-Whys Analysis:**
+  - Apply 5-Whys technique to key problem components
+  - Trace symptoms back to fundamental causes
+  - Identify system-level vs. isolated issues
+  
+- **Fishbone Diagram:**
+  - Categorize potential causes (People, Process, Technology, Environment)
+  - Brainstorm all possible contributing factors
+  - Identify which causes can be influenced or controlled
+
+### 5. Problem Prioritization Matrix
+
+- **Impact vs. Effort Assessment:**
+  - Evaluate each problem component on impact potential
+  - Assess difficulty/effort required to address
+  - Create 2x2 matrix for prioritization
+  
+- **Strategic Alignment:**
+  - Assess how solving each component advances strategic goals
+  - Consider resource availability and organizational capabilities
+  - Factor in timing and interdependencies
+
+### 6. Solution Framework Design
+
+- **Intervention Categories:**
+  - Quick wins (high impact, low effort)
+  - Strategic initiatives (high impact, high effort)
+  - Process improvements (moderate impact, low effort)
+  - Long-term bets (uncertain impact, high effort)
+  
+- **Success Metrics:**
+  - Define how success will be measured for each problem component
+  - Establish baseline metrics where possible
+  - Set realistic timelines for improvement
+
+## Output Deliverables
+
+- **Problem Structure Map:** Visual representation of issue tree and root causes
+- **Hypothesis Register:** Prioritized list of testable hypotheses
+- **Root Cause Analysis:** Detailed investigation of fundamental drivers
+- **Solution Framework:** Categorized approach to addressing problem components
+- **Action Plan:** Sequenced initiatives with owners and timelines
+
+## Success Criteria
+
+- Complex problem is broken into manageable, specific components
+- Root causes are identified and differentiated from symptoms
+- Hypotheses are testable and prioritized appropriately
+- Solution approach is systematic and resource-appropriate
+- Stakeholders have clarity on problem scope and approach
+
+==================== END: problem-structuring ====================
+
+==================== START: risk-assessment-mitigation ====================
+# Risk Assessment & Mitigation Task
+
+## Purpose
+
+To systematically identify, analyze, and mitigate strategic risks that could impact business objectives, ensuring robust decision-making and resilient strategy execution. This task provides comprehensive risk management frameworks that balance opportunity capture with downside protection through proactive risk planning.
+
+## Inputs Required
+
+- Strategic initiative or business context requiring risk analysis
+- Historical risk data and organizational experience
+- External environment assessment and market dynamics
+- Stakeholder risk tolerance and appetite levels
+- Available resources for risk mitigation activities
+
+## Task Execution Instructions
+
+### 1. Comprehensive Risk Identification
+
+- **Risk Category Framework:**
+  - **Strategic Risks:** Market changes, competitive threats, technology disruption
+  - **Operational Risks:** Process failures, capacity constraints, quality issues
+  - **Financial Risks:** Cash flow, credit, currency, interest rate exposure
+  - **Regulatory Risks:** Compliance failures, regulatory changes, legal challenges
+  - **Reputation Risks:** Brand damage, stakeholder confidence, public relations
+  - **Technology Risks:** System failures, cybersecurity, data breaches
+  - **Human Capital Risks:** Key person dependency, talent retention, skill gaps
+
+- **Risk Discovery Methodology:**
+  - Conduct structured brainstorming sessions with cross-functional teams
+  - Review historical incidents and industry case studies
+  - Analyze competitive intelligence and market disruption patterns
+  - Interview subject matter experts and external advisors
+  - Perform systematic "what-if" scenario analysis
+
+### 2. Risk Assessment & Prioritization
+
+- **Probability Assessment:**
+  - Use historical data and statistical analysis where available
+  - Apply expert judgment and structured estimation techniques
+  - Consider leading indicators and early warning signals
+  - Account for correlation and cascading risk effects
+
+- **Impact Analysis:**
+  - **Financial Impact:** Revenue loss, cost increases, capital requirements
+  - **Strategic Impact:** Competitive position, market share, growth trajectory
+  - **Operational Impact:** Service disruption, productivity loss, customer satisfaction
+  - **Reputation Impact:** Brand value, stakeholder trust, regulatory standing
+  - **Timeline Impact:** Project delays, missed opportunities, recovery time
+
+### 3. Risk Quantification & Modeling
+
+- **Risk Metrics Development:**
+  - Calculate Expected Loss (Probability × Impact) for each risk
+  - Develop Value-at-Risk (VaR) calculations for portfolio effects
+  - Model worst-case scenarios and tail risk exposures
+  - Create risk-adjusted performance metrics and targets
+
+- **Monte Carlo Simulation:**
+  - Build probabilistic models for complex risk interactions
+  - Simulate thousands of scenarios to understand outcome distributions
+  - Identify key variables driving overall risk exposure
+  - Calculate confidence intervals for strategic outcomes
+
+### 4. Risk Appetite & Tolerance Framework
+
+- **Organizational Risk Capacity:**
+  - Assess financial capacity to absorb losses
+  - Evaluate operational resilience and recovery capabilities
+  - Consider stakeholder tolerance for different risk types
+  - Understand regulatory and compliance risk boundaries
+
+- **Risk Appetite Statements:**
+  - Define acceptable risk levels for different business activities
+  - Establish risk limits and escalation thresholds
+  - Create risk-taking guidelines for decision-makers
+  - Balance risk appetite with growth and return objectives
+
+### 5. Risk Mitigation Strategy Development
+
+- **Mitigation Approach Selection:**
+  - **Risk Avoidance:** Eliminate activities that create unacceptable risk
+  - **Risk Reduction:** Implement controls to reduce probability or impact
+  - **Risk Transfer:** Use insurance, contracts, or partnerships to shift risk
+  - **Risk Acceptance:** Consciously retain risks with adequate preparation
+
+- **Cost-Benefit Analysis:**
+  - Evaluate mitigation costs against risk reduction benefits
+  - Consider opportunity costs of risk mitigation investments
+  - Optimize mitigation portfolio for maximum risk-adjusted value
+  - Prioritize mitigation efforts based on risk severity and mitigation effectiveness
+
+### 6. Control Design & Implementation
+
+- **Preventive Controls:**
+  - Design processes and systems to prevent risk occurrence
+  - Implement quality assurance and validation mechanisms
+  - Create approval workflows and authorization limits
+  - Establish monitoring and early warning systems
+
+- **Detective Controls:**
+  - Build monitoring systems to identify risk events quickly
+  - Create exception reporting and anomaly detection
+  - Implement regular auditing and assessment processes
+  - Design stakeholder feedback and escalation mechanisms
+
+- **Corrective Controls:**
+  - Develop incident response and crisis management procedures
+  - Create business continuity and disaster recovery plans
+  - Establish communication protocols for risk events
+  - Design recovery and remediation processes
+
+### 7. Contingency Planning & Response
+
+- **Scenario-Based Planning:**
+  - Develop detailed response plans for high-impact risks
+  - Create decision trees for different risk manifestation levels
+  - Plan resource allocation and emergency response capabilities
+  - Design stakeholder communication strategies for crisis situations
+
+- **Business Continuity Framework:**
+  - Identify critical business functions and dependencies
+  - Create backup systems and alternative operating procedures
+  - Plan for supply chain disruption and key vendor failures
+  - Establish remote work and distributed operation capabilities
+
+### 8. Risk Monitoring & Early Warning
+
+- **Key Risk Indicators (KRIs):**
+  - Develop leading indicators that signal increasing risk probability
+  - Create dashboards for real-time risk monitoring
+  - Set thresholds and alerts for risk escalation
+  - Link risk indicators to business performance metrics
+
+- **Regular Risk Assessment:**
+  - Establish periodic risk review and update processes
+  - Monitor changes in risk profile due to business evolution
+  - Track effectiveness of risk mitigation measures
+  - Update risk assessments based on new information and experience
+
+### 9. Insurance & Risk Transfer
+
+- **Insurance Strategy:**
+  - Analyze insurance coverage needs and cost-effectiveness
+  - Evaluate self-insurance vs. commercial insurance options
+  - Design insurance programs that align with risk appetite
+  - Consider captive insurance and alternative risk transfer mechanisms
+
+- **Contractual Risk Transfer:**
+  - Use contracts to allocate risks to parties best able to manage them
+  - Design service level agreements with appropriate risk allocation
+  - Create partnership structures that share or transfer specific risks
+  - Implement indemnification and limitation of liability clauses
+
+### 10. Crisis Management & Communication
+
+- **Crisis Response Framework:**
+  - Establish crisis management team and decision-making authority
+  - Create communication protocols for internal and external stakeholders
+  - Design media relations and public communication strategies
+  - Plan for regulatory notification and compliance requirements
+
+- **Stakeholder Management:**
+  - Identify key stakeholders requiring communication during risk events
+  - Develop messaging frameworks for different stakeholder groups
+  - Create trust-building and confidence restoration strategies
+  - Plan for ongoing stakeholder engagement throughout recovery
+
+### 11. Risk Culture & Governance
+
+- **Risk Governance Structure:**
+  - Establish risk committee and oversight responsibilities
+  - Define roles and accountabilities for risk management
+  - Create reporting lines and escalation procedures
+  - Integrate risk management into strategic planning processes
+
+- **Risk Culture Development:**
+  - Train employees on risk awareness and response procedures
+  - Create incentives that align with appropriate risk-taking
+  - Encourage open reporting of risks and near-miss incidents
+  - Build risk management capabilities throughout the organization
+
+### 12. Performance Measurement & Learning
+
+- **Risk Management Effectiveness:**
+  - Measure actual risk outcomes against predictions
+  - Assess effectiveness of mitigation strategies and controls
+  - Evaluate cost-effectiveness of risk management investments
+  - Track improvements in risk management capabilities
+
+- **Continuous Improvement:**
+  - Conduct post-incident reviews and lessons learned sessions
+  - Update risk frameworks based on experience and best practices
+  - Benchmark risk management approaches against industry standards
+  - Invest in emerging risk management technologies and methodologies
+
+## Output Deliverables
+
+- **Risk Assessment Report:** Comprehensive analysis of identified risks and their implications
+- **Risk Register:** Detailed catalog of risks with probability, impact, and mitigation plans
+- **Risk Mitigation Strategy:** Prioritized action plan for addressing key risks
+- **Contingency Plans:** Detailed response procedures for high-impact risk scenarios
+- **Risk Monitoring Dashboard:** Real-time tracking of key risk indicators and metrics
+- **Crisis Management Playbook:** Step-by-step procedures for managing risk events
+- **Risk Governance Framework:** Organizational structure and processes for ongoing risk management
+
+## Success Criteria
+
+- All significant risks are identified, assessed, and appropriately managed
+- Risk mitigation strategies are cost-effective and aligned with business objectives
+- Risk monitoring systems provide early warning of emerging threats
+- Crisis response capabilities enable rapid and effective risk event management
+- Risk management is integrated into strategic planning and decision-making
+- Organizational risk culture supports appropriate risk-taking and management
+- Risk management effectiveness improves through measurement and continuous learning
+
+==================== END: risk-assessment-mitigation ====================
+
+==================== START: root-cause-analysis ====================
+# Root Cause Analysis Task
+
+## Purpose
+
+To systematically trace symptoms back to fundamental causes, distinguishing between surface-level issues and underlying systemic problems. This task applies rigorous investigative methodology to identify the true drivers of business challenges, enabling targeted and effective interventions.
+
+## Inputs Required
+
+- Problem statement and observed symptoms
+- Stakeholder perspectives on the issue
+- Historical data and timeline of problem emergence
+- System context and organizational constraints
+- Available resources for investigation
+
+## Task Execution Instructions
+
+### 1. Problem Symptom Mapping
+
+- **Document Observable Symptoms:**
+  - List all visible manifestations of the problem
+  - Quantify impact where possible (costs, delays, quality issues)
+  - Map timing and frequency of symptom occurrence
+  - Identify patterns in symptom emergence
+
+- **Stakeholder Perspective Gathering:**
+  - Interview people closest to the problem
+  - Collect different viewpoints on problem causation
+  - Identify conflicting explanations and hypotheses
+  - Map stakeholder biases and interests
+
+### 2. 5-Whys Deep Dive Analysis
+
+- **Sequential Why Analysis:**
+  - Start with primary symptom: "Why does [symptom] occur?"
+  - For each answer, ask "Why does that happen?"
+  - Continue for at least 5 levels of questioning
+  - Document each level with supporting evidence
+
+- **Multiple Path Exploration:**
+  - Apply 5-Whys to different symptom manifestations
+  - Identify where different paths converge on common causes
+  - Explore alternative explanations at each level
+  - Test logical consistency of causal chains
+
+### 3. Fishbone (Ishikawa) Diagram Construction
+
+- **Cause Category Framework:**
+  - **People:** Skills, motivation, training, communication
+  - **Process:** Procedures, workflows, handoffs, controls
+  - **Technology:** Systems, tools, automation, data
+  - **Environment:** Culture, structure, resources, external factors
+  - **Materials:** Information, inputs, quality, availability
+  - **Methods:** Approaches, standards, measurement, decision-making
+
+- **Systematic Cause Brainstorming:**
+  - For each category, brainstorm all potential contributing factors
+  - Use team workshops to generate comprehensive lists
+  - Apply structured techniques like brainwriting and nominal groups
+  - Prioritize causes by likelihood and evidence
+
+### 4. Data-Driven Validation
+
+- **Evidence Collection:**
+  - Gather quantitative data supporting or refuting potential causes
+  - Conduct process observations and measurements
+  - Analyze historical trends and correlations
+  - Review documentation and system logs
+
+- **Hypothesis Testing:**
+  - Formulate testable hypotheses about root causes
+  - Design experiments or pilots to test causation
+  - Use control groups where possible
+  - Apply statistical analysis to validate relationships
+
+### 5. Systems Thinking Analysis
+
+- **Feedback Loop Identification:**
+  - Map reinforcing loops that amplify problems
+  - Identify balancing loops that maintain status quo
+  - Look for delays between causes and effects
+  - Understand system structure creating problems
+
+- **Interconnection Mapping:**
+  - Identify how different parts of organization interact
+  - Map information flows and decision points
+  - Understand resource dependencies and constraints
+  - Analyze power dynamics and incentive structures
+
+### 6. Root Cause Prioritization
+
+- **Impact Assessment:**
+  - Evaluate business impact of each identified root cause
+  - Consider both direct and indirect consequences
+  - Assess scope of influence across organization
+  - Quantify potential value of addressing each cause
+
+- **Controllability Analysis:**
+  - Assess organization's ability to influence each root cause
+  - Identify causes requiring external partnerships
+  - Evaluate resource requirements for intervention
+  - Consider timeframe needed for effective action
+
+### 7. Verification & Validation
+
+- **Cross-Validation:**
+  - Test root cause conclusions with multiple stakeholders
+  - Verify findings against historical precedents
+  - Check consistency with organizational knowledge
+  - Validate through pilot interventions where possible
+
+- **Alternative Explanation Testing:**
+  - Actively seek evidence contradicting conclusions
+  - Test competing hypotheses about causation
+  - Consider cognitive biases in analysis process
+  - Engage devil's advocate perspectives
+
+## Output Deliverables
+
+- **Root Cause Analysis Report:** Comprehensive documentation of investigation process and findings
+- **Fishbone Diagram:** Visual representation of all potential contributing factors
+- **5-Whys Analysis:** Detailed causal chain documentation for each symptom path
+- **Evidence Register:** Compilation of supporting data and validation efforts
+- **Root Cause Priority Matrix:** Ranked list of causes by impact and controllability
+- **Intervention Recommendations:** Targeted actions to address identified root causes
+
+## Success Criteria
+
+- Root causes are distinguished from symptoms through rigorous analysis
+- Multiple investigation methods converge on consistent findings
+- Conclusions are supported by verifiable evidence and data
+- Identified root causes are specific and actionable
+- Analysis reveals systemic issues beyond isolated incidents
+- Stakeholders agree with findings and causation logic
+- Recommended interventions directly target validated root causes
+
+==================== END: root-cause-analysis ====================
+
+==================== START: solution-design ====================
+# Solution Design Task
+
+## Purpose
+
+To develop innovative, value-creating solutions to strategic challenges through systematic design methodology. This task combines creative problem-solving with rigorous evaluation to ensure solutions are both breakthrough and implementable within real-world constraints.
+
+## Inputs Required
+
+- Clearly defined problem or opportunity
+- Root cause analysis and problem structure
+- Stakeholder needs and success criteria
+- Resource constraints and organizational capabilities
+- Implementation timeline and milestones
+
+## Task Execution Instructions
+
+### 1. Solution Design Principles Establishment
+
+- **Value Creation Focus:**
+  - Define what value means for different stakeholders
+  - Establish value creation as primary design criterion
+  - Consider both tangible and intangible benefits
+  - Align solution value with strategic objectives
+
+- **Constraint Recognition:**
+  - Map resource limitations (budget, time, people)
+  - Identify organizational capability boundaries
+  - Understand regulatory and compliance requirements
+  - Recognize cultural and change management constraints
+
+### 2. Creative Solution Generation
+
+- **Divergent Thinking Phase:**
+  - Use brainstorming techniques to generate multiple options
+  - Apply SCAMPER method (Substitute, Combine, Adapt, Modify, Put to other uses, Eliminate, Reverse)
+  - Look for solutions from adjacent industries and contexts
+  - Consider both incremental and breakthrough approaches
+
+- **Solution Categories:**
+  - **Process Solutions:** Workflow redesign and optimization
+  - **Technology Solutions:** System implementation and automation
+  - **Organizational Solutions:** Structure and capability changes
+  - **Partnership Solutions:** Collaboration and ecosystem approaches
+  - **Business Model Solutions:** Fundamental approach changes
+
+### 3. Solution Architecture Development
+
+- **Component Design:**
+  - Break solutions into modular components
+  - Define interfaces and dependencies between components
+  - Ensure components can be developed and tested independently
+  - Design for scalability and future evolution
+
+- **Systems Integration:**
+  - Map how solution components work together
+  - Identify integration points with existing systems
+  - Design data flows and information architecture
+  - Plan for interoperability and standards compliance
+
+### 4. Stakeholder Impact Analysis
+
+- **Multi-Stakeholder Perspective:**
+  - Analyze impact on customers, employees, partners, shareholders
+  - Identify winners and losers from solution implementation
+  - Understand behavioral changes required from each group
+  - Design stakeholder engagement and change management
+
+- **User Experience Design:**
+  - Map user journeys for key stakeholder groups
+  - Identify pain points and friction in solution adoption
+  - Design for simplicity and ease of use
+  - Create feedback mechanisms for continuous improvement
+
+### 5. Implementation Feasibility Assessment
+
+- **Technical Feasibility:**
+  - Assess whether solution can be built with available technology
+  - Identify technical risks and mitigation strategies
+  - Evaluate integration complexity with existing systems
+  - Consider security, performance, and scalability requirements
+
+- **Organizational Feasibility:**
+  - Assess capability gaps and development needs
+  - Evaluate change management requirements
+  - Consider cultural fit and resistance factors
+  - Plan for training and skill development needs
+
+### 6. Solution Evaluation & Selection
+
+- **Multi-Criteria Assessment:**
+  - Evaluate solutions against value creation potential
+  - Assess implementation difficulty and resource requirements
+  - Consider time to value and payback periods
+  - Analyze risks and downside protection
+
+- **Trade-off Analysis:**
+  - Identify key trade-offs between solution alternatives
+  - Understand opportunity costs of different approaches
+  - Balance short-term quick wins with long-term transformation
+  - Consider portfolio effects across multiple solutions
+
+### 7. Prototype & Pilot Design
+
+- **Minimum Viable Solution:**
+  - Design smallest version that delivers core value
+  - Identify critical assumptions to test through prototype
+  - Plan for rapid iteration and improvement cycles
+  - Design measurement and feedback systems
+
+- **Pilot Program Planning:**
+  - Select pilot scope and participant criteria
+  - Design pilot success metrics and evaluation criteria
+  - Plan pilot timeline and resource allocation
+  - Prepare scale-up strategy based on pilot learnings
+
+### 8. Risk Assessment & Mitigation
+
+- **Risk Identification:**
+  - Map technical, market, organizational, and execution risks
+  - Assess probability and impact of each risk
+  - Identify interdependencies and cascading risks
+  - Consider both internal and external risk factors
+
+- **Mitigation Strategy Design:**
+  - Develop specific actions to reduce risk probability
+  - Design contingency plans for high-impact risks
+  - Create early warning systems for risk monitoring
+  - Build flexibility into solution design for risk adaptation
+
+### 9. Business Case Development
+
+- **Value Proposition Articulation:**
+  - Quantify expected benefits and value creation
+  - Calculate return on investment and payback period
+  - Model different scenarios and sensitivity analysis
+  - Compare to alternative uses of resources
+
+- **Implementation Roadmap:**
+  - Define phase-gate approach to solution deployment
+  - Identify critical milestones and decision points
+  - Plan resource allocation across implementation phases
+  - Design metrics and monitoring for each phase
+
+## Output Deliverables
+
+- **Solution Design Blueprint:** Comprehensive solution architecture and specifications
+- **Implementation Roadmap:** Phased approach to solution deployment
+- **Business Case:** Financial justification and value proposition
+- **Risk Assessment:** Identified risks and mitigation strategies
+- **Prototype Plan:** Design for minimal viable solution testing
+- **Stakeholder Impact Analysis:** Effects on all affected parties
+- **Success Metrics Framework:** Measurement approach for solution value
+
+## Success Criteria
+
+- Solutions directly address identified root causes and problems
+- Value creation potential is clearly quantified and compelling
+- Implementation approach is realistic within organizational constraints
+- Stakeholder impacts are understood and managed appropriately
+- Solutions can be prototyped and tested before full implementation
+- Risk mitigation strategies address major implementation threats
+- Business case demonstrates clear ROI and strategic alignment
+
+==================== END: solution-design ====================
+
+==================== START: stakeholder-alignment-strategy ====================
+# Stakeholder Alignment Strategy Task
+
+## Purpose
+
+To design and execute systematic stakeholder engagement strategies that build consensus, overcome resistance, and create unified commitment around strategic initiatives. This task ensures all key stakeholders understand, support, and actively contribute to strategic success through tailored communication and influence approaches.
+
+## Inputs Required
+
+- Strategic initiative or change requiring stakeholder support
+- Complete stakeholder mapping and influence analysis
+- Current stakeholder positions and levels of support
+- Organizational culture and political dynamics
+- Timeline and constraints for achieving alignment
+
+## Task Execution Instructions
+
+### 1. Stakeholder Ecosystem Mapping
+
+- **Comprehensive Stakeholder Identification:**
+  - Map all parties affected by or influencing the strategic initiative
+  - Include internal stakeholders (executives, managers, employees, unions)
+  - Identify external stakeholders (customers, partners, regulators, investors)
+  - Consider indirect stakeholders who might influence outcomes
+
+- **Influence Network Analysis:**
+  - Map formal and informal influence relationships
+  - Identify opinion leaders and coalition builders
+  - Understand decision-making processes and approval chains
+  - Recognize informal networks and communication channels
+
+### 2. Stakeholder Position Assessment
+
+- **Current State Analysis:**
+  - Assess each stakeholder's current level of support or resistance
+  - Understand their specific concerns, interests, and motivations
+  - Identify what they stand to gain or lose from the initiative
+  - Map their preferred communication styles and channels
+
+- **Power-Interest Matrix:**
+  - Plot stakeholders by level of influence and interest in initiative
+  - **High Power, High Interest:** Key players requiring intensive engagement
+  - **High Power, Low Interest:** Keep satisfied with regular updates
+  - **Low Power, High Interest:** Keep informed and engaged
+  - **Low Power, Low Interest:** Monitor with minimal communication
+
+### 3. Resistance Analysis & Mitigation
+
+- **Resistance Source Identification:**
+  - **Rational Resistance:** Legitimate concerns about strategy or implementation
+  - **Emotional Resistance:** Fear, loss of status, or change anxiety
+  - **Political Resistance:** Threat to power, resources, or position
+  - **Cultural Resistance:** Conflict with values or established practices
+
+- **Resistance Mitigation Strategies:**
+  - Address rational concerns with data and evidence
+  - Acknowledge emotional concerns and provide support
+  - Negotiate political concerns through compromise and coalition building
+  - Align cultural concerns with organizational values and identity
+
+### 4. Coalition Building Strategy
+
+- **Champion Identification & Development:**
+  - Identify natural supporters who can advocate for the initiative
+  - Develop their understanding and communication capabilities
+  - Provide them with tools and talking points
+  - Create opportunities for them to influence others
+
+- **Strategic Alliance Formation:**
+  - Build coalitions among stakeholders with aligned interests
+  - Create formal and informal groups supporting the initiative
+  - Facilitate peer-to-peer influence and testimony
+  - Leverage existing relationships and trust networks
+
+### 5. Tailored Communication Strategy
+
+- **Audience Segmentation:**
+  - Group stakeholders by similar characteristics and needs
+  - Develop distinct value propositions for each segment
+  - Customize messaging for different organizational levels
+  - Adapt communication style to audience preferences
+
+- **Multi-Channel Communication Design:**
+  - **Formal Channels:** Official announcements, presentations, documents
+  - **Informal Channels:** One-on-one meetings, informal conversations
+  - **Digital Channels:** Email, intranet, collaboration platforms
+  - **Face-to-Face Channels:** Town halls, workshops, team meetings
+
+### 6. Influence Campaign Execution
+
+- **Sequenced Engagement Approach:**
+  - Start with highest-influence supporters to build momentum
+  - Engage neutral parties before they form negative opinions
+  - Address concerns of resistors through trusted intermediaries
+  - Use early wins to demonstrate success and build confidence
+
+- **Message Reinforcement Strategy:**
+  - Repeat key messages through multiple channels and sources
+  - Use different formats (stories, data, examples) for the same message
+  - Encourage stakeholders to share messages in their own words
+  - Create opportunities for stakeholders to experience benefits directly
+
+### 7. Feedback Integration & Adaptation
+
+- **Systematic Feedback Collection:**
+  - Design formal and informal mechanisms for gathering input
+  - Use surveys, interviews, and focus groups strategically
+  - Monitor informal communication networks and sentiment
+  - Track changes in stakeholder positions over time
+
+- **Strategy Adaptation:**
+  - Adjust messages based on stakeholder feedback and concerns
+  - Modify initiative aspects that address legitimate stakeholder needs
+  - Revise timeline or approach based on implementation realities
+  - Incorporate stakeholder ideas to increase ownership
+
+### 8. Consensus Building Process
+
+- **Structured Decision-Making:**
+  - Design inclusive processes for stakeholder input on key decisions
+  - Use facilitation techniques to surface and resolve conflicts
+  - Create clear criteria for decision-making that stakeholders accept
+  - Document agreements and commitments publicly
+
+- **Conflict Resolution Mechanisms:**
+  - Establish processes for addressing disagreements constructively
+  - Train key leaders in conflict resolution and negotiation
+  - Create safe spaces for expressing concerns and alternative views
+  - Design escalation processes for unresolved conflicts
+
+### 9. Commitment & Accountability Systems
+
+- **Formal Commitment Mechanisms:**
+  - Secure public commitments from key stakeholders
+  - Include initiative support in performance objectives
+  - Create formal agreements and service level commitments
+  - Establish governance structures with stakeholder representation
+
+- **Progress Monitoring & Reporting:**
+  - Design metrics for measuring stakeholder engagement and support
+  - Create regular reporting on alignment progress
+  - Celebrate milestones and acknowledge stakeholder contributions
+  - Address alignment issues quickly when they emerge
+
+### 10. Sustaining Alignment Over Time
+
+- **Ongoing Engagement Strategy:**
+  - Maintain regular communication even after initial alignment
+  - Continue to reinforce value and address emerging concerns
+  - Adapt engagement approach as initiative evolves
+  - Build alignment into organizational culture and processes
+
+- **Success Story Documentation:**
+  - Capture and share success stories from stakeholder engagement
+  - Document lessons learned for future alignment challenges
+  - Build organizational capability for stakeholder management
+  - Create templates and tools for replicating success
+
+## Output Deliverables
+
+- **Stakeholder Alignment Plan:** Comprehensive strategy for building consensus
+- **Stakeholder Map & Analysis:** Visual representation of ecosystem and positions
+- **Communication Calendar:** Sequenced engagement activities and timelines
+- **Message Framework:** Tailored messaging for different stakeholder segments
+- **Coalition Building Strategy:** Approach for developing support networks
+- **Feedback Integration Process:** System for incorporating stakeholder input
+- **Success Metrics Dashboard:** Tracking alignment progress and engagement effectiveness
+
+## Success Criteria
+
+- Key stakeholders demonstrate active support for strategic initiative
+- Resistance is minimized through effective engagement and compromise
+- Coalition of supporters actively advocates for initiative success
+- Stakeholder feedback is systematically incorporated into strategy
+- Consensus is achieved on key decisions and implementation approaches
+- Commitment is sustained throughout initiative implementation
+- Organizational capability for stakeholder alignment is strengthened
+
+==================== END: stakeholder-alignment-strategy ====================
+
+==================== START: strategic-decision-framework ====================
+# Strategic Decision Framework Task
+
+## Purpose
+
+To facilitate complex strategic decisions through structured evaluation frameworks, ensuring all key factors are considered and trade-offs are explicitly managed. This task drives high-quality decisions that balance multiple criteria and stakeholder interests.
+
+## Inputs Required
+
+- Decision context and strategic question
+- Available options or alternatives
+- Key stakeholders and their priorities
+- Constraints and success criteria
+- Risk tolerance and time horizon
+
+## Task Execution Instructions
+
+### 1. Decision Architecture Setup
+
+- **Frame the Decision:**
+  - Clearly articulate what decision needs to be made
+  - Define success criteria and acceptable outcomes
+  - Identify decision timeline and key milestones
+  - Establish decision authority and approval process
+
+- **Stakeholder Alignment:**
+  - Map decision stakeholders and their interests
+  - Understand different perspectives on success
+  - Identify potential conflicts and areas of alignment
+  - Establish communication and feedback processes
+
+### 2. Options Generation & Refinement
+
+- **Alternative Development:**
+  - Generate comprehensive set of strategic options
+  - Include "do nothing" as baseline option
+  - Consider hybrid approaches and variations
+  - Ensure options span meaningful strategic choices
+
+- **Option Screening:**
+  - Apply initial feasibility filters
+  - Eliminate obviously inferior alternatives
+  - Ensure remaining options are viable and distinct
+  - Validate option completeness with stakeholders
+
+### 3. Evaluation Criteria Framework
+
+- **Criteria Identification:**
+  - Financial impact (NPV, ROI, payback period)
+  - Strategic fit (alignment with vision/goals)
+  - Risk profile (probability of success, downside protection)
+  - Implementation feasibility (resources, capabilities, timing)
+  - Stakeholder impact (customer, employee, partner effects)
+
+- **Criteria Weighting:**
+  - Assign relative importance weights to each criterion
+  - Use stakeholder input to validate weightings
+  - Consider different weighting scenarios
+  - Document rationale for weighting decisions
+
+### 4. Quantitative Analysis
+
+- **Financial Modeling:**
+  - Build financial projections for each option
+  - Include sensitivity analysis for key variables
+  - Calculate risk-adjusted returns where appropriate
+  - Model different scenarios (base, optimistic, pessimistic)
+
+- **Risk Assessment:**
+  - Identify key risks for each option
+  - Quantify probability and impact of major risks
+  - Assess risk correlation and portfolio effects
+  - Develop risk mitigation strategies
+
+### 5. Trade-off Analysis
+
+- **Multi-Criteria Evaluation:**
+  - Score each option against all criteria
+  - Apply weighting factors to calculate overall scores
+  - Identify areas where options excel or fall short
+  - Highlight significant trade-offs between options
+
+- **Scenario Testing:**
+  - Test option performance under different future scenarios
+  - Assess robustness of options to uncertainty
+  - Identify options that perform well across scenarios
+  - Highlight options that are scenario-dependent
+
+### 6. Decision Recommendation
+
+- **Recommendation Development:**
+  - Synthesize quantitative analysis with qualitative insights
+  - Develop clear recommendation with supporting rationale
+  - Address major counterarguments and concerns
+  - Propose implementation approach and timeline
+
+- **Decision Package:**
+  - Executive summary with clear recommendation
+  - Supporting analysis and key assumptions
+  - Risk assessment and mitigation strategies
+  - Implementation plan and resource requirements
+  - Success metrics and monitoring approach
+
+## Output Deliverables
+
+- **Decision Framework:** Structured approach with criteria and weightings
+- **Options Analysis:** Comprehensive evaluation of all alternatives
+- **Financial Models:** Quantitative projections and sensitivity analysis
+- **Risk Assessment:** Identified risks and mitigation strategies
+- **Final Recommendation:** Clear recommendation with implementation plan
+
+## Success Criteria
+
+- All viable options are systematically evaluated
+- Trade-offs are explicitly identified and quantified
+- Recommendation is supported by rigorous analysis
+- Stakeholders understand rationale and implications
+- Decision process is transparent and defensible
+- Implementation approach is realistic and detailed
+
+==================== END: strategic-decision-framework ====================
+
+==================== START: strategic-narrative-development ====================
+# Strategic Narrative Development Task
+
+## Purpose
+
+To transform complex strategic insights into compelling, persuasive narratives that drive stakeholder alignment and action. This task bridges analytical rigor with emotional resonance to influence strategic decision-making.
+
+## Inputs Required
+
+- Strategic insights and analysis from previous phases
+- Target audience and stakeholder map
+- Key messages and desired outcomes
+- Communication context and constraints
+
+## Task Execution Instructions
+
+### 1. Audience Analysis & Message Strategy
+
+- **Stakeholder Profiling:**
+  - Identify primary and secondary audiences
+  - Understand decision-making styles and preferences
+  - Map current beliefs, concerns, and biases
+  - Assess influence networks and opinion leaders
+
+- **Message Architecture:**
+  - Define core strategic message and supporting points
+  - Identify what audience needs to believe, feel, and do
+  - Anticipate objections and prepare responses
+  - Establish proof points and credibility anchors
+
+### 2. Narrative Framework Selection
+
+- **Story Structure Options:**
+  - **Situation-Complication-Resolution:** Current state → Challenge → Strategic response
+  - **Hero's Journey:** Organization as protagonist overcoming obstacles
+  - **Before-After-Bridge:** Current state → Desired future → Strategic path
+  - **Problem-Solution-Benefit:** Challenge → Strategic approach → Value creation
+
+- **Framework Customization:**
+  - Select structure that best fits audience and message
+  - Adapt framework to organizational culture and context
+  - Ensure structure supports logical flow and emotional arc
+  - Build in interaction points for audience engagement
+
+### 3. Story Content Development
+
+- **Opening Hook:**
+  - Start with compelling fact, question, or scenario
+  - Establish relevance and urgency for audience
+  - Create emotional connection to strategic challenge
+  - Set stakes and consequences of action/inaction
+
+- **Strategic Journey:**
+  - Present current situation with vivid, specific details
+  - Introduce strategic challenge or opportunity
+  - Build tension and urgency around need for change
+  - Present strategic response as logical, necessary solution
+
+- **Future Vision:**
+  - Paint compelling picture of successful outcome
+  - Use concrete, measurable descriptions of success
+  - Connect vision to audience values and aspirations
+  - Show how audience benefits from strategic success
+
+### 4. Evidence Integration
+
+- **Analytical Support:**
+  - Weave quantitative insights seamlessly into narrative
+  - Use data to support story beats, not overwhelm them
+  - Select most compelling statistics and visualizations
+  - Ensure evidence directly supports key messages
+
+- **Credibility Elements:**
+  - Include external validation (industry experts, benchmarks)
+  - Reference successful precedents and case studies
+  - Acknowledge risks honestly while showing mitigation
+  - Demonstrate thorough analysis and due diligence
+
+### 5. Visual Storytelling
+
+- **Narrative Visualization:**
+  - Create visual journey that parallels story structure
+  - Use metaphors and analogies to simplify complexity
+  - Design graphics that reinforce emotional impact
+  - Ensure visual consistency with brand and message
+
+- **Interactive Elements:**
+  - Build in audience participation and feedback points
+  - Design moments for questions and discussion
+  - Create tools for audience to explore scenarios
+  - Enable stakeholders to personalize insights
+
+### 6. Message Testing & Refinement
+
+- **Stakeholder Validation:**
+  - Test narrative with representative audience members
+  - Gather feedback on clarity, persuasiveness, and credibility
+  - Identify sections that create confusion or resistance
+  - Refine based on audience response and comprehension
+
+- **Message Optimization:**
+  - Strengthen weak points and amplify strong elements
+  - Adjust tone and complexity for audience preferences
+  - Ensure call-to-action is clear and compelling
+  - Verify story achieves desired outcomes
+
+## Output Deliverables
+
+- **Core Narrative:** Complete strategic story with structure and flow
+- **Message Framework:** Key messages mapped to audience segments
+- **Visual Storyboard:** Sequence of visuals supporting narrative
+- **Speaker Notes:** Detailed guidance for narrative delivery
+- **Audience Engagement Plan:** Strategy for interaction and feedback
+
+## Success Criteria
+
+- Story clearly communicates strategic insights and implications
+- Narrative resonates emotionally while maintaining analytical credibility
+- Audience can easily follow logic and see call-to-action
+- Key stakeholders express understanding and support
+- Story drives desired decisions and behaviors
+
+==================== END: strategic-narrative-development ====================
+
+==================== START: strategic-options-evaluation ====================
+# Strategic Options Evaluation Task
+
+## Purpose
+
+To systematically assess and compare strategic alternatives using rigorous analytical frameworks that enable confident decision-making under uncertainty. This task provides comprehensive evaluation methodologies that balance quantitative analysis with qualitative insights to identify optimal strategic choices for organizational success.
+
+## Inputs Required
+
+- Set of strategic alternatives requiring evaluation
+- Decision criteria and success factors
+- Stakeholder priorities and constraints
+- Market conditions and competitive dynamics
+- Organizational capabilities and resource limitations
+
+## Task Execution Instructions
+
+### 1. Strategic Options Definition & Refinement
+
+- **Option Completeness Assessment:**
+  - Ensure all viable strategic alternatives are included
+  - Add "do nothing" baseline option for comparison
+  - Consider hybrid approaches combining elements from different options
+  - Validate options are mutually exclusive and collectively exhaustive
+
+- **Option Specification:**
+  - Define scope, scale, and timeline for each strategic option
+  - Clarify resource requirements and investment levels
+  - Specify expected outcomes and success metrics
+  - Document key assumptions underlying each option
+
+### 2. Evaluation Criteria Framework
+
+- **Multi-Dimensional Criteria Development:**
+  - **Financial Criteria:** NPV, ROI, payback period, cash flow impact
+  - **Strategic Criteria:** Competitive advantage, market position, growth potential
+  - **Risk Criteria:** Downside protection, uncertainty levels, execution risk
+  - **Operational Criteria:** Implementation feasibility, resource requirements, capability fit
+  - **Stakeholder Criteria:** Customer impact, employee implications, shareholder value
+
+- **Criteria Weighting & Prioritization:**
+  - Establish relative importance of different evaluation dimensions
+  - Use stakeholder input to validate weighting decisions
+  - Consider organizational strategy and current priorities
+  - Test weighting sensitivity and impact on option rankings
+
+### 3. Financial Analysis & Valuation
+
+- **Discounted Cash Flow Analysis:**
+  - Build detailed financial models for each strategic option
+  - Include all relevant costs, investments, and revenue impacts
+  - Apply appropriate discount rates reflecting risk profiles
+  - Calculate NPV, IRR, and other key financial metrics
+
+- **Scenario-Based Financial Modeling:**
+  - Model optimistic, realistic, and pessimistic scenarios
+  - Conduct sensitivity analysis on key financial variables
+  - Assess probability-weighted expected returns
+  - Evaluate financial robustness across different scenarios
+
+### 4. Strategic Value Assessment
+
+- **Competitive Advantage Analysis:**
+  - Evaluate how each option affects competitive position
+  - Assess sustainability of competitive advantages created
+  - Analyze competitor response scenarios and implications
+  - Consider first-mover advantages and timing benefits
+
+- **Strategic Fit Evaluation:**
+  - Assess alignment with organizational vision and strategy
+  - Evaluate synergies with existing business portfolio
+  - Consider strategic option value and future flexibility
+  - Analyze impact on core competencies and capabilities
+
+### 5. Risk-Adjusted Evaluation
+
+- **Risk Identification & Assessment:**
+  - Catalog risks specific to each strategic option
+  - Assess probability and impact of key risk factors
+  - Evaluate risk correlation and portfolio effects
+  - Consider tail risks and extreme downside scenarios
+
+- **Risk-Adjusted Returns:**
+  - Calculate risk-adjusted NPV using appropriate methods
+  - Apply real options valuation for flexibility value
+  - Use Monte Carlo simulation for complex risk interactions
+  - Develop Value-at-Risk and expected shortfall metrics
+
+### 6. Implementation Feasibility Analysis
+
+- **Organizational Capability Assessment:**
+  - Evaluate required capabilities versus current organizational strengths
+  - Assess learning curve and capability development needs
+  - Consider cultural fit and change management requirements
+  - Analyze leadership and management capability needs
+
+- **Resource Availability & Constraints:**
+  - Assess financial, human, and technological resource requirements
+  - Evaluate timing and sequencing of resource needs
+  - Consider resource conflicts with other strategic initiatives
+  - Plan capability building and resource acquisition strategies
+
+### 7. Market & External Factor Analysis
+
+- **Market Attractiveness:**
+  - Evaluate market size, growth potential, and profitability
+  - Assess competitive intensity and industry dynamics
+  - Consider regulatory environment and policy changes
+  - Analyze customer trends and demand patterns
+
+- **External Dependencies:**
+  - Identify critical external factors affecting option success
+  - Assess partnership and ecosystem requirements
+  - Evaluate regulatory approval and compliance needs
+  - Consider macroeconomic and geopolitical factors
+
+### 8. Stakeholder Impact Analysis
+
+- **Multi-Stakeholder Assessment:**
+  - Analyze impact on customers, employees, shareholders, and partners
+  - Evaluate stakeholder support and resistance levels
+  - Consider communication and change management needs
+  - Assess reputational and brand implications
+
+- **Social & Environmental Impact:**
+  - Evaluate environmental sustainability and social responsibility
+  - Consider community impact and public perception
+  - Assess ESG (Environmental, Social, Governance) implications
+  - Analyze long-term societal value creation
+
+### 9. Option Comparison & Ranking
+
+- **Multi-Criteria Decision Analysis:**
+  - Score each option against all evaluation criteria
+  - Apply weighting factors to calculate overall scores
+  - Conduct sensitivity analysis on scoring and weights
+  - Create visual comparisons and ranking matrices
+
+- **Trade-off Analysis:**
+  - Identify key trade-offs between different options
+  - Understand opportunity costs and foregone benefits
+  - Analyze areas where options excel or underperform
+  - Consider timing and sequencing effects on trade-offs
+
+### 10. Uncertainty & Robustness Testing
+
+- **Stress Testing:**
+  - Test option performance under adverse conditions
+  - Evaluate robustness to key assumption changes
+  - Assess performance across multiple scenarios
+  - Identify options that perform well under uncertainty
+
+- **Real Options Analysis:**
+  - Evaluate flexibility and adaptation potential of each option
+  - Assess value of delaying decisions or staging investments
+  - Consider option to abandon, expand, or modify strategies
+  - Calculate option premiums for strategic flexibility
+
+### 11. Decision Support & Recommendation
+
+- **Recommendation Framework:**
+  - Synthesize quantitative and qualitative analysis
+  - Develop clear recommendation with supporting rationale
+  - Address major counterarguments and alternative views
+  - Provide implementation roadmap for recommended option
+
+- **Decision Package Preparation:**
+  - Create executive summary with key findings and recommendation
+  - Prepare detailed analysis backup and supporting documentation
+  - Design presentation materials for decision-makers
+  - Plan decision meeting facilitation and discussion structure
+
+### 12. Sensitivity & What-If Analysis
+
+- **Key Variable Sensitivity:**
+  - Identify variables that most impact option rankings
+  - Test how changes in key assumptions affect recommendations
+  - Evaluate threshold values where option preferences change
+  - Create decision trees for different assumption scenarios
+
+- **Interactive Analysis Tools:**
+  - Create dynamic models allowing real-time assumption testing
+  - Build scenario planning tools for decision-makers
+  - Design sensitivity dashboards for key stakeholders
+  - Enable collaborative analysis and assumption validation
+
+### 13. Post-Decision Learning Framework
+
+- **Decision Audit Trail:**
+  - Document decision rationale and key assumptions
+  - Create baseline metrics for post-decision performance tracking
+  - Establish learning objectives and success measures
+  - Plan periodic review and strategy adjustment processes
+
+- **Performance Monitoring:**
+  - Track actual performance against projected outcomes
+  - Monitor key assumptions and external factor changes
+  - Assess decision quality and evaluation methodology effectiveness
+  - Build organizational learning for future option evaluations
+
+## Output Deliverables
+
+- **Options Evaluation Report:** Comprehensive analysis comparing all strategic alternatives
+- **Financial Models:** Detailed financial projections and valuation for each option
+- **Risk Assessment Matrix:** Risk analysis and mitigation strategies for top options
+- **Decision Matrix:** Multi-criteria comparison with scoring and recommendations
+- **Implementation Roadmap:** Detailed plan for executing recommended option
+- **Stakeholder Impact Analysis:** Assessment of effects on all key stakeholder groups
+- **Executive Decision Package:** Summary materials for final decision-making
+
+## Success Criteria
+
+- All viable strategic options are systematically and rigorously evaluated
+- Evaluation methodology is transparent, defensible, and replicable
+- Financial analysis accurately reflects costs, benefits, and risks of each option
+- Decision-makers have confidence in evaluation quality and recommendations
+- Chosen option optimizes value creation while managing acceptable risk levels
+- Implementation approach is realistic and well-planned
+- Evaluation process builds organizational capability for future strategic decisions
+
+==================== END: strategic-options-evaluation ====================
+
+==================== START: trade-off-analysis ====================
+# Trade-off Analysis Task
+
+## Purpose
+
+To systematically identify, evaluate, and navigate competing priorities in strategic decisions, ensuring decision-makers understand the true costs, benefits, and implications of different choices. This task provides rigorous frameworks for managing complex trade-offs while optimizing overall strategic value creation.
+
+## Inputs Required
+
+- Strategic decision context and available options
+- Stakeholder priorities and success criteria
+- Resource constraints and organizational capabilities
+- Time horizons and performance expectations
+- Risk tolerance and uncertainty factors
+
+## Task Execution Instructions
+
+### 1. Trade-off Identification & Mapping
+
+- **Competing Priority Discovery:**
+  - Identify all dimensions where choices create trade-offs
+  - Map explicit trade-offs stated by stakeholders
+  - Discover implicit trade-offs embedded in options
+  - Understand trade-offs across different time horizons
+
+- **Trade-off Categories:**
+  - **Financial Trade-offs:** Short-term costs vs. long-term returns, investment vs. cash flow
+  - **Strategic Trade-offs:** Growth vs. profitability, focus vs. diversification
+  - **Operational Trade-offs:** Quality vs. speed, flexibility vs. efficiency
+  - **Risk Trade-offs:** Security vs. opportunity, certainty vs. upside potential
+  - **Stakeholder Trade-offs:** Customer needs vs. shareholder returns, employee satisfaction vs. cost control
+
+### 2. Stakeholder Value Framework Development
+
+- **Multi-Stakeholder Perspective:**
+  - Identify all parties affected by trade-off decisions
+  - Understand each stakeholder's priorities and success metrics
+  - Map stakeholder influence and decision-making power
+  - Recognize conflicts between different stakeholder interests
+
+- **Value Definition & Measurement:**
+  - Define value from each stakeholder perspective
+  - Establish quantitative metrics where possible
+  - Develop qualitative assessment criteria for intangible benefits
+  - Create weighted scoring systems for multi-criteria evaluation
+
+### 3. Option Impact Analysis
+
+- **Comprehensive Impact Mapping:**
+  - Analyze how each option affects all identified trade-off dimensions
+  - Quantify impacts using financial modeling and scenario analysis
+  - Assess both direct and indirect consequences
+  - Consider short-term, medium-term, and long-term implications
+
+- **Trade-off Quantification:**
+  - Calculate opportunity costs for each strategic choice
+  - Model resource allocation implications across options
+  - Assess performance trade-offs using benchmarks and targets
+  - Develop sensitivity analysis for key variables
+
+### 4. Decision Criteria Framework
+
+- **Criteria Weighting System:**
+  - Establish relative importance of different trade-off dimensions
+  - Use stakeholder input to validate weighting decisions
+  - Consider organizational strategy and competitive context
+  - Account for current strategic priorities and market conditions
+
+- **Decision Rules & Thresholds:**
+  - Set minimum acceptable performance levels for critical dimensions
+  - Establish deal-breaker criteria that eliminate options
+  - Define conditions under which trade-offs are acceptable
+  - Create escalation processes for difficult trade-off decisions
+
+### 5. Multi-Criteria Decision Analysis
+
+- **Scoring Methodology:**
+  - Rate each option against all evaluation criteria
+  - Use consistent scaling (e.g., 1-10) across all dimensions
+  - Apply statistical normalization where appropriate
+  - Ensure scoring objectivity and minimize bias
+
+- **Weighted Evaluation:**
+  - Calculate overall scores using established weighting system
+  - Perform sensitivity analysis on weights and scores
+  - Identify options that perform well across multiple criteria
+  - Highlight trade-offs where options excel or fall short
+
+### 6. Scenario-Based Trade-off Analysis
+
+- **Future Scenario Development:**
+  - Create multiple plausible future scenarios
+  - Assess how trade-offs change under different conditions
+  - Identify robust options that perform well across scenarios
+  - Understand scenario-dependent trade-off implications
+
+- **Dynamic Trade-off Assessment:**
+  - Analyze how trade-offs evolve over time
+  - Consider path-dependent effects of early decisions
+  - Evaluate reversibility and flexibility of different choices
+  - Plan for trade-off adjustments as conditions change
+
+### 7. Risk-Adjusted Trade-off Evaluation
+
+- **Risk Integration:**
+  - Incorporate probability distributions into trade-off analysis
+  - Assess downside protection vs. upside potential
+  - Evaluate risk correlation across different trade-off dimensions
+  - Consider worst-case scenarios and extreme outcomes
+
+- **Portfolio Effects:**
+  - Understand how individual decisions affect overall portfolio risk
+  - Analyze correlation between different strategic bets
+  - Balance high-risk, high-reward choices with stable options
+  - Optimize portfolio composition considering all trade-offs
+
+### 8. Stakeholder Trade-off Communication
+
+- **Trade-off Visualization:**
+  - Create clear visual representations of key trade-offs
+  - Use charts, matrices, and diagrams to illustrate choices
+  - Develop dashboard views for complex multi-dimensional trade-offs
+  - Make trade-off implications accessible to all stakeholders
+
+- **Transparent Decision Process:**
+  - Document rationale for trade-off evaluation and weighting
+  - Share analysis methodology and assumptions
+  - Enable stakeholder input on trade-off priorities
+  - Facilitate discussion of different trade-off perspectives
+
+### 9. Implementation Trade-off Management
+
+- **Execution Implications:**
+  - Identify trade-offs that emerge during implementation
+  - Plan for resource allocation decisions and priority conflicts
+  - Design processes for managing ongoing trade-off decisions
+  - Create governance structure for trade-off resolution
+
+- **Performance Monitoring:**
+  - Track actual performance against trade-off predictions
+  - Monitor whether trade-offs are performing as expected
+  - Adjust strategy if trade-off assumptions prove incorrect
+  - Learn from trade-off outcomes for future decisions
+
+### 10. Trade-off Optimization Strategies
+
+- **Creative Solution Development:**
+  - Look for options that minimize or eliminate trade-offs
+  - Explore innovative approaches that deliver multiple benefits
+  - Consider phased approaches that sequence trade-off decisions
+  - Investigate partnerships that help manage trade-offs
+
+- **Dynamic Rebalancing:**
+  - Design flexibility to adjust trade-offs as conditions change
+  - Create option value through reversible decisions
+  - Plan for periodic trade-off reassessment and optimization
+  - Build learning mechanisms to improve trade-off management
+
+### 11. Cultural & Organizational Context
+
+- **Decision-Making Culture:**
+  - Understand organizational appetite for different types of trade-offs
+  - Consider historical patterns in trade-off decisions
+  - Align trade-off approach with organizational values
+  - Account for political dynamics affecting trade-off acceptance
+
+- **Capability Requirements:**
+  - Assess organizational ability to execute different trade-off choices
+  - Identify skill and resource gaps that affect trade-off viability
+  - Plan capability development to enable preferred trade-offs
+  - Consider trade-offs in capability investment priorities
+
+## Output Deliverables
+
+- **Trade-off Analysis Framework:** Systematic approach to evaluating competing priorities
+- **Multi-Criteria Decision Matrix:** Quantified comparison of options across all trade-off dimensions
+- **Stakeholder Impact Assessment:** Analysis of how trade-offs affect different parties
+- **Scenario Analysis Report:** Trade-off performance under different future conditions
+- **Risk-Adjusted Recommendations:** Preferred options considering uncertainty and downside protection
+- **Implementation Guidelines:** Approach for managing trade-offs during execution
+- **Monitoring Dashboard:** Tracking system for trade-off performance and optimization
+
+## Success Criteria
+
+- All significant trade-offs are identified and systematically evaluated
+- Decision-makers understand the full implications of different choices
+- Trade-off analysis is rigorous yet accessible to key stakeholders
+- Stakeholder perspectives are appropriately weighted in trade-off decisions
+- Chosen approach optimizes value creation across multiple dimensions
+- Implementation approach includes mechanisms for ongoing trade-off management
+- Trade-off analysis capability is embedded for future strategic decisions
+
+==================== END: trade-off-analysis ====================
+
+==================== START: value-engineering ====================
+# Value Engineering Task
+
+## Purpose
+
+To systematically optimize solutions for maximum value delivery while minimizing costs and complexity. This task applies value engineering methodology to enhance solution efficiency, eliminate waste, and achieve superior return on investment through function-focused design thinking.
+
+## Inputs Required
+
+- Existing solution design or concept
+- Cost breakdown and resource requirements
+- Performance specifications and quality standards
+- Stakeholder value definitions and priorities
+- Alternative approaches and benchmark solutions
+
+## Task Execution Instructions
+
+### 1. Function Analysis & Value Definition
+
+- **Function Identification:**
+  - Break solution into primary and secondary functions
+  - Use verb-noun format to describe each function clearly
+  - Distinguish between basic functions (essential) and secondary functions (nice-to-have)
+  - Map relationships between different functions
+
+- **Value Hierarchy Establishment:**
+  - Define value from multiple stakeholder perspectives
+  - Establish relative importance weights for different functions
+  - Identify functions that create most customer value
+  - Understand trade-offs between competing value dimensions
+
+### 2. Cost-Function Analysis
+
+- **Function Costing:**
+  - Allocate total solution cost to each identified function
+  - Identify high-cost functions relative to their value contribution
+  - Map resource consumption patterns across functions
+  - Calculate cost-per-unit of value for each function
+
+- **Value Engineering Opportunities:**
+  - Target functions with high cost-to-value ratios
+  - Identify over-engineered components and features
+  - Find functions that don't align with stakeholder priorities
+  - Discover redundant or unnecessary functions
+
+### 3. Alternative Generation & Creativity
+
+- **Function-Based Ideation:**
+  - Generate multiple ways to achieve each function
+  - Consider different technologies and approaches
+  - Look for solutions from other industries and contexts
+  - Apply creativity techniques like TRIZ and biomimicry
+
+- **Component Simplification:**
+  - Explore consolidation of multiple functions into single components
+  - Identify opportunities to eliminate interfaces and handoffs
+  - Consider standardization and platform approaches
+  - Look for ways to leverage existing assets and capabilities
+
+### 4. Design-to-Cost Optimization
+
+- **Target Costing:**
+  - Establish maximum acceptable cost for each function
+  - Work backward from value to determine cost constraints
+  - Set cost reduction targets based on competitive benchmarks
+  - Balance cost reduction with quality and performance requirements
+
+- **Material and Process Optimization:**
+  - Evaluate alternative materials and manufacturing processes
+  - Consider lifecycle costs including maintenance and operations
+  - Assess scalability implications of different cost structures
+  - Optimize for volume production and learning curve effects
+
+### 5. Performance-Value Trade-off Analysis
+
+- **Specification Optimization:**
+  - Challenge all performance requirements for necessity
+  - Identify over-specification that doesn't add customer value
+  - Find opportunities to reduce complexity without losing function
+  - Balance performance with cost and development time
+
+- **Quality Function Deployment:**
+  - Map customer requirements to technical specifications
+  - Prioritize features based on customer value and competitive differentiation
+  - Identify features that create disproportionate cost or complexity
+  - Focus development resources on highest-value functions
+
+### 6. Implementation & Delivery Optimization
+
+- **Development Process Efficiency:**
+  - Streamline development and testing processes
+  - Eliminate non-value-adding activities and handoffs
+  - Optimize project management and coordination overhead
+  - Accelerate time-to-market through parallel development
+
+- **Deployment Strategy:**
+  - Optimize rollout approach for maximum value realization
+  - Consider phased implementation to reduce risk and cost
+  - Design for rapid scaling and replication
+  - Plan for continuous improvement and optimization
+
+### 7. Lifecycle Value Optimization
+
+- **Total Cost of Ownership:**
+  - Optimize for lifecycle costs, not just initial investment
+  - Consider maintenance, support, and upgrade costs
+  - Plan for technology refresh and evolution cycles
+  - Design for operational efficiency and automation
+
+- **Value Sustainability:**
+  - Ensure value creation is sustainable over time
+  - Plan for competitive response and market evolution
+  - Build in flexibility for future adaptation
+  - Design learning and improvement mechanisms
+
+### 8. Risk-Adjusted Value Assessment
+
+- **Value-at-Risk Analysis:**
+  - Assess probability distributions of value outcomes
+  - Identify factors that could impact value realization
+  - Design robustness into high-value functions
+  - Create contingency plans for value protection
+
+- **Portfolio Value Optimization:**
+  - Consider value engineering impact on other projects
+  - Optimize resource allocation across project portfolio
+  - Leverage shared components and capabilities
+  - Balance risk and return across multiple initiatives
+
+### 9. Stakeholder Value Validation
+
+- **Value Proposition Testing:**
+  - Validate value assumptions with target stakeholders
+  - Test price sensitivity and willingness to pay
+  - Confirm that cost reductions don't compromise critical value
+  - Gather feedback on function prioritization and trade-offs
+
+- **Continuous Value Monitoring:**
+  - Establish metrics for ongoing value measurement
+  - Create feedback loops for value optimization
+  - Monitor competitor value propositions and responses
+  - Plan for continuous improvement and value enhancement
+
+## Output Deliverables
+
+- **Function-Cost Analysis:** Detailed breakdown of functions and their costs
+- **Value Engineering Report:** Optimization recommendations and rationale
+- **Redesigned Solution:** Optimized solution specification and design
+- **Cost-Benefit Analysis:** Quantified impact of optimization changes
+- **Implementation Plan:** Approach to deploy optimized solution
+- **Value Metrics Framework:** Ongoing measurement of value delivery
+- **Risk Assessment:** Analysis of optimization risks and mitigation
+
+## Success Criteria
+
+- Solution delivers superior value-to-cost ratio compared to alternatives
+- All functions are justified by their contribution to stakeholder value
+- Cost structure is competitive and sustainable
+- Quality and performance standards are maintained or improved
+- Implementation complexity is minimized without sacrificing function
+- Solution can scale efficiently and adapt to changing requirements
+- Value engineering approach can be applied to future projects and solutions
+
+==================== END: value-engineering ====================
+
