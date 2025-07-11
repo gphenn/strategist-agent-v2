@@ -1,3 +1,4 @@
+==================== START: strategic-context-brief ====================
 # Strategic Context Brief
 
 **Date:** {Current Date}  
@@ -146,3 +147,5 @@ This strategic context brief serves as the master project context. Individual st
 - **Framework Sequence Status:** {Determined/In Progress/Complete}
 - **Current Step:** {Step X}
 - **Next Review:** {When to reassess sequence or approach}
+
+==================== END: strategic-context-brief ====================

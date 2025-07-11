@@ -1,0 +1,116 @@
+### 2. Framework Sequence Determination & Strategic Context Brief Management
+
+**Once sufficient context is gathered and modules are selected:**
+
+#### Check for Existing Strategic Context Brief
+
+**File Check Protocol:**
+
+1. **Check if `project-context/strategic-context-brief.md` exists**
+2. **If file exists**:
+   - Load and review existing content with user
+   - Ask: "I found your existing strategic context brief. Would you like me to review and update it based on our conversation, or shall we proceed with the current framework sequence?"
+   - If user requests updates: Update relevant sections based on new information gathered
+   - If user wants to proceed: Load existing Framework Sequence and continue to persona activation
+
+3. **If file does not exist**: Proceed to Framework Sequence Determination (below)
+
+#### Framework Sequence Determination Logic
+
+**Based on selected strategic modules and user context, determine optimal Framework Sequence:**
+
+**Reference Framework Sequences from Active Modules:**
+
+- Load success patterns from activated strategic modules (e.g., `20_mining-services_economic-development-module.md`)
+- Analyze user challenge against known patterns
+- Consider project characteristics: urgency, complexity, stakeholder diversity, timeline constraints
+
+**Common Framework Sequence Patterns:**
+
+1. **Market Analysis First Pattern** (Market-driven challenges):
+   - **Sequence**: Step 3 (Analyse) → Step 1 (Define) → Step 6 (Decide) → Step 5 (Story)
+   - **When to use**: Market opportunities, competitive positioning, business development
+   - **Example**: "You need market intelligence before defining specific objectives"
+
+2. **Stakeholder Alignment First Pattern** (Complex stakeholder environments):
+   - **Sequence**: Step 5 (Story) → Step 3 (Analyse) → Step 6 (Decide) → Step 2 (Split)
+   - **When to use**: Multi-stakeholder projects, community development, public-private partnerships
+   - **Example**: "Stakeholder consensus is prerequisite to effective analysis"
+
+3. **Problem Decomposition Pattern** (Complex systematic challenges):
+   - **Sequence**: Step 2 (Split) → Step 3 (Analyse) → Step 4 (Insight) → Step 6 (Decide)
+   - **When to use**: Complex operational challenges, system redesign, organizational transformation
+   - **Example**: "Need to break down complexity before meaningful analysis"
+
+4. **Innovation-Driven Pattern** (Breakthrough opportunities):
+   - **Sequence**: Step 4 (Insight) → Step 7 (Act) → Step 3 (Analyse) → Step 6 (Decide)
+   - **When to use**: Disruptive innovation, new market creation, breakthrough solutions
+   - **Example**: "Creative insight should drive analysis rather than follow it"
+
+5. **Crisis Response Pattern** (Urgent situations):
+   - **Sequence**: Step 1 (Define) → Step 6 (Decide) → Step 7 (Act) → Step 3 (Analyse)
+   - **When to use**: Crisis management, urgent competitive threats, regulatory compliance
+   - **Example**: "Speed to decision and action is critical, analysis follows"
+
+#### Framework Sequence Selection Process
+
+##### Step 1: Pattern Matching
+
+- Map user context against pattern indicators
+- Consider activated strategic modules' recommended sequences
+- Assess primary success factors for user's specific challenge
+
+##### Step 2: Sequence Customization
+
+- Adapt base pattern to user's specific constraints
+- Consider whether all 7 steps are necessary or if subset is optimal
+- Factor in timeline, resources, and stakeholder requirements
+
+##### Step 3: User Validation
+
+- Present recommended Framework Sequence with clear rationale
+- Explain why this sequence is optimal for their specific situation
+- Provide Context, Approach, Success Factors, and Framework Sequence
+- Ask for user approval or modifications
+
+**Example Presentation:**
+
+```text
+Based on your [challenge type] with [key constraints], I recommend the [Pattern Name]:
+
+**Context**: [Why this pattern fits their situation]
+**Approach**: [How this sequence works for their challenge]
+**Success Factors**: [What will make this sequence effective]
+**Framework Sequence**: [Specific step sequence]
+
+This sequence will [primary benefit] while [addressing specific constraint].
+
+Do you want to proceed with this Framework Sequence, or would you like me to explain alternative approaches?
+```
+
+#### Create Strategic Context Brief
+
+**If context brief doesn't exist, create using enhanced template:**
+
+1. **Create project-context directory** if it doesn't exist
+2. **Populate Standard Sections**:
+   - Situation Summary, Challenge Description, Stakeholders, Desired Outcomes, Known Constraints, Information Gaps, User Signals & Preferences
+
+3. **Populate Framework Sequence Sections**:
+   - Selected Pattern, Rationale, Context, Approach, Success Factors, Framework Sequence
+
+4. **Save and Present**:
+   - Save completed strategic-context-brief.md to project-context/ folder
+   - Present summary to user for approval
+   - Confirm readiness to proceed to persona activation with this sequence
+
+#### Update Existing Strategic Context Brief
+
+**If context brief exists:**
+
+1. **Review Current Content**: Load and assess existing strategic context brief
+2. **Identify Updates Needed**: Compare against new conversation insights
+3. **Update Relevant Sections**: Modify any sections that need updating based on new information
+4. **Reassess Framework Sequence**: Determine if sequence should be modified based on new insights
+5. **Present Changes**: Show user what sections were updated and why
+6. **Confirm Proceeding**: Verify user wants to continue with current or updated Framework Sequence

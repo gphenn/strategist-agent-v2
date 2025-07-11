@@ -1,0 +1,340 @@
+==================== START: risk-register ====================
+# Risk Register Template
+
+## Risk Register Overview
+
+**Project/Initiative:** [Name of strategic initiative or business area]  
+**Risk Owner:** [Name and Role of primary risk manager]  
+**Register Version:** [Version Number]  
+**Last Updated:** [Date]  
+**Review Frequency:** [Weekly/Monthly/Quarterly]  
+**Next Review Date:** [Date]
+
+**Scope:** [What areas/activities this risk register covers]  
+**Time Horizon:** [Period covered by risk assessment]  
+**Risk Tolerance:** [Organizational risk appetite for this initiative]
+
+## Risk Assessment Framework
+
+### Risk Categories
+
+- **Strategic Risks:** Market changes, competitive threats, business model risks
+- **Operational Risks:** Process failures, resource constraints, execution risks
+- **Financial Risks:** Budget overruns, revenue shortfalls, cash flow issues
+- **Technology Risks:** System failures, cybersecurity, technical feasibility
+- **Regulatory Risks:** Compliance failures, regulatory changes, legal issues
+- **Reputational Risks:** Brand damage, stakeholder confidence, public relations
+- **Human Resources Risks:** Key person dependency, talent retention, skill gaps
+- **External Risks:** Economic conditions, natural disasters, supplier issues
+
+### Risk Scoring Matrix
+
+**Probability Scale (1-5):**
+
+- **1 - Very Low:** 0-5% chance of occurring
+- **2 - Low:** 6-25% chance of occurring  
+- **3 - Medium:** 26-50% chance of occurring
+- **4 - High:** 51-75% chance of occurring
+- **5 - Very High:** 76-100% chance of occurring
+
+**Impact Scale (1-5):**
+
+- **1 - Negligible:** Minimal impact on objectives
+- **2 - Minor:** Small impact, easily managed
+- **3 - Moderate:** Noticeable impact requiring management attention
+- **4 - Major:** Significant impact affecting key objectives
+- **5 - Severe:** Critical impact threatening project/business success
+
+**Risk Level Calculation:** Risk Score = Probability × Impact (1-25 scale)
+
+**Risk Priority Levels:**
+
+- **Critical (20-25):** Immediate action required
+- **High (15-19):** Urgent attention needed
+- **Medium (8-14):** Monitor and manage actively
+- **Low (4-7):** Monitor periodically
+- **Very Low (1-3):** Minimal monitoring required
+
+## Risk Register
+
+| Risk ID | Risk Description | Category | Probability | Impact | Risk Score | Priority | Owner | Status |
+|---------|------------------|----------|-------------|--------|------------|----------|--------|--------|
+| **R001** | [Brief risk description] | [Category] | [1-5] | [1-5] | [1-25] | [Critical/High/Med/Low] | [Name] | [Open/Mitigated/Closed] |
+| **R002** | [Brief risk description] | [Category] | [1-5] | [1-5] | [1-25] | [Critical/High/Med/Low] | [Name] | [Open/Mitigated/Closed] |
+| **R003** | [Brief risk description] | [Category] | [1-5] | [1-5] | [1-25] | [Critical/High/Med/Low] | [Name] | [Open/Mitigated/Closed] |
+
+## Detailed Risk Analysis
+
+### Risk ID: R001
+
+**Risk Title:** [Descriptive risk name]
+
+**Risk Description:** [Detailed description of the risk event and its potential consequences]
+
+**Risk Category:** [Strategic/Operational/Financial/Technology/Regulatory/Reputational/HR/External]
+
+**Risk Triggers:** [Events or conditions that would activate this risk]
+
+- **[Trigger 1]**: [Description]
+- **[Trigger 2]**: [Description]
+- **[Trigger 3]**: [Description]
+
+**Risk Assessment:**
+
+- **Probability:** [1-5] - [Rationale for probability rating]
+- **Impact:** [1-5] - [Rationale for impact rating]
+- **Risk Score:** [1-25]
+- **Priority Level:** [Critical/High/Medium/Low]
+
+**Impact Analysis:**
+
+- **Financial Impact:** $[X] potential loss/cost
+- **Schedule Impact:** [X] weeks/months delay
+- **Quality Impact:** [Description of quality effects]
+- **Stakeholder Impact:** [Effect on key stakeholders]
+- **Strategic Impact:** [Effect on strategic objectives]
+
+**Root Causes:**
+
+- **[Cause 1]**: [Description]
+- **[Cause 2]**: [Description]
+- **[Cause 3]**: [Description]
+
+**Risk Response Strategy:** [Avoid/Mitigate/Transfer/Accept]
+
+**Mitigation Actions:**
+
+1. **[Action 1]**
+   - Description: [What will be done]
+   - Owner: [Name and role]
+   - Due Date: [Date]
+   - Status: [Not Started/In Progress/Complete]
+   - Effectiveness: [Expected risk reduction]
+
+2. **[Action 2]**
+   - Description: [What will be done]
+   - Owner: [Name and role]
+   - Due Date: [Date]
+   - Status: [Not Started/In Progress/Complete]
+   - Effectiveness: [Expected risk reduction]
+
+**Contingency Plan:** [What to do if risk occurs]
+
+- **Immediate Response:** [Actions to take immediately]
+- **Recovery Actions:** [Steps to recover from risk impact]
+- **Resources Required:** [People, budget, time needed]
+- **Communication Plan:** [Who to notify and how]
+
+**Early Warning Indicators:**
+
+- [Indicator 1]: [Measurable signal of increasing risk]
+- [Indicator 2]: [Measurable signal of increasing risk]
+- [Indicator 3]: [Measurable signal of increasing risk]
+
+**Monitoring Plan:**
+
+- **Review Frequency:** [How often to assess this risk]
+- **Monitoring Method:** [How risk will be tracked]
+- **Escalation Criteria:** [When to escalate this risk]
+- **Reporting Requirements:** [Who needs updates and when]
+
+**Risk Owner:** [Name and contact information]
+**Last Updated:** [Date]
+**Next Review:** [Date]
+
+---
+
+### Risk ID: R002
+
+[Repeat same detailed structure as R001]
+
+---
+
+### Risk ID: R003
+
+[Repeat same detailed structure as R001]
+
+## Risk Summary Dashboard
+
+### Risk Distribution by Category
+
+| Category | Critical | High | Medium | Low | Total |
+|----------|----------|------|--------|-----|-------|
+| **Strategic** | [#] | [#] | [#] | [#] | [#] |
+| **Operational** | [#] | [#] | [#] | [#] | [#] |
+| **Financial** | [#] | [#] | [#] | [#] | [#] |
+| **Technology** | [#] | [#] | [#] | [#] | [#] |
+| **Regulatory** | [#] | [#] | [#] | [#] | [#] |
+| **Reputational** | [#] | [#] | [#] | [#] | [#] |
+| **Human Resources** | [#] | [#] | [#] | [#] | [#] |
+| **External** | [#] | [#] | [#] | [#] | [#] |
+| **TOTAL** | [#] | [#] | [#] | [#] | [#] |
+
+### Top 10 Risks by Priority
+
+| Rank | Risk ID | Risk Description | Risk Score | Priority | Owner |
+|------|---------|------------------|------------|----------|--------|
+| 1 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 2 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 3 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 4 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 5 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 6 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 7 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 8 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 9 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+| 10 | [ID] | [Brief description] | [Score] | [Priority] | [Owner] |
+
+### Risk Trend Analysis
+
+**New Risks This Period:** [#] risks added
+**Closed Risks This Period:** [#] risks resolved/closed
+**Risk Score Changes:** [#] risks increased, [#] risks decreased
+**Overdue Mitigation Actions:** [#] actions past due date
+
+## Action Items Summary
+
+### Critical Actions (Due within 30 days)
+
+| Action | Risk ID | Owner | Due Date | Status |
+|--------|---------|--------|----------|--------|
+| [Action description] | [ID] | [Name] | [Date] | [Status] |
+| [Action description] | [ID] | [Name] | [Date] | [Status] |
+| [Action description] | [ID] | [Name] | [Date] | [Status] |
+
+### High Priority Actions (Due within 90 days)
+
+| Action | Risk ID | Owner | Due Date | Status |
+|--------|---------|--------|----------|--------|
+| [Action description] | [ID] | [Name] | [Date] | [Status] |
+| [Action description] | [ID] | [Name] | [Date] | [Status] |
+
+### Overdue Actions
+
+| Action | Risk ID | Owner | Original Due Date | Days Overdue |
+|--------|---------|--------|-------------------|--------------|
+| [Action description] | [ID] | [Name] | [Date] | [#] |
+| [Action description] | [ID] | [Name] | [Date] | [#] |
+
+## Risk Portfolio Analysis
+
+### Overall Risk Exposure
+
+- **Total Risk Score:** [Sum of all risk scores]
+- **Average Risk Score:** [Average across all risks]
+- **Risk Capacity Utilization:** [X]% of organizational risk appetite
+- **Key Risk Concentrations:** [Areas with highest risk density]
+
+### Risk Correlation Analysis
+
+**Correlated Risk Groups:**
+
+- **Group 1:** [Risk IDs] - [Description of correlation]
+- **Group 2:** [Risk IDs] - [Description of correlation]
+- **Group 3:** [Risk IDs] - [Description of correlation]
+
+### Scenario Analysis
+
+**Best Case Scenario:** [Key risks that don't materialize]
+
+- Impact: [Description of positive outcome]
+- Probability: [Likelihood of this scenario]
+
+**Most Likely Scenario:** [Expected risk materialization]
+
+- Impact: [Description of expected outcome]
+- Probability: [Likelihood of this scenario]
+
+**Worst Case Scenario:** [Multiple high-impact risks occur]
+
+- Impact: [Description of negative outcome]
+- Probability: [Likelihood of this scenario]
+- Contingency: [Response if this scenario develops]
+
+## Risk Governance
+
+### Risk Review Process
+
+**Monthly Risk Review:**
+
+- Review all critical and high risks
+- Update risk scores and mitigation progress
+- Identify new risks and early warnings
+- Escalate issues requiring senior attention
+
+**Quarterly Risk Assessment:**
+
+- Comprehensive review of entire risk register
+- Risk trend analysis and portfolio optimization
+- Strategic risk alignment review
+- Risk management process improvements
+
+### Escalation Procedures
+
+**Immediate Escalation Triggers:**
+
+- New critical risk identified
+- Existing risk increases to critical level
+- Multiple risks in same category reach high level
+- Risk event occurs requiring crisis response
+
+**Escalation Contacts:**
+
+- **Level 1:** [Project Manager] - [Contact info]
+- **Level 2:** [Department Head] - [Contact info]
+- **Level 3:** [Executive Sponsor] - [Contact info]
+- **Level 4:** [CEO/Board] - [Contact info]
+
+### Risk Reporting
+
+**Weekly:** Risk highlight report to project team
+**Monthly:** Risk dashboard to steering committee
+**Quarterly:** Risk portfolio report to executive leadership
+**Ad-hoc:** Critical risk alerts and incident reports
+
+## Risk Management Effectiveness
+
+### Key Performance Indicators
+
+| KPI | Target | Current | Trend |
+|-----|--------|---------|-------|
+| **Average time to identify risks** | [X] days | [X] days | [↑/↓/→] |
+| **Average time to implement mitigation** | [X] days | [X] days | [↑/↓/→] |
+| **% of risks with mitigation plans** | [X]% | [X]% | [↑/↓/→] |
+| **% of mitigation actions on time** | [X]% | [X]% | [↑/↓/→] |
+| **Risk materialization rate** | [X]% | [X]% | [↑/↓/→] |
+| **Average cost of risk events** | $[X] | $[X] | [↑/↓/→] |
+
+### Lessons Learned
+
+**Recent Risk Events:**
+
+- **[Event 1]:** [What happened, what was learned, process improvements]
+- **[Event 2]:** [What happened, what was learned, process improvements]
+
+**Best Practices Identified:**
+
+- [Practice 1]: [Description and application]
+- [Practice 2]: [Description and application]
+
+### Continuous Improvement
+
+**Process Improvements:**
+
+- [Improvement 1]: [Description and implementation timeline]
+- [Improvement 2]: [Description and implementation timeline]
+
+**Training Needs:**
+
+- [Training topic 1]: [Target audience and timeline]
+- [Training topic 2]: [Target audience and timeline]
+
+---
+
+**Risk Register Approval:**
+
+- **Risk Manager:** [Name, Date]
+- **Project Manager:** [Name, Date]  
+- **Executive Sponsor:** [Name, Date]
+
+==================== END: risk-register ====================

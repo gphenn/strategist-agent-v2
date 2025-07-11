@@ -1,0 +1,97 @@
+# Tasks Components Index
+
+This directory has been sharded into individual component files for better agent compatibility.
+
+## Available Components
+
+- **7-step-strategic-methodology** - Component: 7-step-strategic-methodology (5952 bytes)
+  File: `tasks-shards/tasks-7-step-strategic-methodology.txt`
+
+- **adaptive-inquiry-logic** - Component: adaptive-inquiry-logic (3288 bytes)
+  File: `tasks-shards/tasks-adaptive-inquiry-logic.txt`
+
+- **business-intelligence-analysis** - Component: business-intelligence-analysis (4181 bytes)
+  File: `tasks-shards/tasks-business-intelligence-analysis.txt`
+
+- **business-model-innovation** - Component: business-model-innovation (4431 bytes)
+  File: `tasks-shards/tasks-business-model-innovation.txt`
+
+- **change-communication-planning** - Component: change-communication-planning (8497 bytes)
+  File: `tasks-shards/tasks-change-communication-planning.txt`
+
+- **competitive-benchmarking** - Component: competitive-benchmarking (6457 bytes)
+  File: `tasks-shards/tasks-competitive-benchmarking.txt`
+
+- **competitive-differentiation-strategy** - Component: competitive-differentiation-strategy (11622 bytes)
+  File: `tasks-shards/tasks-competitive-differentiation-strategy.txt`
+
+- **context-assessment-framework** - Component: context-assessment-framework (3302 bytes)
+  File: `tasks-shards/tasks-context-assessment-framework.txt`
+
+- **execution-planning** - Component: execution-planning (9680 bytes)
+  File: `tasks-shards/tasks-execution-planning.txt`
+
+- **executive-presentation-creation** - Component: executive-presentation-creation (6236 bytes)
+  File: `tasks-shards/tasks-executive-presentation-creation.txt`
+
+- **financial-modeling** - Component: financial-modeling (5826 bytes)
+  File: `tasks-shards/tasks-financial-modeling.txt`
+
+- **future-scenario-planning** - Component: future-scenario-planning (10398 bytes)
+  File: `tasks-shards/tasks-future-scenario-planning.txt`
+
+- **hypothesis-testing** - Component: hypothesis-testing (6101 bytes)
+  File: `tasks-shards/tasks-hypothesis-testing.txt`
+
+- **innovation-portfolio-design** - Component: innovation-portfolio-design (11752 bytes)
+  File: `tasks-shards/tasks-innovation-portfolio-design.txt`
+
+- **market-sizing-analysis** - Component: market-sizing-analysis (5375 bytes)
+  File: `tasks-shards/tasks-market-sizing-analysis.txt`
+
+- **message-framework-design** - Component: message-framework-design (9081 bytes)
+  File: `tasks-shards/tasks-message-framework-design.txt`
+
+- **opportunity-identification** - Component: opportunity-identification (4349 bytes)
+  File: `tasks-shards/tasks-opportunity-identification.txt`
+
+- **pattern-recognition-study** - Component: pattern-recognition-study (6774 bytes)
+  File: `tasks-shards/tasks-pattern-recognition-study.txt`
+
+- **problem-structuring** - Component: problem-structuring (3991 bytes)
+  File: `tasks-shards/tasks-problem-structuring.txt`
+
+- **risk-assessment-mitigation** - Component: risk-assessment-mitigation (10118 bytes)
+  File: `tasks-shards/tasks-risk-assessment-mitigation.txt`
+
+- **root-cause-analysis** - Component: root-cause-analysis (5542 bytes)
+  File: `tasks-shards/tasks-root-cause-analysis.txt`
+
+- **solution-design** - Component: solution-design (6696 bytes)
+  File: `tasks-shards/tasks-solution-design.txt`
+
+- **stakeholder-alignment-strategy** - Component: stakeholder-alignment-strategy (8232 bytes)
+  File: `tasks-shards/tasks-stakeholder-alignment-strategy.txt`
+
+- **strategic-decision-framework** - Component: strategic-decision-framework (4510 bytes)
+  File: `tasks-shards/tasks-strategic-decision-framework.txt`
+
+- **strategic-narrative-development** - Component: strategic-narrative-development (4841 bytes)
+  File: `tasks-shards/tasks-strategic-narrative-development.txt`
+
+- **strategic-options-evaluation** - Component: strategic-options-evaluation (9680 bytes)
+  File: `tasks-shards/tasks-strategic-options-evaluation.txt`
+
+- **trade-off-analysis** - Component: trade-off-analysis (8664 bytes)
+  File: `tasks-shards/tasks-trade-off-analysis.txt`
+
+- **value-engineering** - Component: value-engineering (6887 bytes)
+  File: `tasks-shards/tasks-value-engineering.txt`
+
+## Usage Instructions
+
+Instead of loading the entire tasks.txt file, load only the specific components you need:
+
+1. Review this index to identify required components
+2. Load individual shard files as needed
+3. Reference components by their file paths listed above

@@ -31,6 +31,16 @@ export const exclude_patterns = [
   "working-files"      // Working files directory
 ];
 
+// === Sharding Configuration (Optional) ===
+export const sharding = {
+  enabled: true,               // Set to true to enable sharding
+  max_file_size: 100000,       // Maximum file size in bytes (100KB default)
+  directories: ["data", "tasks", "templates"],  // Directories to shard when enabled
+  create_index: true,          // Create index files for sharded directories
+  shard_agent_prompt: true,   // Set to true to shard the agent-prompt.txt file
+  prompt_max_size: 8000        // Maximum prompt size for ChatGPT compatibility (8KB)
+};
+
 // === Enhanced Configuration (Optional) ===
 export const build_config = {
   project_name: "STRATEGIST-AGENT-V2",

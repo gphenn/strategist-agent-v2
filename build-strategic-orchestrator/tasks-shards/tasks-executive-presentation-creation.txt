@@ -1,0 +1,150 @@
+==================== START: executive-presentation-creation ====================
+# Executive Presentation Creation Task
+
+## Purpose
+
+To design and develop executive-level strategic presentations that communicate complex strategic insights with clarity, influence decision-making, and drive organizational alignment. This task creates board-ready communications that balance analytical rigor with persuasive storytelling for C-suite audiences.
+
+## Inputs Required
+
+- Strategic analysis and key insights to communicate
+- Audience profile and decision-making context
+- Presentation objectives and desired outcomes
+- Time constraints and presentation format requirements
+- Supporting data, research, and evidence
+
+## Task Execution Instructions
+
+### 1. Executive Audience Analysis
+
+- **Decision-Maker Profiling:**
+  - Identify primary decision-makers and influencers in audience
+  - Understand their backgrounds, expertise, and perspectives
+  - Map their current opinions and potential resistance points
+  - Assess their preferred communication styles and formats
+
+- **Stakeholder Motivation Mapping:**
+  - Understand what drives each key stakeholder
+  - Identify their success metrics and performance concerns
+  - Map their strategic priorities and competitive pressures
+  - Consider their time constraints and attention spans
+
+### 2. Strategic Message Architecture
+
+- **Core Message Development:**
+  - Distill strategic insights into 3-5 key messages
+  - Ensure messages directly address audience priorities
+  - Frame messages in terms of business impact and value
+  - Test message clarity with "elevator pitch" constraint
+
+- **Argument Structure Design:**
+  - Build logical flow from situation to recommendation
+  - Use pyramid principle for message hierarchy
+  - Sequence arguments for maximum persuasive impact
+  - Anticipate and address likely objections
+
+### 3. Executive Story Framework
+
+- **Strategic Narrative Arc:**
+  - **Opening Hook:** Compelling market reality or competitive threat
+  - **Situation Analysis:** Current state with quantified implications
+  - **Strategic Challenge:** Critical decisions requiring action
+  - **Recommended Path:** Clear strategic direction with rationale
+  - **Future Vision:** Compelling picture of success outcomes
+
+- **Emotional Resonance Design:**
+  - Connect strategy to organizational purpose and values
+  - Use concrete examples and case studies
+  - Include customer and market stories that illustrate points
+  - Balance urgency with confidence and optimism
+
+### 4. Data Visualization & Evidence
+
+- **Executive Dashboard Creation:**
+  - Design high-level metrics that tell the strategic story
+  - Use visual hierarchy to guide attention to key insights
+  - Create clear before/after comparisons where relevant
+  - Ensure all charts are interpretable in 10 seconds or less
+
+- **Supporting Evidence Integration:**
+  - Include credible external validation and benchmarks
+  - Reference respected industry sources and thought leaders
+  - Provide concrete examples from comparable situations
+  - Balance quantitative data with qualitative insights
+
+### 5. Slide Design & Visual Communication
+
+- **Executive Slide Standards:**
+  - One key message per slide with clear headlines
+  - Minimal text with maximum visual impact
+  - Consistent design language and professional aesthetics
+  - High contrast and readable fonts for various viewing conditions
+
+- **Strategic Visualization Techniques:**
+  - Use frameworks and models to simplify complexity
+  - Create process flows and relationship diagrams
+  - Design scenario comparisons and option matrices
+  - Include timelines and roadmaps for implementation
+
+### 6. Interaction Design & Engagement
+
+- **Q&A Preparation:**
+  - Anticipate likely questions and develop clear responses
+  - Prepare backup slides with detailed analysis
+  - Practice handling skeptical or challenging questions
+  - Design interactive polling or discussion moments
+
+- **Decision Facilitation:**
+  - Include clear recommendation with pros/cons analysis
+  - Provide decision framework for complex choices
+  - Design breakout discussions for controversial topics
+  - Plan for follow-up actions and next steps
+
+### 7. Presentation Flow & Timing
+
+- **Executive Pacing:**
+  - Design for short attention spans with engagement points
+  - Plan strategic pauses for questions and discussion
+  - Include summary checkpoints throughout presentation
+  - Build flexibility for time constraints and interruptions
+
+- **Action-Oriented Conclusion:**
+  - End with clear call-to-action and next steps
+  - Summarize key decisions needed and timeline
+  - Assign ownership for follow-up actions
+  - Provide simple framework for ongoing communication
+
+### 8. Message Testing & Refinement
+
+- **Pre-Flight Validation:**
+  - Test presentation with representative audience members
+  - Gather feedback on clarity, persuasiveness, and concerns
+  - Refine messages based on initial reactions
+  - Practice delivery and timing with feedback
+
+- **Presentation Optimization:**
+  - Strengthen weak arguments and unclear explanations
+  - Enhance visual impact of key slides
+  - Improve transitions and narrative flow
+  - Prepare contingency approaches for different scenarios
+
+## Output Deliverables
+
+- **Executive Presentation Deck:** Complete slide deck with strategic narrative
+- **Speaker Notes:** Detailed talking points and key message reinforcement
+- **Executive Summary:** One-page overview of key recommendations
+- **Q&A Briefing:** Anticipated questions with prepared responses
+- **Supporting Appendix:** Detailed analysis and backup materials
+- **Follow-up Communication Plan:** Strategy for post-presentation engagement
+
+## Success Criteria
+
+- Presentation clearly communicates strategic recommendations and rationale
+- Audience understands implications and feels compelled to act
+- Complex analysis is made accessible without losing important nuance
+- Visual design enhances rather than distracts from strategic message
+- Presentation drives concrete decisions and commitment to action
+- Stakeholders are aligned on strategic direction and next steps
+- Follow-up actions are clearly defined with appropriate ownership
+
+==================== END: executive-presentation-creation ====================

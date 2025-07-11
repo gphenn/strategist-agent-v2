@@ -1,0 +1,168 @@
+==================== START: competitive-benchmarking ====================
+# Competitive Benchmarking Task
+
+## Purpose
+
+To establish quantitative performance benchmarks against key competitors and industry standards, enabling data-driven assessment of competitive position and identification of performance gaps and opportunities. This task provides the numerical foundation for competitive strategy development.
+
+## Inputs Required
+
+- Defined competitive set and industry scope
+- Performance metrics and KPIs to benchmark
+- Available competitive intelligence and industry data
+- Internal performance data for comparison
+- Strategic objectives and competitive goals
+
+## Task Execution Instructions
+
+### 1. Competitive Set Definition
+
+- **Direct Competitors:**
+  - Identify companies with similar products/services
+  - Map competitors serving same customer segments
+  - Include companies with similar business models
+  - Consider geographic overlap and market presence
+
+- **Indirect Competitors:**
+  - Identify substitute products and alternative solutions
+  - Map companies targeting adjacent customer needs
+  - Include disruptive entrants and new business models
+  - Consider potential future competitors
+
+- **Peer Group Analysis:**
+  - Define relevant industry peer groups
+  - Include companies of similar size and market position
+  - Consider lifecycle stage and maturity level
+  - Select appropriate benchmark universe size
+
+### 2. Benchmarking Framework Development
+
+- **Performance Categories:**
+  - Financial performance (revenue, profitability, growth)
+  - Operational efficiency (productivity, cost structure)
+  - Market position (share, reach, penetration)
+  - Customer metrics (satisfaction, retention, acquisition)
+  - Innovation capabilities (R&D investment, product launches)
+
+- **Metric Selection:**
+  - Choose metrics that drive business success
+  - Ensure metrics are measurable and comparable
+  - Include both absolute and relative measures
+  - Balance leading and lagging indicators
+
+### 3. Data Collection & Validation
+
+- **Public Data Sources:**
+  - Financial statements and SEC filings
+  - Industry reports and market research
+  - Trade publications and news sources
+  - Patent filings and R&D disclosures
+
+- **Primary Research:**
+  - Customer surveys and market studies
+  - Expert interviews and industry consultations
+  - Mystery shopping and competitive testing
+  - Employee surveys and Glassdoor data
+
+- **Data Quality Assessment:**
+  - Verify data accuracy and currency
+  - Identify data gaps and limitations
+  - Standardize metrics across competitors
+  - Document data sources and collection methods
+
+### 4. Financial Performance Benchmarking
+
+- **Revenue Analysis:**
+  - Compare revenue size, growth rates, and composition
+  - Analyze revenue per employee and productivity metrics
+  - Benchmark pricing and average transaction values
+  - Assess geographic and segment revenue mix
+
+- **Profitability Analysis:**
+  - Compare gross margins, operating margins, and net margins
+  - Benchmark EBITDA and cash flow generation
+  - Analyze cost structure and expense ratios
+  - Compare return on assets and equity
+
+- **Valuation Metrics:**
+  - Compare market capitalization and enterprise value
+  - Benchmark P/E ratios, EV/Revenue, and EV/EBITDA multiples
+  - Analyze price-to-book and other valuation ratios
+  - Compare dividend yields and payout ratios
+
+### 5. Operational Performance Benchmarking
+
+- **Efficiency Metrics:**
+  - Revenue per employee and productivity measures
+  - Asset turnover and utilization ratios
+  - Inventory turns and working capital efficiency
+  - Technology and automation adoption rates
+
+- **Quality Metrics:**
+  - Customer satisfaction and Net Promoter Scores
+  - Product quality ratings and defect rates
+  - Service level achievements and response times
+  - Compliance and safety performance
+
+### 6. Market Position Analysis
+
+- **Market Share Benchmarking:**
+  - Calculate and compare market share by segment
+  - Analyze share growth rates and trajectory
+  - Map geographic market presence and penetration
+  - Assess channel presence and distribution reach
+
+- **Brand Strength Assessment:**
+  - Compare brand awareness and recognition metrics
+  - Analyze social media presence and engagement
+  - Benchmark marketing spend and efficiency
+  - Assess brand value and customer loyalty
+
+### 7. Competitive Positioning Matrix
+
+- **Performance Mapping:**
+  - Create scatter plots and bubble charts showing competitive positions
+  - Map competitors on key performance dimensions
+  - Identify performance clusters and outliers
+  - Highlight competitive gaps and opportunities
+
+- **Benchmarking Dashboard:**
+  - Create visual dashboard showing relative performance
+  - Use percentile rankings and performance scores
+  - Include trend analysis and performance trajectories
+  - Highlight areas of competitive advantage and disadvantage
+
+### 8. Gap Analysis & Strategic Implications
+
+- **Performance Gap Identification:**
+  - Quantify gaps vs. best-in-class performers
+  - Identify root causes of performance differences
+  - Prioritize gaps by strategic importance
+  - Assess feasibility of closing gaps
+
+- **Strategic Recommendations:**
+  - Recommend specific actions to improve competitive position
+  - Identify best practices to adopt from competitors
+  - Suggest areas for differentiation and competitive advantage
+  - Propose performance targets and improvement timelines
+
+## Output Deliverables
+
+- **Competitive Benchmarking Dashboard:** Visual summary of competitive position
+- **Detailed Benchmarking Analysis:** Comprehensive comparison across all metrics
+- **Performance Gap Analysis:** Quantified gaps and improvement opportunities
+- **Competitive Intelligence Database:** Organized repository of competitor data
+- **Strategic Recommendations:** Actions to improve competitive position
+- **Monitoring Framework:** System for ongoing competitive tracking
+
+## Success Criteria
+
+- Comprehensive coverage of key competitors and performance dimensions
+- Accurate and current competitive intelligence data
+- Clear identification of competitive strengths and weaknesses
+- Actionable insights for improving competitive position
+- Stakeholders understand competitive dynamics and positioning
+- Regular monitoring system established for ongoing competitive intelligence
+- Benchmarking analysis informs strategic planning and resource allocation
+
+==================== END: competitive-benchmarking ====================

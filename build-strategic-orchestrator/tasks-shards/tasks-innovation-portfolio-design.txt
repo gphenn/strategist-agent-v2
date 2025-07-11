@@ -1,0 +1,248 @@
+==================== START: innovation-portfolio-design ====================
+# Innovation Portfolio Design Task
+
+## Purpose
+
+To design and manage balanced innovation portfolios that optimize value creation across different innovation types, time horizons, and risk levels. This task creates systematic frameworks for innovation investment allocation, portfolio optimization, and performance management to ensure sustainable competitive advantage through strategic innovation.
+
+## Inputs Required
+
+- Strategic objectives and innovation goals
+- Innovation budget and resource constraints
+- Current innovation pipeline and project inventory
+- Market opportunities and competitive dynamics
+- Organizational capabilities and innovation maturity
+
+## Task Execution Instructions
+
+### 1. Innovation Portfolio Architecture
+
+- **Innovation Type Classification:**
+  - **Core Innovation (70%):** Incremental improvements to existing products/services
+  - **Adjacent Innovation (20%):** Extensions into related markets or technologies
+  - **Transformational Innovation (10%):** Breakthrough innovations creating new categories
+  - **Platform Innovation:** Foundational capabilities enabling multiple innovations
+
+- **Innovation Horizon Framework:**
+  - **Horizon 1:** Sustaining innovations for current business (12-18 months)
+  - **Horizon 2:** Emerging innovations for growth markets (2-5 years)
+  - **Horizon 3:** Transformational innovations for future markets (5+ years)
+
+### 2. Portfolio Balance & Allocation Strategy
+
+- **Risk-Return Optimization:**
+  - Balance high-certainty, lower-return projects with high-risk, high-reward bets
+  - Diversify across different innovation types and market applications
+  - Consider correlation between innovation projects and existing business
+  - Optimize portfolio for sustainable long-term value creation
+
+- **Resource Allocation Framework:**
+  - **Financial Resources:** Budget allocation across innovation categories
+  - **Human Resources:** Talent allocation and skill development priorities
+  - **Technology Resources:** Platform investments and shared capabilities
+  - **Time Resources:** Innovation cycle timing and milestone coordination
+
+### 3. Innovation Opportunity Assessment
+
+- **Market Opportunity Evaluation:**
+  - Assess market size, growth potential, and timing for innovation opportunities
+  - Evaluate competitive intensity and differentiation potential
+  - Analyze customer needs and willingness to adopt innovations
+  - Consider ecosystem readiness and infrastructure requirements
+
+- **Technology Readiness Assessment:**
+  - Evaluate technology maturity and development risk
+  - Assess intellectual property landscape and freedom to operate
+  - Consider technology convergence and platform opportunities
+  - Analyze required technology investments and development timelines
+
+### 4. Innovation Pipeline Management
+
+- **Stage-Gate Process Design:**
+  - **Discovery:** Opportunity identification and initial validation
+  - **Scoping:** Market research and technical feasibility assessment
+  - **Business Case:** Detailed analysis and investment proposal
+  - **Development:** Product/service development and testing
+  - **Launch:** Market introduction and scaling strategies
+
+- **Portfolio Funnel Management:**
+  - Design funnel metrics and conversion rates between stages
+  - Plan capacity and resource requirements for each stage
+  - Create portfolio reviews and go/no-go decision criteria
+  - Build learning and feedback mechanisms across the funnel
+
+### 5. Innovation Investment Strategy
+
+- **Investment Thesis Development:**
+  - Create clear investment criteria for different innovation types
+  - Establish minimum and maximum investment thresholds
+  - Design investment timing and staging strategies
+  - Build portfolio-level investment and return targets
+
+- **Funding Mechanism Design:**
+  - **Corporate Venture Capital:** External startup investments
+  - **Internal Innovation Labs:** Dedicated innovation development units
+  - **Innovation Challenges:** Crowdsourced innovation competitions
+  - **Partnership Investments:** Joint development and shared risk projects
+
+### 6. Innovation Capability Portfolio
+
+- **Core Innovation Capabilities:**
+  - Build systematic innovation processes and methodologies
+  - Develop innovation culture and leadership capabilities
+  - Create cross-functional innovation teams and governance
+  - Establish innovation metrics and performance management
+
+- **Emerging Capability Development:**
+  - Identify future capabilities needed for innovation success
+  - Plan capability building through hiring, training, and partnerships
+  - Design innovation skill development and career pathways
+  - Build external innovation networks and ecosystem connections
+
+### 7. Technology Platform Strategy
+
+- **Platform Innovation Design:**
+  - Build reusable technology platforms that enable multiple innovations
+  - Create shared services and infrastructure for innovation projects
+  - Design API strategies and developer ecosystems
+  - Build data platforms and analytics capabilities for innovation
+
+- **Open Innovation Strategy:**
+  - Design external partnership and collaboration frameworks
+  - Create university research partnerships and joint programs
+  - Build supplier and customer co-innovation programs
+  - Establish innovation ecosystem participation strategies
+
+### 8. Market Validation & Customer Development
+
+- **Lean Innovation Methodology:**
+  - Apply build-measure-learn cycles for innovation validation
+  - Design minimum viable products and rapid experimentation
+  - Create customer development and feedback integration processes
+  - Build market testing and validation capabilities
+
+- **Customer Co-Creation:**
+  - Engage lead customers in innovation development processes
+  - Create customer advisory groups and innovation partnerships
+  - Design customer feedback integration and iteration cycles
+  - Build customer success and adoption measurement systems
+
+### 9. Innovation Performance Management
+
+- **Portfolio Metrics Framework:**
+  - **Leading Indicators:** Innovation pipeline health, project velocity, resource utilization
+  - **Innovation Efficiency:** Cost per innovation, time to market, success rates
+  - **Market Impact:** Revenue from new products, market share gains, customer adoption
+  - **Strategic Impact:** Competitive advantage creation, capability building, future options value
+
+- **Innovation ROI Analysis:**
+  - Calculate return on innovation investment across portfolio
+  - Measure value creation from different innovation types
+  - Assess portfolio performance against targets and benchmarks
+  - Track long-term value creation and competitive advantage building
+
+### 10. Risk Management & Portfolio Resilience
+
+- **Innovation Risk Assessment:**
+  - **Technical Risk:** Technology development and feasibility challenges
+  - **Market Risk:** Customer adoption and competitive response uncertainty
+  - **Execution Risk:** Resource availability and capability limitations
+  - **Strategic Risk:** Alignment with organizational strategy and priorities
+
+- **Portfolio Risk Mitigation:**
+  - Diversify across different risk categories and time horizons
+  - Create hedging strategies and contingency plans
+  - Build option value and strategic flexibility into portfolio
+  - Design rapid pivot and portfolio rebalancing capabilities
+
+### 11. Innovation Governance & Decision Making
+
+- **Innovation Governance Structure:**
+  - Establish innovation steering committee and decision authority
+  - Create innovation review cycles and milestone gates
+  - Design resource allocation and priority-setting processes
+  - Build innovation strategy integration with corporate strategy
+
+- **Portfolio Optimization Process:**
+  - Regular portfolio reviews and rebalancing decisions
+  - Dynamic resource reallocation based on performance and opportunity
+  - Strategic pivot and portfolio adjustment mechanisms
+  - Innovation termination and resource recovery processes
+
+### 12. Innovation Culture & Organization
+
+- **Innovation Culture Development:**
+  - Build risk-taking and experimentation mindsets
+  - Create psychological safety for innovation failures
+  - Reward innovation behaviors and learning outcomes
+  - Celebrate innovation successes and milestone achievements
+
+- **Innovation Organization Design:**
+  - Design innovation teams and cross-functional collaboration
+  - Create innovation career paths and skill development
+  - Build innovation incentives and performance management
+  - Establish innovation knowledge sharing and learning systems
+
+### 13. External Innovation Ecosystem
+
+- **Innovation Partnership Strategy:**
+  - Build startup partnership and acquisition programs
+  - Create university research and collaboration agreements
+  - Design supplier innovation and co-development programs
+  - Establish customer innovation partnerships and pilots
+
+- **Innovation Network Development:**
+  - Participate in innovation ecosystems and industry consortiums
+  - Build relationships with venture capital and innovation investors
+  - Create innovation advisory networks and expert communities
+  - Establish thought leadership and innovation brand building
+
+### 14. Innovation Technology Stack
+
+- **Innovation Infrastructure:**
+  - Build innovation labs and prototyping capabilities
+  - Create collaboration platforms and innovation management systems
+  - Design data analytics and innovation intelligence capabilities
+  - Establish innovation project management and tracking systems
+
+- **Digital Innovation Enablement:**
+  - Build digital platforms for innovation development
+  - Create AI and analytics capabilities for innovation insights
+  - Design automation and workflow systems for innovation processes
+  - Establish cloud and infrastructure capabilities for innovation scaling
+
+### 15. Future Innovation Strategy
+
+- **Innovation Trend Monitoring:**
+  - Track emerging technologies and innovation opportunities
+  - Monitor competitive innovation strategies and investments
+  - Assess changing customer needs and market dynamics
+  - Anticipate future innovation requirements and capabilities
+
+- **Innovation Strategy Evolution:**
+  - Plan innovation strategy adaptation for changing conditions
+  - Build dynamic capabilities for innovation strategy adjustment
+  - Create learning mechanisms for innovation strategy improvement
+  - Design future innovation vision and long-term planning
+
+## Output Deliverables
+
+- **Innovation Portfolio Strategy:** Comprehensive framework for innovation investment and management
+- **Portfolio Allocation Model:** Resource allocation across innovation types and time horizons
+- **Innovation Pipeline Dashboard:** Tracking system for innovation projects and performance
+- **Capability Development Plan:** Strategy for building required innovation capabilities
+- **Governance Framework:** Decision-making processes and organizational structure for innovation
+- **Performance Metrics System:** Measurement and optimization framework for innovation ROI
+- **Risk Management Plan:** Approach for managing innovation risks and building portfolio resilience
+
+## Success Criteria
+
+- Innovation portfolio optimizes value creation across different risk-return profiles
+- Resource allocation aligns with strategic priorities and market opportunities
+- Innovation pipeline generates sustainable flow of valuable innovations
+- Portfolio performance meets or exceeds financial and strategic targets
+- Innovation capabilities enable competitive advantage and market leadership
+- Risk management protects portfolio value while enabling bold innovation bets
+- Innovation strategy adapts successfully to changing market conditions and opportunities
+
+==================== END: innovation-portfolio-design ====================

@@ -1,0 +1,67 @@
+# Templates Components Index
+
+This directory has been sharded into individual component files for better agent compatibility.
+
+## Available Components
+
+- **business-model-canvas-strategic-detailed** - Component: business-model-canvas-strategic-detailed (19296 bytes)
+  File: `templates-shards/templates-business-model-canvas-strategic-detailed.txt`
+
+- **business-model-canvas-strategic** - Component: business-model-canvas-strategic (2206 bytes)
+  File: `templates-shards/templates-business-model-canvas-strategic.txt`
+
+- **competitive-analysis** - Component: competitive-analysis (10745 bytes)
+  File: `templates-shards/templates-competitive-analysis.txt`
+
+- **final-synthesis-template** - Component: final-synthesis-template (14902 bytes)
+  File: `templates-shards/templates-final-synthesis-template.txt`
+
+- **financial-model** - Component: financial-model (8857 bytes)
+  File: `templates-shards/templates-financial-model.txt`
+
+- **innovation-brief** - Component: innovation-brief (17668 bytes)
+  File: `templates-shards/templates-innovation-brief.txt`
+
+- **mid-point-synthesis-template** - Component: mid-point-synthesis-template (9761 bytes)
+  File: `templates-shards/templates-mid-point-synthesis-template.txt`
+
+- **opportunity-assessment** - Component: opportunity-assessment (11487 bytes)
+  File: `templates-shards/templates-opportunity-assessment.txt`
+
+- **persona-handoff-template** - Component: persona-handoff-template (7923 bytes)
+  File: `templates-shards/templates-persona-handoff-template.txt`
+
+- **risk-register** - Component: risk-register (11546 bytes)
+  File: `templates-shards/templates-risk-register.txt`
+
+- **stakeholder-map** - Component: stakeholder-map (13240 bytes)
+  File: `templates-shards/templates-stakeholder-map.txt`
+
+- **step-context-brief-template** - Component: step-context-brief-template (10353 bytes)
+  File: `templates-shards/templates-step-context-brief-template.txt`
+
+- **strategic-brief-tmpl** - Component: strategic-brief-tmpl (5730 bytes)
+  File: `templates-shards/templates-strategic-brief-tmpl.txt`
+
+- **strategic-brief** - Component: strategic-brief (12317 bytes)
+  File: `templates-shards/templates-strategic-brief.txt`
+
+- **strategic-context-brief** - Component: strategic-context-brief (5399 bytes)
+  File: `templates-shards/templates-strategic-context-brief.txt`
+
+- **strategic-decision-matrix-detailed** - Component: strategic-decision-matrix-detailed (15648 bytes)
+  File: `templates-shards/templates-strategic-decision-matrix-detailed.txt`
+
+- **strategic-decision-matrix** - Component: strategic-decision-matrix (1667 bytes)
+  File: `templates-shards/templates-strategic-decision-matrix.txt`
+
+- **strategic-narrative** - Component: strategic-narrative (12719 bytes)
+  File: `templates-shards/templates-strategic-narrative.txt`
+
+## Usage Instructions
+
+Instead of loading the entire templates.txt file, load only the specific components you need:
+
+1. Review this index to identify required components
+2. Load individual shard files as needed
+3. Reference components by their file paths listed above

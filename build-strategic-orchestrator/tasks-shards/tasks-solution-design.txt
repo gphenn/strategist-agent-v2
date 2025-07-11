@@ -1,0 +1,165 @@
+==================== START: solution-design ====================
+# Solution Design Task
+
+## Purpose
+
+To develop innovative, value-creating solutions to strategic challenges through systematic design methodology. This task combines creative problem-solving with rigorous evaluation to ensure solutions are both breakthrough and implementable within real-world constraints.
+
+## Inputs Required
+
+- Clearly defined problem or opportunity
+- Root cause analysis and problem structure
+- Stakeholder needs and success criteria
+- Resource constraints and organizational capabilities
+- Implementation timeline and milestones
+
+## Task Execution Instructions
+
+### 1. Solution Design Principles Establishment
+
+- **Value Creation Focus:**
+  - Define what value means for different stakeholders
+  - Establish value creation as primary design criterion
+  - Consider both tangible and intangible benefits
+  - Align solution value with strategic objectives
+
+- **Constraint Recognition:**
+  - Map resource limitations (budget, time, people)
+  - Identify organizational capability boundaries
+  - Understand regulatory and compliance requirements
+  - Recognize cultural and change management constraints
+
+### 2. Creative Solution Generation
+
+- **Divergent Thinking Phase:**
+  - Use brainstorming techniques to generate multiple options
+  - Apply SCAMPER method (Substitute, Combine, Adapt, Modify, Put to other uses, Eliminate, Reverse)
+  - Look for solutions from adjacent industries and contexts
+  - Consider both incremental and breakthrough approaches
+
+- **Solution Categories:**
+  - **Process Solutions:** Workflow redesign and optimization
+  - **Technology Solutions:** System implementation and automation
+  - **Organizational Solutions:** Structure and capability changes
+  - **Partnership Solutions:** Collaboration and ecosystem approaches
+  - **Business Model Solutions:** Fundamental approach changes
+
+### 3. Solution Architecture Development
+
+- **Component Design:**
+  - Break solutions into modular components
+  - Define interfaces and dependencies between components
+  - Ensure components can be developed and tested independently
+  - Design for scalability and future evolution
+
+- **Systems Integration:**
+  - Map how solution components work together
+  - Identify integration points with existing systems
+  - Design data flows and information architecture
+  - Plan for interoperability and standards compliance
+
+### 4. Stakeholder Impact Analysis
+
+- **Multi-Stakeholder Perspective:**
+  - Analyze impact on customers, employees, partners, shareholders
+  - Identify winners and losers from solution implementation
+  - Understand behavioral changes required from each group
+  - Design stakeholder engagement and change management
+
+- **User Experience Design:**
+  - Map user journeys for key stakeholder groups
+  - Identify pain points and friction in solution adoption
+  - Design for simplicity and ease of use
+  - Create feedback mechanisms for continuous improvement
+
+### 5. Implementation Feasibility Assessment
+
+- **Technical Feasibility:**
+  - Assess whether solution can be built with available technology
+  - Identify technical risks and mitigation strategies
+  - Evaluate integration complexity with existing systems
+  - Consider security, performance, and scalability requirements
+
+- **Organizational Feasibility:**
+  - Assess capability gaps and development needs
+  - Evaluate change management requirements
+  - Consider cultural fit and resistance factors
+  - Plan for training and skill development needs
+
+### 6. Solution Evaluation & Selection
+
+- **Multi-Criteria Assessment:**
+  - Evaluate solutions against value creation potential
+  - Assess implementation difficulty and resource requirements
+  - Consider time to value and payback periods
+  - Analyze risks and downside protection
+
+- **Trade-off Analysis:**
+  - Identify key trade-offs between solution alternatives
+  - Understand opportunity costs of different approaches
+  - Balance short-term quick wins with long-term transformation
+  - Consider portfolio effects across multiple solutions
+
+### 7. Prototype & Pilot Design
+
+- **Minimum Viable Solution:**
+  - Design smallest version that delivers core value
+  - Identify critical assumptions to test through prototype
+  - Plan for rapid iteration and improvement cycles
+  - Design measurement and feedback systems
+
+- **Pilot Program Planning:**
+  - Select pilot scope and participant criteria
+  - Design pilot success metrics and evaluation criteria
+  - Plan pilot timeline and resource allocation
+  - Prepare scale-up strategy based on pilot learnings
+
+### 8. Risk Assessment & Mitigation
+
+- **Risk Identification:**
+  - Map technical, market, organizational, and execution risks
+  - Assess probability and impact of each risk
+  - Identify interdependencies and cascading risks
+  - Consider both internal and external risk factors
+
+- **Mitigation Strategy Design:**
+  - Develop specific actions to reduce risk probability
+  - Design contingency plans for high-impact risks
+  - Create early warning systems for risk monitoring
+  - Build flexibility into solution design for risk adaptation
+
+### 9. Business Case Development
+
+- **Value Proposition Articulation:**
+  - Quantify expected benefits and value creation
+  - Calculate return on investment and payback period
+  - Model different scenarios and sensitivity analysis
+  - Compare to alternative uses of resources
+
+- **Implementation Roadmap:**
+  - Define phase-gate approach to solution deployment
+  - Identify critical milestones and decision points
+  - Plan resource allocation across implementation phases
+  - Design metrics and monitoring for each phase
+
+## Output Deliverables
+
+- **Solution Design Blueprint:** Comprehensive solution architecture and specifications
+- **Implementation Roadmap:** Phased approach to solution deployment
+- **Business Case:** Financial justification and value proposition
+- **Risk Assessment:** Identified risks and mitigation strategies
+- **Prototype Plan:** Design for minimal viable solution testing
+- **Stakeholder Impact Analysis:** Effects on all affected parties
+- **Success Metrics Framework:** Measurement approach for solution value
+
+## Success Criteria
+
+- Solutions directly address identified root causes and problems
+- Value creation potential is clearly quantified and compelling
+- Implementation approach is realistic within organizational constraints
+- Stakeholder impacts are understood and managed appropriately
+- Solutions can be prototyped and tested before full implementation
+- Risk mitigation strategies address major implementation threats
+- Business case demonstrates clear ROI and strategic alignment
+
+==================== END: solution-design ====================

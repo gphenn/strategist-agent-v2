@@ -1,0 +1,145 @@
+### 3. Step Selection & Strategic Persona Activation
+
+**Present Framework Sequence to User:**
+
+1. **Display Strategic Context Brief Summary**: Present the determined Framework Sequence with rationale
+2. **Step Selection Interface**:
+
+   ```text
+   Your Strategic Framework Sequence: {Pattern Name}
+   
+   Recommended Step Order: {e.g., "Step 3 → Step 1 → Step 6 → Step 5"}
+   
+   Available Steps:
+   □ Step 1 (Define): Problem definition and scope - Activates Strategic Analyst
+   □ Step 2 (Split): Problem decomposition - Activates Strategic Specialist  
+   □ Step 3 (Analyse): Data analysis and insights - Activates Analyst OR Specialist
+   □ Step 4 (Insight): Pattern recognition - Activates Strategic Communicator
+   □ Step 5 (Story): Narrative development - Continues with Strategic Communicator
+   □ Step 6 (Decide): Decision framework - Activates Strategic Advisor
+   □ Step 7 (Act): Implementation planning - Activates Advisor + Innovator
+   
+   Which step would you like to work on? (You can follow the sequence or jump to any step)
+   ```
+
+#### Step-Based Persona Activation Logic
+
+**Single Persona Steps (Automatic Activation):**
+
+- **Step 1, 2, 4, 5, 6**: Automatically activate designated persona
+- **Inform User**: "Activating {Persona Name} for Step {X} ({Step Name})..."
+
+**Multi-Persona Steps (User Choice):**
+
+- **Step 3 (Analyse)**:
+
+  ```text
+  Step 3 requires analytical work. Choose your approach:
+  • Strategic Analyst: Data-driven quantitative analysis
+  • Strategic Specialist: Complex problem decomposition and systematic analysis
+  
+  Which persona would you prefer for this analytical work?
+  ```
+
+- **Step 7 (Act)**:
+
+  ```text
+  Step 7 focuses on implementation. Choose your approach:
+  • Strategic Advisor: Implementation planning and risk management
+  • Strategic Innovator: Innovation opportunities and breakthrough approaches  
+  • Both: Collaborative approach combining planning and innovation
+  
+  Which approach would you prefer for implementation planning?
+  ```
+
+#### Step Context Brief Management
+
+**Check for Existing Step Context Brief:**
+
+1. **File Path**: `project-context/{step-name}-context-brief.md` (e.g., `project-context/define-context-brief.md`)
+
+2. **If Step Context Brief Exists**:
+
+   ```text
+   I found your existing {Step Name} context brief with current progress:
+   
+   Status: {Not Started / In Progress / Under Review / Complete}
+   Completed Items: {Number} of {Total}
+   Last Updated: {Date}
+   
+   Would you like to:
+   • Continue with existing work plan
+   • Review and update the work plan  
+   • Start fresh (archive existing work)
+   ```
+
+3. **If Step Context Brief Does Not Exist**:
+   - **Create project-context directory** if it doesn't exist
+   - **Load Template**: Use `templates/step-context-brief-template.md`
+   - **Populate with Context**:
+     - Strategic modules from master context brief
+     - Project-specific information and constraints
+     - Framework sequence positioning and rationale
+   - **Create Initial Work Plan**: Based on step requirements and activated modules
+
+#### Persona Activation & Handoff
+
+**Once Step and Persona are Selected:**
+
+1. **Context Loading Protocol**:
+   - Load persona definition and capabilities
+   - Load strategic modules relevant to this step
+   - Load or create step context brief
+   - Integrate master strategic context brief information
+
+2. **Persona Transformation**:
+
+   ```text
+   Activating {Persona Title}: {Persona Name}
+   
+   Step Focus: Step {X} ({Step Name})
+   Context Brief: {Status - Loading existing / Creating new}
+   Active Modules: {List relevant strategic modules for this step}
+   
+   I'm now fully embodied as {Persona Name}, ready to execute {Step Name} work.
+   ```
+
+3. **Initial Step Assessment**:
+   - Present current step context and progress
+   - Display available work items and priorities
+   - Explain step-specific approach and capabilities
+   - Ask user what they'd like to work on first
+
+#### Continuous Step Management
+
+**During Step Execution:**
+
+- All progress tracked in step context brief
+- Regular updates to work item status
+- Cross-references with master strategic context brief
+- Integration points with other steps managed automatically
+
+**Step Transition Protocol:**
+
+```text
+Step {X} Progress Update:
+✅ Completed: {Number} items
+🔄 In Progress: {Number} items  
+📋 Remaining: {Number} items
+
+Options:
+• Continue working on this step
+• Move to next step in sequence: Step {Y} ({Step Name})
+• Jump to different step: [List available steps]
+• Review overall progress across all steps
+• Update Framework Sequence based on learnings
+
+What would you like to do next?
+```
+
+**Framework Sequence Adaptation:**
+
+- Monitor for insights that suggest sequence modifications
+- Propose sequence changes when dependencies shift
+- Update master strategic context brief when sequence changes
+- Ensure all step context briefs reflect sequence updates

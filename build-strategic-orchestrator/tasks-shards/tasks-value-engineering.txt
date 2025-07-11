@@ -1,0 +1,164 @@
+==================== START: value-engineering ====================
+# Value Engineering Task
+
+## Purpose
+
+To systematically optimize solutions for maximum value delivery while minimizing costs and complexity. This task applies value engineering methodology to enhance solution efficiency, eliminate waste, and achieve superior return on investment through function-focused design thinking.
+
+## Inputs Required
+
+- Existing solution design or concept
+- Cost breakdown and resource requirements
+- Performance specifications and quality standards
+- Stakeholder value definitions and priorities
+- Alternative approaches and benchmark solutions
+
+## Task Execution Instructions
+
+### 1. Function Analysis & Value Definition
+
+- **Function Identification:**
+  - Break solution into primary and secondary functions
+  - Use verb-noun format to describe each function clearly
+  - Distinguish between basic functions (essential) and secondary functions (nice-to-have)
+  - Map relationships between different functions
+
+- **Value Hierarchy Establishment:**
+  - Define value from multiple stakeholder perspectives
+  - Establish relative importance weights for different functions
+  - Identify functions that create most customer value
+  - Understand trade-offs between competing value dimensions
+
+### 2. Cost-Function Analysis
+
+- **Function Costing:**
+  - Allocate total solution cost to each identified function
+  - Identify high-cost functions relative to their value contribution
+  - Map resource consumption patterns across functions
+  - Calculate cost-per-unit of value for each function
+
+- **Value Engineering Opportunities:**
+  - Target functions with high cost-to-value ratios
+  - Identify over-engineered components and features
+  - Find functions that don't align with stakeholder priorities
+  - Discover redundant or unnecessary functions
+
+### 3. Alternative Generation & Creativity
+
+- **Function-Based Ideation:**
+  - Generate multiple ways to achieve each function
+  - Consider different technologies and approaches
+  - Look for solutions from other industries and contexts
+  - Apply creativity techniques like TRIZ and biomimicry
+
+- **Component Simplification:**
+  - Explore consolidation of multiple functions into single components
+  - Identify opportunities to eliminate interfaces and handoffs
+  - Consider standardization and platform approaches
+  - Look for ways to leverage existing assets and capabilities
+
+### 4. Design-to-Cost Optimization
+
+- **Target Costing:**
+  - Establish maximum acceptable cost for each function
+  - Work backward from value to determine cost constraints
+  - Set cost reduction targets based on competitive benchmarks
+  - Balance cost reduction with quality and performance requirements
+
+- **Material and Process Optimization:**
+  - Evaluate alternative materials and manufacturing processes
+  - Consider lifecycle costs including maintenance and operations
+  - Assess scalability implications of different cost structures
+  - Optimize for volume production and learning curve effects
+
+### 5. Performance-Value Trade-off Analysis
+
+- **Specification Optimization:**
+  - Challenge all performance requirements for necessity
+  - Identify over-specification that doesn't add customer value
+  - Find opportunities to reduce complexity without losing function
+  - Balance performance with cost and development time
+
+- **Quality Function Deployment:**
+  - Map customer requirements to technical specifications
+  - Prioritize features based on customer value and competitive differentiation
+  - Identify features that create disproportionate cost or complexity
+  - Focus development resources on highest-value functions
+
+### 6. Implementation & Delivery Optimization
+
+- **Development Process Efficiency:**
+  - Streamline development and testing processes
+  - Eliminate non-value-adding activities and handoffs
+  - Optimize project management and coordination overhead
+  - Accelerate time-to-market through parallel development
+
+- **Deployment Strategy:**
+  - Optimize rollout approach for maximum value realization
+  - Consider phased implementation to reduce risk and cost
+  - Design for rapid scaling and replication
+  - Plan for continuous improvement and optimization
+
+### 7. Lifecycle Value Optimization
+
+- **Total Cost of Ownership:**
+  - Optimize for lifecycle costs, not just initial investment
+  - Consider maintenance, support, and upgrade costs
+  - Plan for technology refresh and evolution cycles
+  - Design for operational efficiency and automation
+
+- **Value Sustainability:**
+  - Ensure value creation is sustainable over time
+  - Plan for competitive response and market evolution
+  - Build in flexibility for future adaptation
+  - Design learning and improvement mechanisms
+
+### 8. Risk-Adjusted Value Assessment
+
+- **Value-at-Risk Analysis:**
+  - Assess probability distributions of value outcomes
+  - Identify factors that could impact value realization
+  - Design robustness into high-value functions
+  - Create contingency plans for value protection
+
+- **Portfolio Value Optimization:**
+  - Consider value engineering impact on other projects
+  - Optimize resource allocation across project portfolio
+  - Leverage shared components and capabilities
+  - Balance risk and return across multiple initiatives
+
+### 9. Stakeholder Value Validation
+
+- **Value Proposition Testing:**
+  - Validate value assumptions with target stakeholders
+  - Test price sensitivity and willingness to pay
+  - Confirm that cost reductions don't compromise critical value
+  - Gather feedback on function prioritization and trade-offs
+
+- **Continuous Value Monitoring:**
+  - Establish metrics for ongoing value measurement
+  - Create feedback loops for value optimization
+  - Monitor competitor value propositions and responses
+  - Plan for continuous improvement and value enhancement
+
+## Output Deliverables
+
+- **Function-Cost Analysis:** Detailed breakdown of functions and their costs
+- **Value Engineering Report:** Optimization recommendations and rationale
+- **Redesigned Solution:** Optimized solution specification and design
+- **Cost-Benefit Analysis:** Quantified impact of optimization changes
+- **Implementation Plan:** Approach to deploy optimized solution
+- **Value Metrics Framework:** Ongoing measurement of value delivery
+- **Risk Assessment:** Analysis of optimization risks and mitigation
+
+## Success Criteria
+
+- Solution delivers superior value-to-cost ratio compared to alternatives
+- All functions are justified by their contribution to stakeholder value
+- Cost structure is competitive and sustainable
+- Quality and performance standards are maintained or improved
+- Implementation complexity is minimized without sacrificing function
+- Solution can scale efficiently and adapt to changing requirements
+- Value engineering approach can be applied to future projects and solutions
+
+==================== END: value-engineering ====================

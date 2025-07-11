@@ -1,3 +1,4 @@
+==================== START: step-context-brief-template ====================
 # {Step Number}: {Step Name} - Context Brief
 
 **Step:** {Step X} - {Step Name}  
@@ -334,3 +335,5 @@
 **Next Steps:** {What should happen after this step is complete}
 
 **File Maintenance:** {When this file should be updated and by whom}
+
+==================== END: step-context-brief-template ====================

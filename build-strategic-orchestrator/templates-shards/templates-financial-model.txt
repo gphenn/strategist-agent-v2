@@ -1,0 +1,244 @@
+==================== START: financial-model ====================
+# Financial Model Template
+
+## Model Overview
+
+**Model Name:** [Strategic Initiative/Project Name]  
+**Model Owner:** [Name and Role]  
+**Version:** [Version Number]  
+**Last Updated:** [Date]  
+**Review Date:** [Next Review Date]  
+
+**Model Purpose:** [Brief description of what this model analyzes]  
+**Key Decisions Supported:** [What strategic decisions will this model inform]  
+**Time Horizon:** [Analysis period - e.g., 5 years]  
+**Currency/Units:** [Base currency and units used]
+
+## Executive Summary
+
+### Key Financial Metrics
+
+| Metric | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|--------|--------|--------|--------|--------|--------|
+| Revenue | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| EBITDA | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| EBITDA Margin | [X]% | [X]% | [X]% | [X]% | [X]% |
+| Free Cash Flow | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| NPV (10% discount) | $[X]M |
+| IRR | [X]% |
+| Payback Period | [X] years |
+
+### Investment Summary
+
+- **Total Investment Required:** $[X]M
+- **Peak Funding Need:** $[X]M in [Year]
+- **Break-even:** [Month/Year]
+- **ROI:** [X]% over [time period]
+
+## Revenue Model
+
+### Revenue Streams
+
+1. **[Revenue Stream 1]**
+   - Description: [Brief description]
+   - Pricing Model: [How pricing works]
+   - Growth Driver: [Key factor driving growth]
+
+2. **[Revenue Stream 2]**
+   - Description: [Brief description]  
+   - Pricing Model: [How pricing works]
+   - Growth Driver: [Key factor driving growth]
+
+### Revenue Calculations
+
+| Component | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|-----------|--------|--------|--------|--------|--------|
+| **Customer Metrics** |
+| New Customers | [#] | [#] | [#] | [#] | [#] |
+| Existing Customers | [#] | [#] | [#] | [#] | [#] |
+| Total Customers | [#] | [#] | [#] | [#] | [#] |
+| Customer Churn Rate | [%] | [%] | [%] | [%] | [%] |
+| **Unit Economics** |
+| Average Revenue Per Customer | $[X] | $[X] | $[X] | $[X] | $[X] |
+| Customer Lifetime Value | $[X] | $[X] | $[X] | $[X] | $[X] |
+| Customer Acquisition Cost | $[X] | $[X] | $[X] | $[X] | $[X] |
+| LTV:CAC Ratio | [X]:1 | [X]:1 | [X]:1 | [X]:1 | [X]:1 |
+
+## Cost Structure
+
+### Cost Categories
+
+| Cost Category | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | Notes |
+|---------------|--------|--------|--------|--------|--------|-------|
+| **Cost of Goods Sold** |
+| Direct Materials | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M | [Assumptions] |
+| Direct Labor | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M | [Assumptions] |
+| Manufacturing Overhead | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M | [Assumptions] |
+| **Operating Expenses** |
+| Sales & Marketing | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M | [% of revenue] |
+| General & Administrative | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M | [Assumptions] |
+| Research & Development | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M | [% of revenue] |
+
+### Cost Behavior Analysis
+
+- **Fixed Costs:** $[X]M annually (facilities, core staff, licenses)
+- **Variable Costs:** [X]% of revenue (materials, commission, processing)
+- **Step Costs:** [Description of capacity-driven cost increases]
+
+## Investment Requirements
+
+### Capital Expenditures
+
+| Investment Category | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|-------------------|--------|--------|--------|--------|--------|
+| Technology/Systems | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Equipment/Machinery | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Facilities | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Other | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| **Total CapEx** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+
+### Working Capital Requirements
+
+| Component | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|-----------|--------|--------|--------|--------|--------|
+| Accounts Receivable | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Inventory | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Accounts Payable | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Net Working Capital** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Working Capital Change | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+
+## Financial Statements
+
+### Profit & Loss Statement
+
+| Line Item | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|-----------|--------|--------|--------|--------|--------|
+| **Revenue** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Cost of Goods Sold | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Gross Profit** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Gross Margin | [X]% | [X]% | [X]% | [X]% | [X]% |
+| Operating Expenses | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **EBITDA** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| EBITDA Margin | [X]% | [X]% | [X]% | [X]% | [X]% |
+| Depreciation & Amortization | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Operating Income (EBIT)** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Interest Expense | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Pre-tax Income** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Taxes | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Net Income** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+
+### Cash Flow Statement
+
+| Line Item | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 |
+|-----------|--------|--------|--------|--------|--------|
+| **Operating Cash Flow** |
+| Net Income | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Depreciation & Amortization | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Working Capital Change | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Operating Cash Flow** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| **Investing Cash Flow** |
+| Capital Expenditures | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Investing Cash Flow** | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) | ($[X]M) |
+| **Free Cash Flow** | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+
+## Valuation Analysis
+
+### NPV Calculation
+
+- **Discount Rate:** [X]% (WACC or required return)
+- **Terminal Value:** $[X]M (using [method - perpetuity growth or exit multiple])
+- **Present Value of Cash Flows:** $[X]M
+- **Terminal Value PV:** $[X]M
+- **Total NPV:** $[X]M
+
+### Sensitivity Analysis
+
+| Variable | -20% | -10% | Base | +10% | +20% |
+|----------|------|------|------|------|------|
+| Revenue Growth | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Gross Margin | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+| Discount Rate | $[X]M | $[X]M | $[X]M | $[X]M | $[X]M |
+
+## Key Assumptions
+
+### Market Assumptions
+
+- **Market Size:** $[X]B growing at [X]% annually
+- **Market Share:** [X]% by Year 5
+- **Competitive Response:** [Description of expected competitive dynamics]
+
+### Business Assumptions
+
+- **Customer Adoption:** [Description of adoption timeline and drivers]
+- **Pricing Strategy:** [Pricing approach and escalation assumptions]
+- **Cost Inflation:** [X]% annually for key cost categories
+- **Technology Platform:** [Key technology assumptions and scalability]
+
+### Financial Assumptions
+
+- **Tax Rate:** [X]%
+- **Discount Rate:** [X]% (based on [methodology])
+- **Depreciation:** [Method and useful life assumptions]
+- **Working Capital:** [Days sales outstanding, inventory turns, etc.]
+
+## Risk Analysis
+
+### Key Risks & Sensitivities
+
+1. **[Risk Factor 1]**
+   - Probability: [High/Medium/Low]
+   - Financial Impact: $[X]M NPV impact
+   - Mitigation: [Strategy to address]
+
+2. **[Risk Factor 2]**
+   - Probability: [High/Medium/Low]
+   - Financial Impact: $[X]M NPV impact
+   - Mitigation: [Strategy to address]
+
+### Scenario Analysis
+
+| Scenario | Probability | NPV | IRR | Description |
+|----------|-------------|-----|-----|-------------|
+| **Optimistic** | [X]% | $[X]M | [X]% | [Key assumptions] |
+| **Base Case** | [X]% | $[X]M | [X]% | [Key assumptions] |
+| **Pessimistic** | [X]% | $[X]M | [X]% | [Key assumptions] |
+
+## Implementation Milestones
+
+### Financial Milestones
+
+- **Break-even:** [Month/Year]
+- **Positive Cash Flow:** [Month/Year]
+- **ROI Target Achievement:** [Month/Year]
+- **Payback Period:** [X] years
+
+### Key Performance Indicators
+
+- **Monthly Revenue Run Rate:** Track against $[X]M target
+- **Customer Acquisition:** Track against [#] monthly target
+- **Unit Economics:** Monitor LTV:CAC ratio above [X]:1
+- **Cash Burn:** Maintain below $[X]M monthly
+
+## Model Validation & Updates
+
+### Model Validation
+
+- **Benchmarking:** Compared against [industry/competitor benchmarks]
+- **Expert Review:** Validated by [internal/external experts]
+- **Historical Validation:** [If applicable, comparison to historical performance]
+
+### Update Schedule
+
+- **Monthly:** Update actuals and short-term forecasts
+- **Quarterly:** Comprehensive review and assumption updates
+- **Annually:** Full model refresh and strategic reassessment
+
+---
+
+**Model Sign-off:**
+
+- **Financial Controller:** [Name, Date]
+- **Business Owner:** [Name, Date]
+- **Strategy Lead:** [Name, Date]
+
+==================== END: financial-model ====================

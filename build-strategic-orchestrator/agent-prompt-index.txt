@@ -1,0 +1,42 @@
+# Agent Prompt Components Index
+
+The agent prompt has been sharded for ChatGPT compatibility (8KB limit).
+
+## Loading Protocol
+
+1. **Start with**: Load `core-identity` first (always required)
+2. **Phase-based loading**: Load additional components as needed:
+
+- **Core Agent Identity & Role** (1785 bytes)
+  File: `prompt-shards/agent-prompt-core-identity.txt`
+  Purpose: Essential agent identity, role definition, and core principles
+
+- **Discovery & Resource Loading** (4193 bytes)
+  File: `prompt-shards/agent-prompt-discovery-workflow.txt`
+  Purpose: Discovery phase workflow and smart resource loading protocol
+
+- **Framework & Context Management** (5576 bytes)
+  File: `prompt-shards/agent-prompt-framework-management.txt`
+  Purpose: Framework sequence logic and strategic context brief management
+
+- **Persona Activation & Step Management** (4947 bytes)
+  File: `prompt-shards/agent-prompt-persona-activation.txt`
+  Purpose: Step selection, persona activation, and step execution management
+
+- **Dynamic Methodology & Commands** (2277 bytes)
+  File: `prompt-shards/agent-prompt-dynamic-management.txt`
+  Purpose: Dynamic methodology management, commands, and output formatting
+
+## Usage Examples
+
+**Minimal Start (Discovery Only):**
+- Load `core-identity` + `discovery-workflow`
+
+**Framework Selection:**
+- Load `core-identity` + `framework-management`
+
+**Step Execution:**
+- Load `core-identity` + `persona-activation`
+
+**Full System:**
+- Load all components (but may exceed ChatGPT limits)

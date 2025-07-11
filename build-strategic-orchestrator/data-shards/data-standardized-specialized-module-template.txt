@@ -1,0 +1,295 @@
+==================== START: standardized-specialized-module-template ====================
+# [Sector/Context] Strategic Module Template
+
+## Module Metadata
+
+- **Module ID**: `[XX]_[sector-name]-strategic-module`
+- **Module Version**: `1.0`
+- **Core Dependencies**: `00_core-strategic-frameworks.md`, `01_core-integration-best-practices.md`
+- **Last Updated**: `[Date]`
+- **Specialization Level**: `[Industry/Functional/Crisis/Geographic]`
+
+---
+
+## Context Detection Framework
+
+### Primary Triggers
+
+- **Keywords**: `[comma-separated list of detection keywords]`
+- **Industry Indicators**: `[specific industry characteristics]`
+- **Stakeholder Patterns**: `[typical stakeholder configurations]`
+- **Challenge Types**: `[common problem categories]`
+- **Geographic/Regulatory Context**: `[if applicable]`
+
+### Activation Criteria
+
+```text
+IF [primary triggers present] AND [strategic complexity threshold met]
+THEN activate [Module Name] specialization
+PRIORITY: [High/Medium/Low]
+COMBINATION_RULES: [how this module works with others]
+```
+
+---
+
+## Framework Adaptations
+
+### Core Framework Modifications
+
+#### Phase 1 (Strategic Analyst) Adaptations
+
+- **Market Analysis Adjustments**: `[how to modify TAM/SAM/SOM, Porter's Five Forces, PESTLE for this context]`
+- **Financial Modeling Considerations**: `[sector-specific financial metrics and models]`
+- **Competitive Analysis Focus**: `[unique competitive dynamics]`
+- **Pattern Recognition Specialization**: `[context-specific patterns to identify]`
+
+#### Phase 2 (Strategic Specialist) Adaptations  
+
+- **Problem Structuring Modifications**: `[how issues manifest differently in this context]`
+- **Root Cause Analysis Adjustments**: `[sector-specific causal factors]`
+- **Solution Design Constraints**: `[regulatory, operational, or cultural constraints]`
+- **Value Engineering Focus**: `[what constitutes value in this context]`
+
+#### Phase 3 (Strategic Communicator) Adaptations
+
+- **Stakeholder Mapping Specifics**: `[unique stakeholder configurations]`
+- **Narrative Frameworks**: `[storytelling approaches that resonate in this context]`
+- **Communication Channels**: `[preferred communication methods and forums]`
+- **Change Management Considerations**: `[context-specific change dynamics]`
+
+#### Phase 4 (Strategic Advisor) Adaptations
+
+- **Decision Frameworks**: `[how decision-making differs in this context]`
+- **Risk Assessment Modifications**: `[sector-specific risk categories and assessment methods]`
+- **Trade-off Analysis Focus**: `[unique trade-offs common to this context]`
+- **Implementation Considerations**: `[execution challenges specific to this sector]`
+
+#### Phase 5 (Strategic Innovator) Adaptations
+
+- **Opportunity Identification**: `[where innovations typically emerge in this context]`
+- **Business Model Variations**: `[common business model patterns and innovations]`
+- **Competitive Differentiation**: `[basis of competition and differentiation strategies]`
+- **Innovation Constraints**: `[regulatory, technical, or market constraints on innovation]`
+
+### Specialized Frameworks
+
+- **[Framework Name 1]**: `[unique framework specific to this context]`
+- **[Framework Name 2]**: `[another specialized framework]`
+- **[Integration Framework]**: `[how specialized frameworks connect to core methodology]`
+
+---
+
+## Specialized Benchmarks & Metrics
+
+### Performance Standards
+
+| Metric Category | Industry Benchmark | Excellence Threshold | Measurement Method |
+|-----------------|-------------------|---------------------|-------------------|
+| `[Category 1]` | `[Standard range]` | `[Top quartile]` | `[How to measure]` |
+| `[Category 2]` | `[Standard range]` | `[Top quartile]` | `[How to measure]` |
+
+### Success Indicators
+
+- **Financial Performance**: `[key financial metrics and benchmarks]`
+- **Operational Excellence**: `[operational performance indicators]`
+- **Strategic Positioning**: `[market position and competitive metrics]`
+- **Innovation Metrics**: `[innovation and growth indicators]`
+
+### Risk Metrics
+
+- **[Risk Category 1]**: `[measurement approach and thresholds]`
+- **[Risk Category 2]**: `[measurement approach and thresholds]`
+
+---
+
+## Strategic Patterns & Methodologies
+
+### Common Strategic Challenges
+
+1. **[Challenge Type 1]**
+   - **Description**: `[detailed description]`
+   - **Frequency**: `[how often this occurs]`
+   - **Impact**: `[typical business impact]`
+   - **Recommended Approach**: `[strategic methodology to apply]`
+
+2. **[Challenge Type 2]**
+   - **Description**: `[detailed description]`
+   - **Frequency**: `[how often this occurs]`
+   - **Impact**: `[typical business impact]`
+   - **Recommended Approach**: `[strategic methodology to apply]`
+
+### Success Patterns
+
+- **Pattern 1: [Pattern Name]**
+  - **Context**: `[when this pattern applies]`
+  - **Approach**: `[strategic approach]`
+  - **Success Factors**: `[critical success factors]`
+  - **Framework Sequence**: `[which frameworks to apply in what order]`
+
+- **Pattern 2: [Pattern Name]**
+  - **Context**: `[when this pattern applies]`
+  - **Approach**: `[strategic approach]`
+  - **Success Factors**: `[critical success factors]`
+  - **Framework Sequence**: `[which frameworks to apply in what order]`
+
+---
+
+## Case Studies & Applications
+
+### Case Study 1: "[Case Study Title]"
+
+- **Context**: `[background and situation]`
+- **Challenge**: `[strategic challenge faced]`
+- **Approach**: `[strategic methodology applied]`
+- **Framework Sequence**: `[which phases/frameworks were used]`
+- **Outcome**: `[results achieved]`
+- **Key Learnings**: `[lessons learned and insights]`
+
+### Case Study 2: "[Case Study Title]"
+
+- **Context**: `[background and situation]`
+- **Challenge**: `[strategic challenge faced]`
+- **Approach**: `[strategic methodology applied]`
+- **Framework Sequence**: `[which phases/frameworks were used]`
+- **Outcome**: `[results achieved]`
+- **Key Learnings**: `[lessons learned and insights]`
+
+### Multi-Phase Application Examples
+
+- **Comprehensive Strategic Planning**: `[example of full 5-phase application]`
+- **Rapid Strategic Assessment**: `[example of compressed timeline application]`
+- **Crisis Response Strategy**: `[example of emergency strategic planning]`
+
+---
+
+## Risk Considerations & Mitigation
+
+### Context-Specific Risks
+
+1. **[Risk Category 1]**
+   - **Description**: `[detailed risk description]`
+   - **Probability**: `[likelihood assessment]`
+   - **Impact**: `[potential business impact]`
+   - **Mitigation Strategy**: `[recommended mitigation approach]`
+   - **Framework Integration**: `[how to incorporate into strategic planning]`
+
+2. **[Risk Category 2]**
+   - **Description**: `[detailed risk description]`
+   - **Probability**: `[likelihood assessment]`
+   - **Impact**: `[potential business impact]`
+   - **Mitigation Strategy**: `[recommended mitigation approach]`
+   - **Framework Integration**: `[how to incorporate into strategic planning]`
+
+### Success Factors
+
+- **Critical Success Factor 1**: `[description and importance]`
+- **Critical Success Factor 2**: `[description and importance]`
+- **Critical Success Factor 3**: `[description and importance]`
+
+---
+
+## Decision Logic & Integration
+
+### Module Activation Logic
+
+```text
+PRIMARY_ACTIVATION:
+  IF context_indicators >= threshold
+  AND strategic_complexity == high
+  THEN activate_module(priority=high)
+
+SECONDARY_ACTIVATION:
+  IF related_context_present
+  AND cross_domain_complexity == medium
+  THEN activate_module(priority=medium, mode=supporting)
+
+COMBINATION_RULES:
+  WITH [related_module_1]: complement
+  WITH [related_module_2]: sequence
+  WITH [related_module_3]: conflict_resolution_required
+```
+
+### Progressive Specialization Strategy
+
+1. **Initial Assessment**: `[how to determine if specialization is needed]`
+2. **Specialization Trigger Points**: `[when to activate specialized frameworks]`
+3. **Integration Checkpoints**: `[when to validate integration with core frameworks]`
+4. **Quality Assurance**: `[specialized validation criteria]`
+
+### Cross-Module Integration
+
+- **Upstream Dependencies**: `[what inputs this module needs from other modules]`
+- **Downstream Outputs**: `[what this module provides to other modules]`
+- **Conflict Resolution**: `[how to handle conflicts with other specialized modules]`
+
+---
+
+## Quality Assurance & Validation
+
+### Specialized Checklists
+
+- **[Context] Strategic Analysis Quality Checklist**
+- **[Context] Implementation Readiness Checklist**
+- **[Context] Risk Assessment Completeness Checklist**
+
+### Validation Criteria
+
+- **Strategic Alignment**: `[how to validate strategic fit]`
+- **Implementation Feasibility**: `[how to assess implementability]`
+- **Risk Management**: `[how to validate risk mitigation]`
+- **Success Probability**: `[how to estimate success likelihood]`
+
+---
+
+## Module Evolution & Maintenance
+
+### Update Triggers
+
+- **New Industry Developments**: `[criteria for updating based on industry changes]`
+- **Framework Evolution**: `[how core framework changes affect this module]`
+- **Case Study Accumulation**: `[when new case studies warrant module updates]`
+
+### Version Control
+
+- **Change Documentation**: `[how to document module changes]`
+- **Backward Compatibility**: `[how to maintain compatibility with existing applications]`
+- **Migration Strategy**: `[how to migrate from previous versions]`
+
+---
+
+## Implementation Guidelines
+
+### For Strategic Orchestrator
+
+- **Loading Priority**: `[when to load this module]`
+- **Memory Management**: `[how to manage module size and performance]`
+- **User Interface**: `[how to present specialized options to users]`
+
+### For Strategic Personas
+
+- **Persona Adaptation**: `[how each persona should modify behavior]`
+- **Task Customization**: `[how tasks should be adapted]`
+- **Template Modifications**: `[how templates should be customized]`
+
+---
+
+## Appendices
+
+### A. Specialized Terminology
+
+- **[Term 1]**: `[definition in context]`
+- **[Term 2]**: `[definition in context]`
+
+### B. Resource Links
+
+- **Industry Resources**: `[relevant industry resources]`
+- **Framework References**: `[academic or professional references]`
+- **Tool Integrations**: `[compatible tools and platforms]`
+
+### C. Quick Reference
+
+- **Key Frameworks**: `[one-page summary of key frameworks]`
+- **Decision Trees**: `[visual decision support tools]`
+- **Benchmark Summaries**: `[quick reference benchmark data]`
+
+==================== END: standardized-specialized-module-template ====================

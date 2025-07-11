@@ -1,0 +1,137 @@
+==================== START: root-cause-analysis ====================
+# Root Cause Analysis Task
+
+## Purpose
+
+To systematically trace symptoms back to fundamental causes, distinguishing between surface-level issues and underlying systemic problems. This task applies rigorous investigative methodology to identify the true drivers of business challenges, enabling targeted and effective interventions.
+
+## Inputs Required
+
+- Problem statement and observed symptoms
+- Stakeholder perspectives on the issue
+- Historical data and timeline of problem emergence
+- System context and organizational constraints
+- Available resources for investigation
+
+## Task Execution Instructions
+
+### 1. Problem Symptom Mapping
+
+- **Document Observable Symptoms:**
+  - List all visible manifestations of the problem
+  - Quantify impact where possible (costs, delays, quality issues)
+  - Map timing and frequency of symptom occurrence
+  - Identify patterns in symptom emergence
+
+- **Stakeholder Perspective Gathering:**
+  - Interview people closest to the problem
+  - Collect different viewpoints on problem causation
+  - Identify conflicting explanations and hypotheses
+  - Map stakeholder biases and interests
+
+### 2. 5-Whys Deep Dive Analysis
+
+- **Sequential Why Analysis:**
+  - Start with primary symptom: "Why does [symptom] occur?"
+  - For each answer, ask "Why does that happen?"
+  - Continue for at least 5 levels of questioning
+  - Document each level with supporting evidence
+
+- **Multiple Path Exploration:**
+  - Apply 5-Whys to different symptom manifestations
+  - Identify where different paths converge on common causes
+  - Explore alternative explanations at each level
+  - Test logical consistency of causal chains
+
+### 3. Fishbone (Ishikawa) Diagram Construction
+
+- **Cause Category Framework:**
+  - **People:** Skills, motivation, training, communication
+  - **Process:** Procedures, workflows, handoffs, controls
+  - **Technology:** Systems, tools, automation, data
+  - **Environment:** Culture, structure, resources, external factors
+  - **Materials:** Information, inputs, quality, availability
+  - **Methods:** Approaches, standards, measurement, decision-making
+
+- **Systematic Cause Brainstorming:**
+  - For each category, brainstorm all potential contributing factors
+  - Use team workshops to generate comprehensive lists
+  - Apply structured techniques like brainwriting and nominal groups
+  - Prioritize causes by likelihood and evidence
+
+### 4. Data-Driven Validation
+
+- **Evidence Collection:**
+  - Gather quantitative data supporting or refuting potential causes
+  - Conduct process observations and measurements
+  - Analyze historical trends and correlations
+  - Review documentation and system logs
+
+- **Hypothesis Testing:**
+  - Formulate testable hypotheses about root causes
+  - Design experiments or pilots to test causation
+  - Use control groups where possible
+  - Apply statistical analysis to validate relationships
+
+### 5. Systems Thinking Analysis
+
+- **Feedback Loop Identification:**
+  - Map reinforcing loops that amplify problems
+  - Identify balancing loops that maintain status quo
+  - Look for delays between causes and effects
+  - Understand system structure creating problems
+
+- **Interconnection Mapping:**
+  - Identify how different parts of organization interact
+  - Map information flows and decision points
+  - Understand resource dependencies and constraints
+  - Analyze power dynamics and incentive structures
+
+### 6. Root Cause Prioritization
+
+- **Impact Assessment:**
+  - Evaluate business impact of each identified root cause
+  - Consider both direct and indirect consequences
+  - Assess scope of influence across organization
+  - Quantify potential value of addressing each cause
+
+- **Controllability Analysis:**
+  - Assess organization's ability to influence each root cause
+  - Identify causes requiring external partnerships
+  - Evaluate resource requirements for intervention
+  - Consider timeframe needed for effective action
+
+### 7. Verification & Validation
+
+- **Cross-Validation:**
+  - Test root cause conclusions with multiple stakeholders
+  - Verify findings against historical precedents
+  - Check consistency with organizational knowledge
+  - Validate through pilot interventions where possible
+
+- **Alternative Explanation Testing:**
+  - Actively seek evidence contradicting conclusions
+  - Test competing hypotheses about causation
+  - Consider cognitive biases in analysis process
+  - Engage devil's advocate perspectives
+
+## Output Deliverables
+
+- **Root Cause Analysis Report:** Comprehensive documentation of investigation process and findings
+- **Fishbone Diagram:** Visual representation of all potential contributing factors
+- **5-Whys Analysis:** Detailed causal chain documentation for each symptom path
+- **Evidence Register:** Compilation of supporting data and validation efforts
+- **Root Cause Priority Matrix:** Ranked list of causes by impact and controllability
+- **Intervention Recommendations:** Targeted actions to address identified root causes
+
+## Success Criteria
+
+- Root causes are distinguished from symptoms through rigorous analysis
+- Multiple investigation methods converge on consistent findings
+- Conclusions are supported by verifiable evidence and data
+- Identified root causes are specific and actionable
+- Analysis reveals systemic issues beyond isolated incidents
+- Stakeholders agree with findings and causation logic
+- Recommended interventions directly target validated root causes
+
+==================== END: root-cause-analysis ====================

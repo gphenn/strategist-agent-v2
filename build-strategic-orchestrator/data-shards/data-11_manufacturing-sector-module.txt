@@ -1,0 +1,6 @@
+==================== START: 11_manufacturing-sector-module ====================
+# Industry-Specific Reference Guides
+
+## Manufacturing Sector Reference Guides
+
+==================== END: 11_manufacturing-sector-module ====================

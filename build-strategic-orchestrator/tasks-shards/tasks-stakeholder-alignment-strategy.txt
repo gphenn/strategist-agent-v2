@@ -1,0 +1,179 @@
+==================== START: stakeholder-alignment-strategy ====================
+# Stakeholder Alignment Strategy Task
+
+## Purpose
+
+To design and execute systematic stakeholder engagement strategies that build consensus, overcome resistance, and create unified commitment around strategic initiatives. This task ensures all key stakeholders understand, support, and actively contribute to strategic success through tailored communication and influence approaches.
+
+## Inputs Required
+
+- Strategic initiative or change requiring stakeholder support
+- Complete stakeholder mapping and influence analysis
+- Current stakeholder positions and levels of support
+- Organizational culture and political dynamics
+- Timeline and constraints for achieving alignment
+
+## Task Execution Instructions
+
+### 1. Stakeholder Ecosystem Mapping
+
+- **Comprehensive Stakeholder Identification:**
+  - Map all parties affected by or influencing the strategic initiative
+  - Include internal stakeholders (executives, managers, employees, unions)
+  - Identify external stakeholders (customers, partners, regulators, investors)
+  - Consider indirect stakeholders who might influence outcomes
+
+- **Influence Network Analysis:**
+  - Map formal and informal influence relationships
+  - Identify opinion leaders and coalition builders
+  - Understand decision-making processes and approval chains
+  - Recognize informal networks and communication channels
+
+### 2. Stakeholder Position Assessment
+
+- **Current State Analysis:**
+  - Assess each stakeholder's current level of support or resistance
+  - Understand their specific concerns, interests, and motivations
+  - Identify what they stand to gain or lose from the initiative
+  - Map their preferred communication styles and channels
+
+- **Power-Interest Matrix:**
+  - Plot stakeholders by level of influence and interest in initiative
+  - **High Power, High Interest:** Key players requiring intensive engagement
+  - **High Power, Low Interest:** Keep satisfied with regular updates
+  - **Low Power, High Interest:** Keep informed and engaged
+  - **Low Power, Low Interest:** Monitor with minimal communication
+
+### 3. Resistance Analysis & Mitigation
+
+- **Resistance Source Identification:**
+  - **Rational Resistance:** Legitimate concerns about strategy or implementation
+  - **Emotional Resistance:** Fear, loss of status, or change anxiety
+  - **Political Resistance:** Threat to power, resources, or position
+  - **Cultural Resistance:** Conflict with values or established practices
+
+- **Resistance Mitigation Strategies:**
+  - Address rational concerns with data and evidence
+  - Acknowledge emotional concerns and provide support
+  - Negotiate political concerns through compromise and coalition building
+  - Align cultural concerns with organizational values and identity
+
+### 4. Coalition Building Strategy
+
+- **Champion Identification & Development:**
+  - Identify natural supporters who can advocate for the initiative
+  - Develop their understanding and communication capabilities
+  - Provide them with tools and talking points
+  - Create opportunities for them to influence others
+
+- **Strategic Alliance Formation:**
+  - Build coalitions among stakeholders with aligned interests
+  - Create formal and informal groups supporting the initiative
+  - Facilitate peer-to-peer influence and testimony
+  - Leverage existing relationships and trust networks
+
+### 5. Tailored Communication Strategy
+
+- **Audience Segmentation:**
+  - Group stakeholders by similar characteristics and needs
+  - Develop distinct value propositions for each segment
+  - Customize messaging for different organizational levels
+  - Adapt communication style to audience preferences
+
+- **Multi-Channel Communication Design:**
+  - **Formal Channels:** Official announcements, presentations, documents
+  - **Informal Channels:** One-on-one meetings, informal conversations
+  - **Digital Channels:** Email, intranet, collaboration platforms
+  - **Face-to-Face Channels:** Town halls, workshops, team meetings
+
+### 6. Influence Campaign Execution
+
+- **Sequenced Engagement Approach:**
+  - Start with highest-influence supporters to build momentum
+  - Engage neutral parties before they form negative opinions
+  - Address concerns of resistors through trusted intermediaries
+  - Use early wins to demonstrate success and build confidence
+
+- **Message Reinforcement Strategy:**
+  - Repeat key messages through multiple channels and sources
+  - Use different formats (stories, data, examples) for the same message
+  - Encourage stakeholders to share messages in their own words
+  - Create opportunities for stakeholders to experience benefits directly
+
+### 7. Feedback Integration & Adaptation
+
+- **Systematic Feedback Collection:**
+  - Design formal and informal mechanisms for gathering input
+  - Use surveys, interviews, and focus groups strategically
+  - Monitor informal communication networks and sentiment
+  - Track changes in stakeholder positions over time
+
+- **Strategy Adaptation:**
+  - Adjust messages based on stakeholder feedback and concerns
+  - Modify initiative aspects that address legitimate stakeholder needs
+  - Revise timeline or approach based on implementation realities
+  - Incorporate stakeholder ideas to increase ownership
+
+### 8. Consensus Building Process
+
+- **Structured Decision-Making:**
+  - Design inclusive processes for stakeholder input on key decisions
+  - Use facilitation techniques to surface and resolve conflicts
+  - Create clear criteria for decision-making that stakeholders accept
+  - Document agreements and commitments publicly
+
+- **Conflict Resolution Mechanisms:**
+  - Establish processes for addressing disagreements constructively
+  - Train key leaders in conflict resolution and negotiation
+  - Create safe spaces for expressing concerns and alternative views
+  - Design escalation processes for unresolved conflicts
+
+### 9. Commitment & Accountability Systems
+
+- **Formal Commitment Mechanisms:**
+  - Secure public commitments from key stakeholders
+  - Include initiative support in performance objectives
+  - Create formal agreements and service level commitments
+  - Establish governance structures with stakeholder representation
+
+- **Progress Monitoring & Reporting:**
+  - Design metrics for measuring stakeholder engagement and support
+  - Create regular reporting on alignment progress
+  - Celebrate milestones and acknowledge stakeholder contributions
+  - Address alignment issues quickly when they emerge
+
+### 10. Sustaining Alignment Over Time
+
+- **Ongoing Engagement Strategy:**
+  - Maintain regular communication even after initial alignment
+  - Continue to reinforce value and address emerging concerns
+  - Adapt engagement approach as initiative evolves
+  - Build alignment into organizational culture and processes
+
+- **Success Story Documentation:**
+  - Capture and share success stories from stakeholder engagement
+  - Document lessons learned for future alignment challenges
+  - Build organizational capability for stakeholder management
+  - Create templates and tools for replicating success
+
+## Output Deliverables
+
+- **Stakeholder Alignment Plan:** Comprehensive strategy for building consensus
+- **Stakeholder Map & Analysis:** Visual representation of ecosystem and positions
+- **Communication Calendar:** Sequenced engagement activities and timelines
+- **Message Framework:** Tailored messaging for different stakeholder segments
+- **Coalition Building Strategy:** Approach for developing support networks
+- **Feedback Integration Process:** System for incorporating stakeholder input
+- **Success Metrics Dashboard:** Tracking alignment progress and engagement effectiveness
+
+## Success Criteria
+
+- Key stakeholders demonstrate active support for strategic initiative
+- Resistance is minimized through effective engagement and compromise
+- Coalition of supporters actively advocates for initiative success
+- Stakeholder feedback is systematically incorporated into strategy
+- Consensus is achieved on key decisions and implementation approaches
+- Commitment is sustained throughout initiative implementation
+- Organizational capability for stakeholder alignment is strengthened
+
+==================== END: stakeholder-alignment-strategy ====================

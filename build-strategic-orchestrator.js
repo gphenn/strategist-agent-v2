@@ -59,6 +59,208 @@ function shouldExcludeDirectory(dirName, excludePatterns) {
   });
 }
 
+function processDirectoryWithSharding(sourceSubdirPath, subdirName, buildDir, maxFileSize) {
+  const files = fs.readdirSync(sourceSubdirPath);
+  if (files.length === 0) {
+    console.warn(`Warning: Source directory '${sourceSubdirPath}' is empty.`);
+    return;
+  }
+
+  // Create index file for sharded components
+  const indexFile = path.join(buildDir, `${subdirName}-index.txt`);
+  const shardsDir = path.join(buildDir, `${subdirName}-shards`);
+  ensureDirectoryExists(shardsDir);
+
+  if (fs.existsSync(indexFile)) {
+    fs.unlinkSync(indexFile);
+  }
+
+  const indexEntries = [];
+
+  for (const filenameWithExt of files) {
+    const filePath = path.join(sourceSubdirPath, filenameWithExt);
+    if (fs.statSync(filePath).isFile()) {
+      const baseName = getBaseFilename(filenameWithExt);
+
+      // Skip files like 'filename.ide.ext'
+      if (baseName.endsWith(".ide")) {
+        console.log(`  Skipping IDE-specific file: '${filenameWithExt}' in '${subdirName}'`);
+        continue;
+      }
+
+      const fileContent = fs.readFileSync(filePath, "utf8");
+      const shardFileName = `${subdirName}-${baseName}.txt`;
+      const shardFilePath = path.join(shardsDir, shardFileName);
+
+      console.log(`  Creating shard: '${shardFileName}' from '${filenameWithExt}'`);
+
+      // Write individual shard file
+      const startMarker = `==================== START: ${baseName} ====================\n`;
+      const endMarker = `\n==================== END: ${baseName} ====================\n`;
+      
+      let shardContent = startMarker + fileContent;
+      if (!fileContent.endsWith("\n")) {
+        shardContent += "\n";
+      }
+      shardContent += endMarker;
+
+      fs.writeFileSync(shardFilePath, shardContent);
+
+      // Add to index
+      const fileSize = Buffer.byteLength(shardContent, 'utf8');
+      indexEntries.push({
+        name: baseName,
+        file: `${subdirName}-shards/${shardFileName}`,
+        size: fileSize,
+        description: `Component: ${baseName}`
+      });
+    }
+  }
+
+  // Write index file
+  let indexContent = `# ${subdirName.charAt(0).toUpperCase() + subdirName.slice(1)} Components Index\n\n`;
+  indexContent += `This directory has been sharded into individual component files for better agent compatibility.\n\n`;
+  indexContent += `## Available Components\n\n`;
+  
+  for (const entry of indexEntries) {
+    indexContent += `- **${entry.name}** - ${entry.description} (${entry.size} bytes)\n`;
+    indexContent += `  File: \`${entry.file}\`\n\n`;
+  }
+
+  indexContent += `## Usage Instructions\n\n`;
+  indexContent += `Instead of loading the entire ${subdirName}.txt file, load only the specific components you need:\n\n`;
+  indexContent += `1. Review this index to identify required components\n`;
+  indexContent += `2. Load individual shard files as needed\n`;
+  indexContent += `3. Reference components by their file paths listed above\n`;
+
+  fs.writeFileSync(indexFile, indexContent);
+  console.log(`  Created index file: '${subdirName}-index.txt' with ${indexEntries.length} components`);
+}
+
+function shardAgentPrompt(agentPromptPath, buildDir, maxSize) {
+  const content = fs.readFileSync(agentPromptPath, "utf8");
+  
+  // Define shard boundaries based on logical sections
+  const shardDefinitions = [
+    {
+      name: "core-identity",
+      title: "Core Agent Identity & Role",
+      startMarker: "# Strategic Orchestrator Instructions",
+      endMarker: "## Operational Workflow",
+      description: "Essential agent identity, role definition, and core principles"
+    },
+    {
+      name: "discovery-workflow", 
+      title: "Discovery & Resource Loading",
+      startMarker: "### 1. Greeting & Strategic Discovery",
+      endMarker: "### 2. Framework Sequence Determination",
+      description: "Discovery phase workflow and smart resource loading protocol"
+    },
+    {
+      name: "framework-management",
+      title: "Framework & Context Management", 
+      startMarker: "### 2. Framework Sequence Determination",
+      endMarker: "### 3. Step Selection & Strategic Persona Activation",
+      description: "Framework sequence logic and strategic context brief management"
+    },
+    {
+      name: "persona-activation",
+      title: "Persona Activation & Step Management",
+      startMarker: "### 3. Step Selection & Strategic Persona Activation", 
+      endMarker: "### 4. Dynamic Methodology Management",
+      description: "Step selection, persona activation, and step execution management"
+    },
+    {
+      name: "dynamic-management",
+      title: "Dynamic Methodology & Commands",
+      startMarker: "### 4. Dynamic Methodology Management",
+      endMarker: null, // End of file
+      description: "Dynamic methodology management, commands, and output formatting"
+    }
+  ];
+
+  const promptShardsDir = path.join(buildDir, "prompt-shards");
+  ensureDirectoryExists(promptShardsDir);
+
+  // Create index file for prompt shards
+  const promptIndexFile = path.join(buildDir, "agent-prompt-index.txt");
+  let indexContent = `# Agent Prompt Components Index\n\n`;
+  indexContent += `The agent prompt has been sharded for ChatGPT compatibility (8KB limit).\n\n`;
+  indexContent += `## Loading Protocol\n\n`;
+  indexContent += `1. **Start with**: Load \`core-identity\` first (always required)\n`;
+  indexContent += `2. **Phase-based loading**: Load additional components as needed:\n\n`;
+
+  const shardInfo = [];
+
+  // Extract and create each shard
+  for (const shard of shardDefinitions) {
+    let shardContent = "";
+    let startIndex = content.indexOf(shard.startMarker);
+    
+    if (startIndex === -1) {
+      console.warn(`Warning: Start marker '${shard.startMarker}' not found for shard '${shard.name}'`);
+      continue;
+    }
+
+    let endIndex;
+    if (shard.endMarker) {
+      endIndex = content.indexOf(shard.endMarker, startIndex);
+      if (endIndex === -1) {
+        console.warn(`Warning: End marker '${shard.endMarker}' not found for shard '${shard.name}'`);
+        endIndex = content.length;
+      }
+    } else {
+      endIndex = content.length;
+    }
+
+    shardContent = content.substring(startIndex, endIndex).trim();
+    
+    const shardFileName = `agent-prompt-${shard.name}.txt`;
+    const shardFilePath = path.join(promptShardsDir, shardFileName);
+    
+    fs.writeFileSync(shardFilePath, shardContent);
+    
+    const shardSize = Buffer.byteLength(shardContent, 'utf8');
+    console.log(`  Created prompt shard: '${shardFileName}' (${shardSize} bytes)`);
+    
+    shardInfo.push({
+      name: shard.name,
+      title: shard.title,
+      file: `prompt-shards/${shardFileName}`,
+      size: shardSize,
+      description: shard.description
+    });
+  }
+
+  // Complete the index content
+  for (const shard of shardInfo) {
+    indexContent += `- **${shard.title}** (${shard.size} bytes)\n`;
+    indexContent += `  File: \`${shard.file}\`\n`;
+    indexContent += `  Purpose: ${shard.description}\n\n`;
+  }
+
+  indexContent += `## Usage Examples\n\n`;
+  indexContent += `**Minimal Start (Discovery Only):**\n`;
+  indexContent += `- Load \`core-identity\` + \`discovery-workflow\`\n\n`;
+  indexContent += `**Framework Selection:**\n`;
+  indexContent += `- Load \`core-identity\` + \`framework-management\`\n\n`;
+  indexContent += `**Step Execution:**\n`;
+  indexContent += `- Load \`core-identity\` + \`persona-activation\`\n\n`;
+  indexContent += `**Full System:**\n`;
+  indexContent += `- Load all components (but may exceed ChatGPT limits)\n`;
+
+  fs.writeFileSync(promptIndexFile, indexContent);
+  console.log(`  Created prompt index: 'agent-prompt-index.txt' with ${shardInfo.length} components`);
+
+  // Create a minimal starter prompt
+  const starterPromptPath = path.join(buildDir, "agent-prompt-starter.txt");
+  const starterContent = shardInfo[0] ? fs.readFileSync(path.join(promptShardsDir, `agent-prompt-${shardInfo[0].name}.txt`), "utf8") : "";
+  const starterWithInstructions = `${starterContent}\n\n## Next Steps\n\nThis is the minimal core identity. Load additional prompt components from the agent-prompt-index.txt as needed for your current phase:\n\n- Discovery: Load \`discovery-workflow\`\n- Framework: Load \`framework-management\`\n- Execution: Load \`persona-activation\`\n- Commands: Load \`dynamic-management\``;
+  
+  fs.writeFileSync(starterPromptPath, starterWithInstructions);
+  console.log(`  Created starter prompt: 'agent-prompt-starter.txt' (${Buffer.byteLength(starterWithInstructions, 'utf8')} bytes)`);
+}
+
 // --- Main Script Logic ---
 async function main() {
   console.log(
@@ -184,6 +386,15 @@ async function main() {
     process.exit(1);
   }
 
+  // 3.5. Handle agent prompt sharding if enabled
+  const enablePromptSharding = config.sharding?.shard_agent_prompt;
+  const promptMaxSize = config.sharding?.prompt_max_size || 8000; // 8KB default for ChatGPT
+
+  if (enablePromptSharding) {
+    console.log("Agent prompt sharding enabled - creating sharded prompt files");
+    shardAgentPrompt(agentPromptOutputPath, buildDir, promptMaxSize);
+  }
+
   // 4. Discover and process subdirectories
   console.log(`Discovering source directories in '${assetFolderRoot}' (excluding '${buildDirNameOnly}')...`);
   let sourceSubdirNames;
@@ -229,55 +440,66 @@ async function main() {
   // 5. Process each subdirectory
   for (const subdirName of sourceSubdirNames) {
     const sourceSubdirPath = path.join(assetFolderRoot, subdirName);
-    const outputFilename = `${subdirName}.txt`;
-    const targetFile = path.join(buildDir, outputFilename);
+    
+    // Check if sharding is enabled for this directory
+    const enableSharding = config.sharding?.enabled && 
+                          config.sharding?.directories?.includes(subdirName);
+    const maxFileSize = config.sharding?.max_file_size || 100000; // 100KB default
 
-    console.log(`Processing '${subdirName}' directory into '${targetFile}'`);
+    if (enableSharding) {
+      console.log(`Processing '${subdirName}' directory with SHARDING enabled`);
+      processDirectoryWithSharding(sourceSubdirPath, subdirName, buildDir, maxFileSize);
+    } else {
+      const outputFilename = `${subdirName}.txt`;
+      const targetFile = path.join(buildDir, outputFilename);
 
-    if (fs.existsSync(targetFile)) {
-      fs.unlinkSync(targetFile);
-    }
-    fs.writeFileSync(targetFile, "");
+      console.log(`Processing '${subdirName}' directory into '${targetFile}'`);
 
-    const files = fs.readdirSync(sourceSubdirPath);
-    if (files.length === 0) {
-      console.warn(
-        `Warning: Source directory '${sourceSubdirPath}' is empty. '${targetFile}' will remain empty.`
-      );
-      continue;
-    }
-
-    for (const filenameWithExt of files) {
-      const filePath = path.join(sourceSubdirPath, filenameWithExt);
-      if (fs.statSync(filePath).isFile()) {
-        const baseName = getBaseFilename(filenameWithExt);
-
-        // Skip files like 'filename.ide.ext'
-        if (baseName.endsWith(".ide")) {
-          console.log(
-            `  Skipping IDE-specific file: '${filenameWithExt}' in '${subdirName}'`
-          );
-          continue;
-        }
-
-        console.log(
-          `  Appending content from '${filenameWithExt}' (as '${baseName}') to '${targetFile}'`
-        );
-
-        const fileContent = fs.readFileSync(filePath, "utf8");
-
-        const startMarker = `==================== START: ${baseName} ====================\n`;
-        const endMarker = `\n==================== END: ${baseName} ====================\n\n`;
-
-        fs.appendFileSync(targetFile, startMarker);
-        fs.appendFileSync(targetFile, fileContent);
-        if (!fileContent.endsWith("\n")) {
-          fs.appendFileSync(targetFile, "\n");
-        }
-        fs.appendFileSync(targetFile, endMarker);
+      if (fs.existsSync(targetFile)) {
+        fs.unlinkSync(targetFile);
       }
+      fs.writeFileSync(targetFile, "");
+
+      const files = fs.readdirSync(sourceSubdirPath);
+      if (files.length === 0) {
+        console.warn(
+          `Warning: Source directory '${sourceSubdirPath}' is empty. '${targetFile}' will remain empty.`
+        );
+        continue;
+      }
+
+      for (const filenameWithExt of files) {
+        const filePath = path.join(sourceSubdirPath, filenameWithExt);
+        if (fs.statSync(filePath).isFile()) {
+          const baseName = getBaseFilename(filenameWithExt);
+
+          // Skip files like 'filename.ide.ext'
+          if (baseName.endsWith(".ide")) {
+            console.log(
+              `  Skipping IDE-specific file: '${filenameWithExt}' in '${subdirName}'`
+            );
+            continue;
+          }
+
+          console.log(
+            `  Appending content from '${filenameWithExt}' (as '${baseName}') to '${targetFile}'`
+          );
+
+          const fileContent = fs.readFileSync(filePath, "utf8");
+
+          const startMarker = `==================== START: ${baseName} ====================\n`;
+          const endMarker = `\n==================== END: ${baseName} ====================\n\n`;
+
+          fs.appendFileSync(targetFile, startMarker);
+          fs.appendFileSync(targetFile, fileContent);
+          if (!fileContent.endsWith("\n")) {
+            fs.appendFileSync(targetFile, "\n");
+          }
+          fs.appendFileSync(targetFile, endMarker);
+        }
+      }
+      console.log(`Finished processing '${subdirName}'.`);
     }
-    console.log(`Finished processing '${subdirName}'.`);
   }
 
   console.log(`\nStrategic Orchestrator build complete! Output files are in ${buildDir}`);

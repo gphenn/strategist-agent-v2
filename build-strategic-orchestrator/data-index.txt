@@ -1,0 +1,46 @@
+# Data Components Index
+
+This directory has been sharded into individual component files for better agent compatibility.
+
+## Available Components
+
+- **00_strategic-frameworks** - Component: 00_strategic-frameworks (8058 bytes)
+  File: `data-shards/data-00_strategic-frameworks.txt`
+
+- **00_strategic-kb** - Component: 00_strategic-kb (5943 bytes)
+  File: `data-shards/data-00_strategic-kb.txt`
+
+- **00_strategic-patterns** - Component: 00_strategic-patterns (11787 bytes)
+  File: `data-shards/data-00_strategic-patterns.txt`
+
+- **10_technology-sector-module** - Component: 10_technology-sector-module (30848 bytes)
+  File: `data-shards/data-10_technology-sector-module.txt`
+
+- **11_manufacturing-sector-module** - Component: 11_manufacturing-sector-module (238 bytes)
+  File: `data-shards/data-11_manufacturing-sector-module.txt`
+
+- **12_healthcare-sector-module** - Component: 12_healthcare-sector-module (1020 bytes)
+  File: `data-shards/data-12_healthcare-sector-module.txt`
+
+- **20_mining-services_economic-development-module** - Component: 20_mining-services_economic-development-module (45458 bytes)
+  File: `data-shards/data-20_mining-services_economic-development-module.txt`
+
+- **21_regional-economic-development-module** - Component: 21_regional-economic-development-module (34585 bytes)
+  File: `data-shards/data-21_regional-economic-development-module.txt`
+
+- **30_crisis-management-strategic-module** - Component: 30_crisis-management-strategic-module (35093 bytes)
+  File: `data-shards/data-30_crisis-management-strategic-module.txt`
+
+- **99_module-integration-logic** - Component: 99_module-integration-logic (19028 bytes)
+  File: `data-shards/data-99_module-integration-logic.txt`
+
+- **standardized-specialized-module-template** - Component: standardized-specialized-module-template (10406 bytes)
+  File: `data-shards/data-standardized-specialized-module-template.txt`
+
+## Usage Instructions
+
+Instead of loading the entire data.txt file, load only the specific components you need:
+
+1. Review this index to identify required components
+2. Load individual shard files as needed
+3. Reference components by their file paths listed above
