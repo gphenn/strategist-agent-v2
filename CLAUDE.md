@@ -57,6 +57,7 @@ export const agent_cfg = "./web-strategic-orchestrator-agent.cfg.md";
 **Two types of sharding available:**
 
 #### 1. Directory Sharding (data, tasks, templates)
+
 For large data files, enable directory sharding:
 
 ```javascript
@@ -67,6 +68,7 @@ export const sharding = {
 ```
 
 #### 2. Agent Prompt Sharding (ChatGPT compatibility)
+
 For ChatGPT's 8KB limit, enable agent prompt sharding:
 
 ```javascript
@@ -77,6 +79,7 @@ export const sharding = {
 ```
 
 #### 3. Enable Both (Full ChatGPT Solution)
+
 For complete ChatGPT compatibility:
 
 ```javascript
@@ -88,6 +91,7 @@ export const sharding = {
 ```
 
 **Sharding Output:**
+
 - Directory sharding: `{directory}-index.txt` + `{directory}-shards/`
 - Prompt sharding: `agent-prompt-starter.txt` + `prompt-shards/`
 - Load index files first, then specific components as needed
