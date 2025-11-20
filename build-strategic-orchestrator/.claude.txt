@@ -1,0 +1,15 @@
+==================== START: settings.local ====================
+{
+  "permissions": {
+    "allow": [
+      "Bash(node build-strategic-orchestrator.js:*)",
+      "Bash(echo:*)",
+      "Bash(brew install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
+
+==================== END: settings.local ====================
+

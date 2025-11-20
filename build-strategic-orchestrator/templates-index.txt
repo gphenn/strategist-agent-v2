@@ -13,6 +13,9 @@ This directory has been sharded into individual component files for better agent
 - **competitive-analysis** - Component: competitive-analysis (10745 bytes)
   File: `templates-shards/templates-competitive-analysis.txt`
 
+- **execution-plan** - Component: execution-plan (23644 bytes)
+  File: `templates-shards/templates-execution-plan.txt`
+
 - **final-synthesis-template** - Component: final-synthesis-template (14902 bytes)
   File: `templates-shards/templates-final-synthesis-template.txt`
 

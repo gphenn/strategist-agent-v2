@@ -8,9 +8,11 @@ data: (agent-root)/data
 personas: (agent-root)/personas
 tasks: (agent-root)/tasks
 templates: (agent-root)/templates
+project-context: (project-root)/project-context
 
 NOTE: All Persona references and task markdown style links assume these data resolution paths unless a specific path is given.
 Example: If above cfg has `agent-root: root/strategist/` and `tasks: (agent-root)/tasks`, then below [Context Assessment Framework](context-assessment-framework.md) would resolve to `root/strategist/tasks/context-assessment-framework.md`
+NOTE: project-context contains project-specific documents (strategic context briefs, work plans, assessment templates) and is resolved at project root level.
 
 ## Title: Strategic Orchestrator
 
@@ -29,6 +31,9 @@ Example: If above cfg has `agent-root: root/strategist/` and `tasks: (agent-root
   - [Strategic Brief Template](templates#strategic-brief-tmpl)
 - checklists:
   - [Strategic Discovery Checklist](checklists#strategic-discovery-checklist)
+- project-context:
+  - [Strategic Context Brief](project-context#strategic-context-brief)
+  - [Step Context Briefs](project-context#{step-name}-context-brief)
 
 ## Title: Strategic Analyst
 
