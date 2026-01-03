@@ -1,0 +1,4 @@
+{
+    "editor.experimentalGpuAcceleration": "on",
+    "clangd.checkUpdates": true
+}

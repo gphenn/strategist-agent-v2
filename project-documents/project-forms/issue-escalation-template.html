@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Escalation - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Issue Escalation Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Issue Info Box */
+        .issue-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-item.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 0.25rem;
+            min-height: 1.5rem;
+        }
+
+        .info-value.editable {
+            background: var(--bg-white);
+            padding: 0.25rem 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: var(--radius-sm);
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 1.5rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        /* Severity/Priority Badges */
+        .severity-badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .severity-critical {
+            background: #dc3545;
+            color: #ffffff;
+        }
+
+        .severity-high {
+            background: #fd7e14;
+            color: #ffffff;
+        }
+
+        .severity-medium {
+            background: #ffc107;
+            color: #212529;
+        }
+
+        .severity-low {
+            background: #28a745;
+            color: #ffffff;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-new {
+            background: #e9ecef;
+            color: #495057;
+        }
+
+        .status-open {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .status-escalated {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-inprogress {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-resolved {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-closed {
+            background: #d6d8db;
+            color: #383d41;
+        }
+
+        /* Description Box */
+        .description-box {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 100px;
+            border-left: 4px solid var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .description-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Impact Box */
+        .impact-box {
+            background: #fff8e1;
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 80px;
+            border-left: 4px solid var(--accent-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .impact-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Escalation Table */
+        .escalation-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .escalation-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .escalation-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+
+        .escalation-table tr:hover {
+            background: var(--bg-light);
+        }
+
+        /* Stakeholders Grid */
+        .stakeholders-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .stakeholder-list {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+        }
+
+        .stakeholder-list h4 {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .stakeholder-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .stakeholder-list li {
+            padding: 0.25rem 0;
+            border-bottom: 1px dotted #ddd;
+            font-size: 0.9rem;
+        }
+
+        .stakeholder-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Action Items */
+        .action-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .action-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .action-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        /* Notes Box */
+        .notes-box {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 100px;
+            border: 1px dashed #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .notes-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Resolution Box */
+        .resolution-box {
+            background: #e8f5e9;
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 80px;
+            border-left: 4px solid #28a745;
+            margin-bottom: 1.5rem;
+        }
+
+        .resolution-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Escalation Path */
+        .escalation-path {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 1.5rem;
+        }
+
+        .escalation-level {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            flex: 1;
+        }
+
+        .escalation-level .level-number {
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: var(--text-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .escalation-level.active .level-number {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        .escalation-level .level-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        .escalation-level .level-name {
+            font-size: 0.85rem;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .escalation-arrow {
+            color: var(--primary-light);
+            font-size: 1.5rem;
+            padding: 0 0.5rem;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .severity-badge,
+            .status-badge,
+            .confidentiality {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        /* Multi-company indicator */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Issue Escalation</h1>
+            <div class="version">Template v1.0</div>
+        </div>
+    </div>
+
+    <!-- Issue Information -->
+    <div class="issue-info">
+        <div class="info-item">
+            <span class="info-label">Issue ID</span>
+            <span class="info-value editable">[ISS-YYYY-###]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Date Raised</span>
+            <span class="info-value editable">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Raised By</span>
+            <span class="info-value editable">[Name / Role]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Assigned To</span>
+            <span class="info-value editable">[Name / Role]</span>
+        </div>
+        <div class="info-item full-width">
+            <span class="info-label">Issue Title</span>
+            <span class="info-value editable">[Brief, descriptive title of the issue]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Severity</span>
+            <span class="info-value">
+                <span class="severity-badge severity-high">High</span>
+                <!-- Options: severity-critical, severity-high, severity-medium, severity-low -->
+            </span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Status</span>
+            <span class="info-value">
+                <span class="status-badge status-escalated">Escalated</span>
+                <!-- Options: status-new, status-open, status-escalated, status-inprogress, status-resolved, status-closed -->
+            </span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Related Work Package</span>
+            <span class="info-value editable">[WP#: Work Package Name]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Target Resolution Date</span>
+            <span class="info-value editable">[Date]</span>
+        </div>
+    </div>
+
+    <!-- Escalation Path Visual -->
+    <div class="section-header">
+        <span class="icon">📊</span> Current Escalation Level
+    </div>
+    <div class="escalation-path">
+        <div class="escalation-level">
+            <div class="level-number">1</div>
+            <div class="level-label">Level 1</div>
+            <div class="level-name">Working Group</div>
+        </div>
+        <div class="escalation-arrow">→</div>
+        <div class="escalation-level active">
+            <div class="level-number">2</div>
+            <div class="level-label">Level 2</div>
+            <div class="level-name">Project Manager</div>
+        </div>
+        <div class="escalation-arrow">→</div>
+        <div class="escalation-level">
+            <div class="level-number">3</div>
+            <div class="level-label">Level 3</div>
+            <div class="level-name">Steering Committee</div>
+        </div>
+    </div>
+
+    <!-- Issue Description -->
+    <div class="section-header">
+        <span class="icon">📝</span> Issue Description
+    </div>
+    <div class="description-box">
+        <p>[Provide a detailed description of the issue, including context, when it was discovered, and the
+            circumstances surrounding it...]</p>
+    </div>
+
+    <!-- Business Impact -->
+    <div class="section-header">
+        <span class="icon">⚠️</span> Business Impact
+    </div>
+    <div class="impact-box">
+        <p>[Describe the impact on the project if this issue is not resolved. Include effects on timeline, budget,
+            deliverables, stakeholder relationships, and any other relevant consequences...]</p>
+    </div>
+
+    <!-- Affected Stakeholders -->
+    <div class="section-header">
+        <span class="icon">👥</span> Affected Stakeholders
+    </div>
+
+    <div class="stakeholders-grid">
+        <div class="stakeholder-list">
+            <h4>Primary Stakeholders</h4>
+            <ul>
+                <li>[Stakeholder Name] - [Role/Organization]</li>
+                <li>[Stakeholder Name] - [Role/Organization]</li>
+                <li>[Stakeholder Name] - [Role/Organization]</li>
+            </ul>
+        </div>
+        <div class="stakeholder-list">
+            <h4>Secondary Stakeholders</h4>
+            <ul>
+                <li>[Stakeholder Name] - [Role/Organization]</li>
+                <li>[Stakeholder Name] - [Role/Organization]</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Escalation History -->
+    <div class="section-header">
+        <span class="icon">📈</span> Escalation History
+    </div>
+
+    <table class="escalation-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Level</th>
+                <th>Escalated To</th>
+                <th>Reason</th>
+                <th>Outcome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Date]</td>
+                <td>Level 1 → 2</td>
+                <td>[Name / Role]</td>
+                <td>[Reason for escalation]</td>
+                <td>[Pending / Outcome]</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Proposed Resolution Options -->
+    <div class="section-header">
+        <span class="icon">💡</span> Proposed Resolution Options
+    </div>
+
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th>Option</th>
+                <th>Description</th>
+                <th>Pros</th>
+                <th>Cons</th>
+                <th>Est. Cost/Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Option A</strong></td>
+                <td>[Description of first option]</td>
+                <td>[Advantages]</td>
+                <td>[Disadvantages]</td>
+                <td>[Cost/Time impact]</td>
+            </tr>
+            <tr>
+                <td><strong>Option B</strong></td>
+                <td>[Description of second option]</td>
+                <td>[Advantages]</td>
+                <td>[Disadvantages]</td>
+                <td>[Cost/Time impact]</td>
+            </tr>
+            <tr>
+                <td><strong>Option C</strong></td>
+                <td>[Description of third option]</td>
+                <td>[Advantages]</td>
+                <td>[Disadvantages]</td>
+                <td>[Cost/Time impact]</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Recommended Resolution -->
+    <div class="section-header">
+        <span class="icon">✅</span> Recommended Resolution
+    </div>
+    <div class="description-box">
+        <p>[State the recommended resolution option and provide justification for the recommendation...]</p>
+    </div>
+
+    <!-- Required Actions -->
+    <div class="section-header">
+        <span class="icon">🚀</span> Required Actions
+    </div>
+
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th>Action Item</th>
+                <th>Owner</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Action description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="severity-badge severity-high">High</span></td>
+                <td><span class="status-badge status-open">Open</span></td>
+            </tr>
+            <tr>
+                <td>[Action description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="severity-badge severity-medium">Medium</span></td>
+                <td><span class="status-badge status-open">Open</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Decision Required -->
+    <div class="section-header">
+        <span class="icon">⚖️</span> Decision Required
+    </div>
+    <div class="impact-box">
+        <p>[Clearly state what decision is needed from the escalation authority. Be specific about what approval or
+            direction is being requested...]</p>
+    </div>
+
+    <!-- Supporting Documentation -->
+    <div class="section-header">
+        <span class="icon">📎</span> Supporting Documentation
+    </div>
+    <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+        <li>[Document Name / Link]</li>
+        <li>[Document Name / Link]</li>
+        <li>[Document Name / Link]</li>
+    </ul>
+
+    <!-- Notes & Discussion -->
+    <div class="section-header">
+        <span class="icon">💬</span> Notes & Discussion
+    </div>
+    <div class="notes-box">
+        <p>[Additional notes, discussion points, or context that may be helpful for decision-makers...]</p>
+    </div>
+
+    <!-- Resolution (To be completed upon resolution) -->
+    <div class="section-header">
+        <span class="icon">🎯</span> Resolution (Complete Upon Closure)
+    </div>
+    <div class="resolution-box">
+        <p>[Document the final resolution, decision made, and any lessons learned...]</p>
+    </div>
+
+    <!-- Approvals -->
+    <div class="section-header">
+        <span class="icon">✍️</span> Approvals
+    </div>
+    <div class="issue-info" style="margin-top: 1rem;">
+        <div class="info-item">
+            <span class="info-label">Escalation Approved By</span>
+            <span class="info-value editable">[Name / Role]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Date</span>
+            <span class="info-value editable">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Resolution Approved By</span>
+            <span class="info-value editable">[Name / Role]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Date</span>
+            <span class="info-value editable">[Date]</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+
+</html>

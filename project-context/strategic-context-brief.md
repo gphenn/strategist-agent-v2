@@ -1,25 +1,59 @@
 # **Strategic Context Brief**
 
-**Date:** January 2025  
+**Date:** December 2025 (Updated)  
 **Mode Used:** Deep Discovery  
 **Active Strategic Modules:** Regional Economic Development Strategic Module, Mining Services Economic Development Module  
-**Recommended Next Step:** Step 2 (Split) with Morgan (Strategic Specialist)
+**Recommended Next Step:** Step 1 (Define) with Quinn (Strategic Analyst) - Phase 1 WP completion
+
+> [!IMPORTANT]
+> **Scope Expanded:** Project now includes three mining/industrial companies: Firefly Metals, New Found Gold, and Shoreline Aggregates (all treated equally).
 
 ## **Situation Summary**
 
-The Town of Baie Verte, Newfoundland (population 1,315) is preparing for a major economic development opportunity from Firefly Metals' planned mine expansion. The company plans to triple mine output over 5 years, growing from 100 to 400+ FIFO workers with 2-week rotation schedules. The town has a strong mining heritage with existing service businesses and excellent relationships with Firefly Metals, but needs a comprehensive strategy to maximize local economic benefits through service provision, infrastructure development, and workforce capacity building.
+The Town of Baie Verte, Newfoundland (population 1,315) is preparing for a major economic development opportunity driven by **three mining/industrial companies**:
+
+| Company | Industry | Opportunity | Timeline |
+|---------|----------|-------------|----------|
+| **Firefly Metals** | Copper/Gold Mining | Tripling output, 100→400+ FIFO workers | 2026 expansion |
+| **New Found Gold** | Gold Mining | Acquired Maritime Resources, Hammerdown mine restart, ~50,000 oz/year | Q2 2026 production |
+| **Shoreline Aggregates** | Aggregate Export | Expanding operations, 50-200 employees, 2.8M+ tonnes exported | Active & growing |
+
+The town has a strong mining heritage with existing service businesses and needs a comprehensive strategy to maximize local economic benefits through service provision, infrastructure development, and workforce capacity building across all three companies.
 
 ## **Challenge/Opportunity Description**
 
-The town needs to develop a comprehensive economic development plan to capture 80-85% of mining service contracts locally, including camp cafeteria, transportation, laundry, cleaning, and other services. The plan must address early-phase services for camp construction (starting Spring-Summer 2026), scale with operations expansion, and include infrastructure upgrades, workforce development, and funding strategies. The challenge involves coordinating multiple stakeholders, securing significant infrastructure investment, and building local business capacity while navigating regulatory requirements and regional dynamics.
+The town needs to develop a comprehensive economic development plan to capture local service contracts across **three distinct but complementary operations**:
+
+- **Firefly Metals:** Camp services (cafeteria, transportation, laundry, cleaning), construction services, ongoing operations support
+- **New Found Gold:** Mining support services, processing facility support (Pine Cove mill, Nugget Pond), workforce housing
+- **Shoreline Aggregates:** Port/shipping services, equipment maintenance, transportation, workforce needs
+
+The plan must address services for multiple operational timelines (Shoreline active now, Firefly & New Found ramping 2026), scale with combined operations expansion, and include infrastructure upgrades, workforce development, and funding strategies. The challenge involves coordinating multiple companies with different needs, securing significant infrastructure investment, and building local business capacity to serve diverse customer bases.
 
 ## **Key Stakeholders**
 
-### **Who the user identified as involved or affected**
+### **Mining/Industrial Companies (Equal Priority)**
 
-* **Decision Makers:** Town of Baie Verte Municipal Government (Mayor, Council, CAO), BVP Chamber of Commerce, Firefly Metals Management (President & CEO, VP Operations, VP Sustainability, VP HR)  
-* **Implementation Team:** Baie Verte Peninsula Mining Innovation Task Force (Chair: Shannon Lewis), Local service businesses, Funding specialist (to be hired)  
-* **Affected Groups:** Local workforce, neighboring communities on Baie Verte Peninsula, Qalipu First Nation (consultation required), Provincial/Federal government agencies
+| Company | Key Contacts | Consultation Status |
+|---------|--------------|--------------------|
+| **Firefly Metals** | President & CEO, VP Operations, VP Sustainability, VP HR | Existing relationship |
+| **New Found Gold** | TBD - consultation needed | Requires WP2 engagement |
+| **Shoreline Aggregates** | TBD - consultation needed | Requires WP2 engagement |
+
+### **Other Decision Makers**
+* Town of Baie Verte Municipal Government (Mayor, Council, CAO)
+* BVP Chamber of Commerce
+
+### **Implementation Team**
+* Baie Verte Peninsula Mining Innovation Task Force (Chair: Shannon Lewis)
+* Local service businesses
+* Funding specialist (to be hired)
+
+### **Affected Groups**
+* Local workforce
+* Neighboring communities on Baie Verte Peninsula
+* Qalipu First Nation (consultation required)
+* Provincial/Federal government agencies
 
 ## **Desired Outcomes**
 

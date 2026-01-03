@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Report - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Status Report Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Report Info Box */
+        .report-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 0.25rem;
+            min-height: 1.5rem;
+        }
+
+        .info-value.editable {
+            background: var(--bg-white);
+            padding: 0.25rem 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: var(--radius-sm);
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 1.5rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        .section-header-gold {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        /* Overall Status Dashboard */
+        .status-dashboard {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .status-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .status-card.on-track {
+            border-top: 4px solid #28a745;
+        }
+
+        .status-card.at-risk {
+            border-top: 4px solid #ffc107;
+        }
+
+        .status-card.behind {
+            border-top: 4px solid #dc3545;
+        }
+
+        .status-card.complete {
+            border-top: 4px solid #17a2b8;
+        }
+
+        .status-card h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .status-card .value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .status-card .label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Progress Bars */
+        .progress-section {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .progress-item {
+            margin-bottom: 1.25rem;
+        }
+
+        .progress-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-label {
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .progress-percentage {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            border-radius: 5px;
+            transition: width 0.3s ease;
+        }
+
+        .progress-fill.green {
+            background: linear-gradient(90deg, #28a745, #34ce57);
+        }
+
+        .progress-fill.yellow {
+            background: linear-gradient(90deg, #ffc107, #ffda6a);
+        }
+
+        .progress-fill.red {
+            background: linear-gradient(90deg, #dc3545, #e4606d);
+        }
+
+        .progress-fill.blue {
+            background: linear-gradient(90deg, #17a2b8, #1fc8e3);
+        }
+
+        /* Tables */
+        .report-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .report-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .report-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+
+        .report-table tr:hover {
+            background: var(--bg-light);
+        }
+
+        /* Status Badges */
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-on-track {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-at-risk {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-behind {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-complete {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .status-not-started {
+            background: #e9ecef;
+            color: #495057;
+        }
+
+        .priority-high {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .priority-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .priority-low {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        /* Highlights Box */
+        .highlights-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight-box {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+        }
+
+        .highlight-box.achievements {
+            border-left: 4px solid #28a745;
+        }
+
+        .highlight-box.challenges {
+            border-left: 4px solid #dc3545;
+        }
+
+        .highlight-box h4 {
+            font-size: 0.9rem;
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .highlight-box ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .highlight-box li {
+            padding: 0.35rem 0;
+            font-size: 0.9rem;
+            border-bottom: 1px dotted #ddd;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .highlight-box li:last-child {
+            border-bottom: none;
+        }
+
+        .highlight-box li::before {
+            content: "→";
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        /* Budget Section */
+        .budget-summary {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .budget-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            text-align: center;
+        }
+
+        .budget-card h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .budget-card .amount {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .budget-card .variance {
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+        }
+
+        .variance.positive {
+            color: #28a745;
+        }
+
+        .variance.negative {
+            color: #dc3545;
+        }
+
+        .variance.neutral {
+            color: var(--text-secondary);
+        }
+
+        /* Timeline */
+        .timeline-visual {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .milestone-row {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px dotted #ddd;
+        }
+
+        .milestone-row:last-child {
+            border-bottom: none;
+        }
+
+        .milestone-date {
+            width: 100px;
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 0.9rem;
+        }
+
+        .milestone-marker {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        .milestone-marker.complete {
+            background: #28a745;
+        }
+
+        .milestone-marker.current {
+            background: var(--accent-color);
+        }
+
+        .milestone-marker.upcoming {
+            background: #e9ecef;
+            border: 2px solid #adb5bd;
+        }
+
+        .milestone-description {
+            flex: 1;
+            font-size: 0.9rem;
+        }
+
+        .milestone-status {
+            width: 100px;
+            text-align: right;
+        }
+
+        /* Decisions & Approvals */
+        .decision-box {
+            background: linear-gradient(135deg, #fff8e1 0%, #fff3cd 100%);
+            border-radius: var(--radius-sm);
+            padding: 1rem 1.25rem;
+            margin-bottom: 0.75rem;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .decision-box h5 {
+            font-size: 0.9rem;
+            color: var(--primary-dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .decision-box p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        /* Next Period Plan */
+        .next-period {
+            background: var(--primary-color);
+            color: var(--text-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .next-period h4 {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .next-period ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .next-period li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .next-period li:last-child {
+            border-bottom: none;
+        }
+
+        .next-period li::before {
+            content: "▸";
+            color: var(--accent-color);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header,
+            .status-card,
+            .progress-fill,
+            .next-period {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        /* Multi-company indicator */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        @media (max-width: 768px) {
+            .status-dashboard {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .report-info {
+                grid-template-columns: 1fr;
+            }
+
+            .highlights-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .budget-summary {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Status Report</h1>
+            <div class="version">Template v1.0</div>
+        </div>
+    </div>
+
+    <!-- Report Information -->
+    <div class="report-info">
+        <div class="info-item">
+            <span class="info-label">Reporting Period</span>
+            <span class="info-value editable">[Start Date] - [End Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Report Date</span>
+            <span class="info-value editable">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Report Number</span>
+            <span class="info-value editable">[#]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Prepared By</span>
+            <span class="info-value editable">[Name]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Current Phase</span>
+            <span class="info-value editable">Phase 1 - Assessment</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Distribution</span>
+            <span class="info-value editable">[Steering Committee / All Stakeholders]</span>
+        </div>
+    </div>
+
+    <!-- Overall Status Dashboard -->
+    <div class="section-header">
+        <span class="icon">📊</span> Overall Project Status
+    </div>
+
+    <div class="status-dashboard">
+        <div class="status-card on-track">
+            <h4>Overall Status</h4>
+            <div class="value">On Track</div>
+            <div class="label">Green</div>
+        </div>
+        <div class="status-card on-track">
+            <h4>Schedule</h4>
+            <div class="value">On Track</div>
+            <div class="label">0 days variance</div>
+        </div>
+        <div class="status-card on-track">
+            <h4>Budget</h4>
+            <div class="value">On Track</div>
+            <div class="label">Within 5%</div>
+        </div>
+        <div class="status-card at-risk">
+            <h4>Risks</h4>
+            <div class="value">2</div>
+            <div class="label">Active risks</div>
+        </div>
+    </div>
+
+    <!-- Progress Summary -->
+    <div class="section-header">
+        <span class="icon">📈</span> Work Package Progress
+    </div>
+
+    <div class="progress-section">
+        <div class="progress-item">
+            <div class="progress-header">
+                <span class="progress-label">WP1: Project Initiation & Setup</span>
+                <span class="progress-percentage">75%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill green" style="width: 75%;"></div>
+            </div>
+        </div>
+        <div class="progress-item">
+            <div class="progress-header">
+                <span class="progress-label">WP2: Mining/Industrial Company Engagement</span>
+                <span class="progress-percentage">40%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill yellow" style="width: 40%;"></div>
+            </div>
+        </div>
+        <div class="progress-item">
+            <div class="progress-header">
+                <span class="progress-label">WP3: Infrastructure Capacity Assessment</span>
+                <span class="progress-percentage">20%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill blue" style="width: 20%;"></div>
+            </div>
+        </div>
+        <div class="progress-item">
+            <div class="progress-header">
+                <span class="progress-label">WP4: Business Opportunity Analysis</span>
+                <span class="progress-percentage">10%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill blue" style="width: 10%;"></div>
+            </div>
+        </div>
+        <div class="progress-item">
+            <div class="progress-header">
+                <span class="progress-label">WP5-10: Remaining Work Packages</span>
+                <span class="progress-percentage">0%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill blue" style="width: 0%;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Highlights: Achievements & Challenges -->
+    <div class="section-header">
+        <span class="icon">🎯</span> Period Highlights
+    </div>
+
+    <div class="highlights-grid">
+        <div class="highlight-box achievements">
+            <h4>✅ Key Achievements</h4>
+            <ul>
+                <li>[Achievement 1 description]</li>
+                <li>[Achievement 2 description]</li>
+                <li>[Achievement 3 description]</li>
+                <li>[Achievement 4 description]</li>
+            </ul>
+        </div>
+        <div class="highlight-box challenges">
+            <h4>⚠️ Challenges & Issues</h4>
+            <ul>
+                <li>[Challenge 1 description]</li>
+                <li>[Challenge 2 description]</li>
+                <li>[Challenge 3 description]</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Company Engagement Status -->
+    <div class="section-header">
+        <span class="icon">🏢</span> Company Engagement Status
+    </div>
+
+    <table class="report-table">
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Engagement Status</th>
+                <th>Last Contact</th>
+                <th>Next Meeting</th>
+                <th>Key Updates</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Firefly Metals</strong></td>
+                <td><span class="status-badge status-on-track">Active</span></td>
+                <td>[Date]</td>
+                <td>[Date]</td>
+                <td>[Brief update]</td>
+            </tr>
+            <tr>
+                <td><strong>New Found Gold</strong></td>
+                <td><span class="status-badge status-at-risk">Pending</span></td>
+                <td>[Date]</td>
+                <td>[Date]</td>
+                <td>[Brief update]</td>
+            </tr>
+            <tr>
+                <td><strong>Shoreline Aggregates</strong></td>
+                <td><span class="status-badge status-at-risk">Pending</span></td>
+                <td>[Date]</td>
+                <td>[Date]</td>
+                <td>[Brief update]</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Milestone Timeline -->
+    <div class="section-header">
+        <span class="icon">📅</span> Key Milestones
+    </div>
+
+    <div class="timeline-visual">
+        <div class="milestone-row">
+            <div class="milestone-date">[Date]</div>
+            <div class="milestone-marker complete"></div>
+            <div class="milestone-description">Project Initiation Complete</div>
+            <div class="milestone-status"><span class="status-badge status-complete">Complete</span></div>
+        </div>
+        <div class="milestone-row">
+            <div class="milestone-date">[Date]</div>
+            <div class="milestone-marker complete"></div>
+            <div class="milestone-description">Stakeholder Engagement Plan Approved</div>
+            <div class="milestone-status"><span class="status-badge status-complete">Complete</span></div>
+        </div>
+        <div class="milestone-row">
+            <div class="milestone-date">[Date]</div>
+            <div class="milestone-marker current"></div>
+            <div class="milestone-description">Initial Company Engagement Complete</div>
+            <div class="milestone-status"><span class="status-badge status-at-risk">In Progress</span></div>
+        </div>
+        <div class="milestone-row">
+            <div class="milestone-date">[Date]</div>
+            <div class="milestone-marker upcoming"></div>
+            <div class="milestone-description">Infrastructure Assessment Complete</div>
+            <div class="milestone-status"><span class="status-badge status-not-started">Upcoming</span></div>
+        </div>
+        <div class="milestone-row">
+            <div class="milestone-date">[Date]</div>
+            <div class="milestone-marker upcoming"></div>
+            <div class="milestone-description">Phase 1 Report Complete</div>
+            <div class="milestone-status"><span class="status-badge status-not-started">Upcoming</span></div>
+        </div>
+    </div>
+
+    <!-- Budget Summary -->
+    <div class="section-header">
+        <span class="icon">💰</span> Budget Summary
+    </div>
+
+    <div class="budget-summary">
+        <div class="budget-card">
+            <h4>Total Budget</h4>
+            <div class="amount">$[Amount]</div>
+            <div class="variance neutral">Phase 1 Allocation</div>
+        </div>
+        <div class="budget-card">
+            <h4>Spent to Date</h4>
+            <div class="amount">$[Amount]</div>
+            <div class="variance positive">-5% under budget</div>
+        </div>
+        <div class="budget-card">
+            <h4>Remaining</h4>
+            <div class="amount">$[Amount]</div>
+            <div class="variance neutral">[X]% of budget</div>
+        </div>
+    </div>
+
+    <!-- Risks & Issues -->
+    <div class="section-header">
+        <span class="icon">⚠️</span> Active Risks & Issues
+    </div>
+
+    <table class="report-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Impact</th>
+                <th>Mitigation / Action</th>
+                <th>Owner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>R-001</td>
+                <td><span class="status-badge priority-high">Risk</span></td>
+                <td>[Risk description]</td>
+                <td>High</td>
+                <td>[Mitigation strategy]</td>
+                <td>[Owner]</td>
+            </tr>
+            <tr>
+                <td>R-002</td>
+                <td><span class="status-badge priority-medium">Risk</span></td>
+                <td>[Risk description]</td>
+                <td>Medium</td>
+                <td>[Mitigation strategy]</td>
+                <td>[Owner]</td>
+            </tr>
+            <tr>
+                <td>I-001</td>
+                <td><span class="status-badge priority-high">Issue</span></td>
+                <td>[Issue description]</td>
+                <td>High</td>
+                <td>[Resolution action]</td>
+                <td>[Owner]</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Decisions Required -->
+    <div class="section-header">
+        <span class="icon">⚖️</span> Decisions & Approvals Required
+    </div>
+
+    <div class="decision-box">
+        <h5>Decision Required: [Decision Title]</h5>
+        <p><strong>Context:</strong> [Brief description of the decision needed]</p>
+        <p><strong>Options:</strong> [Option A / Option B / Option C]</p>
+        <p><strong>Recommendation:</strong> [Recommended option]</p>
+        <p><strong>Decision Due:</strong> [Date]</p>
+    </div>
+
+    <div class="decision-box">
+        <h5>Approval Required: [Approval Title]</h5>
+        <p><strong>Item:</strong> [What needs approval]</p>
+        <p><strong>Approver:</strong> [Who needs to approve]</p>
+        <p><strong>Deadline:</strong> [Date]</p>
+    </div>
+
+    <!-- Action Items -->
+    <div class="section-header">
+        <span class="icon">✅</span> Action Items
+    </div>
+
+    <table class="report-table">
+        <thead>
+            <tr>
+                <th>Action Item</th>
+                <th>Owner</th>
+                <th>Due Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-at-risk">In Progress</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-complete">Complete</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-not-started">Not Started</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Next Period Plan -->
+    <div class="section-header">
+        <span class="icon">🚀</span> Next Period Focus
+    </div>
+
+    <div class="next-period">
+        <h4>Planned Activities for Next Reporting Period</h4>
+        <ul>
+            <li>[Priority activity 1]</li>
+            <li>[Priority activity 2]</li>
+            <li>[Priority activity 3]</li>
+            <li>[Priority activity 4]</li>
+            <li>[Priority activity 5]</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+            <span style="font-size: 0.8rem; margin-top: 0.5rem;">Next Report Due: [Date]</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+
+</html>

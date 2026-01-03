@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication Protocols - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --accent-dark: #b39225;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Cover Page */
+        .cover-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+            color: var(--text-light);
+            margin: -2rem -2rem 2rem -2rem;
+            border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+        }
+
+        .cover-logo {
+            font-size: 1rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+
+        .cover-title {
+            font-family: var(--font-heading);
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .cover-subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 3rem;
+        }
+
+        .cover-divider {
+            width: 80px;
+            height: 4px;
+            background: var(--accent-color);
+            margin-bottom: 3rem;
+        }
+
+        .cover-meta {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem 3rem;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: var(--radius-md);
+        }
+
+        .cover-meta-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cover-meta-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.7;
+        }
+
+        .cover-meta-value {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .company-badge {
+            font-size: 0.75rem;
+            padding: 0.3rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 1rem 1.5rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1.25rem;
+            margin: 2.5rem 0 1.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .section-header-gold {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        h3 {
+            font-family: var(--font-heading);
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            margin: 1.5rem 0 0.75rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--bg-light);
+        }
+
+        h4 {
+            font-size: 1rem;
+            color: var(--primary-light);
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        /* Table of Contents */
+        .toc {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .toc h2 {
+            font-family: var(--font-heading);
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .toc-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem 2rem;
+        }
+
+        .toc-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .toc-list a {
+            color: var(--text-main);
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .toc-list a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Principle Cards */
+        .principle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .principle-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            border-left: 4px solid var(--primary-color);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .principle-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .principle-card h4 {
+            color: var(--primary-color);
+            margin: 0 0 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .principle-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0 1.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background: var(--primary-color);
+            color: var(--text-light);
+            text-align: left;
+            padding: 0.75rem 1rem;
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background: var(--bg-light);
+        }
+
+        .table-accent th {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        /* Infographic Boxes */
+        .info-box {
+            background: linear-gradient(135deg, var(--bg-light) 0%, #e9ecef 100%);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .info-box-title {
+            font-family: var(--font-heading);
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Escalation Flow */
+        .escalation-flow {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+        }
+
+        .escalation-step {
+            flex: 1;
+            min-width: 180px;
+            text-align: center;
+            padding: 1rem;
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            position: relative;
+        }
+
+        .escalation-step.level-1 {
+            border-top: 4px solid #28a745;
+        }
+
+        .escalation-step.level-2 {
+            border-top: 4px solid #ffc107;
+        }
+
+        .escalation-step.level-3 {
+            border-top: 4px solid #dc3545;
+        }
+
+        .escalation-step h5 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .escalation-step p {
+            font-size: 0.85rem;
+            margin: 0;
+            color: var(--text-secondary);
+        }
+
+        .escalation-arrow {
+            font-size: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        /* Timeline */
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .schedule-card {
+            background: var(--bg-white);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+        }
+
+        .schedule-card.weekly {
+            border-top: 4px solid #17a2b8;
+        }
+
+        .schedule-card.biweekly {
+            border-top: 4px solid #6f42c1;
+        }
+
+        .schedule-card.monthly {
+            border-top: 4px solid #fd7e14;
+        }
+
+        .schedule-card.quarterly {
+            border-top: 4px solid #20c997;
+        }
+
+        .schedule-card h4 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .schedule-card ul {
+            list-style: none;
+            font-size: 0.85rem;
+            text-align: left;
+        }
+
+        .schedule-card li {
+            padding: 0.25rem 0;
+            border-bottom: 1px dotted #ddd;
+        }
+
+        /* Responsibility Matrix */
+        .responsibility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .responsibility-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .responsibility-card h4 {
+            color: var(--primary-color);
+            margin: 0 0 0.75rem 0;
+            font-size: 1rem;
+        }
+
+        .responsibility-card ul {
+            list-style: none;
+            font-size: 0.85rem;
+        }
+
+        .responsibility-card li {
+            padding: 0.25rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+        }
+
+        .responsibility-card li::before {
+            content: "→";
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        /* Confidentiality Levels */
+        .confidentiality-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .conf-level {
+            padding: 1.25rem;
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .conf-level.public {
+            background: #d4edda;
+        }
+
+        .conf-level.internal {
+            background: #cce5ff;
+        }
+
+        .conf-level.confidential {
+            background: #fff3cd;
+        }
+
+        .conf-level.restricted {
+            background: #f8d7da;
+        }
+
+        .conf-level h5 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .conf-level p {
+            font-size: 0.8rem;
+            margin: 0;
+        }
+
+        /* Crisis Flow */
+        .crisis-flow {
+            background: linear-gradient(135deg, #fff3cd 0%, #ffe8a1 100%);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .crisis-steps {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .crisis-step {
+            flex: 1;
+            background: var(--bg-white);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .crisis-step .step-num {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent-color);
+            color: var(--primary-dark);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+
+        .crisis-step h5 {
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .crisis-step p {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin: 0;
+        }
+
+        /* Signature Section */
+        .signature-section {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        .signature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .signature-block {
+            text-align: center;
+        }
+
+        .signature-line {
+            border-bottom: 1px solid var(--text-main);
+            height: 40px;
+            margin-bottom: 0.5rem;
+        }
+
+        .signature-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        .document-footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Print */
+        @media print {
+            .cover-page {
+                page-break-after: always;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .section-header,
+            .principle-card,
+            .conf-level,
+            .crisis-flow {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            .schedule-grid,
+            .confidentiality-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .crisis-steps {
+                flex-direction: column;
+            }
+
+            .escalation-flow {
+                flex-direction: column;
+            }
+
+            .toc-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cover Page -->
+    <div class="cover-page">
+        <div class="cover-logo">Baie Verte Economic Development Initiative</div>
+        <h1 class="cover-title">Communication Protocols</h1>
+        <p class="cover-subtitle">Stakeholder Engagement & Information Management Framework</p>
+        <div class="cover-divider"></div>
+        <div class="cover-meta">
+            <div class="cover-meta-item">
+                <span class="cover-meta-label">Version</span>
+                <span class="cover-meta-value">2.0 (Multi-Company)</span>
+            </div>
+            <div class="cover-meta-item">
+                <span class="cover-meta-label">Date</span>
+                <span class="cover-meta-value">December 2025</span>
+            </div>
+            <div class="cover-meta-item">
+                <span class="cover-meta-label">Document Owner</span>
+                <span class="cover-meta-value">Project Management Team</span>
+            </div>
+            <div class="cover-meta-item">
+                <span class="cover-meta-label">Review Period</span>
+                <span class="cover-meta-value">Quarterly</span>
+            </div>
+        </div>
+        <div class="company-badges">
+            <span class="company-badge">Firefly Metals</span>
+            <span class="company-badge">New Found Gold</span>
+            <span class="company-badge">Shoreline Aggregates</span>
+        </div>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ol class="toc-list">
+            <li><a href="#purpose">1. Document Purpose <span>→</span></a></li>
+            <li><a href="#principles">2. Communication Principles <span>→</span></a></li>
+            <li><a href="#stakeholders">3. Stakeholder Communication Matrix <span>→</span></a></li>
+            <li><a href="#internal">4. Internal Communications <span>→</span></a></li>
+            <li><a href="#external">5. External Communications <span>→</span></a></li>
+            <li><a href="#escalation">6. Escalation Protocols <span>→</span></a></li>
+            <li><a href="#schedule">7. Communication Schedule <span>→</span></a></li>
+            <li><a href="#responsibilities">8. Roles & Responsibilities <span>→</span></a></li>
+            <li><a href="#confidentiality">9. Confidentiality & Information Management <span>→</span></a></li>
+            <li><a href="#crisis">10. Crisis Communications <span>→</span></a></li>
+        </ol>
+    </div>
+
+    <!-- Section 1: Document Purpose -->
+    <div class="section-header section-header-gold" id="purpose">
+        <span>📋</span> 1. Document Purpose
+    </div>
+
+    <p>This document establishes comprehensive communication protocols for the Baie Verte Economic Development Project.
+        These protocols ensure consistent, timely, and effective communication across all stakeholders, project team
+        members, and working groups throughout Phase 1 and subsequent phases.</p>
+
+    <div class="info-box">
+        <div class="info-box-title">🎯 Communication Objectives</div>
+        <table>
+            <tr>
+                <td style="width: 40px; text-align: center; font-size: 1.2rem;">📬</td>
+                <td><strong>Information Delivery</strong> — Ensure all stakeholders receive appropriate information at
+                    the right time</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; font-size: 1.2rem;">🤝</td>
+                <td><strong>Trust Building</strong> — Maintain transparency and build trust through consistent
+                    communication</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; font-size: 1.2rem;">⚡</td>
+                <td><strong>Decision Support</strong> — Facilitate efficient decision-making through clear communication
+                    channels</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; font-size: 1.2rem;">📁</td>
+                <td><strong>Documentation</strong> — Document all key communications for project records</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; font-size: 1.2rem;">🔗</td>
+                <td><strong>Alignment</strong> — Support stakeholder engagement and organizational alignment</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 2: Communication Principles -->
+    <div class="section-header section-header-gold" id="principles">
+        <span>💡</span> 2. Communication Principles
+    </div>
+
+    <h3>Core Principles</h3>
+    <div class="principle-grid">
+        <div class="principle-card">
+            <h4>🔍 Transparency</h4>
+            <p>Open and honest communication with all stakeholders at every project phase</p>
+        </div>
+        <div class="principle-card">
+            <h4>⏱️ Timeliness</h4>
+            <p>Information shared at appropriate times to support decision-making</p>
+        </div>
+        <div class="principle-card">
+            <h4>✨ Clarity</h4>
+            <p>Clear, concise, and jargon-free communication for all audiences</p>
+        </div>
+        <div class="principle-card">
+            <h4>📏 Consistency</h4>
+            <p>Standardized formats and processes across all communications</p>
+        </div>
+        <div class="principle-card">
+            <h4>♿ Accessibility</h4>
+            <p>Information accessible to all stakeholders regardless of technical background</p>
+        </div>
+        <div class="principle-card">
+            <h4>✅ Accountability</h4>
+            <p>Clear ownership and responsibility for all communications</p>
+        </div>
+        <div class="principle-card">
+            <h4>🔒 Confidentiality</h4>
+            <p>Appropriate handling and protection of sensitive information</p>
+        </div>
+        <div class="principle-card">
+            <h4>🌍 Cultural Sensitivity</h4>
+            <p>Respectful of Indigenous communities and cultural protocols</p>
+        </div>
+    </div>
+
+    <!-- Section 3: Stakeholder Communication Matrix -->
+    <div class="section-header section-header-gold" id="stakeholders">
+        <span>👥</span> 3. Stakeholder Communication Matrix
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Stakeholder Group</th>
+                <th>Primary Channel</th>
+                <th>Frequency</th>
+                <th>Format</th>
+                <th>Owner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Steering Committee</strong></td>
+                <td>Formal meetings + email</td>
+                <td>Bi-weekly</td>
+                <td>Executive summary, decision briefs</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td><strong>Town Council</strong></td>
+                <td>Council meetings + reports</td>
+                <td>Monthly</td>
+                <td>Progress reports, decision requests</td>
+                <td>CAO</td>
+            </tr>
+            <tr>
+                <td><strong>Firefly Metals</strong></td>
+                <td>Meetings + email</td>
+                <td>Bi-weekly</td>
+                <td>Status updates, requirements</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td><strong>New Found Gold</strong></td>
+                <td>Meetings + email</td>
+                <td>Bi-weekly</td>
+                <td>Status updates, requirements</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td><strong>Shoreline Aggregates</strong></td>
+                <td>Meetings + email</td>
+                <td>Bi-weekly</td>
+                <td>Status updates, requirements</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td><strong>Working Groups</strong></td>
+                <td>Meetings + workspace</td>
+                <td>Weekly</td>
+                <td>Work plans, status updates</td>
+                <td>WG Leads</td>
+            </tr>
+            <tr>
+                <td><strong>Project Team</strong></td>
+                <td>Team meetings</td>
+                <td>Weekly</td>
+                <td>Task updates, blockers</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td><strong>Local Businesses</strong></td>
+                <td>Info sessions + email</td>
+                <td>Monthly</td>
+                <td>Opportunity updates</td>
+                <td>Stakeholder Coord.</td>
+            </tr>
+            <tr>
+                <td><strong>Qalipu First Nation</strong></td>
+                <td>Consultation meetings</td>
+                <td>As required</td>
+                <td>Consultation materials</td>
+                <td>Stakeholder Coord.</td>
+            </tr>
+            <tr>
+                <td><strong>Provincial Government</strong></td>
+                <td>Meetings + reports</td>
+                <td>Monthly</td>
+                <td>Progress reports, funding</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td><strong>Federal Government</strong></td>
+                <td>Formal reports</td>
+                <td>Quarterly</td>
+                <td>Comprehensive reports</td>
+                <td>Project Manager</td>
+            </tr>
+            <tr>
+                <td><strong>Community (Public)</strong></td>
+                <td>Forums + website</td>
+                <td>Quarterly</td>
+                <td>Project updates, Q&A</td>
+                <td>Comms Specialist</td>
+            </tr>
+            <tr>
+                <td><strong>Media</strong></td>
+                <td>Press releases</td>
+                <td>As needed</td>
+                <td>Press releases, briefings</td>
+                <td>Comms Specialist</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Section 4: Internal Communications -->
+    <div class="section-header section-header-gold" id="internal">
+        <span>🏢</span> 4. Internal Communications
+    </div>
+
+    <h3>4.1 Project Team Communications</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Meeting Type</th>
+                <th>Frequency</th>
+                <th>Duration</th>
+                <th>Key Activities</th>
+                <th>Documentation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Daily Stand-up</strong></td>
+                <td>Daily (critical periods)</td>
+                <td>15 min</td>
+                <td>Status, blockers, priorities</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td><strong>Weekly Team Meeting</strong></td>
+                <td>Every Monday</td>
+                <td>60 min</td>
+                <td>Review accomplishments, plan week, discuss risks</td>
+                <td>Minutes within 24 hrs</td>
+            </tr>
+            <tr>
+                <td><strong>Working Group Meeting</strong></td>
+                <td>Weekly</td>
+                <td>60-90 min</td>
+                <td>WP progress, technical issues, coordination</td>
+                <td>Notes to PM</td>
+            </tr>
+            <tr>
+                <td><strong>Steering Committee</strong></td>
+                <td>Bi-weekly</td>
+                <td>90 min</td>
+                <td>Executive summary, decisions, risks, budget</td>
+                <td>Decision log within 48 hrs</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>4.2 Decision Briefs</h3>
+    <div class="info-box">
+        <div class="info-box-title">📝 Decision Brief Format</div>
+        <p>Decision briefs are prepared for Steering Committee decisions and distributed minimum 48 hours before
+            decisions are required.</p>
+        <table style="margin-top: 1rem;">
+            <tr>
+                <td style="width: 30%; background: var(--bg-white);"><strong>Issue/Opportunity</strong></td>
+                <td>Clear description of the matter requiring decision</td>
+            </tr>
+            <tr>
+                <td style="background: var(--bg-white);"><strong>Options Analysis</strong></td>
+                <td>Pros, cons, and implications of each option</td>
+            </tr>
+            <tr>
+                <td style="background: var(--bg-white);"><strong>Recommendation</strong></td>
+                <td>Clear recommendation with rationale</td>
+            </tr>
+            <tr>
+                <td style="background: var(--bg-white);"><strong>Impact Assessment</strong></td>
+                <td>Budget, timeline, resource, and risk implications</td>
+            </tr>
+            <tr>
+                <td style="background: var(--bg-white);"><strong>Decision Required</strong></td>
+                <td>Specific decision or approval being requested</td>
+            </tr>
+        </table>
+        <p style="margin-top: 1rem; font-size: 0.9rem;"><strong>Response Time:</strong> 48 hours for non-urgent matters,
+            24 hours for urgent matters</p>
+    </div>
+
+    <!-- Section 5: External Communications -->
+    <div class="section-header section-header-gold" id="external">
+        <span>🌐</span> 5. External Communications
+    </div>
+
+    <h3>5.1 Government Communications</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Government Level</th>
+                <th>Frequency</th>
+                <th>Format</th>
+                <th>Response Protocol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Provincial</strong></td>
+                <td>Monthly</td>
+                <td>Formal progress report with metrics, milestones, budget</td>
+                <td>Acknowledge within 48 hours</td>
+            </tr>
+            <tr>
+                <td><strong>Federal</strong></td>
+                <td>Quarterly</td>
+                <td>Comprehensive report aligned with funding requirements</td>
+                <td>Acknowledge within 1 week</td>
+            </tr>
+            <tr>
+                <td><strong>Municipal (Council)</strong></td>
+                <td>Monthly</td>
+                <td>Council report format, executive summary</td>
+                <td>Council discussion and feedback</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>5.2 Mining/Industrial Company Communications</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Frequency</th>
+                <th>Content</th>
+                <th>Response Protocol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Firefly Metals</strong></td>
+                <td>Bi-weekly</td>
+                <td>Status summary, requirements, timeline alignment, partnership opportunities</td>
+                <td>Acknowledge 24 hrs, respond 48 hrs</td>
+            </tr>
+            <tr>
+                <td><strong>New Found Gold</strong></td>
+                <td>Bi-weekly</td>
+                <td>Status summary, requirements, timeline alignment, partnership opportunities</td>
+                <td>Acknowledge 24 hrs, respond 48 hrs</td>
+            </tr>
+            <tr>
+                <td><strong>Shoreline Aggregates</strong></td>
+                <td>Bi-weekly</td>
+                <td>Status summary, requirements, timeline alignment, partnership opportunities</td>
+                <td>Acknowledge 24 hrs, respond 48 hrs</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>5.3 Community & Indigenous Communications</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Stakeholder</th>
+                <th>Frequency</th>
+                <th>Format</th>
+                <th>Key Considerations</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Qalipu First Nation</strong></td>
+                <td>As required</td>
+                <td>Consultation materials, project updates, impact assessments</td>
+                <td>Respectful consultation timeline, acknowledge concerns within 1 week</td>
+            </tr>
+            <tr>
+                <td><strong>Public Community</strong></td>
+                <td>Quarterly</td>
+                <td>Public forums, project updates, Q&A sessions</td>
+                <td>Address questions, follow-up on commitments</td>
+            </tr>
+            <tr>
+                <td><strong>Neighboring Communities</strong></td>
+                <td>Quarterly</td>
+                <td>Regional coordination updates, opportunity sharing</td>
+                <td>Acknowledge receipt, respond to inquiries</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Section 6: Escalation Protocols -->
+    <div class="section-header section-header-gold" id="escalation">
+        <span>⬆️</span> 6. Escalation Protocols
+    </div>
+
+    <h3>Issue Escalation Path</h3>
+    <div class="escalation-flow">
+        <div class="escalation-step level-1">
+            <h5>Level 1: Working Group</h5>
+            <p>Working Group Lead addresses within team</p>
+            <p><strong>Timeline:</strong> 48 hours</p>
+        </div>
+        <div class="escalation-arrow">→</div>
+        <div class="escalation-step level-2">
+            <h5>Level 2: Project Manager</h5>
+            <p>Escalate if unresolved at Level 1</p>
+            <p><strong>Timeline:</strong> Within 1 week</p>
+        </div>
+        <div class="escalation-arrow">→</div>
+        <div class="escalation-step level-3">
+            <h5>Level 3: Steering Committee</h5>
+            <p>Strategic decisions and critical issues</p>
+            <p><strong>Timeline:</strong> Immediate for urgent</p>
+        </div>
+    </div>
+
+    <h3>Risk Escalation Matrix</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Risk Level</th>
+                <th>Escalation Path</th>
+                <th>Required Action</th>
+                <th>Review Frequency</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background: #d4edda;"><strong>Low</strong></td>
+                <td>Document in risk register</td>
+                <td>Monitor and track</td>
+                <td>Weekly</td>
+            </tr>
+            <tr>
+                <td style="background: #fff3cd;"><strong>Medium</strong></td>
+                <td>Escalate to Project Manager</td>
+                <td>Mitigation plan required</td>
+                <td>Weekly</td>
+            </tr>
+            <tr>
+                <td style="background: #f8d7da;"><strong>High</strong></td>
+                <td>Escalate to Steering Committee immediately</td>
+                <td>Action plan required</td>
+                <td>Daily until resolved</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Section 7: Communication Schedule -->
+    <div class="section-header section-header-gold" id="schedule">
+        <span>📅</span> 7. Communication Schedule
+    </div>
+
+    <div class="schedule-grid">
+        <div class="schedule-card weekly">
+            <h4>Weekly</h4>
+            <ul>
+                <li>Monday: Team meeting</li>
+                <li>Tue–Fri: WG meetings</li>
+                <li>Friday: Status summary</li>
+            </ul>
+        </div>
+        <div class="schedule-card biweekly">
+            <h4>Bi-Weekly</h4>
+            <ul>
+                <li>Week 1: Steering Comm.</li>
+                <li>Week 2: Company updates</li>
+                <li>WG coordination</li>
+            </ul>
+        </div>
+        <div class="schedule-card monthly">
+            <h4>Monthly</h4>
+            <ul>
+                <li>Wk 1: Provincial report</li>
+                <li>Wk 2: Town Council</li>
+                <li>Wk 3: Business session</li>
+                <li>Wk 4: Internal review</li>
+            </ul>
+        </div>
+        <div class="schedule-card quarterly">
+            <h4>Quarterly</h4>
+            <ul>
+                <li>Federal report</li>
+                <li>Public forum</li>
+                <li>Regional updates</li>
+                <li>Review session</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Section 8: Roles & Responsibilities -->
+    <div class="section-header section-header-gold" id="responsibilities">
+        <span>👔</span> 8. Roles & Responsibilities
+    </div>
+
+    <div class="responsibility-grid">
+        <div class="responsibility-card">
+            <h4>Project Manager</h4>
+            <ul>
+                <li>Overall communication coordination</li>
+                <li>Steering Committee communications</li>
+                <li>Government reporting</li>
+                <li>Issue and risk escalation</li>
+                <li>Decision briefs</li>
+            </ul>
+        </div>
+        <div class="responsibility-card">
+            <h4>Stakeholder Coordinator</h4>
+            <ul>
+                <li>Stakeholder engagement</li>
+                <li>Qalipu First Nation consultation</li>
+                <li>Local business communications</li>
+                <li>Community engagement</li>
+                <li>Regional coordination</li>
+            </ul>
+        </div>
+        <div class="responsibility-card">
+            <h4>Communications Specialist</h4>
+            <ul>
+                <li>Media relations</li>
+                <li>Public communications</li>
+                <li>Website/content management</li>
+                <li>Press releases</li>
+                <li>Public information sessions</li>
+            </ul>
+        </div>
+        <div class="responsibility-card">
+            <h4>Working Group Leads</h4>
+            <ul>
+                <li>WG communications</li>
+                <li>Technical communications</li>
+                <li>Cross-group coordination</li>
+                <li>Status updates to PM</li>
+            </ul>
+        </div>
+        <div class="responsibility-card">
+            <h4>CAO</h4>
+            <ul>
+                <li>Town Council communications</li>
+                <li>Municipal government coordination</li>
+                <li>Public transparency requirements</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Section 9: Confidentiality -->
+    <div class="section-header section-header-gold" id="confidentiality">
+        <span>🔐</span> 9. Confidentiality & Information Management
+    </div>
+
+    <h3>Information Classification Levels</h3>
+    <div class="confidentiality-grid">
+        <div class="conf-level public">
+            <h5>🌐 Public</h5>
+            <p>Available to all stakeholders and public</p>
+        </div>
+        <div class="conf-level internal">
+            <h5>🏢 Internal</h5>
+            <p>Project team and working groups only</p>
+        </div>
+        <div class="conf-level confidential">
+            <h5>🔒 Confidential</h5>
+            <p>Steering Committee and key stakeholders</p>
+        </div>
+        <div class="conf-level restricted">
+            <h5>⛔ Restricted</h5>
+            <p>Sensitive financial, legal, strategic info</p>
+        </div>
+    </div>
+
+    <h3>Document Management Standards</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Standard</th>
+                <th>Requirement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Version Control</strong></td>
+                <td>All documents versioned and dated; changes tracked</td>
+            </tr>
+            <tr>
+                <td><strong>Access Control</strong></td>
+                <td>Permissions based on confidentiality level</td>
+            </tr>
+            <tr>
+                <td><strong>Retention</strong></td>
+                <td>Documents retained per project requirements</td>
+            </tr>
+            <tr>
+                <td><strong>Archival</strong></td>
+                <td>Completed phase documents archived appropriately</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Section 10: Crisis Communications -->
+    <div class="section-header section-header-gold" id="crisis">
+        <span>🚨</span> 10. Crisis Communications
+    </div>
+
+    <div class="crisis-flow">
+        <h4 style="margin-bottom: 0.5rem;">Emergency Communication Protocol</h4>
+        <p style="margin-bottom: 1rem;">In the event of a crisis or emergency, the following protocol is activated:</p>
+        <div class="crisis-steps">
+            <div class="crisis-step">
+                <span class="step-num">1</span>
+                <h5>Immediate Notification</h5>
+                <p>PM notified immediately</p>
+            </div>
+            <div class="crisis-step">
+                <span class="step-num">2</span>
+                <h5>Assessment</h5>
+                <p>Situation assessed within 1 hour</p>
+            </div>
+            <div class="crisis-step">
+                <span class="step-num">3</span>
+                <h5>Stakeholder Notice</h5>
+                <p>Key stakeholders within 2 hours</p>
+            </div>
+            <div class="crisis-step">
+                <span class="step-num">4</span>
+                <h5>Public Comms</h5>
+                <p>If required, within 4 hours</p>
+            </div>
+            <div class="crisis-step">
+                <span class="step-num">5</span>
+                <h5>Ongoing Updates</h5>
+                <p>Until situation resolved</p>
+            </div>
+        </div>
+    </div>
+
+    <h3>Crisis Communication Team</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Role</th>
+                <th>Primary Responsibility</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Project Manager</strong></td>
+                <td>Overall coordination</td>
+                <td>[To be added]</td>
+            </tr>
+            <tr>
+                <td><strong>Communications Specialist</strong></td>
+                <td>Media and public communications</td>
+                <td>[To be added]</td>
+            </tr>
+            <tr>
+                <td><strong>Stakeholder Coordinator</strong></td>
+                <td>Stakeholder notifications</td>
+                <td>[To be added]</td>
+            </tr>
+            <tr>
+                <td><strong>Steering Committee Chair</strong></td>
+                <td>Strategic decisions</td>
+                <td>[To be added]</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Signature Section -->
+    <div class="signature-section">
+        <h3 style="margin-top: 0;">Approval & Sign-Off</h3>
+        <p>This document has been reviewed and approved by the following:</p>
+        <div class="signature-grid">
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <div class="signature-label">Project Manager</div>
+                <div class="signature-label">Date: _______________</div>
+            </div>
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <div class="signature-label">Steering Committee Chair</div>
+                <div class="signature-label">Date: _______________</div>
+            </div>
+            <div class="signature-block">
+                <div class="signature-line"></div>
+                <div class="signature-label">CAO</div>
+                <div class="signature-label">Date: _______________</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="document-footer">
+        <div>
+            <strong>Baie Verte Economic Development Project</strong><br>
+            Phase 1 — Assessment & Planning<br>
+            <span style="font-size: 0.8rem;">Document Status: Draft — Pending Steering Committee Approval</span>
+        </div>
+        <div style="text-align: right;">
+            <strong>Version 2.0</strong><br>
+            December 2025<br>
+            <span style="font-size: 0.8rem;">Next Review: Q1 2026</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working Groups Distribution List - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Working Groups Distribution List Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Company Badges */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        /* Document Info Box */
+        .document-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 1.5rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        /* Working Group Colors */
+        .wg-infrastructure {
+            border-left-color: #2196f3;
+        }
+
+        .wg-infrastructure .wg-icon {
+            background: #2196f3;
+        }
+
+        .wg-business {
+            border-left-color: #4caf50;
+        }
+
+        .wg-business .wg-icon {
+            background: #4caf50;
+        }
+
+        .wg-workforce {
+            border-left-color: #ff9800;
+        }
+
+        .wg-workforce .wg-icon {
+            background: #ff9800;
+        }
+
+        .wg-community {
+            border-left-color: #9c27b0;
+        }
+
+        .wg-community .wg-icon {
+            background: #9c27b0;
+        }
+
+        /* Working Group Container */
+        .wg-container {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .wg-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .wg-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--primary-color);
+            color: var(--text-light);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .wg-title-section {
+            flex: 1;
+        }
+
+        .wg-title {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .wg-focus {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .wg-wp-badge {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        /* Member Table */
+        .member-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .member-table th {
+            background: rgba(0, 0, 0, 0.05);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--primary-light);
+        }
+
+        .member-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: middle;
+        }
+
+        .member-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .member-name {
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .member-org {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .member-contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .member-contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Role Badges */
+        .role-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-lead {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        .badge-member {
+            background: var(--primary-color);
+            color: var(--text-light);
+        }
+
+        .badge-advisor {
+            background: #6c757d;
+            color: var(--text-light);
+        }
+
+        /* WG Info Grid */
+        .wg-info-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ddd;
+        }
+
+        .wg-info-item {
+            text-align: center;
+        }
+
+        .wg-info-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            letter-spacing: 0.5px;
+        }
+
+        .wg-info-value {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        /* Summary Stats */
+        .stats-row {
+            display: flex;
+            justify-content: space-around;
+            background: var(--bg-light);
+            padding: 1rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+        }
+
+        /* Quick Reference Box */
+        .quick-reference {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            margin: 2rem 0;
+        }
+
+        .quick-reference h3 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            color: var(--accent-light);
+        }
+
+        .quick-reference-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .quick-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .quick-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .quick-item p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Notes Box */
+        .notes-box {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 80px;
+            border: 1px dashed #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .notes-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        /* Distribution Table */
+        .distribution-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .distribution-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .distribution-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: middle;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header,
+            .role-badge,
+            .company-badge,
+            .confidentiality,
+            .quick-reference,
+            .wg-icon,
+            .wg-wp-badge {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+
+            .wg-container {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Working Groups<br>Distribution List</h1>
+            <div class="version">Version 1.0</div>
+        </div>
+    </div>
+
+    <!-- Document Information -->
+    <div class="document-info">
+        <div class="info-item">
+            <span class="info-label">Effective Date</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Last Updated</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Maintained By</span>
+            <span class="info-value">[Name / Role]</span>
+        </div>
+    </div>
+
+    <!-- Summary Stats -->
+    <div class="stats-row">
+        <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Working Groups</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Group Leads</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">16</div>
+            <div class="stat-label">Total Members</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">8</div>
+            <div class="stat-label">Work Packages</div>
+        </div>
+    </div>
+
+    <!-- Infrastructure Working Group -->
+    <div class="wg-container wg-infrastructure">
+        <div class="wg-header">
+            <div class="wg-icon">🏗️</div>
+            <div class="wg-title-section">
+                <div class="wg-title">Infrastructure Working Group</div>
+                <div class="wg-focus">Transportation, Water/Wastewater, Power, Telecommunications, Facilities</div>
+            </div>
+            <div class="wg-wp-badge">WP3</div>
+        </div>
+
+        <table class="member-table">
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th>Name</th>
+                    <th>Organization</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="role-badge badge-lead">Lead</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-advisor">Advisor</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="wg-info-grid">
+            <div class="wg-info-item">
+                <div class="wg-info-label">Meeting Schedule</div>
+                <div class="wg-info-value">[Day/Frequency]</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Active Period</div>
+                <div class="wg-info-value">Weeks 3-6</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Reports To</div>
+                <div class="wg-info-value">Technical Lead</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Business Development Working Group -->
+    <div class="wg-container wg-business">
+        <div class="wg-header">
+            <div class="wg-icon">💼</div>
+            <div class="wg-title-section">
+                <div class="wg-title">Business Development Working Group</div>
+                <div class="wg-focus">Business Opportunities, Market Analysis, Service Providers, Financial Feasibility
+                </div>
+            </div>
+            <div class="wg-wp-badge">WP4</div>
+        </div>
+
+        <table class="member-table">
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th>Name</th>
+                    <th>Organization</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="role-badge badge-lead">Lead</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-advisor">Advisor</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="wg-info-grid">
+            <div class="wg-info-item">
+                <div class="wg-info-label">Meeting Schedule</div>
+                <div class="wg-info-value">[Day/Frequency]</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Active Period</div>
+                <div class="wg-info-value">Weeks 4-8</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Reports To</div>
+                <div class="wg-info-value">Project Manager</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Workforce Development Working Group -->
+    <div class="wg-container wg-workforce">
+        <div class="wg-header">
+            <div class="wg-icon">👷</div>
+            <div class="wg-title-section">
+                <div class="wg-title">Workforce Development Working Group</div>
+                <div class="wg-focus">Labor Market, Skills Gaps, Training Programs, Partnerships, Housing</div>
+            </div>
+            <div class="wg-wp-badge">WP5-6</div>
+        </div>
+
+        <table class="member-table">
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th>Name</th>
+                    <th>Organization</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="role-badge badge-lead">Lead</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-advisor">Advisor</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="wg-info-grid">
+            <div class="wg-info-item">
+                <div class="wg-info-label">Meeting Schedule</div>
+                <div class="wg-info-value">[Day/Frequency]</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Active Period</div>
+                <div class="wg-info-value">Weeks 5-12</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Reports To</div>
+                <div class="wg-info-value">Stakeholder Coordinator</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Community Services Working Group -->
+    <div class="wg-container wg-community">
+        <div class="wg-header">
+            <div class="wg-icon">🏥</div>
+            <div class="wg-title-section">
+                <div class="wg-title">Community Services Working Group</div>
+                <div class="wg-focus">Healthcare, Education, Recreation, Social Services, Municipal Capacity</div>
+            </div>
+            <div class="wg-wp-badge">WP7-8</div>
+        </div>
+
+        <table class="member-table">
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th>Name</th>
+                    <th>Organization</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="role-badge badge-lead">Lead</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-member">Member</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+                <tr>
+                    <td><span class="role-badge badge-advisor">Advisor</span></td>
+                    <td class="member-name">[Name]</td>
+                    <td class="member-org">[Organization]</td>
+                    <td class="member-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                    <td>[Phone]</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="wg-info-grid">
+            <div class="wg-info-item">
+                <div class="wg-info-label">Meeting Schedule</div>
+                <div class="wg-info-value">[Day/Frequency]</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Active Period</div>
+                <div class="wg-info-value">Weeks 8-16</div>
+            </div>
+            <div class="wg-info-item">
+                <div class="wg-info-label">Reports To</div>
+                <div class="wg-info-value">Project Manager</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Reference -->
+    <div class="quick-reference">
+        <h3>Working Group Guidelines</h3>
+        <div class="quick-reference-grid">
+            <div class="quick-item">
+                <h4>Decision Authority</h4>
+                <p>Technical decisions within area of expertise; strategic items escalate to Project Manager</p>
+            </div>
+            <div class="quick-item">
+                <h4>Meeting Frequency</h4>
+                <p>Weekly during active period; bi-weekly during planning phases</p>
+            </div>
+            <div class="quick-item">
+                <h4>Deliverable Reviews</h4>
+                <p>All WG deliverables require Lead approval before Project Manager review</p>
+            </div>
+            <div class="quick-item">
+                <h4>Cross-WG Coordination</h4>
+                <p>Monthly joint session for all WG Leads to align on dependencies</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Distribution Groups -->
+    <div class="section-header">
+        <span class="icon">📧</span> Email Distribution Groups
+    </div>
+
+    <div class="notes-box">
+        <p><strong>All Working Group Members:</strong><br>
+            [all-wg@example.com] or individual list below</p>
+
+        <p style="margin-top: 1rem;"><strong>Working Group Leads Only:</strong><br>
+            [infra-lead@example.com]; [business-lead@example.com]; [workforce-lead@example.com];
+            [community-lead@example.com]</p>
+
+        <p style="margin-top: 1rem;"><strong>Infrastructure WG:</strong> [infra-wg@example.com]</p>
+        <p><strong>Business Development WG:</strong> [business-wg@example.com]</p>
+        <p><strong>Workforce Development WG:</strong> [workforce-wg@example.com]</p>
+        <p><strong>Community Services WG:</strong> [community-wg@example.com]</p>
+    </div>
+
+    <!-- Update History -->
+    <div class="section-header">
+        <span class="icon">📝</span> Update History
+    </div>
+
+    <table class="distribution-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Version</th>
+                <th>Change Description</th>
+                <th>Updated By</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Date]</td>
+                <td>1.0</td>
+                <td>Initial working groups distribution list created</td>
+                <td>[Name]</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+
+</html>
