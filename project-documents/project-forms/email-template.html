@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Email Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Email Header */
+        .email-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .email-type {
+            text-align: right;
+        }
+
+        .email-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .email-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Email Metadata */
+        .email-meta {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .meta-row {
+            display: flex;
+            margin-bottom: 0.5rem;
+        }
+
+        .meta-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .meta-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            width: 80px;
+            flex-shrink: 0;
+        }
+
+        .meta-value {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            flex: 1;
+        }
+
+        .meta-value.editable {
+            background: var(--bg-white);
+            padding: 0.25rem 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: var(--radius-sm);
+        }
+
+        /* Email Subject Line */
+        .email-subject {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Email Body */
+        .email-body {
+            margin-bottom: 1.5rem;
+        }
+
+        .greeting {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .email-content {
+            margin-bottom: 1rem;
+        }
+
+        .email-content p {
+            margin-bottom: 0.75rem;
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.6rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin: 1.25rem 0 0.75rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1rem;
+        }
+
+        /* Key Points / Highlights */
+        .key-points {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .key-points ul {
+            margin-left: 1.25rem;
+        }
+
+        .key-points li {
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+
+        .key-points li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Action Items */
+        .action-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+
+        .action-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .action-table td {
+            padding: 0.6rem 0.75rem;
+            border-bottom: 1px solid #eee;
+            font-size: 0.9rem;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-urgent {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .status-action {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-info {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        /* Attachments */
+        .attachments-list {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 0.75rem 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .attachment-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.35rem 0;
+            font-size: 0.9rem;
+            color: var(--primary-color);
+        }
+
+        .attachment-icon {
+            font-size: 1rem;
+        }
+
+        /* Signature */
+        .email-signature {
+            margin-top: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+
+        .signature-closing {
+            margin-bottom: 1rem;
+        }
+
+        .signature-name {
+            font-weight: 600;
+            color: var(--text-main);
+            font-size: 1rem;
+        }
+
+        .signature-title {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .signature-org {
+            font-size: 0.9rem;
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .signature-contact {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+        }
+
+        /* Footer */
+        .email-footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.15rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.2rem 0.6rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Priority Indicator */
+        .priority-high {
+            background: #ffebee;
+            border-left: 4px solid #c62828;
+            padding: 0.5rem 1rem;
+            margin-bottom: 1rem;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            font-size: 0.9rem;
+            color: #c62828;
+            font-weight: 600;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header,
+            .email-subject {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Email Header -->
+    <div class="email-header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="email-type">
+            <h1>Project Email</h1>
+            <div class="version">Template v1.0</div>
+        </div>
+    </div>
+
+    <!-- Email Metadata -->
+    <div class="email-meta">
+        <div class="meta-row">
+            <span class="meta-label">From:</span>
+            <span class="meta-value editable">[Sender Name] &lt;[email@example.com]&gt;</span>
+        </div>
+        <div class="meta-row">
+            <span class="meta-label">To:</span>
+            <span class="meta-value editable">[Recipient Name(s)] &lt;[email@example.com]&gt;</span>
+        </div>
+        <div class="meta-row">
+            <span class="meta-label">CC:</span>
+            <span class="meta-value editable">[CC Recipients]</span>
+        </div>
+        <div class="meta-row">
+            <span class="meta-label">Date:</span>
+            <span class="meta-value editable">[Date]</span>
+        </div>
+    </div>
+
+    <!-- Email Subject -->
+    <div class="email-subject">
+        📧 Subject: [Email Subject Line]
+    </div>
+
+    <!-- Priority Indicator (optional - remove if not needed) -->
+    <div class="priority-high">
+        ⚠️ This email requires action by [Date]
+    </div>
+
+    <!-- Email Body -->
+    <div class="email-body">
+        <p class="greeting">Dear [Recipient Name],</p>
+
+        <div class="email-content">
+            <p>[Opening paragraph – state the purpose of this email clearly and concisely. Provide context for the
+                communication and establish why this message is being sent.]</p>
+
+            <p>[Body paragraph(s) – provide the main content of the message. Include relevant details, background
+                information, updates, or other key information the recipient needs to know.]</p>
+        </div>
+    </div>
+
+    <!-- Key Points Section -->
+    <div class="section-header">
+        <span class="icon">📌</span> Key Points
+    </div>
+    <div class="key-points">
+        <ul>
+            <li>[Key point 1 – important information or highlight]</li>
+            <li>[Key point 2 – important information or highlight]</li>
+            <li>[Key point 3 – important information or highlight]</li>
+        </ul>
+    </div>
+
+    <!-- Action Items Section -->
+    <div class="section-header">
+        <span class="icon">✅</span> Action Required
+    </div>
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th>Action Item</th>
+                <th>Owner</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-urgent">Urgent</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-action">Action</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-info">Info</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Next Steps Section -->
+    <div class="section-header">
+        <span class="icon">🚀</span> Next Steps
+    </div>
+    <div class="key-points">
+        <ul>
+            <li>[Next step 1 – what happens next]</li>
+            <li>[Next step 2 – timeline or follow-up]</li>
+            <li>[Next step 3 – expected outcomes]</li>
+        </ul>
+    </div>
+
+    <!-- Attachments Section -->
+    <div class="section-header">
+        <span class="icon">📎</span> Attachments
+    </div>
+    <div class="attachments-list">
+        <div class="attachment-item">
+            <span class="attachment-icon">📄</span>
+            [Document_Name_1.pdf]
+        </div>
+        <div class="attachment-item">
+            <span class="attachment-icon">📊</span>
+            [Spreadsheet_Name.xlsx]
+        </div>
+        <div class="attachment-item">
+            <span class="attachment-icon">📋</span>
+            [Presentation_Name.pptx]
+        </div>
+    </div>
+
+    <!-- Closing Paragraph -->
+    <div class="email-body">
+        <div class="email-content">
+            <p>[Closing paragraph – summarize the key message, reiterate any important deadlines, and provide clear
+                guidance on how to respond or what the recipient should do next. Include any offers of assistance or
+                requests for feedback.]</p>
+        </div>
+    </div>
+
+    <!-- Email Signature -->
+    <div class="email-signature">
+        <p class="signature-closing">Best regards,</p>
+        <p class="signature-name">[Sender Name]</p>
+        <p class="signature-title">[Title/Position]</p>
+        <p class="signature-org">Baie Verte Economic Development Project</p>
+        <p class="signature-contact">
+            📞 [Phone Number] | ✉️ [email@example.com]
+        </p>
+    </div>
+
+    <!-- Email Footer -->
+    <div class="email-footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

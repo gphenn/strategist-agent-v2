@@ -3,8 +3,11 @@
 **Step:** Step 2 - Split  
 **Assigned Persona:** Morgan (Strategic Specialist)  
 **Date Created:** January 2025  
-**Last Updated:** January 2025  
-**Status:** In Progress
+**Last Updated:** December 2025  
+**Status:** In Progress (Scope Updated for Multi-Company)
+
+> [!IMPORTANT]
+> **Multi-Company Scope:** Problem decomposition now covers three companies: Firefly Metals, New Found Gold, and Shoreline Aggregates (all treated equally).
 
 ---
 
@@ -369,7 +372,11 @@ The Regional Economic Development and Mining Services modules will provide speci
 
 1. **Stakeholder Coordination Dimension**
    - Multiple government levels (municipal, provincial, federal)
-   - Business entities (Firefly Metals, local businesses, Chamber of Commerce)
+   - **Mining/Industrial Companies (3 Equal Partners):**
+     - Firefly Metals (copper/gold mining)
+     - New Found Gold (gold mining - Hammerdown Division)
+     - Shoreline Aggregates (aggregate export)
+   - Local businesses and Chamber of Commerce
    - Indigenous consultation (Qalipu First Nation)
    - Regional coordination (Baie Verte Peninsula communities)
    - Community groups and workforce
@@ -383,20 +390,28 @@ The Regional Economic Development and Mining Services modules will provide speci
    - Current capacity vs. required capacity
 
 3. **Service Development Dimension**
-   - Camp cafeteria services
-   - Transportation services
-   - Laundry services
-   - Cleaning services
-   - Other mining support services
-   - Business capacity vs. service requirements
-   - Service contract capture strategy
+   - **Firefly Metals Services:**
+     - Camp cafeteria, transportation, laundry, cleaning
+     - Construction services, ongoing operations support
+   - **New Found Gold Services:**
+     - Mining support services
+     - Processing facility support (Pine Cove mill, Nugget Pond)
+     - Workforce housing
+   - **Shoreline Aggregates Services:**
+     - Port/shipping services
+     - Equipment maintenance
+     - Transportation
+   - Cross-company service synergies
+   - Business capacity vs. combined service requirements
+   - Multi-company service contract capture strategy
 
 4. **Workforce Development Dimension**
-   - Local workforce capacity
-   - Training and skill development needs
-   - Recruitment strategies
+   - Combined workforce needs across 3 companies (600-800+ workers)
+   - Local workforce capacity assessment
+   - Training and skill development needs (varied by company)
+   - Recruitment strategies for diverse skill sets
    - Retention strategies
-   - Employment multiplier refinement
+   - Employment multiplier refinement (multi-company basis)
 
 5. **Funding Strategy Dimension**
    - Provincial funding opportunities
@@ -404,11 +419,12 @@ The Regional Economic Development and Mining Services modules will provide speci
    - Venture capital opportunities
    - Business development funding
    - Infrastructure funding
+   - Multi-company investment leverage
 
 6. **Regulatory & Compliance Dimension**
-   - Qalipu First Nation consultation requirements
-   - Environmental compliance
-   - Certification standards
+   - Qalipu First Nation consultation requirements (all companies)
+   - Environmental compliance (mining, processing, aggregate)
+   - Certification standards (varied by industry)
    - Regulatory requirements for service businesses
 
 **Component Analysis:** {Individual elements will be identified and analyzed during work}

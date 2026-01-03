@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Agenda - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        /* BVIT Design System - Meeting Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 8px rgba(0,0,0,0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Meeting Info Box */
+        .meeting-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 0.25rem;
+            min-height: 1.5rem;
+        }
+
+        .info-value.editable {
+            background: var(--bg-white);
+            padding: 0.25rem 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: var(--radius-sm);
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 1.5rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        /* Attendees Section */
+        .attendees-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .attendee-list {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+        }
+
+        .attendee-list h4 {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .attendee-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .attendee-list li {
+            padding: 0.25rem 0;
+            border-bottom: 1px dotted #ddd;
+            font-size: 0.9rem;
+        }
+
+        .attendee-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Agenda Items */
+        .agenda-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .agenda-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .agenda-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: top;
+        }
+
+        .agenda-table tr:hover {
+            background: var(--bg-light);
+        }
+
+        .time-col {
+            width: 80px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .duration-col {
+            width: 60px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .owner-col {
+            width: 120px;
+            font-size: 0.9rem;
+        }
+
+        .topic-col {
+            font-weight: 500;
+        }
+
+        .topic-description {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        /* Action Items */
+        .action-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .action-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .action-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-pending { background: #fff3cd; color: #856404; }
+        .status-complete { background: #d4edda; color: #155724; }
+        .status-inprogress { background: #cce5ff; color: #004085; }
+
+        /* Notes Section */
+        .notes-box {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 150px;
+            border: 1px dashed #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .notes-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        /* Multi-company indicator */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly { background: #e3f2fd; color: #1565c0; }
+        .badge-nfg { background: #fff8e1; color: #f57f17; }
+        .badge-shoreline { background: #e8f5e9; color: #2e7d32; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Meeting Agenda</h1>
+            <div class="version">Template v1.0</div>
+        </div>
+    </div>
+
+    <!-- Meeting Information -->
+    <div class="meeting-info">
+        <div class="info-item">
+            <span class="info-label">Meeting Title</span>
+            <span class="info-value editable">[Meeting Title]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Date</span>
+            <span class="info-value editable">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Time</span>
+            <span class="info-value editable">[Start Time] - [End Time]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Location / Platform</span>
+            <span class="info-value editable">[Location or Video Link]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Meeting Chair</span>
+            <span class="info-value editable">[Chair Name]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Note Taker</span>
+            <span class="info-value editable">[Note Taker Name]</span>
+        </div>
+    </div>
+
+    <!-- Attendees Section -->
+    <div class="section-header">
+        <span class="icon">👥</span> Attendees
+    </div>
+    
+    <div class="attendees-grid">
+        <div class="attendee-list">
+            <h4>Required Attendees</h4>
+            <ul>
+                <li>[Name] - [Role]</li>
+                <li>[Name] - [Role]</li>
+                <li>[Name] - [Role]</li>
+                <li>[Name] - [Role]</li>
+            </ul>
+        </div>
+        <div class="attendee-list">
+            <h4>Optional / CC</h4>
+            <ul>
+                <li>[Name] - [Role]</li>
+                <li>[Name] - [Role]</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Meeting Objectives -->
+    <div class="section-header">
+        <span class="icon">🎯</span> Meeting Objectives
+    </div>
+    <ul style="margin-left: 1.5rem; margin-bottom: 1rem;">
+        <li>[Primary objective for this meeting]</li>
+        <li>[Secondary objective]</li>
+        <li>[Additional objective if applicable]</li>
+    </ul>
+
+    <!-- Agenda Items -->
+    <div class="section-header">
+        <span class="icon">📋</span> Agenda
+    </div>
+    
+    <table class="agenda-table">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Duration</th>
+                <th>Topic</th>
+                <th>Owner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="time-col">00:00</td>
+                <td class="duration-col">5 min</td>
+                <td class="topic-col">
+                    Welcome & Roll Call
+                    <div class="topic-description">Review agenda, confirm attendees</div>
+                </td>
+                <td class="owner-col">Chair</td>
+            </tr>
+            <tr>
+                <td class="time-col">00:05</td>
+                <td class="duration-col">10 min</td>
+                <td class="topic-col">
+                    Review Previous Action Items
+                    <div class="topic-description">Status update on outstanding items</div>
+                </td>
+                <td class="owner-col">Chair</td>
+            </tr>
+            <tr>
+                <td class="time-col">00:15</td>
+                <td class="duration-col">20 min</td>
+                <td class="topic-col">
+                    [Main Discussion Topic 1]
+                    <div class="topic-description">[Brief description of topic]</div>
+                </td>
+                <td class="owner-col">[Owner]</td>
+            </tr>
+            <tr>
+                <td class="time-col">00:35</td>
+                <td class="duration-col">20 min</td>
+                <td class="topic-col">
+                    [Main Discussion Topic 2]
+                    <div class="topic-description">[Brief description of topic]</div>
+                </td>
+                <td class="owner-col">[Owner]</td>
+            </tr>
+            <tr>
+                <td class="time-col">00:55</td>
+                <td class="duration-col">5 min</td>
+                <td class="topic-col">
+                    Action Items & Next Steps
+                    <div class="topic-description">Summarize decisions, assign actions</div>
+                </td>
+                <td class="owner-col">Chair</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Action Items from Previous Meeting -->
+    <div class="section-header">
+        <span class="icon">✅</span> Action Items (Previous Meeting)
+    </div>
+    
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th>Action Item</th>
+                <th>Owner</th>
+                <th>Due Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-pending">Pending</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-complete">Complete</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-inprogress">In Progress</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Notes Section -->
+    <div class="section-header">
+        <span class="icon">📝</span> Meeting Notes
+    </div>
+    <div class="notes-box">
+        <p>[Meeting notes will be recorded here during the meeting...]</p>
+    </div>
+
+    <!-- Decisions Made -->
+    <div class="section-header">
+        <span class="icon">⚖️</span> Decisions Made
+    </div>
+    <div class="notes-box" style="min-height: 80px;">
+        <p>[Key decisions made during this meeting...]</p>
+    </div>
+
+    <!-- New Action Items -->
+    <div class="section-header">
+        <span class="icon">🚀</span> New Action Items
+    </div>
+    
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th>Action Item</th>
+                <th>Owner</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[New action item]</td>
+                <td>[Owner]</td>
+                <td>[Date]</td>
+                <td><span class="status-badge status-pending">High</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Next Meeting -->
+    <div class="section-header">
+        <span class="icon">📅</span> Next Meeting
+    </div>
+    <div class="meeting-info" style="margin-top: 1rem;">
+        <div class="info-item">
+            <span class="info-label">Date</span>
+            <span class="info-value editable">[Next Meeting Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Time</span>
+            <span class="info-value editable">[Next Meeting Time]</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Minutes - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Meeting Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Meeting Info Box */
+        .meeting-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+            border-bottom: 1px dashed #ccc;
+            padding-bottom: 0.25rem;
+            min-height: 1.5rem;
+        }
+
+        .info-value.editable {
+            background: var(--bg-white);
+            padding: 0.25rem 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: var(--radius-sm);
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 1.5rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        .section-header-gold {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        /* Attendees Section */
+        .attendees-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .attendee-list {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+        }
+
+        .attendee-list h4 {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            margin-bottom: 0.75rem;
+            font-weight: 600;
+        }
+
+        .attendee-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .attendee-list li {
+            padding: 0.25rem 0;
+            border-bottom: 1px dotted #ddd;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .attendee-list li:last-child {
+            border-bottom: none;
+        }
+
+        .attendance-check {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .attendance-absent {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        /* Discussion Items */
+        .discussion-item {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .discussion-item h4 {
+            font-size: 1rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .discussion-item .presenter {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .discussion-content {
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .discussion-content ul {
+            margin-left: 1.25rem;
+            margin-top: 0.5rem;
+        }
+
+        .discussion-content li {
+            margin-bottom: 0.25rem;
+        }
+
+        /* Decision Box */
+        .decision-box {
+            background: linear-gradient(135deg, #fff8e1 0%, #fff3cd 100%);
+            border-radius: var(--radius-sm);
+            padding: 1rem 1.25rem;
+            margin: 1rem 0;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .decision-box h5 {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--accent-dark);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .decision-box p {
+            font-weight: 500;
+            color: var(--text-main);
+        }
+
+        /* Action Items */
+        .action-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .action-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .action-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .action-table tr:hover {
+            background: var(--bg-light);
+        }
+
+        .priority-high {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .priority-medium {
+            background: #fff3cd;
+            color: #856404;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .priority-low {
+            background: #d4edda;
+            color: #155724;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        /* Key Points Summary */
+        .key-points {
+            background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .key-points h4 {
+            color: var(--primary-dark);
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .key-points ul {
+            margin-left: 1.25rem;
+        }
+
+        .key-points li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Next Meeting */
+        .next-meeting-box {
+            background: var(--primary-color);
+            color: var(--text-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .next-meeting-box .info-label {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .next-meeting-box .info-value {
+            color: var(--text-light);
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Signatures */
+        .signatures {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eee;
+        }
+
+        .signature-block {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .signature-line {
+            border-bottom: 1px solid var(--text-main);
+            height: 40px;
+        }
+
+        .signature-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Distribution List */
+        .distribution {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .distribution h4 {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header,
+            .section-header-gold,
+            .next-meeting-box,
+            .key-points,
+            .decision-box {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        /* Multi-company indicator */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Meeting Minutes</h1>
+            <div class="version">Template v1.0</div>
+        </div>
+    </div>
+
+    <!-- Meeting Information -->
+    <div class="meeting-info">
+        <div class="info-item">
+            <span class="info-label">Meeting Title</span>
+            <span class="info-value editable">[Meeting Title]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Date</span>
+            <span class="info-value editable">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Time</span>
+            <span class="info-value editable">[Start Time] - [End Time]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Location / Platform</span>
+            <span class="info-value editable">[Location or Video Link]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Meeting Chair</span>
+            <span class="info-value editable">[Chair Name]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Minutes Prepared By</span>
+            <span class="info-value editable">[Note Taker Name]</span>
+        </div>
+    </div>
+
+    <!-- Attendees Section -->
+    <div class="section-header">
+        <span class="icon">👥</span> Attendance
+    </div>
+
+    <div class="attendees-grid">
+        <div class="attendee-list">
+            <h4>Present</h4>
+            <ul>
+                <li><span class="attendance-check">✓</span> [Name] - [Role]</li>
+                <li><span class="attendance-check">✓</span> [Name] - [Role]</li>
+                <li><span class="attendance-check">✓</span> [Name] - [Role]</li>
+                <li><span class="attendance-check">✓</span> [Name] - [Role]</li>
+            </ul>
+        </div>
+        <div class="attendee-list">
+            <h4>Absent / Regrets</h4>
+            <ul>
+                <li><span class="attendance-absent">✗</span> [Name] - [Role]</li>
+                <li><span class="attendance-absent">✗</span> [Name] - [Role]</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Meeting Called to Order -->
+    <div class="section-header">
+        <span class="icon">⏱️</span> Meeting Called to Order
+    </div>
+    <p style="margin-bottom: 1rem;">
+        The meeting was called to order at <strong>[Time]</strong> by <strong>[Chair Name]</strong>.
+        Quorum was <strong>[achieved/not achieved]</strong>.
+    </p>
+
+    <!-- Agenda Approval -->
+    <div class="discussion-item">
+        <h4>1. Approval of Agenda</h4>
+        <div class="discussion-content">
+            <p>The agenda was reviewed and approved as presented.</p>
+            <div class="decision-box">
+                <h5>Motion</h5>
+                <p>Motion to approve the agenda by [Name], seconded by [Name]. <strong>Carried.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Previous Minutes Approval -->
+    <div class="discussion-item">
+        <h4>2. Approval of Previous Meeting Minutes</h4>
+        <div class="discussion-content">
+            <p>Minutes from the meeting held on [Previous Meeting Date] were reviewed.</p>
+            <div class="decision-box">
+                <h5>Motion</h5>
+                <p>Motion to approve the previous minutes by [Name], seconded by [Name]. <strong>Carried.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Discussion Items -->
+    <div class="section-header">
+        <span class="icon">💬</span> Discussion Items
+    </div>
+
+    <div class="discussion-item">
+        <h4>3. [Discussion Topic Title]</h4>
+        <div class="presenter">Presented by: [Presenter Name]</div>
+        <div class="discussion-content">
+            <p>[Summary of the discussion points...]</p>
+            <ul>
+                <li>[Key point discussed]</li>
+                <li>[Key point discussed]</li>
+                <li>[Questions raised and answers provided]</li>
+            </ul>
+            <div class="decision-box">
+                <h5>Decision</h5>
+                <p>[Decision made, if any]</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="discussion-item">
+        <h4>4. [Discussion Topic Title]</h4>
+        <div class="presenter">Presented by: [Presenter Name]</div>
+        <div class="discussion-content">
+            <p>[Summary of the discussion points...]</p>
+            <ul>
+                <li>[Key point discussed]</li>
+                <li>[Key point discussed]</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="discussion-item">
+        <h4>5. [Discussion Topic Title]</h4>
+        <div class="presenter">Presented by: [Presenter Name]</div>
+        <div class="discussion-content">
+            <p>[Summary of the discussion points...]</p>
+        </div>
+    </div>
+
+    <!-- Key Decisions Summary -->
+    <div class="section-header">
+        <span class="icon">⚖️</span> Key Decisions Summary
+    </div>
+
+    <div class="key-points">
+        <h4>Decisions Made This Meeting</h4>
+        <ul>
+            <li><strong>Decision 1:</strong> [Description of decision]</li>
+            <li><strong>Decision 2:</strong> [Description of decision]</li>
+            <li><strong>Decision 3:</strong> [Description of decision]</li>
+        </ul>
+    </div>
+
+    <!-- Action Items -->
+    <div class="section-header">
+        <span class="icon">🚀</span> Action Items
+    </div>
+
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th style="width: 40%;">Action Item</th>
+                <th style="width: 20%;">Responsible</th>
+                <th style="width: 20%;">Due Date</th>
+                <th style="width: 20%;">Priority</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Name]</td>
+                <td>[Date]</td>
+                <td><span class="priority-high">High</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Name]</td>
+                <td>[Date]</td>
+                <td><span class="priority-medium">Medium</span></td>
+            </tr>
+            <tr>
+                <td>[Action item description]</td>
+                <td>[Name]</td>
+                <td>[Date]</td>
+                <td><span class="priority-low">Low</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Outstanding Action Items -->
+    <div class="section-header">
+        <span class="icon">📋</span> Outstanding Action Items (From Previous Meetings)
+    </div>
+
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">Action Item</th>
+                <th style="width: 15%;">Responsible</th>
+                <th style="width: 15%;">Original Due</th>
+                <th style="width: 20%;">Status Update</th>
+                <th style="width: 15%;">New Due Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Outstanding action item]</td>
+                <td>[Name]</td>
+                <td>[Date]</td>
+                <td>[Status update provided]</td>
+                <td>[New date if extended]</td>
+            </tr>
+            <tr>
+                <td>[Outstanding action item]</td>
+                <td>[Name]</td>
+                <td>[Date]</td>
+                <td><strong>COMPLETED</strong></td>
+                <td>—</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Next Meeting -->
+    <div class="section-header">
+        <span class="icon">📅</span> Next Meeting
+    </div>
+
+    <table class="action-table">
+        <thead>
+            <tr>
+                <th style="width: 35%;">Date</th>
+                <th style="width: 15%;">Time</th>
+                <th style="width: 15%;">Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Next Meeting Date]</td>
+                <td>[Next Meeting Time]</td>
+                <td>[Location]</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Adjournment -->
+    <div class="section-header">
+        <span class="icon">🔚</span> Adjournment
+    </div>
+    <p style="margin-bottom: 1.5rem;">
+        There being no further business, the meeting was adjourned at <strong>[Time]</strong>.
+    </p>
+
+    <!-- Signatures -->
+    <div class="signatures">
+        <div class="signature-block">
+            <div class="signature-line"></div>
+            <div class="signature-label">Meeting Chair</div>
+        </div>
+        <div class="signature-block">
+            <div class="signature-line"></div>
+            <div class="signature-label">Minutes Prepared By</div>
+        </div>
+    </div>
+
+    <!-- Distribution -->
+    <div class="section-header">
+        <span class="icon">📧</span> Distribution
+    </div>
+    <div class="distribution">
+        <h4>These minutes have been distributed to:</h4>
+        <p>All meeting attendees, Project Steering Committee, [Additional distribution as required]</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+            <span style="font-size: 0.8rem; margin-top: 0.5rem;">Minutes approved: [Date] | Next review: [Date]</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+
+</html>

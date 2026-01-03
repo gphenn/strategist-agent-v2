@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team Distribution List - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Project Team Distribution List Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Company Badges */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        /* Document Info Box */
+        .document-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 1.5rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        .section-header.working-group {
+            background: var(--primary-light);
+        }
+
+        /* Summary Stats */
+        .stats-row {
+            display: flex;
+            justify-content: space-around;
+            background: var(--bg-light);
+            padding: 1rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+        }
+
+        /* Team Member Cards */
+        .team-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .member-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            display: grid;
+            grid-template-columns: 220px 1fr 180px 160px;
+            gap: 1rem;
+            align-items: center;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .member-card.lead {
+            border-left-color: var(--accent-color);
+            background: linear-gradient(135deg, #fff8e1 0%, var(--bg-light) 100%);
+        }
+
+        .member-name {
+            font-weight: 600;
+            font-size: 1rem;
+            color: var(--text-main);
+        }
+
+        .member-role {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .member-responsibilities {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        .member-contact {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .member-contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .member-contact a:hover {
+            text-decoration: underline;
+        }
+
+        .member-fte {
+            font-size: 0.9rem;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        /* Role Badges */
+        .role-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 0.25rem;
+        }
+
+        .badge-pm {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        .badge-lead {
+            background: var(--primary-color);
+            color: var(--text-light);
+        }
+
+        .badge-core {
+            background: #17a2b8;
+            color: var(--text-light);
+        }
+
+        .badge-sme {
+            background: #6f42c1;
+            color: var(--text-light);
+        }
+
+        .badge-admin {
+            background: #6c757d;
+            color: var(--text-light);
+        }
+
+        .badge-wg {
+            background: #28a745;
+            color: var(--text-light);
+        }
+
+        /* Working Group Cards */
+        .wg-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--primary-light);
+        }
+
+        .wg-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .wg-name {
+            font-weight: 600;
+            font-size: 1rem;
+            color: var(--primary-color);
+        }
+
+        .wg-members {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+        }
+
+        .wg-member {
+            font-size: 0.9rem;
+            color: var(--text-main);
+            padding: 0.25rem 0;
+        }
+
+        .wg-member span {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+
+        /* Distribution Table */
+        .distribution-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .distribution-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .distribution-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: middle;
+        }
+
+        .distribution-table tr:hover {
+            background: var(--bg-light);
+        }
+
+        /* Quick Reference Box */
+        .quick-reference {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            margin: 2rem 0;
+        }
+
+        .quick-reference h3 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            color: var(--accent-light);
+        }
+
+        .quick-reference-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .quick-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .quick-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .quick-item p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Notes Box */
+        .notes-box {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 80px;
+            border: 1px dashed #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .notes-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header,
+            .role-badge,
+            .company-badge,
+            .confidentiality,
+            .quick-reference {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Project Team<br>Distribution List</h1>
+            <div class="version">Version 1.0</div>
+        </div>
+    </div>
+
+    <!-- Document Information -->
+    <div class="document-info">
+        <div class="info-item">
+            <span class="info-label">Effective Date</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Last Updated</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Maintained By</span>
+            <span class="info-value">[Name / Role]</span>
+        </div>
+    </div>
+
+    <!-- Summary Stats -->
+    <div class="stats-row">
+        <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Core Team</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">7</div>
+            <div class="stat-label">SME Support</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Admin Support</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Working Groups</div>
+        </div>
+    </div>
+
+    <!-- Core Project Team -->
+    <div class="section-header">
+        <span class="icon">👔</span> Core Project Team
+    </div>
+
+    <div class="team-grid">
+        <!-- Project Manager -->
+        <div class="member-card lead">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Project Manager</div>
+                <span class="role-badge badge-pm">PM</span>
+            </div>
+            <div class="member-responsibilities">
+                Overall coordination and delivery
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 1.0<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">20 weeks</span>
+            </div>
+        </div>
+
+        <!-- Technical Lead -->
+        <div class="member-card lead">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Technical Lead</div>
+                <span class="role-badge badge-lead">Lead</span>
+            </div>
+            <div class="member-responsibilities">
+                Technical assessments and analysis
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.8<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">20 weeks</span>
+            </div>
+        </div>
+
+        <!-- Stakeholder Coordinator -->
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Stakeholder Coordinator</div>
+                <span class="role-badge badge-core">Core</span>
+            </div>
+            <div class="member-responsibilities">
+                Engagement and communication
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.6<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">20 weeks</span>
+            </div>
+        </div>
+
+        <!-- Financial Analyst -->
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Financial Analyst</div>
+                <span class="role-badge badge-core">Core</span>
+            </div>
+            <div class="member-responsibilities">
+                Financial assessments and modeling
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.6<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">16 weeks</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subject Matter Experts -->
+    <div class="section-header">
+        <span class="icon">🎓</span> Subject Matter Experts
+    </div>
+
+    <div class="team-grid">
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Infrastructure Engineer</div>
+                <span class="role-badge badge-sme">SME</span>
+            </div>
+            <div class="member-responsibilities">
+                Infrastructure capacity assessment
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.4<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">8 weeks</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Economic Development Specialist</div>
+                <span class="role-badge badge-sme">SME</span>
+            </div>
+            <div class="member-responsibilities">
+                Business opportunity analysis
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.4<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">12 weeks</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Housing Market Analyst</div>
+                <span class="role-badge badge-sme">SME</span>
+            </div>
+            <div class="member-responsibilities">
+                Housing demand assessment
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.4<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">10 weeks</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Workforce Development Specialist</div>
+                <span class="role-badge badge-sme">SME</span>
+            </div>
+            <div class="member-responsibilities">
+                Workforce assessment
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.4<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">12 weeks</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Community Services Specialist</div>
+                <span class="role-badge badge-sme">SME</span>
+            </div>
+            <div class="member-responsibilities">
+                Services capacity assessment
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.4<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">10 weeks</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Financial Advisor</div>
+                <span class="role-badge badge-sme">SME</span>
+            </div>
+            <div class="member-responsibilities">
+                Financial capacity assessment
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.4<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">12 weeks</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Risk Management Specialist</div>
+                <span class="role-badge badge-sme">SME</span>
+            </div>
+            <div class="member-responsibilities">
+                Risk assessment
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.4<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">8 weeks</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Administrative Support -->
+    <div class="section-header">
+        <span class="icon">📋</span> Administrative Support
+    </div>
+
+    <div class="team-grid">
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Project Coordinator</div>
+                <span class="role-badge badge-admin">Admin</span>
+            </div>
+            <div class="member-responsibilities">
+                Administrative support and coordination
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.5<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">20 weeks</span>
+            </div>
+        </div>
+
+        <div class="member-card">
+            <div>
+                <div class="member-name">[Name]</div>
+                <div class="member-role">Communications Specialist</div>
+                <span class="role-badge badge-admin">Admin</span>
+            </div>
+            <div class="member-responsibilities">
+                Communication and reporting
+            </div>
+            <div class="member-contact">
+                <div>[Phone]</div>
+                <a href="mailto:email@example.com">[Email]</a>
+            </div>
+            <div class="member-fte">
+                FTE: 0.3<br>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">20 weeks</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Working Groups -->
+    <div class="section-header working-group">
+        <span class="icon">👥</span> Working Groups
+    </div>
+
+    <div class="wg-card">
+        <div class="wg-header">
+            <div class="wg-name">Infrastructure Working Group</div>
+            <span class="role-badge badge-wg">WG</span>
+        </div>
+        <div class="wg-members">
+            <div class="wg-member">[Name] <span>- Lead</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+        </div>
+    </div>
+
+    <div class="wg-card">
+        <div class="wg-header">
+            <div class="wg-name">Business Development Working Group</div>
+            <span class="role-badge badge-wg">WG</span>
+        </div>
+        <div class="wg-members">
+            <div class="wg-member">[Name] <span>- Lead</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+        </div>
+    </div>
+
+    <div class="wg-card">
+        <div class="wg-header">
+            <div class="wg-name">Workforce Development Working Group</div>
+            <span class="role-badge badge-wg">WG</span>
+        </div>
+        <div class="wg-members">
+            <div class="wg-member">[Name] <span>- Lead</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+        </div>
+    </div>
+
+    <div class="wg-card">
+        <div class="wg-header">
+            <div class="wg-name">Community Services Working Group</div>
+            <span class="role-badge badge-wg">WG</span>
+        </div>
+        <div class="wg-members">
+            <div class="wg-member">[Name] <span>- Lead</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+            <div class="wg-member">[Name] <span>- Member</span></div>
+        </div>
+    </div>
+
+    <!-- Quick Reference -->
+    <div class="quick-reference">
+        <h3>Quick Reference</h3>
+        <div class="quick-reference-grid">
+            <div class="quick-item">
+                <h4>Team Meetings</h4>
+                <p>Weekly on [Day] at [Time]</p>
+            </div>
+            <div class="quick-item">
+                <h4>Meeting Location</h4>
+                <p>[Location / Video Platform]</p>
+            </div>
+            <div class="quick-item">
+                <h4>Project Duration</h4>
+                <p>Phase 1: 20 weeks</p>
+            </div>
+            <div class="quick-item">
+                <h4>Total FTE</h4>
+                <p>Core: 3.0 | SME: 2.8 | Admin: 0.8</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Distribution Groups -->
+    <div class="section-header">
+        <span class="icon">📧</span> Email Distribution Groups
+    </div>
+
+    <div class="notes-box">
+        <p><strong>All Project Team:</strong><br>
+            [email1@example.com]; [email2@example.com]; [email3@example.com]; [email4@example.com]; ...</p>
+
+        <p style="margin-top: 1rem;"><strong>Core Team Only:</strong><br>
+            [pm@example.com]; [techlead@example.com]; [stakeholder@example.com]; [financial@example.com]</p>
+
+        <p style="margin-top: 1rem;"><strong>Subject Matter Experts:</strong><br>
+            [sme1@example.com]; [sme2@example.com]; [sme3@example.com]; ...</p>
+
+        <p style="margin-top: 1rem;"><strong>Working Group Leads:</strong><br>
+            [infra-lead@example.com]; [business-lead@example.com]; [workforce-lead@example.com];
+            [community-lead@example.com]</p>
+    </div>
+
+    <!-- Update History -->
+    <div class="section-header">
+        <span class="icon">📝</span> Update History
+    </div>
+
+    <table class="distribution-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Version</th>
+                <th>Change Description</th>
+                <th>Updated By</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Date]</td>
+                <td>1.0</td>
+                <td>Initial project team distribution list created</td>
+                <td>[Name]</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+
+</html>

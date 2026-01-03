@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Contacts - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Key Contacts Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Company Badges */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        /* Document Info Box */
+        .document-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 2rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        .section-header.project-team {
+            background: #1565c0;
+        }
+
+        .section-header.stakeholders {
+            background: #2e7d32;
+        }
+
+        .section-header.government {
+            background: #7b1fa2;
+        }
+
+        .section-header.media {
+            background: #00838f;
+        }
+
+        /* Contact Cards Grid */
+        .contacts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.25rem;
+            border-left: 4px solid var(--primary-color);
+            transition: box-shadow 0.2s ease;
+        }
+
+        .contact-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .contact-card.primary {
+            border-left-color: var(--accent-color);
+            background: linear-gradient(135deg, #fff8e1 0%, var(--bg-light) 100%);
+        }
+
+        .contact-card.project-team {
+            border-left-color: #1565c0;
+        }
+
+        .contact-card.stakeholder {
+            border-left-color: #2e7d32;
+        }
+
+        .contact-card.government {
+            border-left-color: #7b1fa2;
+        }
+
+        .contact-card.media {
+            border-left-color: #00838f;
+        }
+
+        .contact-name {
+            font-weight: 600;
+            font-size: 1rem;
+            color: var(--text-main);
+            margin-bottom: 0.15rem;
+        }
+
+        .contact-title {
+            font-size: 0.85rem;
+            color: var(--primary-color);
+            font-weight: 500;
+            margin-bottom: 0.15rem;
+        }
+
+        .contact-org {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .contact-details {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .contact-details div {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .contact-details .icon {
+            width: 16px;
+            text-align: center;
+        }
+
+        .contact-details a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-details a:hover {
+            text-decoration: underline;
+        }
+
+        /* Role Badge */
+        .role-badge {
+            display: inline-block;
+            padding: 0.15rem 0.4rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge-primary-contact {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+        }
+
+        .badge-pm {
+            background: #1565c0;
+            color: #ffffff;
+        }
+
+        .badge-lead {
+            background: var(--primary-color);
+            color: #ffffff;
+        }
+
+        .badge-spokesperson {
+            background: #00838f;
+            color: #ffffff;
+        }
+
+        .badge-municipal {
+            background: #7b1fa2;
+            color: #ffffff;
+        }
+
+        .badge-provincial {
+            background: #c2185b;
+            color: #ffffff;
+        }
+
+        /* Emergency Contacts Box */
+        .emergency-box {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .emergency-box h3 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            color: #856404;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .emergency-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .emergency-item {
+            text-align: center;
+        }
+
+        .emergency-item .role {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #856404;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .emergency-item .name {
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .emergency-item .phone {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #856404;
+        }
+
+        /* Quick Reference */
+        .quick-reference {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            margin: 2rem 0;
+        }
+
+        .quick-reference h3 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            color: var(--accent-light);
+        }
+
+        .quick-reference-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .quick-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .quick-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .quick-item p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header,
+            .role-badge,
+            .company-badge,
+            .confidentiality,
+            .quick-reference,
+            .emergency-box {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .contact-card:hover {
+                box-shadow: none;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Key Contacts</h1>
+            <div class="version">Version 1.0</div>
+        </div>
+    </div>
+
+    <!-- Document Information -->
+    <div class="document-info">
+        <div class="info-item">
+            <span class="info-label">Effective Date</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Last Updated</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Maintained By</span>
+            <span class="info-value">Project Coordinator</span>
+        </div>
+    </div>
+
+    <!-- Emergency/After-Hours Contacts -->
+    <div class="emergency-box">
+        <h3>🚨 Emergency & After-Hours Contacts</h3>
+        <div class="emergency-grid">
+            <div class="emergency-item">
+                <div class="role">Project Manager</div>
+                <div class="name">[Name]</div>
+                <div class="phone">[Cell Phone]</div>
+            </div>
+            <div class="emergency-item">
+                <div class="role">Technical Lead</div>
+                <div class="name">[Name]</div>
+                <div class="phone">[Cell Phone]</div>
+            </div>
+            <div class="emergency-item">
+                <div class="role">Steering Committee Chair</div>
+                <div class="name">[Name]</div>
+                <div class="phone">[Cell Phone]</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Team Contacts -->
+    <div class="section-header project-team">
+        <span class="icon">👔</span> Project Team Contacts
+    </div>
+
+    <div class="contacts-grid">
+        <div class="contact-card project-team primary">
+            <span class="role-badge badge-pm">Project Manager</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Project Manager</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Office Phone]</div>
+                <div><span class="icon">📱</span> [Cell Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card project-team">
+            <span class="role-badge badge-lead">Technical Lead</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Technical Lead</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Office Phone]</div>
+                <div><span class="icon">📱</span> [Cell Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card project-team">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Stakeholder Coordinator</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Office Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card project-team">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Financial Analyst</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Office Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card project-team">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Project Coordinator</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Office Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card project-team">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Communications Specialist</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Office Phone]</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stakeholder Contacts -->
+    <div class="section-header stakeholders">
+        <span class="icon">🤝</span> Stakeholder Contacts
+    </div>
+
+    <div class="contacts-grid">
+        <div class="contact-card stakeholder primary">
+            <span class="role-badge badge-primary-contact">Primary Contact</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Vice President, Operations</div>
+            <div class="contact-org">Firefly Metals</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card stakeholder primary">
+            <span class="role-badge badge-primary-contact">Primary Contact</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">VP Community Relations</div>
+            <div class="contact-org">New Found Gold</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card stakeholder primary">
+            <span class="role-badge badge-primary-contact">Primary Contact</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">General Manager</div>
+            <div class="contact-org">Shoreline Aggregates</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card stakeholder">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">President</div>
+            <div class="contact-org">Local Business Association</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card stakeholder">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Chair</div>
+            <div class="contact-org">Community Association</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card stakeholder">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Campus Administrator</div>
+            <div class="contact-org">College of the North Atlantic</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Government Contacts -->
+    <div class="section-header government">
+        <span class="icon">🏛️</span> Government Contacts
+    </div>
+
+    <div class="contacts-grid">
+        <div class="contact-card government primary">
+            <span class="role-badge badge-municipal">Municipal</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Mayor</div>
+            <div class="contact-org">Town of Baie Verte</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card government primary">
+            <span class="role-badge badge-municipal">Municipal</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Chief Administrative Officer</div>
+            <div class="contact-org">Town of Baie Verte</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card government">
+            <span class="role-badge badge-municipal">Municipal</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Economic Development Officer</div>
+            <div class="contact-org">Town of Baie Verte</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card government">
+            <span class="role-badge badge-municipal">Municipal</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Director of Public Works</div>
+            <div class="contact-org">Town of Baie Verte</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card government primary">
+            <span class="role-badge badge-provincial">Provincial</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Regional Director</div>
+            <div class="contact-org">Dept. of Industry, Energy & Technology</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card government">
+            <span class="role-badge badge-provincial">Provincial</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Economic Development Analyst</div>
+            <div class="contact-org">Dept. of Industry, Energy & Technology</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card government">
+            <span class="role-badge badge-provincial">Provincial</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Director, Mineral Development</div>
+            <div class="contact-org">Dept. of Natural Resources</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card government">
+            <span class="role-badge badge-provincial">Provincial</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">MHA, Baie Verte - Green Bay</div>
+            <div class="contact-org">House of Assembly</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Media Contacts -->
+    <div class="section-header media">
+        <span class="icon">📰</span> Media Contacts
+    </div>
+
+    <div class="contacts-grid">
+        <div class="contact-card media primary">
+            <span class="role-badge badge-spokesperson">Project Spokesperson</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Communications Lead</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:media@example.com">[Media Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+                <div><span class="icon">📱</span> [Cell - for urgent inquiries]</div>
+            </div>
+        </div>
+
+        <div class="contact-card media">
+            <span class="role-badge badge-spokesperson">Alternate Spokesperson</span>
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Project Manager</div>
+            <div class="contact-org">Baie Verte Economic Development Project</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card media">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Reporter</div>
+            <div class="contact-org">CBC Newfoundland & Labrador</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card media">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Editor</div>
+            <div class="contact-org">The Pilot (Local Paper)</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card media">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Business Reporter</div>
+            <div class="contact-org">The Telegram</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+
+        <div class="contact-card media">
+            <div class="contact-name">[Name]</div>
+            <div class="contact-title">Mining Desk</div>
+            <div class="contact-org">Northern Miner</div>
+            <div class="contact-details">
+                <div><span class="icon">📧</span> <a href="mailto:email@example.com">[Email]</a></div>
+                <div><span class="icon">📞</span> [Phone]</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Reference -->
+    <div class="quick-reference">
+        <h3>Contact Guidelines</h3>
+        <div class="quick-reference-grid">
+            <div class="quick-item">
+                <h4>General Inquiries</h4>
+                <p>Route through Project Coordinator for appropriate direction</p>
+            </div>
+            <div class="quick-item">
+                <h4>Media Inquiries</h4>
+                <p>All media requests must go through designated spokesperson only</p>
+            </div>
+            <div class="quick-item">
+                <h4>Stakeholder Issues</h4>
+                <p>Contact Stakeholder Coordinator for stakeholder-related concerns</p>
+            </div>
+            <div class="quick-item">
+                <h4>Technical Questions</h4>
+                <p>Route through Technical Lead for technical assessments</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+
+</html>

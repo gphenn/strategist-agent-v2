@@ -1,12 +1,9 @@
-# 
-
-# 
-
-# 
-
 # **Baie Verte Economic Development Project**
 
-# **Detailed Work Plan \- Phase 1 v0.5**
+## **Detailed Work Plan - Phase 1 v0.6**
+
+> [!IMPORTANT]
+> **Multi-Company Scope:** This work plan covers economic development initiatives for three mining/industrial companies: Firefly Metals, New Found Gold, and Shoreline Aggregates (all treated equally).
 
 ### 
 
@@ -17,8 +14,8 @@
 | **Project Manager** | \[Name\] |
 | **Technical Lead** | \[Name\] |
 | **Steering Committee Chair** | \[Name\] |
-| **Version** | 0.5 |
-| **Last Updated** | Sunday, November 16, 2025 |
+| **Version** | 0.6 (Multi-Company Update) |
+| **Last Updated** | December 8, 2025 |
 | **Status** | DRAFT |
 
 ### 
@@ -131,6 +128,8 @@
 * **Members**:  
   * \[Economic Development Officer\]  
   * \[Firefly Metals Representative\]  
+  * \[New Found Gold Representative\]  
+  * \[Shoreline Aggregates Representative\]  
   * \[Provincial Government Representative\]  
   * \[Community Representative\]  
   * \[Technical Advisor\]
@@ -178,41 +177,48 @@
 * Project management tools setup  
 * Initial stakeholder engagement  
   **Deliverables**:  
-- [x] Project charter and governance structure - `draft-ready/Project-Charter_Baie-Verte–Firefly_Economic-Development-Initiative-Generic.md`  
-- [x] Stakeholder engagement plan - `draft-ready/WP1-stakeholder-engagement-plan.md`
-      - [x] Government Engagement  
-      - [x] FireFly Engagement  
-- [x] Communication protocols - `draft-ready/WP1-communication-protocols.md`  
-- [x] Project management framework - `draft-ready/WP1-project-management-framework.md`  
+- [ ] Project charter and governance structure - `draft-ready/Project-Charter_Baie-Verte–Firefly_Economic-Development-Initiative-Generic.md`  
+- [ ] Stakeholder engagement plan - `draft-ready/WP1-stakeholder-engagement-plan.md`
+      - [ ] Government Engagement  
+      - [ ] FireFly Engagement  
+- [ ] Communication protocols - `draft-ready/WP1-communication-protocols.md`  
+- [ ] Project management framework - `draft-ready/WP1-project-management-framework.md`  
       **Success Criteria**:  
 - [ ] All team members briefed and aligned  
 - [ ] Stakeholder engagement plan approved  
 - [ ] Project management systems operational
 
-### **3.1.2. WP2: Mining Company Engagement (Weeks 2-4)**
+### **3.1.2. WP2: Mining/Industrial Company Engagement (Weeks 2-4)**
 
-**Objective**: Gather detailed information about mining expansion plans and requirements
+**Objective**: Gather detailed information about expansion plans and requirements from all three companies
+
+> [!NOTE]
+> **Multi-Company Engagement:** This work package covers engagement with Firefly Metals, New Found Gold, and Shoreline Aggregates.
 
 **Activities**:
 
-* Initial meeting with Firefly Metals  
-* Detailed project timeline and scope review  
-* Workforce requirements analysis  
-* Service needs assessment  
-* Infrastructure requirements identification  
-* Partnership opportunities exploration  
+* Initial meetings with all three companies:
+  - Firefly Metals (existing relationship - continue engagement)
+  - New Found Gold (schedule initial consultation)
+  - Shoreline Aggregates (schedule initial consultation)
+* Detailed project timeline and scope review for each company
+* Combined workforce requirements analysis  
+* Multi-company service needs assessment  
+* Infrastructure requirements identification (shared and company-specific)
+* Partnership opportunities exploration
+* Cross-company synergy identification
 
-  **Deliverables**:  
-- [x] Mining company engagement report (partial) - `draft-ready/WP2-mining-company-engagement-report-partial.md`  
-- [x] Workforce requirements analysis (partial) - `draft-ready/WP2-workforce-requirements-analysis.md`  
-- [x] Service needs assessment framework - `draft-ready/WP2-service-needs-assessment-framework.md`  
-- [x] Infrastructure requirements summary template - `draft-ready/WP2-infrastructure-requirements-summary-template.md`  
-- [x] Partnership opportunity matrix - `draft-ready/WP2-partnership-opportunity-matrix.md`
+**Deliverables**:  
+- [ ] Mining company engagement report (partial - multi-company) - `draft-ready/WP2-mining-company-engagement-report-partial.md`  
+- [ ] Workforce requirements analysis (partial) - `draft-ready/WP2-workforce-requirements-analysis.md`  
+- [ ] Service needs assessment framework - `draft-ready/WP2-service-needs-assessment-framework.md`  
+- [ ] Infrastructure requirements summary template - `draft-ready/WP2-infrastructure-requirements-summary-template.md`  
+- [ ] Partnership opportunity matrix - `draft-ready/WP2-partnership-opportunity-matrix.md`
 
 **Success Criteria**:  
-- [ ] Comprehensive understanding of mining project scope  
-- [ ] Clear identification of service opportunities  
-- [ ] Validated workforce projections  
+- [ ] Comprehensive understanding of all 3 companies' project scopes  
+- [ ] Clear identification of service opportunities across all companies  
+- [ ] Validated workforce projections (combined 600-800+ workers)  
 - [ ] Confirmed infrastructure requirements
 
 ### **3.1.3. WP3: Infrastructure Capacity Assessment (Weeks 3-6)**
@@ -226,14 +232,16 @@
 * Power and telecommunications review  
 * Municipal facilities evaluation  
 * Development land assessment  
-* Infrastructure gap analysis  
-  **Deliverables**:  
-- [x] Infrastructure capacity assessment report (framework) - `draft-ready/WP3-infrastructure-capacity-assessment-report.md`  
-- [x] Gap analysis and priority matrix (framework) - `draft-ready/WP3-gap-analysis-priority-matrix.md`  
-- [x] Development requirements summary (template) - `draft-ready/WP3-development-requirements-summary.md`  
-- [x] Investment cost estimates (template) - `draft-ready/WP3-investment-cost-estimates.md`  
-- [x] Implementation timeline (template) - `draft-ready/WP3-implementation-timeline.md`  
-      **Success Criteria**:  
+* Infrastructure gap analysis
+
+**Deliverables**:  
+- [ ] Infrastructure capacity assessment report (framework) - `draft-ready/WP3-infrastructure-capacity-assessment-report.md`  
+- [ ] Gap analysis and priority matrix (framework) - `draft-ready/WP3-gap-analysis-priority-matrix.md`  
+- [ ] Development requirements summary (template) - `draft-ready/WP3-development-requirements-summary.md`  
+- [ ] Investment cost estimates (template) - `draft-ready/WP3-investment-cost-estimates.md`  
+- [ ] Implementation timeline (template) - `draft-ready/WP3-implementation-timeline.md`  
+
+**Success Criteria**:  
 - [ ] Complete infrastructure inventory  
 - [ ] Validated capacity gaps  
 - [ ] Prioritized development needs  
@@ -251,13 +259,15 @@
 * Competitive analysis  
 * Business model development  
 * Financial feasibility analysis  
-  **Deliverables**:  
-- [x] Business opportunity analysis report - `draft-ready/WP4-business-opportunity-analysis-report.md`  
-- [x] Service provider opportunity matrix - `draft-ready/WP4-service-provider-opportunity-matrix.md`  
-- [x] Market demand projections (framework) - `draft-ready/WP4-market-demand-projections.md`  
-- [x] Business model recommendations (framework) - `draft-ready/WP4-business-model-recommendations.md`  
-- [x] Financial feasibility assessments (template) - `draft-ready/WP4-financial-feasibility-assessments.md`  
-      **Success Criteria**:  
+
+**Deliverables**:  
+- [ ] Business opportunity analysis report - `draft-ready/WP4-business-opportunity-analysis-report.md`  
+- [ ] Service provider opportunity matrix - `draft-ready/WP4-service-provider-opportunity-matrix.md`  
+- [ ] Market demand projections (framework) - `draft-ready/WP4-market-demand-projections.md`  
+- [ ] Business model recommendations (framework) - `draft-ready/WP4-business-model-recommendations.md`  
+- [ ] Financial feasibility assessments (template) - `draft-ready/WP4-financial-feasibility-assessments.md`  
+
+**Success Criteria**:  
 - [ ] Comprehensive business opportunity assessment  
 - [ ] Validated market demand projections  
 - [ ] Feasible business models identified  
@@ -275,13 +285,15 @@
 * Housing supply assessment  
 * Development requirements identification  
 * Financial feasibility analysis  
-  **Deliverables**:  
-- [x] Housing demand assessment report (framework) - `draft-ready/WP5-housing-demand-assessment-report.md`  
-- [x] Current housing market analysis (framework) - `draft-ready/WP5-current-housing-market-analysis.md`  
-- [x] Projected housing needs (framework) - `draft-ready/WP5-projected-housing-needs.md`  
-- [x] Development requirements summary (template) - `draft-ready/WP5-development-requirements-summary.md`  
-- [x] Investment cost estimates (template) - `draft-ready/WP5-investment-cost-estimates.md`  
-      **Success Criteria**:  
+
+**Deliverables**:  
+- [ ] Housing demand assessment report (framework) - `draft-ready/WP5-housing-demand-assessment-report.md`  
+- [ ] Current housing market analysis (framework) - `draft-ready/WP5-current-housing-market-analysis.md`  
+- [ ] Projected housing needs (framework) - `draft-ready/WP5-projected-housing-needs.md`  
+- [ ] Development requirements summary (template) - `draft-ready/WP5-development-requirements-summary.md`  
+- [ ] Investment cost estimates (template) - `draft-ready/WP5-investment-cost-estimates.md`  
+
+**Success Criteria**:  
 - [ ] Comprehensive housing market analysis  
 - [ ] Validated demand projections  
 - [ ] Clear development requirements  
@@ -299,13 +311,15 @@
 * Educational infrastructure evaluation  
 * Partnership opportunities analysis  
 * Implementation strategy development  
-  **Deliverables**:  
-- [x] Workforce development assessment report (framework) - `draft-ready/WP6-workforce-development-assessment-report.md`  
-- [x] Skills gap analysis (framework) - `draft-ready/WP6-skills-gap-analysis.md`  
-- [x] Training program recommendations (framework) - `draft-ready/WP6-training-program-recommendations.md`  
-- [x] Partnership strategy (framework) - `draft-ready/WP6-partnership-strategy.md`  
-- [x] Implementation plan (framework) - `draft-ready/WP6-implementation-plan.md`  
-      **Success Criteria**:  
+
+**Deliverables**:  
+- [ ] Workforce development assessment report (framework) - `draft-ready/WP6-workforce-development-assessment-report.md`  
+- [ ] Skills gap analysis (framework) - `draft-ready/WP6-skills-gap-analysis.md`  
+- [ ] Training program recommendations (framework) - `draft-ready/WP6-training-program-recommendations.md`  
+- [ ] Partnership strategy (framework) - `draft-ready/WP6-partnership-strategy.md`  
+- [ ] Implementation plan (framework) - `draft-ready/WP6-implementation-plan.md`  
+
+**Success Criteria**:  
 - [ ] Comprehensive workforce analysis  
 - [ ] Validated skills gaps  
 - [ ] Feasible training programs  
@@ -323,13 +337,15 @@
 * Quality and accessibility evaluation  
 * Expansion requirements identification  
 * Investment needs analysis  
-  **Deliverables**:  
-- [x] Community services capacity assessment report (framework) - `draft-ready/WP7-community-services-capacity-assessment-report.md`  
-- [x] Services inventory and analysis (framework) - `draft-ready/WP7-services-inventory-analysis.md`  
-- [x] Capacity gap assessment (framework) - `draft-ready/WP7-capacity-gap-assessment.md`  
-- [x] Expansion requirements (template) - `draft-ready/WP7-expansion-requirements.md`  
-- [x] Investment recommendations (template) - `draft-ready/WP7-investment-recommendations.md`  
-      **Success Criteria**:  
+
+**Deliverables**:  
+- [ ] Community services capacity assessment report (framework) - `draft-ready/WP7-community-services-capacity-assessment-report.md`  
+- [ ] Services inventory and analysis (framework) - `draft-ready/WP7-services-inventory-analysis.md`  
+- [ ] Capacity gap assessment (framework) - `draft-ready/WP7-capacity-gap-assessment.md`  
+- [ ] Expansion requirements (template) - `draft-ready/WP7-expansion-requirements.md`  
+- [ ] Investment recommendations (template) - `draft-ready/WP7-investment-recommendations.md`  
+
+**Success Criteria**:  
 - [ ] Complete services inventory  
 - [ ] Validated capacity gaps  
 - [ ] Clear expansion requirements  
@@ -349,13 +365,15 @@
 * Investment capacity evaluation  
 * Funding source identification  
 * Financial strategy development  
-  **Deliverables**:  
-- [x] Municipal financial capacity assessment report (framework) - `draft-ready/WP8-municipal-financial-capacity-assessment-report.md`  
-- [x] Financial position analysis (framework) - `draft-ready/WP8-financial-position-analysis.md`  
-- [x] Investment capacity assessment (framework) - `draft-ready/WP8-investment-capacity-assessment.md`  
-- [x] Funding strategy (framework) - `draft-ready/WP8-funding-strategy.md`  
-- [x] Risk mitigation plan (framework) - `draft-ready/WP8-risk-mitigation-plan.md`  
-      **Success Criteria**:  
+
+**Deliverables**:  
+- [ ] Municipal financial capacity assessment report (framework) - `draft-ready/WP8-municipal-financial-capacity-assessment-report.md`  
+- [ ] Financial position analysis (framework) - `draft-ready/WP8-financial-position-analysis.md`  
+- [ ] Investment capacity assessment (framework) - `draft-ready/WP8-investment-capacity-assessment.md`  
+- [ ] Funding strategy (framework) - `draft-ready/WP8-funding-strategy.md`  
+- [ ] Risk mitigation plan (framework) - `draft-ready/WP8-risk-mitigation-plan.md`  
+
+**Success Criteria**:  
 - [ ] Comprehensive financial analysis  
 - [ ] Validated investment capacity  
 - [ ] Clear funding strategy  
@@ -375,13 +393,15 @@
 * Mitigation strategy development  
 * Contingency planning  
 * Monitoring framework establishment  
-  **Deliverables**:  
-- [x] Risk assessment and mitigation report (initial assessment) - `draft-ready/WP9-risk-assessment-mitigation-report.md`  
-- [x] Risk register (initial) - `draft-ready/WP9-risk-register.md`  
-- [x] Mitigation strategies (framework) - `draft-ready/WP9-mitigation-strategies.md`  
-- [x] Contingency plans (framework) - `draft-ready/WP9-contingency-plans.md`  
-- [x] Monitoring framework - `draft-ready/WP9-monitoring-framework.md`  
-      **Success Criteria**:  
+
+**Deliverables**:  
+- [ ] Risk assessment and mitigation report (initial assessment) - `draft-ready/WP9-risk-assessment-mitigation-report.md`  
+- [ ] Risk register (initial) - `draft-ready/WP9-risk-register.md`  
+- [ ] Mitigation strategies (framework) - `draft-ready/WP9-mitigation-strategies.md`  
+- [ ] Contingency plans (framework) - `draft-ready/WP9-contingency-plans.md`  
+- [ ] Monitoring framework - `draft-ready/WP9-monitoring-framework.md`  
+
+**Success Criteria**:  
 - [ ] Comprehensive risk assessment  
 - [ ] Prioritized risk mitigation strategies  
 - [ ] Effective contingency plans  
@@ -401,13 +421,15 @@
 * Investment recommendations  
 * Phase 2 planning  
 * Final report preparation  
-  **Deliverables**:  
+
+**Deliverables**:  
 - [ ] Phase 1 comprehensive report  
 - [ ] Integrated assessment findings  
 - [ ] Priority recommendations  
 - [ ] Investment strategy  
 - [ ] Phase 2 work plan  
-      **Success Criteria**:  
+
+**Success Criteria**:  
 - [ ] Comprehensive integrated report  
 - [ ] Clear priority recommendations  
 - [ ] Validates investment strategy  
@@ -450,6 +472,8 @@
 # **4\. Resource Requirements**
 
 ## **4.1. Human Resources**
+
+(**NOTE:** The following are hypothetical resource requirements based on a team of 3 FTEs, with 20 weeks of work.)
 
 ### **4.1.1. Core Project Team**
 

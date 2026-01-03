@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stakeholder Distribution List - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Stakeholder Distribution List Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .document-type {
+            text-align: right;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .document-type .version {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        /* Company Badges */
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        /* Document Info Box */
+        .document-info {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-value {
+            font-size: 1rem;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.75rem 1rem;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            margin: 1.5rem 0 1rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section-header .icon {
+            font-size: 1.1rem;
+        }
+
+        .section-header.primary {
+            background: #1565c0;
+        }
+
+        .section-header.secondary {
+            background: #2e7d32;
+        }
+
+        .section-header.tertiary {
+            background: #6c757d;
+        }
+
+        /* Summary Stats */
+        .stats-row {
+            display: flex;
+            justify-content: space-around;
+            background: var(--bg-light);
+            padding: 1rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+        }
+
+        /* Stakeholder Table */
+        .stakeholder-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        .stakeholder-table th {
+            background: var(--bg-light);
+            text-align: left;
+            padding: 0.75rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-secondary);
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .stakeholder-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #eee;
+            vertical-align: middle;
+            font-size: 0.9rem;
+        }
+
+        .stakeholder-table tr:hover {
+            background: var(--bg-light);
+        }
+
+        .stakeholder-name {
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .stakeholder-org {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        .stakeholder-contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .stakeholder-contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Priority & Category Badges */
+        .priority-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .priority-primary {
+            background: #1565c0;
+            color: #ffffff;
+        }
+
+        .priority-secondary {
+            background: #2e7d32;
+            color: #ffffff;
+        }
+
+        .priority-tertiary {
+            background: #6c757d;
+            color: #ffffff;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 0.15rem 0.4rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.65rem;
+            font-weight: 600;
+            margin-right: 0.25rem;
+        }
+
+        .cat-government {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .cat-company {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .cat-community {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .cat-business {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .cat-education {
+            background: #fce4ec;
+            color: #c2185b;
+        }
+
+        .cat-media {
+            background: #e0f7fa;
+            color: #00838f;
+        }
+
+        .cat-industry {
+            background: #efebe9;
+            color: #5d4037;
+        }
+
+        /* Engagement Level Indicators */
+        .engagement-level {
+            display: flex;
+            gap: 2px;
+        }
+
+        .engagement-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #e0e0e0;
+        }
+
+        .engagement-dot.active {
+            background: var(--accent-color);
+        }
+
+        /* Influence/Interest Matrix */
+        .matrix-container {
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .matrix-grid {
+            display: grid;
+            grid-template-columns: 80px 1fr 1fr;
+            grid-template-rows: auto 1fr 1fr;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .matrix-label-y {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            transform: rotate(180deg);
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .matrix-label-x {
+            text-align: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .matrix-cell {
+            background: var(--bg-white);
+            border: 1px solid #ddd;
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+            min-height: 100px;
+        }
+
+        .matrix-cell h4 {
+            font-size: 0.75rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+        }
+
+        .matrix-cell ul {
+            list-style: none;
+            padding: 0;
+            font-size: 0.8rem;
+        }
+
+        .matrix-cell li {
+            padding: 0.2rem 0;
+        }
+
+        .matrix-cell.manage {
+            border-left: 3px solid #dc3545;
+        }
+
+        .matrix-cell.satisfy {
+            border-left: 3px solid #fd7e14;
+        }
+
+        .matrix-cell.inform {
+            border-left: 3px solid #28a745;
+        }
+
+        .matrix-cell.monitor {
+            border-left: 3px solid #6c757d;
+        }
+
+        /* Quick Reference Box */
+        .quick-reference {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            margin: 2rem 0;
+        }
+
+        .quick-reference h3 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            color: var(--accent-light);
+        }
+
+        .quick-reference-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .quick-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .quick-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--accent-light);
+            margin-bottom: 0.5rem;
+        }
+
+        .quick-item p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Notes Box */
+        .notes-box {
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            padding: 1.5rem;
+            min-height: 80px;
+            border: 1px dashed #ccc;
+            margin-bottom: 1.5rem;
+        }
+
+        .notes-box p {
+            color: var(--text-secondary);
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .confidentiality {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .section-header,
+            .priority-badge,
+            .category-badge,
+            .confidentiality,
+            .quick-reference {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Stakeholder<br>Distribution List</h1>
+            <div class="version">Version 1.0</div>
+        </div>
+    </div>
+
+    <!-- Document Information -->
+    <div class="document-info">
+        <div class="info-item">
+            <span class="info-label">Effective Date</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Last Updated</span>
+            <span class="info-value">[Date]</span>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Maintained By</span>
+            <span class="info-value">Stakeholder Coordinator</span>
+        </div>
+    </div>
+
+    <!-- Summary Stats -->
+    <div class="stats-row">
+        <div class="stat-item">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Primary</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">6</div>
+            <div class="stat-label">Secondary</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Tertiary</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">15</div>
+            <div class="stat-label">Total Stakeholders</div>
+        </div>
+    </div>
+
+    <!-- Influence/Interest Matrix -->
+    <div class="matrix-container">
+        <h3
+            style="font-family: var(--font-heading); font-size: 1rem; color: var(--primary-color); margin-bottom: 0.5rem;">
+            Stakeholder Influence/Interest Matrix</h3>
+        <p style="font-size: 0.85rem; color: var(--text-secondary);">Quick reference for engagement strategy based on
+            stakeholder influence and interest levels</p>
+
+        <div class="matrix-grid">
+            <div></div>
+            <div class="matrix-label-x">Low Interest</div>
+            <div class="matrix-label-x">High Interest</div>
+
+            <div class="matrix-label-y">High Influence</div>
+            <div class="matrix-cell satisfy">
+                <h4>Keep Satisfied</h4>
+                <ul>
+                    <li>Provincial Government</li>
+                    <li>[Add stakeholders]</li>
+                </ul>
+            </div>
+            <div class="matrix-cell manage">
+                <h4>Manage Closely</h4>
+                <ul>
+                    <li>Municipal Government</li>
+                    <li>Firefly Metals</li>
+                    <li>New Found Gold</li>
+                    <li>Shoreline Aggregates</li>
+                </ul>
+            </div>
+
+            <div class="matrix-label-y">Low Influence</div>
+            <div class="matrix-cell monitor">
+                <h4>Monitor</h4>
+                <ul>
+                    <li>Industry Associations</li>
+                    <li>Media</li>
+                    <li>[Add stakeholders]</li>
+                </ul>
+            </div>
+            <div class="matrix-cell inform">
+                <h4>Keep Informed</h4>
+                <ul>
+                    <li>Local Businesses</li>
+                    <li>Community Groups</li>
+                    <li>Educational Institutions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Primary Stakeholders -->
+    <div class="section-header primary">
+        <span class="icon">⭐</span> Primary Stakeholders
+    </div>
+
+    <table class="stakeholder-table">
+        <thead>
+            <tr>
+                <th>Stakeholder</th>
+                <th>Category</th>
+                <th>Primary Contact</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Engagement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Municipality of Baie Verte</div>
+                    <div class="stakeholder-org">Town Council</div>
+                </td>
+                <td><span class="category-badge cat-government">Government</span></td>
+                <td>[Mayor/CAO Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Firefly Metals</div>
+                    <div class="stakeholder-org">Mining Company</div>
+                </td>
+                <td><span class="category-badge cat-company">Company</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">New Found Gold</div>
+                    <div class="stakeholder-org">Mining Company</div>
+                </td>
+                <td><span class="category-badge cat-company">Company</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Shoreline Aggregates</div>
+                    <div class="stakeholder-org">Industrial Company</div>
+                </td>
+                <td><span class="category-badge cat-company">Company</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Government of NL</div>
+                    <div class="stakeholder-org">Provincial Government</div>
+                </td>
+                <td><span class="category-badge cat-government">Government</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Secondary Stakeholders -->
+    <div class="section-header secondary">
+        <span class="icon">🤝</span> Secondary Stakeholders
+    </div>
+
+    <table class="stakeholder-table">
+        <thead>
+            <tr>
+                <th>Stakeholder</th>
+                <th>Category</th>
+                <th>Primary Contact</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Engagement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Local Business Association</div>
+                    <div class="stakeholder-org">Business Group</div>
+                </td>
+                <td><span class="category-badge cat-business">Business</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Community Association</div>
+                    <div class="stakeholder-org">Community Group</div>
+                </td>
+                <td><span class="category-badge cat-community">Community</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">College of the North Atlantic</div>
+                    <div class="stakeholder-org">Educational Institution</div>
+                </td>
+                <td><span class="category-badge cat-education">Education</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Local School District</div>
+                    <div class="stakeholder-org">Educational Institution</div>
+                </td>
+                <td><span class="category-badge cat-education">Education</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Healthcare Authority</div>
+                    <div class="stakeholder-org">Health Services</div>
+                </td>
+                <td><span class="category-badge cat-community">Community</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Labour Council</div>
+                    <div class="stakeholder-org">Workforce Organization</div>
+                </td>
+                <td><span class="category-badge cat-community">Community</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tertiary Stakeholders -->
+    <div class="section-header tertiary">
+        <span class="icon">📢</span> Tertiary Stakeholders
+    </div>
+
+    <table class="stakeholder-table">
+        <thead>
+            <tr>
+                <th>Stakeholder</th>
+                <th>Category</th>
+                <th>Primary Contact</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Engagement</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Regional Economic Development Board</div>
+                    <div class="stakeholder-org">Regional Organization</div>
+                </td>
+                <td><span class="category-badge cat-industry">Industry</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Mining Association of NL</div>
+                    <div class="stakeholder-org">Industry Association</div>
+                </td>
+                <td><span class="category-badge cat-industry">Industry</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Local Media Outlets</div>
+                    <div class="stakeholder-org">Press & Media</div>
+                </td>
+                <td><span class="category-badge cat-media">Media</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="stakeholder-name">Chamber of Commerce</div>
+                    <div class="stakeholder-org">Business Organization</div>
+                </td>
+                <td><span class="category-badge cat-business">Business</span></td>
+                <td>[Contact Name]</td>
+                <td class="stakeholder-contact"><a href="mailto:email@example.com">[Email]</a></td>
+                <td>[Phone]</td>
+                <td>
+                    <div class="engagement-level">
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot active"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                        <div class="engagement-dot"></div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Engagement Strategies Quick Reference -->
+    <div class="quick-reference">
+        <h3>Engagement Strategies by Category</h3>
+        <div class="quick-reference-grid">
+            <div class="quick-item">
+                <h4>Information Sharing</h4>
+                <p>Regular updates and progress reports to all stakeholders based on priority level</p>
+            </div>
+            <div class="quick-item">
+                <h4>Consultation</h4>
+                <p>Stakeholder input on key decisions; surveys, interviews, and feedback sessions</p>
+            </div>
+            <div class="quick-item">
+                <h4>Collaboration</h4>
+                <p>Joint working groups and committees for primary stakeholders</p>
+            </div>
+            <div class="quick-item">
+                <h4>Partnership</h4>
+                <p>Formal partnerships for specific activities with mining companies and government</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Email Distribution Groups -->
+    <div class="section-header">
+        <span class="icon">📧</span> Email Distribution Groups
+    </div>
+
+    <div class="notes-box">
+        <p><strong>All Stakeholders:</strong><br>
+            [all-stakeholders@example.com]</p>
+
+        <p style="margin-top: 1rem;"><strong>Primary Stakeholders:</strong><br>
+            [municipal@example.com]; [firefly@example.com]; [nfg@example.com]; [shoreline@example.com];
+            [provincial@example.com]</p>
+
+        <p style="margin-top: 1rem;"><strong>Secondary Stakeholders:</strong><br>
+            [business@example.com]; [community@example.com]; [education@example.com]; [healthcare@example.com];
+            [labour@example.com]</p>
+
+        <p style="margin-top: 1rem;"><strong>Tertiary Stakeholders:</strong><br>
+            [regional@example.com]; [mining-assoc@example.com]; [media@example.com]; [chamber@example.com]</p>
+    </div>
+
+    <!-- Update History -->
+    <div class="section-header">
+        <span class="icon">📝</span> Update History
+    </div>
+
+    <table class="stakeholder-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Version</th>
+                <th>Change Description</th>
+                <th>Updated By</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[Date]</td>
+                <td>1.0</td>
+                <td>Initial stakeholder distribution list created</td>
+                <td>[Name]</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="confidentiality">Internal</span>
+        </div>
+    </div>
+</body>
+
+</html>

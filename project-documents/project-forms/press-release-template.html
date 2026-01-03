@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Release - Baie Verte Economic Development Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* BVIT Design System - Press Release Template */
+        :root {
+            --primary-color: #0f3d3e;
+            --primary-light: #1a5f60;
+            --primary-dark: #082526;
+            --accent-color: #d4af37;
+            --accent-light: #eac756;
+            --text-main: #1a1a1a;
+            --text-secondary: #555555;
+            --text-light: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-white: #ffffff;
+            --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-heading: 'Outfit', 'Inter', sans-serif;
+            --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+            --radius-sm: 4px;
+            --radius-md: 8px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            line-height: 1.8;
+            color: var(--text-main);
+            background-color: var(--bg-white);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding-bottom: 1.5rem;
+            border-bottom: 3px solid var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .logo-section {
+            margin-bottom: 1rem;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .project-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+
+        .company-badges {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .company-badge {
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+        }
+
+        .badge-firefly {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .badge-nfg {
+            background: #fff8e1;
+            color: #f57f17;
+        }
+
+        .badge-shoreline {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .document-type {
+            margin-top: 1.5rem;
+        }
+
+        .document-type h1 {
+            font-family: var(--font-heading);
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Release Info */
+        .release-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-light);
+            padding: 1rem 1.5rem;
+            border-radius: var(--radius-md);
+            margin-bottom: 2rem;
+        }
+
+        .release-badge {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 0.5rem 1rem;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .release-badge.embargo {
+            background: #dc3545;
+        }
+
+        .release-date {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .release-date strong {
+            color: var(--text-main);
+        }
+
+        /* Headline */
+        .headline {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+            text-align: center;
+        }
+
+        .subheadline {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 2rem;
+            font-style: italic;
+        }
+
+        /* Location & Date Line */
+        .dateline {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0;
+        }
+
+        /* Body Content */
+        .press-body {
+            margin-bottom: 2rem;
+        }
+
+        .press-body p {
+            margin-bottom: 1.25rem;
+            text-align: justify;
+        }
+
+        .press-body p:first-of-type::first-letter {
+            font-size: 3rem;
+            font-weight: 700;
+            font-family: var(--font-heading);
+            color: var(--primary-color);
+            float: left;
+            line-height: 1;
+            margin-right: 0.5rem;
+            margin-top: 0.1rem;
+        }
+
+        /* Quote Block */
+        .quote-block {
+            background: var(--bg-light);
+            border-left: 4px solid var(--accent-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+        }
+
+        .quote-text {
+            font-size: 1.05rem;
+            font-style: italic;
+            color: var(--text-main);
+            margin-bottom: 0.75rem;
+        }
+
+        .quote-attribution {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+
+        .quote-attribution span {
+            color: var(--primary-color);
+        }
+
+        /* Key Facts Box */
+        .key-facts {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            margin: 2rem 0;
+        }
+
+        .key-facts h3 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            color: var(--accent-light);
+        }
+
+        .key-facts ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .key-facts li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .key-facts li:last-child {
+            border-bottom: none;
+        }
+
+        .key-facts li::before {
+            content: "▸";
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        /* Boilerplate Section */
+        .boilerplate {
+            border-top: 2px solid var(--bg-light);
+            padding-top: 2rem;
+            margin-top: 2rem;
+        }
+
+        .boilerplate h4 {
+            font-family: var(--font-heading);
+            font-size: 0.9rem;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.75rem;
+        }
+
+        .boilerplate p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Contact Information */
+        .contact-section {
+            background: var(--bg-light);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            margin-top: 2rem;
+        }
+
+        .contact-section h3 {
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .contact-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            letter-spacing: 0.5px;
+            margin-bottom: 0.25rem;
+        }
+
+        .contact-item p {
+            font-size: 0.9rem;
+            color: var(--text-main);
+            margin: 0;
+        }
+
+        .contact-item a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* End Mark */
+        .end-mark {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            letter-spacing: 2px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid var(--bg-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .footer-left {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .distribution-badge {
+            background: var(--accent-color);
+            color: var(--primary-dark);
+            padding: 0.25rem 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+
+            .release-badge,
+            .distribution-badge,
+            .key-facts {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo-section">
+            <div class="project-title">Baie Verte Economic Development</div>
+            <div class="project-subtitle">Multi-Company Initiative</div>
+            <div class="company-badges">
+                <span class="company-badge badge-firefly">Firefly Metals</span>
+                <span class="company-badge badge-nfg">New Found Gold</span>
+                <span class="company-badge badge-shoreline">Shoreline Aggregates</span>
+            </div>
+        </div>
+        <div class="document-type">
+            <h1>Press Release</h1>
+        </div>
+    </div>
+
+    <!-- Release Information -->
+    <div class="release-info">
+        <span class="release-badge">For Immediate Release</span>
+        <!-- Alternative: <span class="release-badge embargo">Embargoed Until [Date/Time]</span> -->
+        <span class="release-date"><strong>Date:</strong> [Month Day, Year]</span>
+    </div>
+
+    <!-- Headline -->
+    <h2 class="headline">[Compelling Headline That Captures the News Announcement]</h2>
+    <p class="subheadline">[Secondary headline providing additional context or key detail]</p>
+
+    <!-- Body Content -->
+    <div class="press-body">
+        <p><span class="dateline">BAIE VERTE, NL —</span> [Opening paragraph with the most important information: Who,
+            What, When, Where, Why. This should summarize the entire announcement in 2-3 sentences. Lead with the news
+            value and make it compelling.]</p>
+
+        <p>[Second paragraph expanding on the announcement with additional details, context, and significance. Explain
+            why this matters to the community and stakeholders.]</p>
+
+        <!-- Primary Quote -->
+        <div class="quote-block">
+            <p class="quote-text">"[Quote from a key spokesperson that adds perspective, emotion, or vision to the
+                announcement. Keep it authentic and meaningful.]"</p>
+            <p class="quote-attribution">— <span>[Full Name]</span>, [Title], [Organization]</p>
+        </div>
+
+        <p>[Third paragraph providing more specifics about the project, timeline, investment, or impact. Include
+            relevant numbers and data points where possible.]</p>
+
+        <p>[Fourth paragraph with background information, context about the multi-company initiative, or details about
+            the Baie Verte region and its economic development goals.]</p>
+
+        <!-- Secondary Quote (Optional) -->
+        <div class="quote-block">
+            <p class="quote-text">"[Quote from a community leader, partner organization, or government representative
+                showing broad support for the initiative.]"</p>
+            <p class="quote-attribution">— <span>[Full Name]</span>, [Title], [Organization]</p>
+        </div>
+
+        <p>[Fifth paragraph with forward-looking statements, next steps, or call to action. What should readers expect
+            or do next?]</p>
+    </div>
+
+    <!-- Key Facts Box -->
+    <div class="key-facts">
+        <h3>Key Facts at a Glance</h3>
+        <ul>
+            <li>[Key statistic or fact about the project]</li>
+            <li>[Timeline or milestone information]</li>
+            <li>[Economic impact or job creation numbers]</li>
+            <li>[Investment figures or budget information]</li>
+            <li>[Community benefit or outcome]</li>
+        </ul>
+    </div>
+
+    <!-- Boilerplate / About Sections -->
+    <div class="boilerplate">
+        <h4>About the Baie Verte Economic Development Project</h4>
+        <p>The Baie Verte Economic Development Project is a multi-company initiative bringing together Firefly Metals,
+            New Found Gold, and Shoreline Aggregates to support sustainable economic growth in the Baie Verte region of
+            Newfoundland and Labrador. The project focuses on infrastructure development, workforce training, housing
+            solutions, and business opportunities that will benefit the community for generations to come.</p>
+
+        <h4>About Firefly Metals</h4>
+        <p>[Company boilerplate description - 2-3 sentences about the company, its operations, and relevance to the
+            project.]</p>
+
+        <h4>About New Found Gold</h4>
+        <p>[Company boilerplate description - 2-3 sentences about the company, its operations, and relevance to the
+            project.]</p>
+
+        <h4>About Shoreline Aggregates</h4>
+        <p>[Company boilerplate description - 2-3 sentences about the company, its operations, and relevance to the
+            project.]</p>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="contact-section">
+        <h3>Media Contacts</h3>
+        <div class="contact-grid">
+            <div class="contact-item">
+                <h4>Project Communications</h4>
+                <p><strong>[Contact Name]</strong></p>
+                <p>[Title]</p>
+                <p>Phone: [Phone Number]</p>
+                <p>Email: <a href="mailto:email@example.com">[Email Address]</a></p>
+            </div>
+            <div class="contact-item">
+                <h4>Municipal Contact</h4>
+                <p><strong>[Contact Name]</strong></p>
+                <p>[Title]</p>
+                <p>Phone: [Phone Number]</p>
+                <p>Email: <a href="mailto:email@example.com">[Email Address]</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Mark -->
+    <div class="end-mark">###</div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-left">
+            <span>Baie Verte Economic Development Project</span>
+            <span>Phase 1 - Assessment & Planning</span>
+        </div>
+        <div class="footer-right">
+            <span class="distribution-badge">Public Release</span>
+        </div>
+    </div>
+</body>
+
+</html>

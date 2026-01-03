@@ -14,7 +14,7 @@ export const agent_cfg = "./ide-strategic-orchestrator.cfg.md";
 
 // === Build Configuration ===
 export const asset_root = "./";
-export const build_dir = "./build-strategic-orchestrator/";
+export const build_dir = "./ide-strategic-orchestrator/";
 
 // === Exclude Patterns for Directories and Files ===
 export const exclude_patterns = [
@@ -23,8 +23,9 @@ export const exclude_patterns = [
   "*.cfg.*",           // Configuration files
   "build-*",           // Build system files
   ".gitignore",        // Git ignore file
+  "project-changes",   // Project changes directory
   "project-documents", // Project documents directory
-  "research",          // Research directory
+  "project-research",  // Research directory
   ".git",              // Git directory
   "node_modules",      // Node modules
   "temp",              // Temporary files
@@ -46,7 +47,7 @@ export const build_config = {
   project_name: "STRATEGIST-AGENT-V2",
   version: "2.0.0",
   description: "Advanced AI strategic thinking orchestrator with intelligent module selection",
-  
+
   // Expected directories to process (will be filtered by exclude_patterns)
   expected_directories: [
     "personas",      // Strategic agent personas
@@ -55,7 +56,7 @@ export const build_config = {
     "checklists",    // Quality validation criteria
     "data"           // Knowledge base and module integration logic
   ],
-  
+
   // Critical files that must exist for proper operation
   required_files: [
     "data/strategic-kb.md",
